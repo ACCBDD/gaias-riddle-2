@@ -1,3 +1,11 @@
+/.idea/
+/flame/
+instance.cfg
+mmc-pack.json
+
+/minecraft/resourcepacks/
+/minecraft/modernfix/
+/minecraft/local/
 /minecraft/logs/
 /minecraft/saves/
 /minecraft/schematics/
@@ -6,9 +14,7 @@
 /minecraft/shaderpacks/
 /minecraft/texturepacks/
 /minecraft/xaero/
-/minecraft/mods/*.jar
 /minecraft/mods/.connector/
-/.idea/
-/flame/
-instance.cfg
-mmc-pack.json
+/minecraft/mods/*.jar
+
+/minecraft/*.*
