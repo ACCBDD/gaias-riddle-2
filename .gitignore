@@ -1,7 +1,7 @@
 /.idea/
 /flame/
-instance.cfg
-mmc-pack.json
+/instance.cfg
+/mmc-pack.json
 
 /minecraft/resourcepacks/
 /minecraft/modernfix/
@@ -18,3 +18,4 @@ mmc-pack.json
 /minecraft/mods/*.jar
 
 /minecraft/*.*
+/gaias-riddle-2-DEV.iml
