@@ -10,3 +10,5 @@
 /minecraft/mods/.connector/
 /.idea/
 /flame/
+instance.cfg
+mmc-pack.json
