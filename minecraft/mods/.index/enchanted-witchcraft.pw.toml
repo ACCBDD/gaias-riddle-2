@@ -1,0 +1,16 @@
+filename = 'enchanted-forge-1.20.1-3.1.13.jar'
+name = 'Enchanted: Witchcraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cca3134fd108791d3cd64c0e5fbdec60836399ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6638514
+project-id = 560363

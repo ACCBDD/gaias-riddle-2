@@ -1,0 +1,16 @@
+filename = 'letsdo-brewery-forge-1.1.9.jar'
+name = "Legacy: [Let's Do] Brewery"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '50e5181e734dcfc599aa0eaac376ff4e312f63c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5427504
+project-id = 971636

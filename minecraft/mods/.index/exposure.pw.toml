@@ -1,0 +1,16 @@
+filename = 'exposure-1.20.1-1.7.16-forge.jar'
+name = 'Exposure'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b1ec92eeafdc97e88e0baacd5d89f4c1f89a4bbc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6655718
+project-id = 871755

@@ -1,0 +1,16 @@
+filename = 'saplanting-1.20.1-forge-1.3.1.jar'
+name = 'Saplanting'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '049107d68f200a7e758d29f8070777184b4e64a1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5886323
+project-id = 576864

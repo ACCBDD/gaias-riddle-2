@@ -1,0 +1,16 @@
+filename = 'primalmagick-4.0.11.jar'
+name = 'Primal Magick'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c77b83288cf605ebc24dd360a08d65e0cf8419df'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6500663
+project-id = 545271

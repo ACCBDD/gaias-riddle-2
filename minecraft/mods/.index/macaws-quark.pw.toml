@@ -1,0 +1,16 @@
+filename = 'mcwquark-1.20.1-1.4.jar'
+name = "Macaw's Quark"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b92ea501ae3f9d2650df002fdbc2ed4aa5176976'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6396834
+project-id = 1091564

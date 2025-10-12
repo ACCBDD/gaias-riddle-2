@@ -1,0 +1,16 @@
+filename = 'farmerd_naturalist_compat-0.2-1.20.1.jar'
+name = 'Naturalist Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '357707608a8f9cd0fca094bb52564cbba8d8b53f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6400344
+project-id = 1236964

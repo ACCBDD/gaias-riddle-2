@@ -1,0 +1,16 @@
+filename = 'Rats-1.20.1-8.1.3.jar'
+name = 'Rats'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'dbd9b1208cb14287d32e2d53fe05459e597ead58'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5904296
+project-id = 323596

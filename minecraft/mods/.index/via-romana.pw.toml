@@ -1,0 +1,16 @@
+filename = 'via_romana-2.0.1+1.20.1-forge.jar'
+name = 'Via Romana: Infrastructure-Driven Fast Travel'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bfd30e45453f00288ad3d850ffd95b00eb75569f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7051029
+project-id = 1026508
