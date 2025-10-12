@@ -1,1 +1,12 @@
 /minecraft/logs/
+/minecraft/saves/
+/minecraft/schematics/
+/minecraft/screenshots/
+/minecraft/server-resource-packs/
+/minecraft/shaderpacks/
+/minecraft/texturepacks/
+/minecraft/xaero/
+/minecraft/mods/*.jar
+/minecraft/mods/.connector/
+/.idea/
+/flame/
