@@ -1,0 +1,699 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "how_the_world_came_to_be"
+	group: ""
+	hide_quest_details_until_startable: true
+	icon: "kubejs:dried_earth"
+	id: "2B630DD43CEBA9AC"
+	images: [
+		{
+			dependency: "6B5B443D2F7DD3D4"
+			height: 4.0d
+			image: "reclamation:textures/quests/theurgy_1.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependency: "01AB2D65C171F1F9"
+			height: 5.0d
+			image: "reclamation:textures/quests/theurgy_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.2857142857142776d
+			y: -9.125d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You wake up in a vast, dead and dried out wasteland. You don't remember how you got here, but you do remember what the world &oshould&r look like - and this isn't it."
+				""
+				""
+				"Welcome to &6Reclamation!&r This is a slower-paced pack focused around bringing life and nature back to a dead world. Press &6F3+H&r to disable advanced tooltips, if they're on!"
+			]
+			id: "73F3DDAFC46A9CD5"
+			rewards: [{
+				count: 4
+				id: "489A829843674F52"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5837682A2F4F2D20"
+				title: "What happened here?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF5FDE3C81BEF26"]
+			description: ["Wood is plentiful, if not exactly the quality you remember."]
+			id: "655DCA5A5B6632E1"
+			rewards: [
+				{
+					count: 4
+					id: "708F75B55045F412"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "58872CC82834DE08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2BB40E8DED9ACE61"
+					item: "kubejs:dead_log"
+					type: "item"
+				}
+				{
+					id: "5B5631EC22B4DDC4"
+					item: "kubejs:flimsy_planks"
+					type: "item"
+				}
+			]
+			title: "Dead Trees"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BF5FDE3C81BEF26"]
+			description: [
+				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
+				""
+				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
+			]
+			id: "353FED2BF4FBD8EC"
+			rewards: [
+				{
+					count: 2
+					id: "40674CB0CE87E6FE"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "27F410B6A92272C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6870844EA8AA42B5"
+				item: "minecraft:oxidized_cut_copper"
+				title: "Oxidized Copper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"Many many recipes have been changed in this pack. Make sure you check your recipe browser for crafting recipes! By default, the keybinds when hovering over an item are &6R to look up recipes&r for the item, and &6U to look up uses&r for the item."
+				""
+				"These binds can be changed by clicking the EMI button in the bottom left of your inventory screen."
+			]
+			icon: "minecraft:crafting_table"
+			id: "7051A7B9EF38B5D8"
+			rewards: [{
+				id: "7E395EC7B7AAC8EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7659D788975AE236"
+				title: "What's changed?"
+				type: "checkmark"
+			}]
+			title: "How do I craft things?"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: ["&l&o&cNO ORE GENERATES IN THE WORLD. RECIPES HAVE CHANGED.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
+			icon: "minecraft:iron_ore"
+			id: "3BF5FDE3C81BEF26"
+			rewards: [{
+				id: "406F3BEC271BD4D1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A321F50741A2841"
+				title: "Deprived..."
+				type: "checkmark"
+			}]
+			title: "Where's the ore!?"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"655DCA5A5B6632E1"
+				"353FED2BF4FBD8EC"
+			]
+			description: [
+				"After you &6scrape off the rust with an axe,&r you think you can use a &6cutting board&r to get useable copper out of the oxidized copper you find in ruins."
+				""
+				"This useable copper will be crucial for &6Spagyrics&r, the process of decomposing and recombining matter - which should let you &6rejuvenate the Dried Earth&r into &6Dirt.&r"
+				""
+				"&7Tip: you can also use the cutting board to get more charcoal and scrap wood out of dead logs!"
+			]
+			hide_details_until_startable: true
+			icon: "minecraft:copper_ingot"
+			id: "6B5B443D2F7DD3D4"
+			rewards: [
+				{
+					id: "05887BA1C04CEB57"
+					item: {
+						Count: 1
+						id: "modonomicon:modonomicon"
+						tag: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "301F9B4D74B4FDB6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "53D2A5C292D19EA6"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "45703BBEF74B7454"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Useable Copper"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"In the contaminated water you have found trace amounts of &6Sal Ammoniac,&r a crucial ingredient in the practice of &6Theurgy.&r By setting up a simple accumulator and tank, you think you'll be able to distill it. "
+				""
+				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce &6Sal Ammoniac&r for you."
+				""
+				"&7Tip: you can make buckets out of copper!&r"
+			]
+			icon: "theurgy:sal_ammoniac_accumulator"
+			id: "01AB2D65C171F1F9"
+			rewards: [
+				{
+					count: 2
+					id: "1707BE009DD21399"
+					item: "theurgy:sal_ammoniac_crystal"
+					type: "item"
+				}
+				{
+					id: "050D56A65378BDED"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "010F0A2184BB7F36"
+					item: "theurgy:sal_ammoniac_tank"
+					type: "item"
+				}
+				{
+					id: "341512DBA66D139B"
+					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"&6Alchemical Mercury&r is one of the three building blocks of alchemy - it provides the Energy of an item, and is largely interchangeable between things."
+				""
+				"To distill it, you'll have to make a &6Mercury Distiller&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to distill into the Distiller, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Mercury.&r"
+				""
+				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, dried earth, or cooked fish.&r "
+				""
+				"&7Tip: slicing fish makes it a more efficient way of getting mercury!"
+			]
+			icon: "theurgy:distiller"
+			id: "238F26409930D47F"
+			rewards: [
+				{
+					count: 4
+					id: "1C9649B1FBAFE963"
+					item: "theurgy:mercury_shard"
+					type: "item"
+				}
+				{
+					id: "7E77D5260B9D9B67"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "784A3AAA14565F31"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "1BDA15C3663694B9"
+					item: "theurgy:distiller"
+					type: "item"
+				}
+				{
+					id: "3F1DB1131AF26253"
+					item: "theurgy:mercury_shard"
+					type: "item"
+				}
+			]
+			title: "Alchemical Mercury"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"&6Alchemical Salt&r is one of the three building blocks of alchemy - it provides the Body of an item, and represents the 'type' of an item."
+				""
+				"To obtain it, you'll have to make a &6Calcination Oven&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to extract into the Oven, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Salt.&r"
+				""
+				"There are many different kinds of salt, but to start, you should &6focus on getting Strata salt.&r"
+			]
+			icon: "theurgy:calcination_oven"
+			id: "21DA86D51EB7D88E"
+			rewards: [
+				{
+					count: 4
+					id: "64E04DAB7C0582A3"
+					item: "theurgy:alchemical_salt_strata"
+					type: "item"
+				}
+				{
+					id: "4F5B75F7869280C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "53EB0C300D28F531"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "248723DDF99B8CC1"
+					item: "theurgy:calcination_oven"
+					type: "item"
+				}
+				{
+					id: "6AE5239CA0507C48"
+					item: "theurgy:alchemical_salt_strata"
+					type: "item"
+				}
+			]
+			title: "Alchemical Salt"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["01AB2D65C171F1F9"]
+			description: [
+				"&6Alchemical Sulfur&r is one of the three building blocks of alchemy - it provides the Soul of an item, and represents what specific item it is."
+				""
+				"To obtain it, you'll have to make a &6Liquefaction Cauldron&r and place it on top of a &6Pyromantic Brazier.&r Place the item you want to extract sulfur from into the Cauldron, fill it with &6Sal Ammoniac,&r give the Brazier some fuel, and it'll slowly convert materials into their respective &6Alchemical Sulfur.&r"
+				""
+				"The dried earth you find yourself surrounded by used to be dirt, and it remembers that - &6use the Cauldron to turn dried earth into dirt sulfur.&r"
+			]
+			icon: "theurgy:liquefaction_cauldron"
+			id: "3B57039627535552"
+			rewards: [
+				{
+					count: 4
+					id: "628CFF330629E4D8"
+					item: {
+						Count: 1
+						id: "kubejs:sulfur_dirt"
+						tag: {
+							"theurgy:sulfur.source.id": "kubejs:dried_earth"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E825AEA8A695C2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "38FD38D7D8B5BFFB"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+				{
+					id: "5A17E6E29CC2C53F"
+					item: "theurgy:liquefaction_cauldron"
+					type: "item"
+				}
+				{
+					id: "00B64A23A6E7BF57"
+					item: "kubejs:sulfur_dirt"
+					type: "item"
+				}
+			]
+			title: "Alchemical Sulfur"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3B57039627535552"
+				"238F26409930D47F"
+				"21DA86D51EB7D88E"
+			]
+			description: [
+				"Now that you have all three alchemical components of an item - &6Mercury, Salt, and Sulfur&r - you can make an &6Incubator&r to combine them all back into an item; in this case, back into &6dirt.&r"
+				""
+				"Place the Incubator above a Brazier and attach all three vessels to the sides of it. Fill each vessel with the appropriate item, give the Brazier some fuel, and in a bit you'll have fresh dirt!"
+			]
+			icon: "theurgy:incubator"
+			id: "1F466C810237B69A"
+			rewards: [{
+				id: "53F568DF45DF8F1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5CCE88CCD5B42265"
+					item: "theurgy:incubator"
+					type: "item"
+				}
+				{
+					id: "1B66609CCC88FB06"
+					item: "theurgy:incubator_salt_vessel"
+					type: "item"
+				}
+				{
+					id: "5FE1507BD0CF0825"
+					item: "theurgy:incubator_sulfur_vessel"
+					type: "item"
+				}
+				{
+					id: "709F3C77303CC14F"
+					item: "theurgy:incubator_mercury_vessel"
+					type: "item"
+				}
+				{
+					id: "5DF3B368E203FD44"
+					item: "theurgy:pyromantic_brazier"
+					type: "item"
+				}
+			]
+			title: "Incubator"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1F466C810237B69A"]
+			description: [
+				"You've done it! You've made dirt!"
+				""
+				"...now you just need something to grow on it."
+			]
+			id: "448ABF53EEACBFA7"
+			rewards: [{
+				id: "5AFDB05E13E248FB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Slightly browner"
+			tasks: [{
+				id: "1DB0C65400E5119F"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: ["Despite the seeming apocalypse, there are still fish to find (and eat) for those with the skill and desire."]
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26C8365A4497F614"
+			rewards: [
+				{
+					id: "577673156D88751E"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACDE1B7FCA65BBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3420C22AABFAEA34"
+				type: "checkmark"
+			}]
+			title: "Fishy Friends"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"Spider string can be crafted into wool, which can be crafted into beds! "
+				""
+				"You can also craft a sleeping bag, for staying cozy on the go... but where would you be going?"
+			]
+			icon: "minecraft:white_bed"
+			id: "49182F60BE2634DE"
+			rewards: [{
+				id: "27DD3FCBE266BAC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "16FB0BB05454D6A2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:beds"
+						}
+					}
+					title: "Any Bed"
+					type: "item"
+				}
+				{
+					id: "1EFF40BDEB95B421"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					optional_task: true
+					title: "Any Sleeping Bag"
+					type: "item"
+				}
+			]
+			title: "Small Comforts"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"Worldgen has been completely overhauled - &4no ore generates,&r and the only biomes that exist are dead, wasteland biomes with no real vegetation. Additionally, the only trees that spawn are dead trees, with very little useability."
+				""
+				"Stone variants still generate, and you can find &6sand and clay underwater.&r It will also still rain!"
+			]
+			icon: "supplementaries:globe"
+			id: "40200E30710D409D"
+			rewards: [{
+				id: "2FFB14B0877E9B48"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CE871AB4BA6259E"
+				title: "Changed worldgen?"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"The naturally spawning mobs have changed in this new landscape! Specifically, &czombie villagers and witches won't spawn,&r and &6spiders have mutated&r into their venomous cave versions. "
+				""
+				"This means that there's &cno way to get any kind of resources from witches or zombie villagers&r (even if you could cure them!); the only things that you can really hope to get are iron or copper ingots from &6rare drops&r - but there are other ways to generate resources..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "412275C7F800C343"
+			rewards: [{
+				id: "696B08484059A34C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "726093097AD50EDB"
+				title: "Rare Drops?"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"There are quite a few books in the pack! Thankfully, the &6Akashic Tome&r is here to help. Crafting any book with this will combine it, letting you keep every guidebook in a single item. Simply craft it with another guidebook!"
+				""
+				"To untransform the tome, punch the air with it."
+				""
+				"To remove a stored book, transform the tome into the book, then sneak and press your 'drop' key."
+			]
+			icon: "akashictome:tome"
+			id: "524541472CB8168A"
+			rewards: [{
+				id: "63F8E36BB78B3F0F"
+				item: "akashictome:tome"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30591A81E9C85ED9"
+				title: "Too Many Books!?"
+				type: "checkmark"
+			}]
+			title: "Too Many Books!?"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"A lot of the pack consists of passive processes you'll probably want to keep running while you do other things. You can claim chunks to &6force-load &rthem using your map; ensuring they'll stay loaded even while you're not nearby. "
+				""
+				"Just open your map (default M) and &6right-click drag&r over the area you'd like to claim. Right-click drag again to force claim!"
+				""
+				"If you're playing with friends, &6make sure you're on the same team&r so that you can all access things inside your claim and share quest progress."
+				""
+				"For more information on the claims system, check out the &6Open Parties and Claims&r wiki or keybinds."
+				""
+				"&7Tip: you might want to turn claimed chunk protection off! It tends to break fake players."
+			]
+			icon: "naturesaura:pet_reviver"
+			id: "52B10FEB2951E939"
+			rewards: [{
+				id: "1551C09CD766D5DD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2E3AF11BD22C15B4"
+				title: "Playing with Friends?"
+				type: "checkmark"
+			}]
+			title: "Chunkloading and Friends?"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"You can make a quick and dirty door using the scrap wood and some copper you've found - but it seems pretty shoddy, &4breaking every so often&r and needing to be re-placed."
+				""
+				"At least it keeps the spookies out..."
+			]
+			id: "387F725179133950"
+			rewards: [{
+				id: "75AF918ADD9DB9E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E461D7DE2E68577"
+				item: "reclamation_util:flimsy_door"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["655DCA5A5B6632E1"]
+			description: [
+				"Despite the harsh conditions, bees still persist, dotted amongst the dry hills. "
+				""
+				"Cultivating them could be a great way to &6generate resources&r such as more dead logs!"
+				""
+				"&7Tip: this unlocks a new questline on the left!"
+			]
+			icon: "complicated_bees:apiary"
+			id: "29CB5767DE978673"
+			rewards: [{
+				id: "0C2B92BF2EC44903"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5B5E6B48E860F6E6"
+				type: "checkmark"
+			}]
+			title: "Bees?!"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["A vast wasteland"]
+	title: "Prologue"
+}

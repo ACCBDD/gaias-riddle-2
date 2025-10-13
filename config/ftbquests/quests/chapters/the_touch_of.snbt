@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "the_touch_of"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "reclamation_util:filled_biome_bottle"
+	id: "240B183CDC03CB19"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["76531B6ECFD001DB"]
+			description: [
+				"You've done it. You've reclaimed some small part of the world! "
+				""
+				"Now you just have to regain the diversity in surroundings you remember there once being..."
+			]
+			disable_toast: true
+			hide_until_deps_complete: true
+			id: "797FD98625915CAF"
+			rewards: [{
+				id: "4557B55BD889AB44"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				biome: "#reclamation:reclaimed"
+				id: "6E3C0E23C809A6BA"
+				title: "Visit a Reclaimed Biome"
+				type: "biome"
+			}]
+			title: "Reclamation"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"Getting the nether back into shape is relatively easy, now that you understand the shape of terraforming rituals and have a source of biomic essence."
+				""
+				"&7Tip: check the terraforming section of your Reclamation Rituals book to see how to perform the nether terraforming rites!"
+			]
+			id: "0992C0993A6BBB8A"
+			rewards: [{
+				id: "0B658E1DF83AA286"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "45591ED68D7E8CAC"
+				title: "Visit Every Nether Biome"
+				type: "advancement"
+			}]
+			title: "Reclaiming the Nether"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: ["With the creation of reclaimed biomes, natural spawns can now occur - drygmies, whirligigs, and starbuncles can all rarely spawn in these biomes, as well as the regular mobs."]
+			icon: "minecraft:spawner"
+			id: "1ECF71CD671CE14B"
+			rewards: [
+				{
+					count: 4
+					id: "5D7984E2E98091FD"
+					item: "croptopia:fish_and_chips"
+					type: "item"
+				}
+				{
+					id: "54C1927D25A7E012"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "124BC217DE620644"
+				type: "checkmark"
+			}]
+			title: "Natural Spawning"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["797FD98625915CAF"]
+			description: [
+				"Now that you have a place where you can actually see the blue (!) sky, you can bottle up the abundant biomic essence in a &6specially-designed container.&r"
+				""
+				"This &6biome essence&r can be used in rituals along with some extra reagents to terraform in a more directed way."
+				""
+				"&7Tip: you can collect essence in any living biome by holding right click with a biome bottle. Crouching while you do this will fill all bottles in a stack!"
+			]
+			icon: "reclamation_util:filled_biome_bottle"
+			id: "269ECE61446E7CE6"
+			rewards: [
+				{
+					count: 2
+					id: "111550E5CDAEB7E8"
+					item: "reclamation_util:empty_biome_bottle"
+					type: "item"
+				}
+				{
+					id: "655B3B3F0A6AEA16"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0D347632CFA3D9D4"
+					item: "reclamation_util:empty_biome_bottle"
+					type: "item"
+				}
+				{
+					id: "4A7809B25D161A95"
+					item: "reclamation_util:filled_biome_bottle"
+					type: "item"
+				}
+			]
+			title: "Biome Essence"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19E7760B061483C9"]
+			description: ["The first attuned essence you'll need is &6Hellish Essence,&r collectible from any living&6 nether biome.&r"]
+			id: "7277FA4026920033"
+			rewards: [{
+				id: "5A71024BB4E805D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E3126525284BCF8"
+				item: "reclamation_util:hellish_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7277FA4026920033"]
+			description: [
+				"&6Arid Essence&r is found mainly in the desert - you'll have to use a special version of your terraforming ritual to bring it back. "
+				""
+				"Some high-powered dwarven artifice should provide you with the correct magical resonance to produce an arid, sandy &6desert &rbiome."
+			]
+			id: "15966B11B4C3E2F5"
+			rewards: [{
+				id: "30DB106D75599369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "658E9D76E47362C1"
+				item: "reclamation_util:arid_biome_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1E6C9A0B164888F7"
+				"69BCBDE0FD9FD3AA"
+			]
+			description: [
+				"The final essence you'll need is &6Icy Essence&r from the &6snowy slopes&r biome. Wet and cold, the complete opposite of your surroundings, you'll need a lot of power to create this biome."
+				""
+				"First: &6polonium&r to provide the necessary chemical energy for the physical transformation."
+				""
+				"Second: ice cream (specifically &6vanilla&r) to provide structure to the ritual and thematic direction."
+				""
+				"Third: a couple &6shattered singularities&r to store the excess entropy generated by this ritual."
+				""
+				"and finally, Fourth: a large amount of generic &6biome essence&r to kickstart the reaction."
+			]
+			id: "0C35379194435EC8"
+			rewards: [{
+				id: "19C81E8EA7D6699B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6766CF66FC572CCF"
+				item: "reclamation_util:icy_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["15966B11B4C3E2F5"]
+			description: [
+				"&6Lush Essence&r is found in jungles of any kind - once again, you'll need a special ritual to bring it back."
+				""
+				"Botanic mastery will provide you the life energy needed to transform your surroundings into a &6bamboo forest.&r"
+				""
+				"You will also need some plutonium, as this transformation needs a large amount of chemical energy for the physical reaction taking place."
+			]
+			id: "69BCBDE0FD9FD3AA"
+			rewards: [{
+				id: "5CEF7C522161701B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "648A4B4003EB2F48"
+				item: "reclamation_util:lush_biome_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7277FA4026920033"]
+			description: [
+				"&6Mycelic Essence&r is found exclusively on mushroom islands - you'll have to use a modified version of your terraforming ritual to bring them back. "
+				""
+				"Classic wiccan practice should provide you with the correct magical resonance to produce the hot, dry &6mushroom field&r biome."
+			]
+			id: "4124F7AA9DF1444F"
+			rewards: [{
+				id: "721AEEDDA12D2CA6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "62E17A877BC0F30D"
+				item: "reclamation_util:mycelic_biome_bottle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4124F7AA9DF1444F"]
+			description: [
+				"&6Watery Essence&r is found in deep oceans - once again, you'll need a special ritual to bring it back."
+				""
+				"Elemental wizardry will provide you the magical power necessary to enact such an elementally-aligned terraformation - namely, turning a small area into a &6warm ocean.&r"
+				""
+				"You will also need some plutonium, as this transformation needs a large amount of chemical energy for the physical reaction taking place."
+			]
+			id: "1E6C9A0B164888F7"
+			rewards: [{
+				id: "57C3B0C1A2686F21"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06FAB593C740FC52"
+				item: "reclamation_util:watery_biome_bottle"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4124F7AA9DF1444F"
+				"15966B11B4C3E2F5"
+				"7277FA4026920033"
+				"1E6C9A0B164888F7"
+				"69BCBDE0FD9FD3AA"
+				"0C35379194435EC8"
+			]
+			description: [
+				"With all six types of attuned biome essence, you can combine them in a (quite expensive) ritual to produce the &6End Portal.&r You'll still need to add &6Eyes of Ender&r to the frame, but once you've done so, you can finally enter &6the End.&r"
+				""
+				"&7Tip: you can break end portal frames and blocks by right clicking them with the frame remover!"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "6D23082F517D5117"
+			rewards: [{
+				id: "5B55FA50B18BB27A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Dragons... I hate dragons"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_portal_frame"
+					id: "42C545D227EB5990"
+					title: "Visit the End"
+					type: "dimension"
+				}
+				{
+					id: "202B9E7EDA90980C"
+					item: "reclamation_util:frame_remover"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Visit the End"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"Generic biome essence is well and good, but for real ritualistic oomph you'll need a specialized container, capable of collecting attuned essence."
+				""
+				"&7Tip: check your Reclamation Rituals book for information on the late-game terraforming rituals!"
+			]
+			id: "19E7760B061483C9"
+			rewards: [{
+				id: "5B3A73EF7FBFDE90"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "124B68712D3168F9"
+				item: "reclamation_util:attuned_biome_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			description: [
+				"With biome essence, you can also perform &6more directed terraforming&r - turning the surrounding area into basic overworld biomes: forest, plains, river, beach, and ocean."
+				""
+				"&7Tip: check the terraforming section of your Reclamation Rituals book to see how to perform the overworld terraforming rites!"
+			]
+			icon: "minecraft:grass_block"
+			id: "08AD7AC8EA3F60BD"
+			rewards: [{
+				id: "032A7861EFE83BF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DBEE9F81CAADA0D"
+				title: "Basic Terraforming"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19E7760B061483C9"]
+			description: [
+				"With some additional infusion, an attuned biome bottle can be turned into a &6biome globe&r - in essence a portable directed reclamation ritual."
+				""
+				"&7Tip: these globes have 16 uses each, and convert a radius of 12 blocks from where you use them! They'll convert blocks to their reclaimed versions, but they will NOT place features like grass or trees; you'll have to do those yourself."
+				""
+				"&7Tip 2: these drain a LOT of aura to make!"
+			]
+			id: "1D8D6B5B69416E17"
+			optional: true
+			rewards: [{
+				id: "50C1E2683E84C782"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Portable Terraforming"
+			tasks: [
+				{
+					id: "762063598E9C32DC"
+					item: "reclamation_util:empty_biome_globe"
+					type: "item"
+				}
+				{
+					id: "765E6CC514E5B023"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "reclamation_util:plains_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:desert_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:forest_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "reclamation_util:ocean_biome_globe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any Biome Globe"
+					type: "item"
+				}
+			]
+			title: "Biome Globes"
+			x: 2.0d
+			y: -2.5d
+		}
+	]
+	title: "Visions of the Past"
+}

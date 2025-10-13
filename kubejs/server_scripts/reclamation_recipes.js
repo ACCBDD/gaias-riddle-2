@@ -39,9 +39,46 @@ ServerEvents.recipes(event => {
         }
     });
 
-        event.remove({ id: 'minecraft:coarse_dirt'});
-        event.shapeless('2x minecraft:coarse_dirt', [
-            '2x minecraft:dirt',
-            '2x minecraft:gravel'
-        ])
+    event.remove({ id: 'minecraft:coarse_dirt'});
+    event.shapeless('2x minecraft:coarse_dirt', [
+        '2x minecraft:dirt',
+        '2x minecraft:gravel'
+    ])
+
+     event.custom({
+        "type": "farmersdelight:cutting",
+        "ingredients": [
+            {
+                "item": "minecraft:cut_copper"
+            }
+        ],
+        "result": [
+            {
+                "item": "minecraft:copper_ingot",
+                "count": 6
+            },
+            {
+                "chance": 0.75,
+                "item": "minecraft:copper_ingot",
+                "count": 2
+            },
+            {
+                "chance": 0.5,
+                "item": "minecraft:copper_ingot"
+            }
+        ],
+        "tool": {
+            "type": "farmersdelight:tool_action",
+            "action": "pickaxe_dig"
+        }
+    })
+
+    event.shaped('minecraft:bucket', [
+        'A A',
+        'DAD',
+        '   '
+    ], {
+        A: 'minecraft:copper_ingot',
+        D: 'minecraft:clay_ball'
+    })
 })

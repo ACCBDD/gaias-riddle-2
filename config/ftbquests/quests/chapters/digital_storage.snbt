@@ -1,0 +1,1130 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 280
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "499FD90D592AFC7B"
+	icon: "minecraft:chest"
+	id: "6624F3E176990B6A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52D07AB4E6B88EA1"]
+			description: ["The &6controller&r is the brains of a network. Each controller block's face is capable of outputting &632 channels;&r almost every device on the ME network needs &6one channel to operate.&r"]
+			hide_until_deps_complete: true
+			id: "42064A913CA2CCD2"
+			rewards: [{
+				id: "70DC06DBA48C2C1C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CC1A0D2BD148905"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"A controller block itself can input energy, but you'll want to have as many controller faces open as you can to get as many channels as possible into your network. "
+				""
+				"The &6Energy Acceptor&r uses no channels and can be placed anywhere, as long as it's connected to the network somehow."
+			]
+			id: "19BCEFF7F0DE9C81"
+			rewards: [{
+				id: "76BECE700F1CD015"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4C5EE0307F949567"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["Smart cables are very useful - they visually display how many channels they're carrying at any given time."]
+			icon: "ae2:fluix_smart_cable"
+			id: "45812F4C9EF0926C"
+			rewards: [{
+				id: "1495849F009F2923"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AEB4D6B67F03FB5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				title: "Any Smart Cable"
+				type: "item"
+			}]
+			title: "Smart Cables"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45812F4C9EF0926C"]
+			description: ["Dense cables can carry 32 channels instead of the regular 8 channels."]
+			icon: "ae2:fluix_smart_dense_cable"
+			id: "2FD074137DE15616"
+			rewards: [{
+				id: "55B122BFA440ED3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "514068BF36103E94"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				title: "Any Smart Dense Cable"
+				type: "item"
+			}]
+			title: "Dense Cables"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FD074137DE15616"]
+			description: [
+				"The color applicator lets you paint cables - especially useful once your network starts to grow. "
+				""
+				"Colored cables won't connect to other colored cables, but fluix cables can connect to all colors."
+				""
+				"These can be filled with &6dyes or paintballs&r using an &6ME Chest.&r"
+			]
+			id: "25899D736E58600D"
+			rewards: [{
+				id: "2C85B7D794927CE1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BAA47A786CB4A40"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				match_nbt: false
+				title: "Color Applicator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"The &6ME Interface&r acts as a specialized input and output port for your network. "
+				""
+				"It can keep a certain amount of items from your network in its inventory for pipes or other blocks to pull from, and also automatically puts any other items it receives into the network."
+			]
+			id: "28F3433876B58C67"
+			rewards: [{
+				id: "53D99DBD92ADED6A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46D766909F51BF29"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["The &6Wireless Connector&r is a short-range version of a &6Quantum Link Chamber &r- use this when you want your network to jump a short distance, and not cross-dimensionally."]
+			id: "0B962ED4F7C5605E"
+			rewards: [{
+				id: "740E9ECF9F88E5D4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30CC09F3C45F9FE6"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["The &6Quantum Network Bridge&r uses the power of quantum entanglement to bridge a network gap not only across large distances, but dimensions."]
+			icon: "ae2:quantum_link"
+			id: "3A85EDF465018CE9"
+			rewards: [{
+				id: "350A2BDEF6D30977"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4369251B08E6E6B5"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "1839F4F0EE842265"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+			]
+			title: "Quantum Network Bridge"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["The&6 Extended Charger&r and &6Inscriber&r are upgraded versions of their base models, capable of processing 4 recipes in parallel."]
+			icon: "expatternprovider:ex_inscriber"
+			id: "769058A0214DFE4C"
+			rewards: [{
+				id: "29232D121842C186"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5834D042FB64E658"
+					item: "expatternprovider:ex_inscriber"
+					type: "item"
+				}
+				{
+					id: "1B33D77B12CABA49"
+					item: "expatternprovider:ex_charger"
+					type: "item"
+				}
+			]
+			title: "Extended Machines"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: ["The &6Wireless Access Point&r allows you to use wireless terminals to access your ME System. You can boost its range by giving it &6wireless boosters,&r but be warned: more boosters means the WAP will need &4much more energy&r to stay running."]
+			icon: "ae2:wireless_terminal"
+			id: "5800C2FA501D25AA"
+			rewards: [{
+				id: "5C6C7C61911DEA9F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "303553A904DAB768"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					icon: "ae2:wireless_terminal"
+					id: "79D5DB4C10707012"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "expatternprovider:wireless_ex_pat"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_access_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_encoding_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2:wireless_crafting_terminal"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "ae2:wireless_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_universal_terminal"
+								}
+							]
+						}
+					}
+					match_nbt: false
+					title: "Any Wireless Terminal"
+					type: "item"
+				}
+			]
+			title: "Wireless Access"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28F3433876B58C67"]
+			description: [
+				"&6Pattern Providers,&r when given a pattern, will push the items in the pattern to a nearby inventory. &6Molecular Assemblers,&r when given items, will craft with those items and output them to nearby inventories. Put them next to each other, and you have a &6basic autocrafting setup! &r"
+				""
+				"You'll need somewhere to store the items while they're being crafted; a crafting storage would be ideal."
+				""
+				"&7Tip: for more info, check the guide!"
+			]
+			icon: "ae2:molecular_assembler"
+			id: "7029B79465525273"
+			rewards: [{
+				id: "040B66E150EB6C51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "39F717BFA0DD5801"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "4E8E31F671387339"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "4201FE9A50857C0A"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+			]
+			title: "ME Autocrafting"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42064A913CA2CCD2"]
+			description: [
+				"With an ME System you'll need some way to actually store items - the &6ME Drive&r can store up to 10 storage cells of any type and size."
+				""
+				"&7Tip: you can store botanic mana, elemental source, gases, fluids, and even space itself in cells - not just regular items!"
+			]
+			id: "38CF84D7DEEA26F2"
+			rewards: [{
+				id: "685D4828EF4096FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A8C37A2DC2BD8D4"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38CF84D7DEEA26F2"]
+			description: ["Terminals are how you actually interface with the storage cells in your ME System."]
+			id: "2BC56CC6C32D156B"
+			rewards: [{
+				id: "186C8D61C3F9AF6D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "79D7AEA1569B39B9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_access_part"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_access_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:crafting_terminal"
+							}
+							{
+								Count: 1b
+								id: "ae2:pattern_encoding_terminal"
+							}
+						]
+					}
+				}
+				title: "Any Terminal"
+				type: "item"
+			}]
+			title: "Terminals"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["19BCEFF7F0DE9C81"]
+			description: ["Storing some energy in your ME System would be a good idea... just in case."]
+			id: "77DBEADC85E302E7"
+			rewards: [{
+				id: "61366A2AAF5DD0E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "040F9CC81F2B9B4E"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5800C2FA501D25AA"]
+			id: "588E96C6A6095B4F"
+			rewards: [{
+				id: "4D353628EBBB60F4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F90AB33BE52A7F6"
+				item: "ae2wtlib:quantum_bridge_card"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FD074137DE15616"]
+			description: [
+				"&6P2P Tunnels&r allow you to transfer multiple channels per channel! It's a little confusing at first, but once you get the hang of it you can really push your system to the limit."
+				""
+				"You can also transfer power, chemicals, and even botanic mana and elemental source!"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "1B2791D7868FA0C8"
+			rewards: [{
+				id: "0018467EEAEB527B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3C89FE0A2E3F7D56"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "4E9195DB3A44E29E"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["769058A0214DFE4C"]
+			description: [
+				"The &6Reaction Chamber&r not only allows you to make circuits much faster, it can also charge large amounts of certus crystals at a time and even grow crystals from themselves!"
+				""
+				"Just make sure you have enough power to handle its recipes..."
+			]
+			id: "0D84FCBDF7D400BC"
+			rewards: [{
+				id: "7B5A7D301000A71D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "507EC959EDFD27D0"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["769058A0214DFE4C"]
+			description: ["The &6Circuit Slicer&r can cut blocks of materials into 9 circuits much faster than an inscriber can press them."]
+			id: "73F6B084862E0C22"
+			rewards: [{
+				id: "4F5D7585B0B5505C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58990D13A5825250"
+				item: "expatternprovider:circuit_cutter"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7029B79465525273"]
+			description: ["The &6Assembler Matrix&r is a molecular assembler and pattern provider setup on steroids - at its maximum size, it can hold over 4,000 patterns and craft incredibly fast. The best part? It only needs &6one channel.&r"]
+			icon: "expatternprovider:assembler_matrix_frame"
+			id: "60D69E8F82D1735A"
+			rewards: [{
+				id: "631ABBD3F4CB9415"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "24CB0DC3DEA3CF24"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "26EB2E11D9E73874"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D84FCBDF7D400BC"]
+			description: ["The &6Quantum Computer Core&r is a self-contained crafting CPU with 256M crafting storage and 8 co-processing threads."]
+			id: "2DD9F909A98D3A01"
+			rewards: [{
+				id: "63FEFF805B7E6973"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13B54D99F1509E9B"
+				item: "advanced_ae:quantum_core"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DD9F909A98D3A01"]
+			description: [
+				"The &6Quantum Computer multiblock&r is an extremely powerful multiblock that can handle an effectively &6infinite&r number of crafting requests for your ME System."
+				""
+				"Read the guide for more information."
+			]
+			id: "17CA0C449BCE1795"
+			rewards: [{
+				id: "36D51E4AA33024AE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5BC2A17884CC34F7"
+				item: "advanced_ae:quantum_structure"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			dependency_requirement: "one_completed"
+			description: ["Perfect for carrying items on the go, the &6backpack&r has a few useful upgrades as well."]
+			hide_until_deps_complete: true
+			id: "0D743158B02EFECE"
+			rewards: [
+				{
+					count: 2
+					id: "62E7532779DBCC15"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "2A91EBFF67A1380F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E43CCBB4B962F21"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["Better than regular chests, &6Sophisticated Storage&r lets you put more things in a single block."]
+			hide_until_deps_complete: true
+			id: "186AF6EF5933F0C7"
+			rewards: [
+				{
+					id: "484DA648F8D52FD3"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:copper_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F5CE5C18E1A5271"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "sophisticatedstorage:copper_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				id: "51D72D299E613F70"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "sophisticatedstorage:all_storage"
+					}
+				}
+				title: "Any Sophisticated Storage Block"
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"Capable of storing a very large amount of a single item type."
+				""
+				"The framing table lets you customize the way they look."
+			]
+			hide_until_deps_complete: true
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "310095AAC69059F7"
+			rewards: [
+				{
+					id: "3CC04B85D05F7A7F"
+					item: "storagedrawers:framing_table"
+					type: "item"
+				}
+				{
+					id: "09392F1C9B158438"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4BD44F655B846F42"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any Storage Drawer"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["Tier upgrades can be used to upgrade Sophisticated Storage blocks without breaking them."]
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "79F177300EC200BB"
+			rewards: [
+				{
+					id: "2792E6089A0C9606"
+					item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "68C2857301084848"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "087CBC5E7AACE097"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:copper_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:iron_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:gold_to_netherite_tier_upgrade"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+							}
+						]
+					}
+				}
+				title: "Any Tier Upgrade"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["The &6Drawer Controller&r allows you to interface with multiple drawers using only a single blockface."]
+			id: "6AEDC0CE7C0F6871"
+			rewards: [
+				{
+					id: "361B063185A1AC92"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "794B2E47DDDA1DA6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1799CCB5D4A8DAFF"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["310095AAC69059F7"]
+			description: ["There are a variety of keys - lock drawers to specific items, hide item labels to reduce lag, and more."]
+			icon: "storagedrawers:drawer_key"
+			id: "48640F7FA6B4E83C"
+			rewards: [
+				{
+					id: "7DA6DE4285D3936F"
+					item: "storagedrawers:keyring"
+					type: "item"
+				}
+				{
+					id: "344C39E88690566F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "622066D049F81B3A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:drawer_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:quantify_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:shroud_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:personal_key"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:priority_key"
+							}
+						]
+					}
+				}
+				title: "Any Drawer Key"
+				type: "item"
+			}]
+			title: "Drawer Keys"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D743158B02EFECE"]
+			description: ["Autofeeding, playing music, even portable crafting can all be attained with backpack upgrades."]
+			id: "2971661158B66BCB"
+			rewards: [
+				{
+					id: "6A7A218A2B25881E"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "477439A7110B018A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "57731279073E4D5C"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["186AF6EF5933F0C7"]
+			description: ["Higher stack count, filtering, and more - check the uses for the upgrade base."]
+			id: "20BC58E21EEC4A90"
+			rewards: [
+				{
+					id: "06E72721EDE7B639"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "3419EC18EC21266B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "27901504AE8CB01C"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["Each workbench (aside from looking neat) can turn a specific set of blocks into its variants."]
+			hide_until_deps_complete: true
+			id: "7998DF6633727385"
+			rewards: [{
+				id: "31B104A991D7975C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2A89B9BAD6D6A1BA"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "61E1F14AE74D8245"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1F90AEA33F3366EE"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "35CFCE8CA7CDCB03"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "74BABD50F2D36065"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "0F68C22DF4A0FB55"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "23EB2E0893DEADE9"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped Workbenches"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["Can turn almost any basic block into a wide array of variants."]
+			hide_until_deps_complete: true
+			id: "589D9D8B75EA4D6A"
+			rewards: [{
+				id: "08EF9ED9EA1FADB1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1886724FF4F67912"
+				item: {
+					Count: 1
+					id: "rechiseled:chisel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["Made from stonecutting andesite alloy, these blocks can take on the texture of any other block."]
+			hide_until_deps_complete: true
+			id: "739D0BFEC4F76873"
+			rewards: [{
+				id: "29DC2531205502EF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40AFA3023980CF2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "copycats:copycat_block"
+					}
+				}
+				title: "Any Copycat Block"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"You can make music by crafing a &6Music Sheet&r and placing notes on the sheet. "
+				""
+				"Place the sheet in your offhand while holding an instrument to play the instrument."
+				""
+				"&7Tip: you can do MUCH more with this mod - check out its CurseForge page for more info."
+			]
+			hide_until_deps_complete: true
+			id: "00B11B5B5824CF82"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DAB642D70E0E39C"
+					table_id: 67272733859206798L
+					type: "choice"
+				}
+				{
+					id: "17AF9672B85CE2F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "34FA44324920ADE6"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"You can paint your own masterpieces while you wait for crops to grow - simply make a palette, fill it with colors, plop a canvas on an easel, and get to painting!"
+				""
+				"Signed paintings can be duplicated by crafting the original with a blank canvas of the same size."
+				""
+				"&7Tip: to craft a palette, fill the bottom row of a crafting table with planks, then place dyes in the middle. You can add more dyes to a palette by crafting them together."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "xercapaint:item_palette"
+				tag: {
+					basic: [B;
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+						1b
+					]
+				}
+			}
+			id: "56F47BEB53D25F0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63AD2969AF05B6E2"
+					table_id: 6347601422327785898L
+					type: "choice"
+				}
+				{
+					id: "6FF1BA6953D4FD4D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "40B6EAC528F2AEBF"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "5B4F1FCD16C17D30"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+			]
+			title: "The Joy of Painting"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: [
+				"&6Building Gadgets&r are a collection of useful tools that will let you build very quickly."
+				""
+				"They do need to be charged; use an energy cube or similar."
+			]
+			hide_until_deps_complete: true
+			id: "4E09F6435DC05330"
+			rewards: [{
+				id: "32F2ED927729D029"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73EFED8D105EAF82"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["448ABF53EEACBFA7"]
+			description: ["The &6Rod of the Shifting Crust&r allows you to exchange blocks in the world with blocks in your inventory for the cost of mana."]
+			hide_until_deps_complete: true
+			id: "76B04BEB7909F047"
+			rewards: [{
+				id: "3C060A5958479379"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27CB11F980CB52B8"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "Storage and Decor"
+}
