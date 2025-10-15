@@ -1,0 +1,16 @@
+filename = 'crittersandcompanions-forge-1.20.1-2.3.3.jar'
+name = 'Critters and Companions'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '69627eedb5fb6fd9acb1e20745832b62ee5b1748'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7094975
+project-id = 574913
