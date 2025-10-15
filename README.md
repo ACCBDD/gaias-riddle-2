@@ -12,4 +12,4 @@ This repository only contains a mod list and configuration files.
 
 ## Installing
 
-Download a release from the right side, under 'Releases', and import to the launcher of your choice.
+Download a release from the right side under 'Releases' and import to the launcher of your choice.
