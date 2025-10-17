@@ -4,4 +4,6 @@
 * Mods
   * Macaw's Trapdoors
   * Oculus
+  * Oculus Flywheel Compat
+  * Sunblock Core
 * Structures from Reclamation 2.0.0
