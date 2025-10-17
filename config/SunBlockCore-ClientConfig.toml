@@ -1,0 +1,26 @@
+
+[Client]
+	#Displays Solar Server information on the HUD even while chat is open.
+	displayWithChatOpen = true
+	#The line offset for information rendered on the HUD.
+	#Range: 0 ~ 50
+	overlayLineOffset = 1
+	#The side for information rendered on the HUD. Ex: LEFT, RIGHT
+	#Allowed Values: LEFT, RIGHT
+	overlaySide = "LEFT"
+
+	#Graphic HUD Settings
+	[Client.hud]
+		#HUD scale factor
+		#Range: 0.3 ~ 1.5
+		scale = 0.85
+		#HUD X position
+		#Range: > 0
+		xPos = 2
+		#HUD Y position
+		#Range: > 0
+		yPos = 2
+		#HUD opacity
+		#Range: 0.0 ~ 1.0
+		opacity = 1.0
+
