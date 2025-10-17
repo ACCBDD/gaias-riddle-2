@@ -2,5 +2,6 @@
 
 ## Added
 * Mods
-* Macaw's Trapdoors
-* 
+  * Macaw's Trapdoors
+  * Oculus
+* Structures from Reclamation 2.0.0
