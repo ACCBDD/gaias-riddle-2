@@ -333,6 +333,7 @@
 	 */
 	view-uses: "key.keyboard.u";
 	view-uses: "key.mouse.right";
+	view-uses: "shift key.keyboard.r";
 
 	/**
 	 * Favorite the item to display on the side of the screen opposite of recipies for

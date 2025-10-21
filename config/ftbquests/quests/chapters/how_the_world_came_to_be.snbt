@@ -14,8 +14,8 @@
 			image: "reclamation:textures/quests/theurgy_1.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 2.5d
-			y: -5.0d
+			x: 3.0d
+			y: -5.5d
 		}
 		{
 			dependency: "01AB2D65C171F1F9"
@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/theurgy_2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -3.2857142857142776d
-			y: -9.125d
+			x: -3.0d
+			y: -9.5d
 		}
 	]
 	order_index: 0
@@ -91,6 +91,8 @@
 				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
 				""
 				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
+				""
+				"&7Tip: if you can't find any ruins at all, you can pan gravel for copper by right clicking it with a bowl!"
 			]
 			id: "353FED2BF4FBD8EC"
 			rewards: [
@@ -162,6 +164,7 @@
 				"655DCA5A5B6632E1"
 				"353FED2BF4FBD8EC"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"After you &6scrape off the rust with an axe,&r you think you can use a &6cutting board&r to get useable copper out of the oxidized copper you find in ruins."
 				""
@@ -213,7 +216,7 @@
 				""
 				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce &6Sal Ammoniac&r for you."
 				""
-				"&7Tip: you can make buckets out of copper!&r"
+				"&7Tip: you can make buckets out of copper and clay!&r"
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
@@ -239,6 +242,11 @@
 				{
 					id: "341512DBA66D139B"
 					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+				{
+					id: "5F9746FE040527EB"
+					item: "minecraft:bucket"
 					type: "item"
 				}
 			]
@@ -438,9 +446,9 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["1F466C810237B69A"]
+			dependencies: ["144A644B058EA9F6"]
 			description: [
-				"You've done it! You've made dirt!"
+				"Walk your &6Conversion Chicken&r around the coarse dirt you've made and watch as it magically converts the &6coarse dirt into regular dirt!&r"
 				""
 				"...now you just need something to grow on it."
 			]
@@ -458,8 +466,8 @@
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.5d
+			x: 7.105427357601002E-15d
+			y: -13.232142857142858d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
@@ -648,50 +656,94 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6B5B443D2F7DD3D4"]
-			description: [
-				"You can make a quick and dirty door using the scrap wood and some copper you've found - but it seems pretty shoddy, &4breaking every so often&r and needing to be re-placed."
-				""
-				"At least it keeps the spookies out..."
-			]
-			id: "387F725179133950"
-			rewards: [{
-				id: "75AF918ADD9DB9E3"
-				type: "xp"
-				xp: 100
-			}]
+			dependencies: ["1F466C810237B69A"]
+			description: ["You've converted dried earth into coarse dirt! However, this coarse dirt is much too rough to plant in - or even till!"]
+			id: "71F2F16098C1DD0D"
 			tasks: [{
-				id: "0E461D7DE2E68577"
-				item: "reclamation_util:flimsy_door"
+				id: "67FC2F44208F12A6"
+				item: "minecraft:coarse_dirt"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 0.0d
+			y: -10.0d
 		}
 		{
-			dependencies: ["655DCA5A5B6632E1"]
+			dependencies: ["71F2F16098C1DD0D"]
 			description: [
-				"Despite the harsh conditions, bees still persist, dotted amongst the dry hills. "
+				"From what you remember, chicken talons would be perfect to till the coarse dirt into a much more homogenous substrate, perfect for growing crops."
 				""
-				"Cultivating them could be a great way to &6generate resources&r such as more dead logs!"
+				"Ender pearls are pretty similar to eggs, and with a copper lightning rod on top of a block of copper, you think you can channel the energies into the pearl to convert it into a chicken..."
 				""
-				"&7Tip: this unlocks a new questline on the left!"
+				"&7Tip: basically, put a lightning rod on top of a block of copper and right click the block of copper with an ender pearl. Be careful! "
 			]
-			icon: "complicated_bees:apiary"
-			id: "29CB5767DE978673"
+			icon: {
+				Count: 1
+				id: "minecraft:chicken_spawn_egg"
+				tag: {
+					Enchantments: [{ }]
+					EntityTag: {
+						CustomName: "\"Conversion Chicken\""
+						KubeJSPersistentData: {
+							canConvert: 1b
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Chicken of Conversion\",\"color\":\"gold\",\"italic\":false}"
+					}
+				}
+			}
+			id: "144A644B058EA9F6"
 			rewards: [{
-				id: "0C2B92BF2EC44903"
+				id: "0774FEC135C0C943"
 				type: "xp"
 				xp: 100
 			}]
-			shape: "rsquare"
+			tasks: [
+				{
+					id: "35A80E14E873549A"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "2CA33C4CCF24E047"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+			]
+			title: "Chicken of Conversion"
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["144A644B058EA9F6"]
+			description: [
+				"The &6Conversion Chicken&r not only allows you to convert coarse dirt into regular dirt, but also &6placed sticks&r into &6dried bushes!&r"
+				""
+				"The bushes can be broken for additional sticks, and the sticks can be crafted into scrap wood."
+				""
+				"&7Tip: you might want to put your chicken on a lead... oak fences can be crafted with flimsy planks."
+			]
+			icon: "minecraft:debug_stick"
+			id: "6928821BEEC1F8BC"
+			rewards: [
+				{
+					id: "2C9767F8C517B42B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D1324A551B54203"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
 			tasks: [{
-				id: "5B5E6B48E860F6E6"
+				id: "5F3643E3BE6A586D"
 				type: "checkmark"
 			}]
-			title: "Bees?!"
-			x: 0.0d
-			y: -3.0d
+			title: "Renewable Wood?"
+			x: 1.5d
+			y: -12.5d
 		}
 	]
 	subtitle: ["A vast wasteland"]

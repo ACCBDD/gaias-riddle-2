@@ -124,7 +124,7 @@ ServerEvents.recipes(event => {
         },
         "result": {
             "count": 2,
-            "tag": "minecraft:dirt"
+            "item": "minecraft:coarse_dirt"
         },
         "salt": {
             "item": "theurgy:alchemical_salt_strata"

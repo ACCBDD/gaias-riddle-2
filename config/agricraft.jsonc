@@ -1,11 +1,11 @@
 {
     "core": {
         // Set to false to prevent AgriCraft from enabling its mod compatibility datapacks / resourcepacks by default
-        "register_packs_by_default": true,
+        "register_packs_by_default": false,
         // Set to false to disable planting of (agricraft) seeds outside crop sticks
         "plant_off_crop_sticks": true,
         // Set to false to disable collision boxes on crop sticks
-        "crop_sticks_collide": true,
+        "crop_sticks_collide": false,
         // Set to true to allow only fertile plants to be able to cause, participate in, or contribute to a spreading / mutation action (note that this may cause issues with obtaining some specific plants)
         "only_fertile_crops_spread": false,
         // Set to false if to disable triggering of mutations by using fertilizers on a cross crop.
@@ -24,15 +24,15 @@
         // Set this to true to make only mature crops drop seeds (to encourage trowel usage).
         "only_mature_seed_drops": false,
         // Set to true to completely disable the spawning of weeds
-        "disable_weeds": false,
+        "disable_weeds": true,
         // Set to false to disable mature weeds killing plants
-        "mature_weeds_kill_plants": true,
+        "mature_weeds_kill_plants": false,
         // Set to false to disable the spreading of weeds
-        "weeds_spreading": true,
+        "weeds_spreading": false,
         // Set this to true to have weeds destroy the crop sticks when they are broken with weeds (to encourage rake usage).
         "weeds_destroy_crop_sticks": false,
         // Set to false if you wish to disable drops from raking weeds.
-        "raking_drops_items": true,
+        "raking_drops_items": false,
         /*
          * Defines the seed compost value, if set to zero, seeds will not be compostable
          * Range: 0.0 - 1.0
@@ -90,14 +90,14 @@
          * Minimum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
          * Range: 1 - 10
          */
-        "resistance_min": 1,
+        "resistance_min": 10,
         /*
          * Maximum allowed value of the Resistance stat (setting min and max equal will freeze the stat to that value in crop breeding)
          * Range: 1 - 10
          */
         "resistance_max": 10,
         // Set to true to hide the Resistance stat (hidden stats will not show up in tooltips or seed analysis). Setting min and max equal and hiding a stat effectively disables it, with its behaviour at the defined value for min and max.
-        "resistance_hidden": false,
+        "resistance_hidden": true,
         /*
          * Minimum allowed value of the Fertility stat (setting min and max equal will freeze the stat to that value in crop breeding)
          * Range: 1 - 10
@@ -127,6 +127,6 @@
         // Set to false to disable compatibility with Botania (in case things break)
         "botania": true,
         // Set to false to disable compatibility with Mystical Agriculture (in case things break)
-        "mysticalagriculture": true
+        "mysticalagriculture": false
     }
 }

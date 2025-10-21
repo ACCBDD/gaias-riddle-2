@@ -151,7 +151,10 @@
 				{
 					count: 8L
 					id: "56C741E6855EBB85"
-					item: { Count: 8, id: "bloodmagic:blankrune" }
+					item: {
+						Count: 8
+						id: "bloodmagic:blankrune"
+					}
 					optional_task: true
 					type: "item"
 				}

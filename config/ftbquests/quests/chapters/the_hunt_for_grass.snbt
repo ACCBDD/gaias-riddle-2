@@ -291,6 +291,7 @@
 					type: "item"
 				}
 				{
+					icon: "minecraft:oak_sapling"
 					id: "5A0C6FCFF4C6174E"
 					item: {
 						Count: 1
@@ -797,29 +798,6 @@
 			title: "Rich Farmland"
 			x: -3.5d
 			y: 1.0d
-		}
-		{
-			dependencies: ["389C82D9424B4099"]
-			description: ["Now that you have access to iron, you can make a &6watering can.&r Higher-tier versions exist and are much better, but the basic version can still speed up the growth of crops."]
-			id: "20CBC9AFA7C23F45"
-			rewards: [{
-				id: "1B75C4C21D227AC3"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "52A0EA2EAB67CF45"
-				item: {
-					Count: 1
-					id: "mysticalagriculture:watering_can"
-					tag: {
-						Water: 0b
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.5d
 		}
 		{
 			dependencies: ["4075C13786AF4C49"]

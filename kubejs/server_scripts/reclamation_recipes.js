@@ -81,4 +81,17 @@ ServerEvents.recipes(event => {
         A: 'minecraft:copper_ingot',
         D: 'minecraft:clay_ball'
     })
+
+    event.shapeless('1x kubejs:scrap_wood', [
+        '2x minecraft:stick'
+    ])
+
+    event.shaped('minecraft:oak_fence', [
+        'STS',
+        'STS',
+        '   '
+    ], {
+        S: 'kubejs:flimsy_planks',
+        T: 'minecraft:stick'
+    })
 })

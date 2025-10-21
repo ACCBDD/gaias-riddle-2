@@ -1097,7 +1097,10 @@
 				{
 					count: 3L
 					id: "1D96D434EB8B1E10"
-					item: { Count: 3, id: "embers:alchemy_pedestal" }
+					item: {
+						Count: 3
+						id: "embers:alchemy_pedestal"
+					}
 					type: "item"
 				}
 			]
