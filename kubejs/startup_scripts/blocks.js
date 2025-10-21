@@ -32,3 +32,11 @@ StartupEvents.registry('block', event => {
     .tagBoth('minecraft:planks')
     .tagBlock('minecraft:mineable/axe')
 })
+
+StartupEvents.registry('fluid', event => {
+  event.create('hemoglobic_fluid')
+    .thickTexture(0xFF0000)
+    .bucketColor(0xFF0000)
+    .displayName('Hemoglobic Fluid')
+    .noBlock()
+})
