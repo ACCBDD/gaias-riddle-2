@@ -48,7 +48,7 @@ BlockEvents.placed(event => {
 })
 
 ServerEvents.tick(event => {
-    if (event.server.tickCount % 40 != 0) return;
+    if (event.server.tickCount % 400 != 0) return;
 
     const level = event.server.getOverworld();
     const range = 3;

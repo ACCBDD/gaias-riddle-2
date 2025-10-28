@@ -2689,7 +2689,7 @@
 				item: "botania:horn_grass"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: -1.0d
 		}
 		{
@@ -2718,36 +2718,8 @@
 				item: "botania:drum_wild"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["226F9F21A941389C"]
-			description: [
-				"The &6Harvester&r is a little harder to make than the other automated harvesters, but it makes up for it in ease of use."
-				""
-				"Place it on the same level as crops and it will harvest them - a 3x3 area by default, but this can be upgraded with machine upgrades."
-			]
-			id: "12E97DCBD82FBF36"
-			rewards: [
-				{
-					id: "410B45E029B23B60"
-					item: "mysticalagriculture:inferium_upgrade"
-					type: "item"
-				}
-				{
-					id: "2CBEDBAC3C3194B3"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "4CAF0B59B1DA3FDC"
-				item: "mysticalagriculture:harvester"
-				type: "item"
-			}]
-			x: -12.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -2775,7 +2747,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: -1.0d
 		}
 		{

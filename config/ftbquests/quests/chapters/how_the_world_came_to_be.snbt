@@ -283,11 +283,15 @@
 				{
 					id: "784A3AAA14565F31"
 					item: "theurgy:pyromantic_brazier"
+					match_nbt: false
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1BDA15C3663694B9"
 					item: "theurgy:distiller"
+					match_nbt: false
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -328,16 +332,19 @@
 				{
 					id: "53EB0C300D28F531"
 					item: "theurgy:pyromantic_brazier"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "248723DDF99B8CC1"
 					item: "theurgy:calcination_oven"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6AE5239CA0507C48"
 					item: "theurgy:alchemical_salt_strata"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -379,16 +386,21 @@
 				{
 					id: "38FD38D7D8B5BFFB"
 					item: "theurgy:pyromantic_brazier"
+					match_nbt: false
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5A17E6E29CC2C53F"
 					item: "theurgy:liquefaction_cauldron"
+					match_nbt: false
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "00B64A23A6E7BF57"
 					item: "kubejs:sulfur_dirt"
+					match_nbt: false
 					type: "item"
 				}
 			]
@@ -744,6 +756,18 @@
 			title: "Renewable Wood?"
 			x: 1.5d
 			y: -12.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: ["You can make &6doors&r out of &6copper&r. Keep those beasties out!"]
+			id: "1495145A6385882A"
+			tasks: [{
+				id: "5D129EA7C2AA9A47"
+				item: "createdeco:copper_door"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
 		}
 	]
 	subtitle: ["A vast wasteland"]

@@ -1,10 +1,9 @@
-# Gaia's Riddle 2: The Forest Keepers 0.1.1
+# Gaia's Riddle 2: The Forest Keepers 0.2.0
 
 
 ## Added
-* Assets for agricraft from reclamation
-* Hemoglobic fluid
+* Basically all of chapter 3
 
 
 ## Changed
-* embers tank -> another accumulator
+* Conversion chicken works 10x slower - one conversion every 20 seconds

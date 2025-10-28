@@ -1,0 +1,30 @@
+{
+  "addenda": [],
+  "discipline": "MANAWEAVING",
+  "icon": {
+    "isItem": true,
+    "location": "primalmagick:apprentice_wand_gem_item"
+  },
+  "key": "WAND_GEM_APPRENTICE",
+  "name": "research.primalmagick.wand_gem_apprentice.title",
+  "parents": [
+    "ADVANCED_WANDMAKING"
+  ],
+  "stages": [
+    {
+      "required_item": [
+        "tag:forge:gems/amethyst"
+      ],
+      "required_knowledge": [
+        "OBSERVATION;1"
+      ],
+      "text": "research.primalmagick.wand_gem_apprentice.text.stage.1"
+    },
+    {
+      "recipes": [
+        "primalmagick:apprentice_wand_gem_item"
+      ],
+      "text": "research.primalmagick.wand_gem_apprentice.text.stage.2"
+    }
+  ]
+}

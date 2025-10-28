@@ -361,4 +361,26 @@ ServerEvents.recipes(event => {
             }
         ]
     })
+
+    //salt
+    event.custom({
+        "type": "enchanted:distilling",
+        "cookTime": 100,
+        "ingredients": [
+            {
+                "item": "minecraft:potion",
+                "nbt": "{Potion:\"minecraft:water\"}"
+            }
+        ],
+        "power": 100,
+        "results": [
+            {
+                "count": 2,
+                "item": "primalmagick:rock_salt"
+            },
+            {
+                "item": "minecraft:glass_bottle"
+            }
+        ]
+    })
 })

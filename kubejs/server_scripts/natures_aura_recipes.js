@@ -269,39 +269,56 @@ ServerEvents.recipes(event => {
         "time": 200
     }).id("reclamation:naturesaura/altar")
 
-    //offering table
-    // event.remove({id: "naturesaura:offering_table"})
-    // event.custom({
-    //     "type": "embers:alchemy",
-    //     "aspects": [
-    //         {
-    //             "tag": "embers:aspectus/dawnstone"
-    //         },
-    //         {
-    //             "tag": "embers:aspectus/lead"
-    //         },
-    //         {
-    //             "tag": "embers:aspectus/iron"
-    //         }
-    //     ],
-    //     "inputs": [
-    //         {
-    //             "item": "naturesaura:token_fear"
-    //         },
-    //         {
-    //             "item": "naturesaura:token_joy"
-    //         },
-    //         {
-    //             "item": "botania:runic_altar"
-    //         }
-    //     ],
-    //     "output": {
-    //         "item": "naturesaura:offering_table"
-    //     },
-    //     "tablet": {
-    //         "item": "naturesaura:infused_iron"
-    //     }
-    // }).id("reclamation:naturesaura/offering_table")
+    event.remove({id: "naturesaura:offering_table"})
+    event.custom({
+        "type": "primalmagick:ritual",
+        "ingredients": [
+            {
+                "item": "naturesaura:token_fear"
+            },
+            {
+                "item": "naturesaura:token_joy"
+            },
+            {
+                "item": "naturesaura:token_sorrow"
+            },
+            {
+                "item": "naturesaura:token_anger"
+            },
+            {
+                "item": "botania:runic_altar"
+            }
+        ],
+        "instability": 2,
+        "mana": {
+            "earth": 75,
+            "moon": 75,
+            "sea": 75,
+            "sky": 75,
+            "sun": 75
+        },
+        "props": [
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "tag": "primalmagick:ritual_lectern"
+            },
+            {
+                "tag": "primalmagick:ritual_bell"
+            }
+        ],
+        "research": "MANAFRUIT",
+        "result": {
+            "item": "naturesaura:offering_table"
+        }
+    })
 
     //calling spirit
     event.remove({id: "naturesaura:calling_spirit"})

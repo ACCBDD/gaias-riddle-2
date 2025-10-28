@@ -1,0 +1,8 @@
+{
+  "type": "item",
+  "set": {
+    "earth": 7,
+    "sun": 7
+  },
+  "target": "kubejs:dead_log"
+}

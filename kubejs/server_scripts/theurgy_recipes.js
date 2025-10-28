@@ -222,7 +222,7 @@ ServerEvents.recipes(event => {
     ], {
         A: 'create:andesite_alloy',
         M: '#theurgy:alchemical_mercuries',
-        D: 'minecraft:gold_ingot',
+        D: 'primalmagick:primalite_ingot',
         G: 'create:fluid_tank'
     })
 

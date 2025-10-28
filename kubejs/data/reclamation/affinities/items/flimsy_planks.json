@@ -1,0 +1,8 @@
+{
+  "type": "item",
+  "set": {
+    "earth": 1,
+    "sun": 1
+  },
+  "target": "kubejs:flimsy_planks"
+}

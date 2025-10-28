@@ -94,4 +94,30 @@ ServerEvents.recipes(event => {
         S: 'kubejs:flimsy_planks',
         T: 'minecraft:stick'
     })
+
+    //pasture seeds through ritual
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "minecraft:hay_block"
+            },
+            {
+                "tag": "forge:seeds"
+            },
+            {
+                "item": "enchanted:hint_of_rebirth"
+            },
+            {
+                "item": "enchanted:breath_of_the_goddess"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:birch_sapling"
+        },
+        "output": {
+            "item": "botania:grass_seeds"
+        },
+        "time": 250
+    })
 })

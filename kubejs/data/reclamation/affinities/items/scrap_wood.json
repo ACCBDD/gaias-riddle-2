@@ -1,0 +1,7 @@
+{
+  "type": "item",
+  "set": {
+    "earth": 2
+  },
+  "target": "kubejs:scrap_wood"
+}

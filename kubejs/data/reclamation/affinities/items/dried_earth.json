@@ -1,0 +1,8 @@
+{
+  "type": "item",
+  "set": {
+    "earth": 3,
+    "sun": 2
+  },
+  "target": "kubejs:dried_earth"
+}

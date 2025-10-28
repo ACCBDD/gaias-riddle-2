@@ -14,8 +14,8 @@
 			image: "reclamation:textures/quests/theurgy_3.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 9.178571428571445d
-			y: -5.625d
+			x: 9.678571428571445d
+			y: -6.625d
 		}
 		{
 			dependency: "4DE7466CAC029EF6"
@@ -165,87 +165,6 @@
 			title: "Pure Daisy"
 			x: -1.0d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"27C68B6622F186D7"
-				"01C2598A1D9CF754"
-			]
-			description: [
-				"Combining the nature-infused iron and some metaphysical heat and structure (courtesy of &6nether bricks&r and a &6spruce sapling,&r respectively), you can rearrange the latent potential of the metal to turn it into lead!"
-				""
-				"Vastly useful in a variety of mechanical applications, lead is a great first step to leveraging either &6raw mechanical power&r or &6Ember&r in your pursuits."
-				""
-				"&7Tip: the ancient codex is a little confusing at first, but it will guide you through the Embers mod! Start at Natural Energy, right click entries to mark them as read, and make sure you &lREAD CAREFULLY!"
-				""
-				"&7Tip 2: you can use Theurgy to triple ingot output from raw ores!"
-			]
-			id: "61329AF67AD28062"
-			rewards: [
-				{
-					id: "5AB406393AECC75B"
-					item: "embers:ancient_codex"
-					type: "item"
-				}
-				{
-					id: "300859D34D3F6715"
-					item: "embers:tinker_hammer"
-					type: "item"
-				}
-				{
-					id: "40E922A50B43176F"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "509473B71F9A83D4"
-				item: "embers:raw_lead"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["61329AF67AD28062"]
-			description: [
-				"&6Ember&r is the lifeblood of the world. Despite whatever happened, there is still virtually infinite Ember available deep underground - you just need to make a machine that can mine it. "
-				""
-				"Enter the &6Ember Bore&r - place it on bedrock, add a &6Mechanical Core&r above it so you can pipe things in and out of it, and give it some fuel! It'll start digging up that sweet, sweet Ember."
-				""
-				"&7Tip: the Mechanical Core acts as an extension for most Embers multiblocks! You can transfer items, fluid, and ember in and out of the core as if it was a part of the block it is attached to."
-				""
-				"&7Tip 2: USE YOUR MECHANICAL LENS! It's EXTREMELY helpful for figuring out how Ember's machines work."
-			]
-			icon: "embers:ember_bore"
-			id: "6DC359D0F8736415"
-			rewards: [
-				{
-					id: "131DE50BA2E02262"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "2AF7BCC46CB892FD"
-					item: "embers:tinker_lens"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2BB9D62248783D75"
-					item: "embers:ember_bore"
-					type: "item"
-				}
-				{
-					id: "19157F0B4CA59D7A"
-					item: "embers:mechanical_core"
-					type: "item"
-				}
-			]
-			title: "Drilling for Ember"
-			x: 1.5d
-			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -439,12 +358,8 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["61329AF67AD28062"]
-			description: [
-				"Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."
-				""
-				"&7Tip: very small amounts of Create are needed to finish the pack, but you won't have to get too deep into it!"
-			]
+			dependencies: ["5C1E3750F91A38B2"]
+			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
 			id: "153CB8257AEDA4ED"
 			rewards: [{
 				id: "1FDC0C329743808A"
@@ -456,8 +371,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -735,95 +650,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6DC359D0F8736415"]
-			description: [
-				"Ember item and fluid pipes are relatively basic, but at this point in time they're fairly decent for small-scale operations. Pipes need extractors to pull items into them, and extractors need a redstone signal to be activated. There are a few other quirks to the system, all of which are explained in your &6Ancient Codex."
-				""
-				"&7Note - basically everything in Embers needs a redstone signal to activate, so get ready to place plenty of levers!"
-			]
-			icon: "embers:item_pipe"
-			id: "424D08C4CFE434EA"
-			rewards: [{
-				id: "095505E6346CD60C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "63D5F1F29D99DECE"
-					item: "embers:item_pipe"
-					type: "item"
-				}
-				{
-					id: "4FAE706B4A6EFA11"
-					item: "embers:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "6EB36AB2AB9554D2"
-					item: "embers:item_extractor"
-					type: "item"
-				}
-				{
-					id: "3B5648870CF70B44"
-					item: "embers:fluid_extractor"
-					type: "item"
-				}
-			]
-			title: "Dwarven Logistics"
-			x: 0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["6DC359D0F8736415"]
-			description: [
-				"Now that you have some Ember, you'll need to turn it into useable energy somehow."
-				""
-				"The&6 Ember Activator&r turns solid Ember into &6Activated Ember;&r pipe crystals and shards into the bottom, and attach an &6Ember Emitter to the top&r to output &6Activated Ember.&r "
-				""
-				"Use a Tinker's Hammer on the emitter to link it to a receptor, give it a redstone signal, and you're transmitting Activated Ember!"
-				""
-				"&7Note that Ember Grit doesn't normally produce Activated Ember; you'll have to add a &6Heat Exchanger&7 to an activator to get energy out of it (which multiplies all ember production by 0.9x, but adds a flat +300 to all items production!)"
-			]
-			icon: "embers:ember_activator"
-			id: "700009D450C569A2"
-			rewards: [{
-				id: "1831C47B7984655F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "63BACAF1D91DBD29"
-					item: "embers:ember_activator"
-					type: "item"
-				}
-				{
-					id: "2A53DC1865FD785A"
-					item: "embers:ember_emitter"
-					type: "item"
-				}
-				{
-					id: "446A39DD19D62C6E"
-					item: "embers:ember_receiver"
-					type: "item"
-				}
-				{
-					id: "60CF6AD07295DD51"
-					item: "embers:ember_relay"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Activating Ember"
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"54838757425A9BA7"
-				"221E431A74C6E8A5"
-			]
+			dependencies: ["54838757425A9BA7"]
 			description: [
 				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
 				""
@@ -919,132 +746,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["700009D450C569A2"]
-			description: [
-				"You'll want to make a &6Copper Cell&r to &6store your activated ember&r - it works as a kind of 'battery' for the mystical energy."
-				""
-				"To see how much ember is in the cell, place an &6Ember Dial&r on it."
-			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					Parent: {
-						"embers:ember": 0.0d
-						"embers:ember_capacity": 24000.0d
-					}
-				}
-				id: "embers:copper_cell"
-				tag: {
-					ForgeCaps: {
-						"embers:ember_capacity": 24000.0d
-					}
-				}
-			}
-			id: "2C46F425B5E0AAAA"
-			rewards: [{
-				id: "7BE3ACC86F62B56B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "0B01C83DE8DDDF86"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								"embers:ember": 0.0d
-								"embers:ember_capacity": 24000.0d
-							}
-						}
-						id: "embers:copper_cell"
-						tag: {
-							ForgeCaps: {
-								"embers:ember_capacity": 24000.0d
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "18B80228CE32311A"
-					item: "embers:ember_dial"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Storing Ember"
-			x: 2.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["700009D450C569A2"]
-			description: [
-				"Ember is capable of melting metals and other items in the creatively-named &6Melter&r - feed the bottom half ember, feed the top half items to melt, and you can extract molten metals from the top half."
-				""
-				"This molten metal can be formed into a variety of shapes in a &6Stamper;&r place the &6Stamp Base,&r then the &6Stamper above it with a one-block gap&r of air. Give the Stamper ember and a stamp, pipe molten metal into the base, and presto! Stamped and cooled metal products! "
-				""
-				"Notably, you can use this process to &6produce plates more efficiently.&r"
-			]
-			icon: "embers:melter"
-			id: "74FB5A117EF51949"
-			rewards: [{
-				id: "365D61F083C8E352"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "58B58AF055A23CDB"
-					item: "embers:melter"
-					type: "item"
-				}
-				{
-					id: "1699A456873EC1E0"
-					item: "embers:stamper"
-					type: "item"
-				}
-				{
-					id: "5BB0B499D0181BC1"
-					item: "embers:stamp_base"
-					type: "item"
-				}
-			]
-			title: "Melting and Stamping"
-			x: 1.5d
-			y: -7.5d
-		}
-		{
-			dependencies: ["74FB5A117EF51949"]
-			description: [
-				"By piping molten copper and gold into &odifferent sides&r of the bottom of a &6Mixer Centrifuge,&r (along with some ember) you can combine them into a strong, ember-aligned metal called &6Dawnstone.&r Pipe it out of the top and stamp it into ingots or plates!"
-				""
-				"&7Tip: use your Tinker's Lens to see what's going on in the mixer!"
-			]
-			icon: "embers:dawnstone_ingot"
-			id: "221E431A74C6E8A5"
-			rewards: [{
-				id: "43958F16B260D87C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "4AF6D6F0BB92C4C8"
-					item: "embers:mixer_centrifuge"
-					type: "item"
-				}
-				{
-					id: "5D234128365C1656"
-					item: "embers:dawnstone_ingot"
-					type: "item"
-				}
-			]
-			title: "Dawnstone"
-			x: 1.5d
-			y: -8.5d
-		}
-		{
 			dependencies: ["153CB8257AEDA4ED"]
 			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
 			id: "17089FF12C1591B8"
@@ -1066,47 +767,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["221E431A74C6E8A5"]
-			description: [
-				"For more advanced ember crafting, a special setup is required. An &6exchange tablet&r with some &6pedestals&r around it, when struck with a &6beam cannon pulse,&r will transmute the center item into a new result item."
-				""
-				"There is one complication, though. The pedestals need &6aspectii&r to be placed on them, and you aren't sure which aspectii go with which items! The only way to find out is through experiementation - if the transmutation fails, it will produce &balchemical waste.&r When held and right clicked, the waste will reveal a number of &6glowing spots,&r which tell you the number of &6aspectus/item combinations you got right.&r"
-			]
-			icon: "embers:alchemy_tablet"
-			id: "287C747ED1189725"
-			rewards: [{
-				id: "2BCDBFBEF2E63ADF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "2ED145BD6FE7C9F6"
-					item: "embers:alchemy_tablet"
-					type: "item"
-				}
-				{
-					id: "405AC57A26FC22AF"
-					item: "embers:beam_cannon"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "1D96D434EB8B1E10"
-					item: {
-						Count: 3
-						id: "embers:alchemy_pedestal"
-					}
-					type: "item"
-				}
-			]
-			title: "Energetic Alchemy"
-			x: 3.0d
-			y: -9.5d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1163,7 +825,7 @@
 				}
 			]
 			title: "Mechanical Crafting"
-			x: 5.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -1207,8 +869,8 @@
 		}
 		{
 			dependencies: [
-				"221E431A74C6E8A5"
 				"05820674B5CC639D"
+				"5A8DD5C84842AD14"
 			]
 			description: [
 				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
@@ -1260,8 +922,8 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 5.0d
-			y: -6.5d
+			x: 5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1278,8 +940,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1367,6 +1029,8 @@
 				"Getting &6redstone&r is similar, using cinder flour in place of gunpowder."
 				""
 				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
+				""
+				"&7Tip 2: the display for these recipes is a little messed up in EMI - you can place the ingredients in any input slot, not only the bottle slot."
 			]
 			id: "4DE7466CAC029EF6"
 			rewards: [{
@@ -1405,8 +1069,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.0d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["621BEE0A09882094"]
@@ -1469,65 +1133,11 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["54DFF798149BE746"]
-			description: ["The &6Codebreaking Slate&r is very handy - you can put multiple pieces of alchemical waste into it and it will show you how many aspectus/item combinations you got right! It will also show you how many correct aspectii you have placed with the wrong items."]
-			id: "3E51B48398D0E334"
-			rewards: [{
-				id: "6845416B1226351B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7B482471FD88BB17"
-				item: "embers:codebreaking_slate"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["287C747ED1189725"]
-			description: ["Your first &6archaic brick&r can be made by infusing a regular brick with tainted gold and infused iron. Once you have one, you can use it to make more by simply infusing it with &6more clay and soul sand.&r"]
-			id: "54DFF798149BE746"
-			rewards: [{
-				id: "76A7D17327EB14A2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6A988B078BB6F842"
-				item: "embers:archaic_brick"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["54DFF798149BE746"]
-			description: ["The &6Mnemonic Inscriber&r, when attached to an Exchange Tablet and given paper, will automatically write down the correct combination of aspectii for a given transmutation when you successfully complete one."]
-			id: "2C3ABE081A7E1086"
-			rewards: [{
-				id: "12D49A84526CFAC2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "339CBE9063E8306A"
-				item: "embers:mnemonic_inscriber"
-				type: "item"
-			}]
 			x: 4.5d
-			y: -8.0d
+			y: -3.0d
 		}
 		{
-			dependencies: [
-				"2F210E03731A0E21"
-				"54DFF798149BE746"
-			]
+			dependencies: ["2F210E03731A0E21"]
 			description: [
 				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
 				""
@@ -1548,8 +1158,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Conversion"
-			x: 6.0d
-			y: -7.5d
+			x: 6.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["50D60856E308EC6D"]
@@ -1582,13 +1192,13 @@
 				type: "item"
 			}]
 			title: "Alchemical Exaltation"
-			x: 7.0d
-			y: -8.5d
+			x: 7.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
 				"76795AD9B23ACFD7"
-				"287C747ED1189725"
+				"1A34EA158DB664B2"
 			]
 			description: [
 				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
@@ -1723,208 +1333,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["2F210E03731A0E21"]
-			description: [
-				"Now that you can turn sulfurs into other sulfurs, you can manually reconstitute &6silver sulfur&r and use the &6Reformation Array&r to turn gold sulfur into silver sulfur without having to re-make the sulfur over and over again!"
-				""
-				"&7Tip: sulfur sulfur sulfur sulfur&r"
-			]
-			icon: "embers:silver_ingot"
-			id: "462683FE563F6689"
-			rewards: [
-				{
-					count: 4
-					id: "7FBFE986AA75BE97"
-					item: "embers:silver_ingot"
-					type: "item"
-				}
-				{
-					id: "6B1AE3F375E0C111"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "2CC1C9C3C4AE5B0C"
-					item: {
-						Count: 1
-						id: "theurgy:alchemical_sulfur_silver"
-						tag: {
-							"theurgy:sulfur.source.id": "#forge:ingots/silver"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6E4A50C682ABED03"
-					item: "embers:silver_ingot"
-					type: "item"
-				}
-			]
-			title: "Moon Metal"
-			x: 6.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["287C747ED1189725"]
-			description: ["The &6Wildfire Core&r is a key piece of some advanced dwarven machinery."]
-			id: "4BF72A5E2897EBD4"
-			rewards: [{
-				id: "42A3BC187AAABFE3"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "01F5731866494B98"
-				item: "embers:wildfire_core"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["4BF72A5E2897EBD4"]
-			description: [
-				"The &6Wildfire Stirling,&r when attached to machines and supplied with steam, increases the efficiency of their ember usage."
-				""
-				"The first one cuts usage in half, the second one halves it again, and any more decrease the efficiency."
-			]
-			id: "7EF13F67C5B31A7E"
-			rewards: [{
-				id: "09ABACAD03F4082B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "44627103A3725806"
-				item: "embers:wildfire_stirling"
-				type: "item"
-			}]
-			x: 3.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["4BF72A5E2897EBD4"]
-			description: [
-				"The &6Ignem Reactor&r is the ultimate solution to high ember requirements - when placed between a &6Catalysis&r and &6Combustion Chamber,&r it refines ember at a MUCH higher rate than the Ember Activator; up to &69x more ember&r per crystal item."
-				""
-				"&7Tip: the Catalysis and Combustion Chambers need fuel to operate, check JEI for their fuels and multipliers."
-			]
-			icon: "embers:ignem_reactor"
-			id: "6A69962F4001509A"
-			rewards: [{
-				id: "70763DFF0C37A354"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "2189DC2F4FDEB322"
-					item: "embers:ignem_reactor"
-					type: "item"
-				}
-				{
-					id: "6778C5C0E060CEC1"
-					item: "embers:catalysis_chamber"
-					type: "item"
-				}
-				{
-					id: "1A82D8BF3566A52D"
-					item: "embers:combustion_chamber"
-					type: "item"
-				}
-			]
-			title: "Ignem Reactor"
-			x: 5.5d
-			y: -10.5d
-		}
-		{
-			dependencies: ["4BF72A5E2897EBD4"]
-			description: [
-				"With the power of alchemy, you can turn a charged attuned stone into a seed capable of turning ember into pure metal! These crystal seeds, when powered with an &6Ember Injector,&r will slowly grow and drop metal nuggets."
-				""
-				"Not every metal can be turned into these seeds, but you have figured out that you can actually &6obtain Zinc&r through this alchemical process!"
-				""
-				"&7Tip: crystals will slowly level up and drop more and more metal. Moving them resets their level, though!"
-			]
-			icon: "embers:zinc_crystal_seed"
-			id: "22735AE4F84EF82B"
-			rewards: [{
-				id: "132F34A7C50D0B5D"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.5d
-			subtitle: "Zinc! (and others)"
-			tasks: [
-				{
-					id: "05BF876AB4CF0EBA"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "embers:zinc_crystal_seed"
-								}
-								{
-									Count: 1b
-									id: "embers:lead_crystal_seed"
-								}
-								{
-									Count: 1b
-									id: "embers:iron_crystal_seed"
-								}
-								{
-									Count: 1b
-									id: "embers:copper_crystal_seed"
-								}
-							]
-						}
-					}
-					title: "Any Metal Crystal Seed"
-					type: "item"
-				}
-				{
-					id: "73FD48B472E606AB"
-					item: "embers:ember_injector"
-					type: "item"
-				}
-			]
-			title: "Metal Crystal Seeds"
-			x: 5.5d
-			y: -12.5d
-		}
-		{
-			dependencies: ["221E431A74C6E8A5"]
-			description: ["With Dawnstone, you can craft ember transferral devices that can handle much more throughput."]
-			icon: "embers:ember_ejector"
-			id: "3FD3CD01761AE92A"
-			rewards: [{
-				id: "744D1C19AD6A6A1F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "6440F561FFCF06D6"
-					item: "embers:ember_ejector"
-					type: "item"
-				}
-				{
-					id: "2A68CC3B8ABDF4CC"
-					item: "embers:ember_funnel"
-					type: "item"
-				}
-			]
-			title: "High Volume Ember Transfer"
-			x: 0.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["22735AE4F84EF82B"]
+			dependencies: ["17089FF12C1591B8"]
 			description: [
 				"Now that you have zinc, you can alloy it with copper to create brass! This is useful almost exclusively for &6mechanical contraptions.&r"
 				""
@@ -1953,8 +1362,8 @@
 				}
 			]
 			title: "Advanced Contraptions"
-			x: 7.5d
-			y: -12.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1989,8 +1398,8 @@
 				}
 			]
 			title: "Mechanical Logistics"
-			x: 4.0d
-			y: -2.0d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["20EF463DB77E09EE"]
@@ -2016,52 +1425,8 @@
 				}
 			]
 			title: "Autocrafting"
-			x: 9.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["01C2598A1D9CF754"]
-			description: [
-				"You can fortify infused iron with prosperity shards to create a basic &6prosperity ingot,&r ready to augment with agricultural essence."
-				""
-				"One of the best uses of this ingot is to make a better watering can."
-			]
-			icon: {
-				Count: 1
-				id: "mysticalagriculture:inferium_watering_can"
-				tag: {
-					Active: 0b
-					Water: 0b
-				}
-			}
-			id: "68051685A2136388"
-			rewards: [{
-				id: "4FEFBF01965A11D4"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "4676F5B4A0F27349"
-					item: "mysticalagriculture:prosperity_ingot"
-					type: "item"
-				}
-				{
-					id: "0926C1E94B1440F2"
-					item: {
-						Count: 1
-						id: "mysticalagriculture:inferium_watering_can"
-						tag: {
-							Active: 0b
-							Water: 0b
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Better Watering"
-			x: 1.0d
-			y: -2.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -2183,83 +1548,9 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["700009D450C569A2"]
+			dependencies: ["5A8DD5C84842AD14"]
 			description: [
-				"Now that you have&6 Ember&r, what can you do with it?"
-				""
-				"One useful item is the &6Hearth Coil&r - when provided with Ember, it can be used as a VERY fast furnace."
-			]
-			id: "350B8B018EB49351"
-			rewards: [{
-				id: "4CE1767EDEB8401B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "13B466D247607172"
-				item: "embers:hearth_coil"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["221E431A74C6E8A5"]
-			description: [
-				"With &6Dawnstone&r comes a better way of activating ember - the &6Pressure Refinery.&r"
-				""
-				"It &4requires water&r as well, but can boost your ember production up to &61.5x the value&r of a plain activator."
-				""
-				"Additionally, if placed atop a metal block surrounded by lava or fire it can double that, getting up to &63x the value&r of crystalline ember! "
-			]
-			id: "04B41651D48C62C1"
-			rewards: [{
-				id: "05D8D9346AFB4ECD"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3A98FECAF5FBC3EF"
-				item: "embers:pressure_refinery"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["3FD3CD01761AE92A"]
-			description: [
-				"The &6Beam Splitter&r allows you to, well, split beams. Ember sent into it will be divided into two bursts sent out from either end."
-				""
-				"The &6Crystal Cell&r is a much higher capacity way to store Ember - piping more crystalline ember into it will &6increase its storage limit.&r"
-			]
-			icon: "embers:beam_splitter"
-			id: "460C4A5F742B528C"
-			rewards: [{
-				id: "5144A431E0AD1D44"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "0741BD6655743409"
-					item: "embers:beam_splitter"
-					type: "item"
-				}
-				{
-					id: "6259235F93BF13C4"
-					item: "embers:crystal_cell"
-					type: "item"
-				}
-			]
-			title: "Advanced Ember Logistics"
-			x: -0.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["221E431A74C6E8A5"]
-			description: [
-				"With the acquisition of Dawnstone, you can make a special chamber to manipulate elemental mercury into a source of energy. "
+				"With the acquisition of Primalite, you can make a special chamber to manipulate elemental mercury into a source of energy. "
 				""
 				"The &6Mercury Catalyst&r can convert mercury into Mercury Flux (MF) which, in combination with a &6Caloric Flux Emitter&r, can be used to power alchemical devices that would normally need a pyromantic brazier underneath them!"
 				""
@@ -2285,8 +1576,8 @@
 				}
 			]
 			title: "Mercurial Power"
-			x: 0.5d
-			y: -7.5d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -2319,28 +1610,6 @@
 			title: "Regrowth?"
 			x: 4.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["74FB5A117EF51949"]
-			description: [
-				"The &6Bin&r is a fantastic block that automatically collects the outputs of various dwarven machinery."
-				""
-				"Simply attach it to the &6bottom&r of a machine (like, say, the stamper base) and it'll fill up with products."
-			]
-			id: "0F8BAA82A7B90C68"
-			optional: true
-			rewards: [{
-				id: "1E31C381F7CAD802"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "31BD133D7FFD36DC"
-				item: "embers:bin"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2376,6 +1645,346 @@
 			title: "Real Blazes"
 			x: -4.0d
 			y: -8.0d
+		}
+		{
+			dependencies: [
+				"01C2598A1D9CF754"
+				"27C68B6622F186D7"
+			]
+			description: [
+				"Using the power of nature-attuned iron, you've found that you're able to craft a &6mundane wand.&r"
+				""
+				"You think you can use this wand as a stepping stone to bring back the practice of &6Thaumaturgy&r - the art of producing magic in it's purest sense."
+			]
+			id: "3AF2AE2510484276"
+			rewards: [{
+				id: "42F157022C7318F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "what's a thaumcraft?"
+			tasks: [{
+				id: "29941A80B277677E"
+				item: "primalmagick:mundane_wand"
+				type: "item"
+			}]
+			title: "Primal Magick"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AF2AE2510484276"]
+			description: [
+				"By pointing your &6wand&r at a bookshelf and a crafting table, you can produce the &6Grimoire&r and &6Arcane Workbench,&r respectively."
+				""
+				"The &6Grimoire&r is fundamental to keeping track of your discoveries and pointing you in the directions of new ones, while the &6Workbench&r will let you channel aspected mana to transform items."
+				""
+				"&7Tip: seriously, read the Grimoire. It's important."
+			]
+			icon: "primalmagick:grimoire"
+			id: "058AC672AE190DB2"
+			rewards: [{
+				id: "682C0EA1ED31166C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7D45AA752BD8008D"
+					item: "primalmagick:grimoire"
+					type: "item"
+				}
+				{
+					id: "7E55B9ACC2C007FF"
+					item: "primalmagick:arcane_workbench"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AF2AE2510484276"]
+			description: [
+				"Scattered around the world are &6marble shrines&r curiously untouched by the &4apparent devastation.&r You suspect these might have survived due to their unique properties - each of these is a font of &6Ancient Mana,&r which you can &6siphon into your wand!&r"
+				""
+				"&7Tip: these shrines also have small amounts of infused stone underneath them!"
+			]
+			icon: "primalmagick:essence_dust_moon"
+			id: "27D0C8F2306C4133"
+			rewards: [{
+				id: "4831BB25C72888A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CCAD4016139C417"
+				title: "I understand!"
+				type: "checkmark"
+			}]
+			title: "Finding Mana"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["058AC672AE190DB2"]
+			description: [
+				"The &6analysis table&r allows you to destructively research an item's affinities, letting you glimpse insight into the primal magick that is innate to all things. "
+				""
+				"With enough study, you can generate &6observations,&r crucial to your studies in the &6Grimoire.&r"
+				""
+				"The &6research table&r lets you produce theories, also very important to your study of primal magick."
+			]
+			id: "123DCDE9B7BE279D"
+			rewards: [{
+				id: "07C7E01D49138BE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3B1B0DC73D249EA3"
+					item: "primalmagick:analysis_table"
+					type: "item"
+				}
+				{
+					id: "3CDAA622162ABA49"
+					item: "primalmagick:research_table"
+					type: "item"
+				}
+			]
+			title: "Primal Research"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27C68B6622F186D7"]
+			description: [
+				"In the Nether, you've found &6Ribbits!&r They say that they fled into the Nether after the unnamed catastrophe that decimated the Overworld; but the Nether isn't exactly a paradise either, so they're &6willing to trade&r for various bits and bobs."
+				""
+				"Most importantly, though, is that they're willing to trade you both &6amethyst&r and &6nether quartz&r - how exactly they acquire these gems, though, they're not saying."
+			]
+			id: "4A26B6BEB7981942"
+			rewards: [{
+				id: "19369CF1F633365E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "18691832D5B5DB5B"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "1840253729BD2808"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			title: "Hidden Gems"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["05820674B5CC639D"]
+			description: [
+				"Polishing up some &6stone&r by &6washing it with a fan&r will turn it into a nice smooth marble."
+				""
+				"This probably has plenty of uses in the art of &6primal magick.&r"
+			]
+			id: "1766A376B67F6940"
+			tasks: [{
+				id: "0115CF18C7FD37ED"
+				item: "primalmagick:marble_raw"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["123DCDE9B7BE279D"]
+			description: [
+				"&6Essence dust&r is fun and all, but how do you get more? You're pretty sure you can devise a device that can &6break down items&r into their affinities..."
+				""
+				"&7Tip: focus on doing the alchemy branch of research in your grimoire to get access to the calcinator!"
+			]
+			id: "4632D8B02AF53A58"
+			rewards: [{
+				id: "4B17926B5C60F2E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0E86F5FAF277DBF0"
+				item: "primalmagick:calcinator_basic"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4632D8B02AF53A58"]
+			description: ["The &6mana charger&r is a slow way to &6recharge your wands&r without having to go all the way back to a font - place some &6essence dust&r in it and watch it imbue your wand with mana!"]
+			id: "1BB5F4B57C2E73DB"
+			rewards: [{
+				id: "070F7002F039EDF2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60140B1773ADEF0B"
+				item: "primalmagick:wand_charger"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["123DCDE9B7BE279D"]
+			description: [
+				"&6Better wands&r are craftable, but you'll have to research them..."
+				""
+				"&7Tip: focus on the Sorcery research line to find out how!"
+			]
+			id: "55F66C3105D9CC5B"
+			rewards: [{
+				id: "1293A941E743DB53"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6426F8092D959694"
+				item: "primalmagick:wand_assembly_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4632D8B02AF53A58"
+				"27FCBC89FFB7BA5D"
+			]
+			description: [
+				"&6Rituals&r are a complex crafting process that take items, mana, and ritual props. At first, you'll only be able to make &6manafruit,&r but eventually you'll be &6producing wonders&r befitting your title as a Thaumaturge."
+				""
+				"&7Tip: read the Grimoire! Seriously! The Basic Ritual Magick entry will explain how to perform rituals."
+			]
+			icon: "primalmagick:ritual_altar"
+			id: "499BFD6DE9F18512"
+			rewards: [{
+				id: "733AF971A18E416A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "422851E3DAAE12F1"
+					item: "primalmagick:ritual_altar"
+					type: "item"
+				}
+				{
+					id: "49B07F76DDDE0F64"
+					item: "primalmagick:offering_pedestal"
+					type: "item"
+				}
+				{
+					id: "1E9B4DAA9001225B"
+					item: "primalmagick:refined_salt"
+					type: "item"
+				}
+			]
+			title: "Rituals"
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["499BFD6DE9F18512"]
+			description: ["Rituals can be &4unstable.&r The &6dowsing rod&r lets you examine a ritual before starting it, telling you whether or not your setup is &6symmetrical&r enough to reduce the ill effects of instability."]
+			id: "68D6856DA1E03491"
+			rewards: [{
+				id: "6054E9A7261F5C66"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FA6DD6A920A7B27"
+				item: {
+					Count: 1
+					id: "primalmagick:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4632D8B02AF53A58"]
+			description: ["An expert alchemical item, &6Primalite&r can be used to make a variety of equipment that tends to be very good."]
+			id: "5A8DD5C84842AD14"
+			rewards: [{
+				id: "0EC06698F506A13D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6202597078FBEEC5"
+				item: "primalmagick:primalite_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["499BFD6DE9F18512"]
+			description: ["With a little more research into &6ritual magick,&r you can start to craft more complex props for rituals. These include the &6Ritual Lectern&r and &6Ritual Bell,&r allowing you to channel more powerful rituals, like the creation of the &6Offering Table.&r"]
+			icon: "primalmagick:ritual_bell"
+			id: "1A34EA158DB664B2"
+			rewards: [{
+				id: "1572A787A6C11C88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0780AD7D5A6EC9CC"
+					item: "primalmagick:ritual_lectern"
+					type: "item"
+				}
+				{
+					id: "0B4BD2E10ADBBEAF"
+					item: "primalmagick:ritual_bell"
+					type: "item"
+				}
+			]
+			title: "Advanced Ritual Props"
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["54838757425A9BA7"]
+			description: [
+				"Made by distilling water bottles, &6rock salt&r is a crucial part of &6rituals&r (as well as cooking!)"
+				""
+				"&7Tip: the display for these recipes is a little messed up in EMI - you can place the ingredients in any input slot, not only the bottle slot."
+			]
+			id: "27FCBC89FFB7BA5D"
+			rewards: [{
+				id: "4CFE2B1A717E65CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A607865433D9669"
+				item: "primalmagick:rock_salt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
 		}
 	]
 	title: "Touching Grass"
