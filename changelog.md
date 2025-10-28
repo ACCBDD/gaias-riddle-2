@@ -7,3 +7,4 @@
 
 ## Changed
 * Conversion chicken works 10x slower - one conversion every 20 seconds
+* Dried earth texture
