@@ -1,6 +1,0 @@
-{
-  "parent": "agricraft:crop/crop_hash",
-  "textures": {
-    "crop": "croptopia:block/bellpepper_crop_stage3"
-  }
-}

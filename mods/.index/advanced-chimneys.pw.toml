@@ -1,4 +1,4 @@
-filename = 'AdChimneys-1.20.1-10.1.24.0-build.1704.jar'
+filename = 'AdChimneys-1.20.1-10.1.26.0-build.1752.jar'
 name = 'Advanced Chimneys'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '0443f881bdabf80ce0be77ae3b16e86e81f3dd28'
+hash = 'f293845c8ea22e0d9eb1514bedc5bb45c4a966a2'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7066748
+file-id = 7174585
 project-id = 244830

@@ -1,4 +1,4 @@
-filename = 'tectonic-3.0.13-forge-1.20.1.jar'
+filename = 'tectonic-3.0.17-forge-1.20.1.jar'
 name = 'Tectonic'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '9b7ec8a42deda524397c39d2702c0a6dd9c837c3'
+hash = '07bfe13bc1bd75a6277f3d62bf92a549b33067a9'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7027482
+file-id = 7197834
 project-id = 686836

@@ -1,0 +1,16 @@
+filename = 'createornithopterglider-1.0.2-1.20.1.jar'
+name = 'Create: Ornithopter Glider'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '075d7c66a69d12fbc546e6881e44be581d2e0ee3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6865089
+project-id = 1312780

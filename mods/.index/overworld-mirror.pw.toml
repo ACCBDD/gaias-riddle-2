@@ -1,0 +1,16 @@
+filename = 'overworld_mirror-forge-1.20.1-1.7.0.23.jar'
+name = 'Overworld Mirror'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3e8d58f8db6798ec36a4c9de67dfbdd801919ba0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4620023
+project-id = 303780

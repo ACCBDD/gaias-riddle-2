@@ -1,0 +1,16 @@
+filename = 'entityculling-forge-1.9.0-mc1.20.1.jar'
+name = 'Entity Culling Fabric/Forge'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ef268ca6183561fefb76db04be5d2ab9dc1a12d0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7078979
+project-id = 448233

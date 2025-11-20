@@ -1,6 +1,0 @@
-{
-  "parent": "agricraft:crop/crop_cross",
-  "textures": {
-    "crop": "croptopia:block/celery_crop_stage0"
-  }
-}

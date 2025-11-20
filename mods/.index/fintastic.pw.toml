@@ -1,4 +1,4 @@
-filename = 'fintastic-2.1.jar'
+filename = 'fintastic-2.2.jar'
 name = 'Fintastic'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
@@ -6,11 +6,11 @@ x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '8328219b8e8fcc4b8ac0e6d0f9329d648476eb63'
+hash = '1d1db01cba98d7109efe8f6d89e62cbf853db00d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6882746
+file-id = 7133896
 project-id = 1126465
