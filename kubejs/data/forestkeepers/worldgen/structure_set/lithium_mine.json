@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:lithium_mine",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 12456535,
+    "spacing": 100,
+    "separation": 50,
+    "type": "minecraft:random_spread"
+  }
+}

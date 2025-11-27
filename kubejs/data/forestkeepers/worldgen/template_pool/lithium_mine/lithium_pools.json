@@ -1,0 +1,48 @@
+{
+  "name": "forestkeepers:lithium_mine/mine_roads",
+  "fallback": "minecraft:empty",
+  "elements": [
+        {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:lithium_mine/lithium_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:lithium_mine/lithium_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:lithium_mine/lithium_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:lithium_mine/lithium_4",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

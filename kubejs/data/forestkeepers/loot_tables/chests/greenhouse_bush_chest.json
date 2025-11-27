@@ -1,0 +1,318 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+                    "type": "item",
+                    "name": "naturaldecormod:tropical_bush",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:little_tropical_bush",
+                    "weight": 1,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:bush",
+                    "weight": 2,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:little_bush",
+                    "weight": 5,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                }
+      ]
+    },
+        {
+      "rolls": 2,
+      "entries": [
+                    {
+                    "type": "item",
+                    "name": "naturaldecormod:creosote_bush",
+                    "weight": 5,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:little_creosote_bush",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:large_shrub",
+                    "weight": 1  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:shrub",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:irish_moss_large",
+                    "weight": 5  
+                }
+      ]
+    },
+            {
+      "rolls": 2,
+      "entries": [
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:tall_dead_bush",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:java_fern",
+                    "weight": 1,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:wetland_tall_grass",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:acacia_bonzai",
+                    "weight": 3,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:birch_bonsai",
+                    "weight": 1,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:dark_oak_bonsai",
+                    "weight": 2,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:jungle_bonsai",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:oak_bonsai",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:spruce_bonsai",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:mangrove_bonsai",
+                    "weight": 5  
+                },
+                                {
+                    "type": "item",
+                    "name": "naturaldecormod:cherry_bonsai_ndm",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:fungus_bundle",
+                    "weight": 3
+                }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "quality": 0,
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.8
+              }
+            }
+          ]
+        },
+                {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "quality": 0,
+          "weight": 2,
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.6
+              }
+            }
+          ]
+        },
+                {
+          "type": "minecraft:empty",
+          "weight": 6
+        }
+      ]
+    }
+  ],
+  "functions": []
+}

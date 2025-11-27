@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:firewatch",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 22456535,
+    "spacing": 24,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

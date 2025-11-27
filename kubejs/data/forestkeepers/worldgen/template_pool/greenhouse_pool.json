@@ -1,0 +1,23 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:greenhouse_intact_1",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:greenhouse_busted_1",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

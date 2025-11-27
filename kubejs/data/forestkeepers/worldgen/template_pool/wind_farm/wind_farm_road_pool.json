@@ -1,0 +1,21 @@
+{
+  "name": "forestkeepers:wind_farm/wind_farm_road_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "location": "forestkeepers:wind_farm/wind_farm_road",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
