@@ -14,8 +14,8 @@
 			image: "reclamation:textures/quests/theurgy_1.png"
 			rotation: 0.0d
 			width: 4.0d
-			x: 3.0d
-			y: -5.5d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependency: "01AB2D65C171F1F9"
@@ -23,8 +23,120 @@
 			image: "reclamation:textures/quests/theurgy_2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -3.0d
-			y: -9.5d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			height: 25.0d
+			image: "illustrations:textures/quests/testone.png"
+			rotation: 0.0d
+			width: 120.0d
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "illustrations:textures/quests/description_a6a62bb2-8e6b-4fc0-bf17-18916f8cff7c.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			height: 4.0d
+			image: "illustrations:textures/quests/reclamation_banner-png.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 22.0d
+			y: 10.5d
 		}
 	]
 	order_index: 0
@@ -32,11 +144,13 @@
 	quests: [
 		{
 			description: [
-				"You wake up in a vast, dead and dried out wasteland. You don't remember how you got here, but you do remember what the world &oshould&r look like - and this isn't it."
+				"The world looks different; wrong, somehow."
 				""
+				"There is earth beneath your feet, but it's dry and it smells weird..."
 				""
-				"Welcome to &6Reclamation!&r This is a slower-paced pack focused around bringing life and nature back to a dead world. Press &6F3+H&r to disable advanced tooltips, if they're on!"
+				"Looking at your surroundings, you may realize what feels off about this world you have landed in: you are the only living, crafting thing in sight."
 			]
+			icon: "minecraft:dead_bush"
 			id: "73F3DDAFC46A9CD5"
 			rewards: [{
 				count: 4
@@ -44,17 +158,22 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
+			size: 3.0d
 			tasks: [{
 				id: "5837682A2F4F2D20"
 				title: "What happened here?"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3BF5FDE3C81BEF26"]
-			description: ["Wood is plentiful, if not exactly the quality you remember."]
+			description: [
+				"You feel the fatigue of the land as you use up dead log after dead log... you miss trees."
+				""
+				"At least there are still uses for these flimsy planks..."
+			]
 			id: "655DCA5A5B6632E1"
 			rewards: [
 				{
@@ -76,25 +195,27 @@
 					type: "item"
 				}
 				{
-					id: "5B5631EC22B4DDC4"
+					id: "46F1B8DF7AABB168"
 					item: "kubejs:flimsy_planks"
 					type: "item"
 				}
 			]
 			title: "Dead Trees"
-			x: -1.0d
-			y: -3.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3BF5FDE3C81BEF26"]
 			description: [
-				"There are ruins around with &6small bits of copper,&r completely oxidized from whatever happened. "
+				"You may have noticed ruins around with copper in them, you wonder what kind of explanation there could be for its placement-- mystical? Alchemecal?"
 				""
-				"You might be able to craft something to help you out with that copper, but first you'll have to &6get it into a useable state...&r"
+				"you might be able to use it for something... maybe if you found a way to turn it into ingots you could figure it out."
 				""
-				"&7Tip: if you can't find any ruins at all, you can pan gravel for copper by right clicking it with a bowl!"
+				"(Hint: try using your axe)"
 			]
 			id: "353FED2BF4FBD8EC"
+			ignore_reward_blocking: true
+			progression_mode: "linear"
 			rewards: [
 				{
 					count: 2
@@ -109,20 +230,20 @@
 				}
 			]
 			tasks: [{
-				id: "6870844EA8AA42B5"
+				id: "2BCF8D9AD5B525E7"
 				item: "minecraft:oxidized_cut_copper"
-				title: "Oxidized Copper"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			title: "Ruins - Oxidized Copper"
+			x: 11.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"Many many recipes have been changed in this pack. Make sure you check your recipe browser for crafting recipes! By default, the keybinds when hovering over an item are &6R to look up recipes&r for the item, and &6U to look up uses&r for the item."
+				"To make things in the desolate environment you are now in, you're going to need to use some different materials from the ones you're used to, which means recipes that you think are tried and true are no longer dependable."
 				""
-				"These binds can be changed by clicking the EMI button in the bottom left of your inventory screen."
+				"Luckily, your recipe browser has your back. Hovering over an item and press R to look up a recipe, or press U to view the uses for a specific item you're researching."
 			]
 			icon: "minecraft:crafting_table"
 			id: "7051A7B9EF38B5D8"
@@ -136,13 +257,23 @@
 				title: "What's changed?"
 				type: "checkmark"
 			}]
-			title: "How do I craft things?"
-			x: -1.0d
-			y: 2.5d
+			title: "Making stuff from scratch!"
+			x: 7.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["&l&o&cNO ORE GENERATES IN THE WORLD. RECIPES HAVE CHANGED.&r Those who came before you have completely mined out the entire planet - after centuries of strip mining, quarrying, and general exploitation, there is not so much as a measly scrap of coal in the world, so there's no point trying to find any type of ore by mining."]
+			dependencies: [
+				"412275C7F800C343"
+				"7051A7B9EF38B5D8"
+				"524541472CB8168A"
+				"40200E30710D409D"
+				"52B10FEB2951E939"
+			]
+			description: [
+				"Those who came before you have depleted the land of its minerals and natural resources. Perhaps it's for the best, living in abundance didn't seem to do much for civilizations long-past."
+				""
+				"You have no choice but to turn your attention elsewhere. You don't have coal or iron, but what DO you have?"
+			]
 			icon: "minecraft:iron_ore"
 			id: "3BF5FDE3C81BEF26"
 			rewards: [{
@@ -151,13 +282,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "0A321F50741A2841"
+				id: "0DA9D6F66F88A7D3"
 				title: "Deprived..."
 				type: "checkmark"
 			}]
-			title: "Where's the ore!?"
-			x: 0.0d
-			y: -1.5d
+			title: "What About Mining?"
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -166,11 +297,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"After you &6scrape off the rust with an axe,&r you think you can use a &6cutting board&r to get useable copper out of the oxidized copper you find in ruins."
+				"After you've scraped the rust off of your oxidized copper, you think if you can find something to chop it up with you can get it into a craftable form..."
 				""
-				"This useable copper will be crucial for &6Spagyrics&r, the process of decomposing and recombining matter - which should let you &6rejuvenate the Dried Earth&r into &6Dirt.&r"
+				"(Hint: every kitchen needs a cutting board)"
 				""
-				"&7Tip: you can also use the cutting board to get more charcoal and scrap wood out of dead logs!"
+				"Once you get ingots you can also use them for Spagyrics, the process of decomposing and recombining materials. You think it might serve as a good way of fertalizing the dried earth into slightly more rich dirt."
 			]
 			hide_details_until_startable: true
 			icon: "minecraft:copper_ingot"
@@ -193,30 +324,21 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "53D2A5C292D19EA6"
-					item: "farmersdelight:cutting_board"
-					type: "item"
-				}
-				{
-					id: "45703BBEF74B7454"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "45703BBEF74B7454"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			title: "Useable Copper"
-			x: 0.0d
-			y: -4.5d
+			x: 13.5d
+			y: 11.0d
 		}
 		{
-			dependencies: ["6B5B443D2F7DD3D4"]
+			dependencies: ["26C8365A4497F614"]
 			description: [
-				"In the contaminated water you have found trace amounts of &6Sal Ammoniac,&r a crucial ingredient in the practice of &6Theurgy.&r By setting up a simple accumulator and tank, you think you'll be able to distill it. "
+				"In the murky water you can extract traces of Sal Ammoniac, a key ingredient in the practice of Theurgy. There are ways to distill it to make it useable..."
 				""
-				"Place the accumulator on top of the tank, fill it with water, and it will slowly produce &6Sal Ammoniac&r for you."
-				""
-				"&7Tip: you can make buckets out of copper and clay!&r"
+				"By setting up a Sal Ammoniac Accumulator on top of a Sal Ammoniac Tank, you can produce a distilled, liquid form of Sal Ammoniac."
 			]
 			icon: "theurgy:sal_ammoniac_accumulator"
 			id: "01AB2D65C171F1F9"
@@ -235,34 +357,32 @@
 			]
 			tasks: [
 				{
-					id: "010F0A2184BB7F36"
-					item: "theurgy:sal_ammoniac_tank"
-					type: "item"
-				}
-				{
-					id: "341512DBA66D139B"
-					item: "theurgy:sal_ammoniac_accumulator"
-					type: "item"
-				}
-				{
 					id: "5F9746FE040527EB"
 					item: "minecraft:bucket"
 					type: "item"
 				}
+				{
+					id: "63A93972FA13E868"
+					item: "theurgy:sal_ammoniac_tank"
+					type: "item"
+				}
+				{
+					id: "5307F768FBCF1481"
+					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
 			]
-			x: 0.0d
-			y: -6.0d
+			x: 14.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"&6Alchemical Mercury&r is one of the three building blocks of alchemy - it provides the Energy of an item, and is largely interchangeable between things."
+				"This is the third building block of Alchemy - and it binds strongly to soil components, particularly organic matter."
 				""
-				"To distill it, you'll have to make a &6Mercury Distiller&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to distill into the Distiller, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Mercury.&r"
+				"You will need to distill it using a Mercury Distiller placed on top of a Pyromantic Brazier. Place your materials into the distiller and give the brazier some fuel. And voila! Alchemical Mercury."
 				""
-				"Rarer materials give more mercury, but to start you'll probably want to distill &6cobblestone, dried earth, or cooked fish.&r "
-				""
-				"&7Tip: slicing fish makes it a more efficient way of getting mercury!"
+				"Pro Tip: Rare materials may give more mercury, but a good starting place is dried earth, cobblestone, or sliced cooked fish."
 			]
 			icon: "theurgy:distiller"
 			id: "238F26409930D47F"
@@ -281,37 +401,33 @@
 			]
 			tasks: [
 				{
-					id: "784A3AAA14565F31"
+					id: "3F37833425219A93"
 					item: "theurgy:pyromantic_brazier"
-					match_nbt: false
-					optional_task: true
 					type: "item"
 				}
 				{
-					id: "1BDA15C3663694B9"
+					id: "3142E75F2D235113"
 					item: "theurgy:distiller"
-					match_nbt: false
-					optional_task: true
 					type: "item"
 				}
 				{
-					id: "3F1DB1131AF26253"
+					id: "49137D677C0FA8D5"
 					item: "theurgy:mercury_shard"
 					type: "item"
 				}
 			]
 			title: "Alchemical Mercury"
-			x: 1.5d
-			y: -7.5d
+			x: 16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
 			description: [
-				"&6Alchemical Salt&r is one of the three building blocks of alchemy - it provides the Body of an item, and represents the 'type' of an item."
+				"Another one of the three building blocks of alchemy - providing minerals and helping to structure the dirt beneath your feet."
 				""
-				"To obtain it, you'll have to make a &6Calcination Oven&r and place it on top of a &6Pyromantic Brazier.&r Place the items you want to extract into the Oven, give the Brazier some fuel, and it'll slowly convert materials into &6Alchemical Salt.&r"
+				"To get it, make a Calcination Oven, and place it on top of a Pyromantic Brazier. Just like with the Liquefecation Cauldron, place your materials in the oven, and give the brazier some fuel. this should slowly convert them into Alchemical Salt"
 				""
-				"There are many different kinds of salt, but to start, you should &6focus on getting Strata salt.&r"
+				"Hint: There are many different kinds of salt, but since you're starting with dirt, focus on getting Strata Salt."
 			]
 			icon: "theurgy:calcination_oven"
 			id: "21DA86D51EB7D88E"
@@ -332,34 +448,31 @@
 				{
 					id: "53EB0C300D28F531"
 					item: "theurgy:pyromantic_brazier"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "248723DDF99B8CC1"
 					item: "theurgy:calcination_oven"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6AE5239CA0507C48"
 					item: "theurgy:alchemical_salt_strata"
-					optional_task: true
 					type: "item"
 				}
 			]
 			title: "Alchemical Salt"
-			x: -1.5d
-			y: -7.5d
+			x: 14.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["01AB2D65C171F1F9"]
 			description: [
-				"&6Alchemical Sulfur&r is one of the three building blocks of alchemy - it provides the Soul of an item, and represents what specific item it is."
+				"Alchemical Sulfur is one of the three building blocks of alchemy - it provides nutrients to the soil, and is essential for keeping plants strong and healthy."
 				""
-				"To obtain it, you'll have to make a &6Liquefaction Cauldron&r and place it on top of a &6Pyromantic Brazier.&r Place the item you want to extract sulfur from into the Cauldron, fill it with &6Sal Ammoniac,&r give the Brazier some fuel, and it'll slowly convert materials into their respective &6Alchemical Sulfur.&r"
+				"To obtain it, you'll need to place a Liquefaction Cauldron on top of a Pyromantic Brazier. Place your materials in the cauldron and fill it with Sal Ammoniac, give the Brazier some fuel, and it will slowly convert into its respective form of Alchemical Sulfer. "
 				""
-				"The dried earth you find yourself surrounded by used to be dirt, and it remembers that - &6use the Cauldron to turn dried earth into dirt sulfur.&r"
+				"(For example, dried earth becomes specifically dirt sulfur.)"
 			]
 			icon: "theurgy:liquefaction_cauldron"
 			id: "3B57039627535552"
@@ -405,8 +518,8 @@
 				}
 			]
 			title: "Alchemical Sulfur"
-			x: 0.0d
-			y: -7.0d
+			x: 16.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -415,9 +528,9 @@
 				"21DA86D51EB7D88E"
 			]
 			description: [
-				"Now that you have all three alchemical components of an item - &6Mercury, Salt, and Sulfur&r - you can make an &6Incubator&r to combine them all back into an item; in this case, back into &6dirt.&r"
+				"Now that you have separated the Mercury, Salt, and Sulfur from the natural materials around you, you can use an Incubator to combine them all back together to make healthier dirt."
 				""
-				"Place the Incubator above a Brazier and attach all three vessels to the sides of it. Fill each vessel with the appropriate item, give the Brazier some fuel, and in a bit you'll have fresh dirt!"
+				"Place the Incubator above a Brazier and attach a salt vessel, a mercury vessel, and a sulfur vessel to the sides of it. Fill each vessel with the corresponding materials, give the brazier some fuel, and boom! You'll have a coarse, but more nutritionally balanced dirt!"
 			]
 			icon: "theurgy:incubator"
 			id: "1F466C810237B69A"
@@ -448,21 +561,21 @@
 					type: "item"
 				}
 				{
-					id: "5DF3B368E203FD44"
+					id: "17EA358E89C70766"
 					item: "theurgy:pyromantic_brazier"
 					type: "item"
 				}
 			]
 			title: "Incubator"
-			x: 0.0d
-			y: -8.5d
+			x: 17.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["144A644B058EA9F6"]
 			description: [
-				"Walk your &6Conversion Chicken&r around the coarse dirt you've made and watch as it magically converts the &6coarse dirt into regular dirt!&r"
+				"Watch as your trusty conversion chicken, your new found company in this waste, tills the dirt with its natural foraging skills. Sometimes, you aren't cut out for the job at hand, and you need to look to the natural world around you, dry and desolate as it may be."
 				""
-				"...now you just need something to grow on it."
+				"Eventually, as the chicken walks on the coarse dirt, it will convert into regular, functional and balanced dirt!"
 			]
 			id: "448ABF53EEACBFA7"
 			rewards: [{
@@ -471,19 +584,26 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Slightly browner"
 			tasks: [{
 				id: "1DB0C65400E5119F"
 				item: "minecraft:dirt"
 				type: "item"
 			}]
-			x: 7.105427357601002E-15d
-			y: -13.232142857142858d
+			title: "Finally! Dirt!"
+			x: 22.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
-			description: ["Despite the seeming apocalypse, there are still fish to find (and eat) for those with the skill and desire."]
+			dependencies: ["4582469C85E2315D"]
+			description: [
+				"Could it be? You thought you saw a glimmer of movement in the water!"
+				""
+				"Is it possible you aren't on your own in the old worn-out hills and valleys you walk through? Yes! Fish!"
+				""
+				"You have been hungry for so long... With a fishing pole and some patience, you could have a real meal for dinner tonight!"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -514,16 +634,19 @@
 				id: "3420C22AABFAEA34"
 				type: "checkmark"
 			}]
-			title: "Fishy Friends"
-			x: 2.0d
-			y: 0.0d
+			title: "Something Smells...Fishy?"
+			x: 11.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"Spider string can be crafted into wool, which can be crafted into beds! "
+				"Restructuring an entire lifestyle is easier said than done."
+				"You are part of this world, you too have needs to tend to. Listen to your body, and the rhythms of night and day, sleep."
 				""
-				"You can also craft a sleeping bag, for staying cozy on the go... but where would you be going?"
+				"You look around, wistfully hoping you'll see even just one sheep. You don't. That's when you remember: Spiders drop string, and string makes wool!"
+				""
+				"(Just be careful not to get poisoned on your quest)"
 			]
 			icon: "minecraft:white_bed"
 			id: "49182F60BE2634DE"
@@ -532,43 +655,23 @@
 				type: "xp"
 				xp: 100
 			}]
-			tasks: [
-				{
-					id: "16FB0BB05454D6A2"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:beds"
-						}
-					}
-					title: "Any Bed"
-					type: "item"
-				}
-				{
-					id: "1EFF40BDEB95B421"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "comforts:sleeping_bags"
-						}
-					}
-					optional_task: true
-					title: "Any Sleeping Bag"
-					type: "item"
-				}
-			]
-			title: "Small Comforts"
-			x: -2.0d
-			y: 0.0d
+			tasks: [{
+				id: "454E4ECA359AEDE3"
+				title: "How to Make a Bed"
+				type: "checkmark"
+			}]
+			title: "Feeling Worn Out?"
+			x: 4.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"Worldgen has been completely overhauled - &4no ore generates,&r and the only biomes that exist are dead, wasteland biomes with no real vegetation. Additionally, the only trees that spawn are dead trees, with very little useability."
+				"Surely you are growing tired of the endless expanse of dry dirt and dead trees."
 				""
-				"Stone variants still generate, and you can find &6sand and clay underwater.&r It will also still rain!"
+				"Different kinds of stone still generate, and again you wish for simple raw ore to no avail."
+				""
+				"You can, however, still find sand and clay underwater. Can you make something out of that?"
 			]
 			icon: "supplementaries:globe"
 			id: "40200E30710D409D"
@@ -582,15 +685,20 @@
 				title: "Changed worldgen?"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 1.5d
+			title: "What Happened to the Biomes?"
+			x: 10.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"The naturally spawning mobs have changed in this new landscape! Specifically, &czombie villagers and witches won't spawn,&r and &6spiders have mutated&r into their venomous cave versions. "
+				"The Mobs that had the grit to stick around in this wasteland seem to have evolved somehow..."
 				""
-				"This means that there's &cno way to get any kind of resources from witches or zombie villagers&r (even if you could cure them!); the only things that you can really hope to get are iron or copper ingots from &6rare drops&r - but there are other ways to generate resources..."
+				"The only spiders that seem to linger are the venemous cave spiders."
+				""
+				"You might also notice that zombie villagers and witches don't spawn, which means that their resources are gone along with them."
+				""
+				"If you're lucky, though, maybe a Husk will drop a stray ingot of iron or copper"
 			]
 			icon: {
 				Count: 1
@@ -610,17 +718,22 @@
 				title: "Rare Drops?"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 1.5d
+			title: "[Evolving] Mobs and Mob Drops"
+			x: 6.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"There are quite a few books in the pack! Thankfully, the &6Akashic Tome&r is here to help. Crafting any book with this will combine it, letting you keep every guidebook in a single item. Simply craft it with another guidebook!"
+				"Feeling overwhelmed by your growing reading list in this modpack?"
 				""
-				"To untransform the tome, punch the air with it."
+				"No worries, this is what the Akashic Tome is for!"
 				""
-				"To remove a stored book, transform the tome into the book, then sneak and press your 'drop' key."
+				"Crafting just about any book with this tome will combine them, letting you keep every book you use in a single item slot."
+				""
+				"To untransform the tome and choose a different book to read, just punch the air with it."
+				""
+				"To remove a stored book, transform your tome into the book, and then sneak and press your 'drop' key."
 			]
 			icon: "akashictome:tome"
 			id: "524541472CB8168A"
@@ -635,21 +748,17 @@
 				type: "checkmark"
 			}]
 			title: "Too Many Books!?"
-			x: 1.0d
-			y: 2.5d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["73F3DDAFC46A9CD5"]
+			dependencies: ["4582469C85E2315D"]
 			description: [
-				"A lot of the pack consists of passive processes you'll probably want to keep running while you do other things. You can claim chunks to &6force-load &rthem using your map; ensuring they'll stay loaded even while you're not nearby. "
+				"A lot of this modpack consists of passive processes that you might need running while working on other projects. To force-load chunks, you can claim them using your map. This means even when you're not closeby, the chunks will go on without you."
 				""
-				"Just open your map (default M) and &6right-click drag&r over the area you'd like to claim. Right-click drag again to force claim!"
+				"Tutorial: Open up your map (default M) and right-click drag over the area you want to claim. Then do it again to force claim!"
 				""
-				"If you're playing with friends, &6make sure you're on the same team&r so that you can all access things inside your claim and share quest progress."
-				""
-				"For more information on the claims system, check out the &6Open Parties and Claims&r wiki or keybinds."
-				""
-				"&7Tip: you might want to turn claimed chunk protection off! It tends to break fake players."
+				"If playing with friends, make sure you're on the same team so you can share quest progress with the whole group."
 			]
 			icon: "naturesaura:pet_reviver"
 			id: "52B10FEB2951E939"
@@ -663,30 +772,34 @@
 				title: "Playing with Friends?"
 				type: "checkmark"
 			}]
-			title: "Chunkloading and Friends?"
-			x: 0.0d
-			y: 3.0d
+			title: "Befriending the Land Chunk by Chunk"
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1F466C810237B69A"]
-			description: ["You've converted dried earth into coarse dirt! However, this coarse dirt is much too rough to plant in - or even till!"]
+			description: [
+				"There's nothing wrong with admitting that you need some help at this stage. You must be getting tired of converting stuff."
+				""
+				"It's impossible to deny, though, you can't use the dirt in this condition to plant anything, it's much too rough."
+			]
 			id: "71F2F16098C1DD0D"
 			tasks: [{
 				id: "67FC2F44208F12A6"
 				item: "minecraft:coarse_dirt"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 18.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["71F2F16098C1DD0D"]
 			description: [
-				"From what you remember, chicken talons would be perfect to till the coarse dirt into a much more homogenous substrate, perfect for growing crops."
+				"You remember how good chickens used to be for breaking up that pesky top layer of soil. You wish you had their natural affinity for loosening and airating the soil, but alas."
 				""
-				"Ender pearls are pretty similar to eggs, and with a copper lightning rod on top of a block of copper, you think you can channel the energies into the pearl to convert it into a chicken..."
+				"you wonder if harnessing the power of an ender pearl, a strong conduit of magic, might allow you to generate enough energu for a transfiguration spell of some kind..."
 				""
-				"&7Tip: basically, put a lightning rod on top of a block of copper and right click the block of copper with an ender pearl. Be careful! "
+				"Try placing a copper lighning rod on top of a block of copper and right clicking the block with an ender pearl -- but be careful!"
 			]
 			icon: {
 				Count: 1
@@ -722,9 +835,9 @@
 					type: "item"
 				}
 			]
-			title: "Chicken of Conversion"
-			x: 0.0d
-			y: -11.5d
+			title: "A Feathery Friend?"
+			x: 20.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["144A644B058EA9F6"]
@@ -754,20 +867,54 @@
 				type: "checkmark"
 			}]
 			title: "Renewable Wood?"
-			x: 1.5d
-			y: -12.5d
+			x: 19.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6B5B443D2F7DD3D4"]
-			description: ["You can make &6doors&r out of &6copper&r. Keep those beasties out!"]
+			description: ["use copper! It's more durable than wood anyways!"]
 			id: "1495145A6385882A"
 			tasks: [{
-				id: "5D129EA7C2AA9A47"
+				id: "7C04968B164BC703"
 				item: "createdeco:copper_door"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 13.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["73F3DDAFC46A9CD5"]
+			description: [
+				"Feeling stuck? Not sure where to start? Here's a hint:"
+				"Try looking at things from a new angle. When you are unsure of your environment, pay attention to what it is trying to tell you."
+				""
+				"You're going to have to consider some new ways of living in this blocky universe if you want to help this dead land."
+			]
+			id: "4582469C85E2315D"
+			rewards: [{
+				id: "6F16C01B8D6C7289"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DDBC2E691CC406E"
+				title: "Living in New Ways"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B5B443D2F7DD3D4"]
+			description: [
+				"Copper isn't quite as durable as iron, but maybe you can make some tools with the Iron Ingots you're using? You might need a special ingredient though, Have you tried checking your recipe catalogue?"
+				""
+				"Pro tip: Each of these tools has its own special unique ability, once you find balance with the natural tools of the environment."
+			]
+			id: "48F77FF89702A411"
+			title: "[SOLAR TOOLS HERE]"
+			x: 15.5d
+			y: 12.0d
 		}
 	]
 	subtitle: ["A vast wasteland"]

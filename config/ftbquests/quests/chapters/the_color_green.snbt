@@ -14,8 +14,8 @@
 			image: "reclamation:textures/quests/theurgy_3.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 9.678571428571445d
-			y: -6.625d
+			x: 10.0d
+			y: -12.0d
 		}
 		{
 			dependency: "4DE7466CAC029EF6"
@@ -23,8 +23,8 @@
 			image: "reclamation:textures/quests/botania_1.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -8.5d
-			y: -5.0d
+			x: -1.0d
+			y: -17.5d
 		}
 	]
 	order_index: 2
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			title: "Grass!"
-			x: 0.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -98,8 +98,8 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: -1.5d
-			y: -4.5d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -131,8 +131,8 @@
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["624E015B09427542"]
@@ -163,8 +163,8 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: -1.0d
-			y: -2.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -196,8 +196,8 @@
 				}
 			]
 			title: "Gold"
-			x: -1.5d
-			y: -3.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2737F0AE3D1835D4"]
@@ -222,8 +222,8 @@
 				}
 			]
 			title: "Living Materials"
-			x: -2.0d
-			y: -2.0d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -271,8 +271,8 @@
 				}
 			]
 			title: "The Nether"
-			x: 0.0d
-			y: -2.5d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["46CC05A2F2D89079"]
@@ -336,8 +336,8 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 2.0d
-			y: -1.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -354,8 +354,8 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 2.0d
-			y: -2.0d
+			x: 12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5C1E3750F91A38B2"]
@@ -371,8 +371,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 16.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -393,8 +393,8 @@
 				type: "item"
 			}]
 			title: "Creating Aura"
-			x: 2.0d
-			y: 0.0d
+			x: 15.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -426,8 +426,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.0d
+			x: 17.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -481,8 +481,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: -3.0d
-			y: -3.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -498,8 +498,8 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 17.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -553,8 +553,8 @@
 				}
 			]
 			title: "Altar Upgrades"
-			x: -0.5d
-			y: -4.5d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -574,8 +574,8 @@
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -6.0d
+			x: 2.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -617,8 +617,8 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: -1.5d
-			y: -7.5d
+			x: 1.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -646,8 +646,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
@@ -742,8 +742,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: -1.5d
-			y: -8.5d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["153CB8257AEDA4ED"]
@@ -767,8 +767,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 15.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -793,8 +793,8 @@
 				type: "item"
 			}]
 			title: "Knockoff Blazes"
-			x: -4.5d
-			y: -6.0d
+			x: -2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -825,8 +825,8 @@
 				}
 			]
 			title: "Mechanical Crafting"
-			x: 6.5d
-			y: -2.0d
+			x: 18.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -864,8 +864,8 @@
 				}
 			]
 			title: "Moving Air"
-			x: 7.5d
-			y: -3.0d
+			x: 11.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -922,8 +922,8 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 5.5d
-			y: -7.5d
+			x: 10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -940,8 +940,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 14.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -966,8 +966,8 @@
 				type: "item"
 			}]
 			title: "(almost) Free Dirt"
-			x: -4.0d
-			y: -0.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -984,8 +984,8 @@
 				type: "item"
 			}]
 			title: "Portable Mana"
-			x: -4.5d
-			y: -1.5d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1001,8 +1001,8 @@
 				item: "botania:mana_ring"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -0.5d
+			x: -7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1018,8 +1018,8 @@
 				item: "botania:aura_ring"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1051,8 +1051,8 @@
 				}
 			]
 			title: "Useful Dusts"
-			x: -5.5d
-			y: -6.0d
+			x: -5.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["2E0F026AB59D83B5"]
@@ -1069,8 +1069,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 13.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["621BEE0A09882094"]
@@ -1092,8 +1092,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.0d
+			x: 1.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["5C1E3750F91A38B2"]
@@ -1115,8 +1115,8 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1133,8 +1133,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 17.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["2F210E03731A0E21"]
@@ -1158,8 +1158,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Conversion"
-			x: 6.5d
-			y: -8.5d
+			x: 9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["50D60856E308EC6D"]
@@ -1192,8 +1192,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Exaltation"
-			x: 7.5d
-			y: -9.5d
+			x: 10.0d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -1228,8 +1228,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -11.0d
+			x: 4.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1247,7 +1247,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -6.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -1290,8 +1290,8 @@
 				}
 			]
 			title: "Sentient Life"
-			x: 0.0d
-			y: -13.0d
+			x: 6.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1329,8 +1329,8 @@
 				}
 			]
 			title: "Alternative Mana Sources"
-			x: -5.5d
-			y: -3.0d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1362,8 +1362,8 @@
 				}
 			]
 			title: "Advanced Contraptions"
-			x: 5.0d
-			y: -4.0d
+			x: 14.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["17089FF12C1591B8"]
@@ -1398,8 +1398,8 @@
 				}
 			]
 			title: "Mechanical Logistics"
-			x: 6.0d
-			y: -4.0d
+			x: 12.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["20EF463DB77E09EE"]
@@ -1425,8 +1425,8 @@
 				}
 			]
 			title: "Autocrafting"
-			x: 4.0d
-			y: -4.5d
+			x: 14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -1446,8 +1446,8 @@
 				item: "naturesaura:generator_limit_remover"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -11.5d
+			x: 3.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -1502,8 +1502,8 @@
 				}
 			]
 			title: "Bottling Sunlight"
-			x: 1.0d
-			y: -1.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1523,8 +1523,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -1544,8 +1544,8 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: 2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5A8DD5C84842AD14"]
@@ -1576,8 +1576,8 @@
 				}
 			]
 			title: "Mercurial Power"
-			x: 4.0d
-			y: -8.0d
+			x: 7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -1608,8 +1608,8 @@
 				type: "item"
 			}]
 			title: "Regrowth?"
-			x: 4.0d
-			y: 0.0d
+			x: 20.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1643,8 +1643,8 @@
 				type: "item"
 			}]
 			title: "Real Blazes"
-			x: -4.0d
-			y: -8.0d
+			x: 0.0d
+			y: -13.5d
 		}
 		{
 			dependencies: [
@@ -1669,8 +1669,8 @@
 				type: "item"
 			}]
 			title: "Primal Magick"
-			x: 1.5d
-			y: -3.0d
+			x: 10.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1700,8 +1700,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -4.0d
+			x: 9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1723,8 +1723,8 @@
 				type: "checkmark"
 			}]
 			title: "Finding Mana"
-			x: 2.5d
-			y: -3.5d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["058AC672AE190DB2"]
@@ -1754,7 +1754,7 @@
 				}
 			]
 			title: "Primal Research"
-			x: 1.5d
+			x: 7.0d
 			y: -5.0d
 		}
 		{
@@ -1783,8 +1783,8 @@
 				}
 			]
 			title: "Hidden Gems"
-			x: 0.0d
-			y: -3.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05820674B5CC639D"]
@@ -1799,8 +1799,8 @@
 				item: "primalmagick:marble_raw"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1820,8 +1820,8 @@
 				item: "primalmagick:calcinator_basic"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1837,8 +1837,8 @@
 				item: "primalmagick:wand_charger"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: 3.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1858,8 +1858,8 @@
 				item: "primalmagick:wand_assembly_table"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -1896,8 +1896,8 @@
 				}
 			]
 			title: "Rituals"
-			x: 1.5d
-			y: -8.0d
+			x: 5.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["499BFD6DE9F18512"]
@@ -1919,8 +1919,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.0d
+			x: 7.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1936,7 +1936,7 @@
 				item: "primalmagick:primalite_ingot"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 8.0d
 			y: -7.0d
 		}
 		{
@@ -1962,8 +1962,8 @@
 				}
 			]
 			title: "Advanced Ritual Props"
-			x: 2.5d
-			y: -10.0d
+			x: 5.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
@@ -1983,8 +1983,8 @@
 				item: "primalmagick:rock_salt"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 3.5d
+			y: -10.0d
 		}
 	]
 	title: "Touching Grass"
