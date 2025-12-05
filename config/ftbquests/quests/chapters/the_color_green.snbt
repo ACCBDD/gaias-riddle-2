@@ -1250,50 +1250,6 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["020B8F06D2C86CE3"]
-			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, sentient life - chicken eggs."]
-			icon: "heads:chicken_head"
-			id: "1C7C9A1F11DE819B"
-			rewards: [{
-				id: "54963078056ED72D"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			subtitle: "Well, debatably"
-			tasks: [
-				{
-					id: "462012BB2A30BE57"
-					item: "kubejs:feather_flesh_amalgam"
-					type: "item"
-				}
-				{
-					id: "040064ECC88AE724"
-					item: "kubejs:blooded_amalgam"
-					type: "item"
-				}
-				{
-					id: "46327E4C8BDADEF4"
-					item: "kubejs:mana_amalgam"
-					type: "item"
-				}
-				{
-					id: "46EDB244AC746667"
-					item: "kubejs:infused_amalgam"
-					type: "item"
-				}
-				{
-					id: "2CD3CFE847F27E3A"
-					item: "minecraft:chicken_spawn_egg"
-					type: "item"
-				}
-			]
-			title: "Sentient Life"
-			x: 6.0d
-			y: -19.0d
-		}
-		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: [
 				"With runes, there are a few other options you have for generating mana:"
@@ -1758,11 +1714,11 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["27C68B6622F186D7"]
+			dependencies: ["020B8F06D2C86CE3"]
 			description: [
 				"In the Nether, you've found &6Ribbits!&r They say that they fled into the Nether after the unnamed catastrophe that decimated the Overworld; but the Nether isn't exactly a paradise either, so they're &6willing to trade&r for various bits and bobs."
 				""
-				"Most importantly, though, is that they're willing to trade you both &6amethyst&r and &6nether quartz&r - how exactly they acquire these gems, though, they're not saying."
+				"Most importantly, though, is that they're willing to trade you both &6amethyst&r and &6nether quartz&r for &6empowered tokens&r - how exactly they acquire these gems, though, they're not saying."
 			]
 			id: "4A26B6BEB7981942"
 			rewards: [{
@@ -1770,6 +1726,8 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "18691832D5B5DB5B"
@@ -1783,8 +1741,8 @@
 				}
 			]
 			title: "Hidden Gems"
-			x: 7.0d
-			y: -2.5d
+			x: 6.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["05820674B5CC639D"]

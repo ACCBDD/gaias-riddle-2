@@ -1,5 +1,5 @@
 filename = 'via_romana-2.1.2+1.20.1-forge.jar'
-name = 'Via Romana'
+name = 'Via Romana: Infrastructure-Driven Fast Travel'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

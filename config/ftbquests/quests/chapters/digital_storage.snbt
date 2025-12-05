@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["52D07AB4E6B88EA1"]
 			description: ["The &6controller&r is the brains of a network. Each controller block's face is capable of outputting &632 channels;&r almost every device on the ME network needs &6one channel to operate.&r"]
 			hide_until_deps_complete: true
 			id: "42064A913CA2CCD2"

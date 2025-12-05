@@ -1,5 +1,5 @@
 filename = 'IntegratedTerminals-1.20.1-1.6.13.jar'
-name = 'IntegratedTerminals'
+name = 'Integrated Terminals'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

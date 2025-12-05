@@ -1,16 +1,16 @@
-filename = 'NaturalDecorMod_1.20.1Forge_1.9.4.jar'
+filename = 'NaturalDecorModNOBIOMES_1.20.1Forge_V1.9.3.jar'
 name = 'Natural Decor Mod'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = 'd8d5bb23a144041c40f1d415757b1a5ed1b41fc1'
+hash = '7cab2bf2e6b74d03acc8aff0aa98c73c078b0588'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7201643
+file-id = 7024541
 project-id = 375573

@@ -1,16 +1,16 @@
-filename = 'hexerei-0.4.2.3.jar'
-name = 'Hexerei'
+filename = 'desert_1.20.1-neo-forge-0.38.jar'
+name = "Desertification (an 'infection' mod)"
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
 
 [download]
-hash = '01d67f2c92aecb2e72eba3d37b7571e3ffe7297b'
+hash = '06fe9cadb1ce8e1b5d9686f3c2424daab7e97e96'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6314111
-project-id = 548599
+file-id = 7221470
+project-id = 1092266

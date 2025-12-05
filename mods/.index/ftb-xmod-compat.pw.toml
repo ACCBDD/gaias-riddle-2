@@ -1,16 +1,16 @@
-filename = 'IntegratedDynamics-1.20.1-1.29.3.jar'
-name = 'Integrated Dynamics'
+filename = 'ftb-xmod-compat-forge-2.1.3.jar'
+name = 'FTB XMod Compat'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '60e6ca9ba75b90d2f59c452bbe95f4dd4102d4d9'
+hash = '0584f628d2bc6a612d79dee368324357ebae1423'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7236066
-project-id = 236307
+file-id = 6402486
+project-id = 889915

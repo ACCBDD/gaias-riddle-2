@@ -1,5 +1,5 @@
 filename = 'moonlight-1.20-2.16.16-forge.jar'
-name = 'Moonlight Library'
+name = 'Moonlight Lib'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

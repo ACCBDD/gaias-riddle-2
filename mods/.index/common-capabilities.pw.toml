@@ -1,5 +1,5 @@
 filename = 'CommonCapabilities-1.20.1-2.9.11.jar'
-name = 'CommonCapabilities'
+name = 'Common Capabilities'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]

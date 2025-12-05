@@ -1,16 +1,16 @@
-filename = 'IntegratedDynamics-1.20.1-1.29.3.jar'
-name = 'Integrated Dynamics'
+filename = 'verdant-1.5.1.jar'
+name = 'Verdant Growth'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '60e6ca9ba75b90d2f59c452bbe95f4dd4102d4d9'
+hash = '5a8b61aa5e853e8c061cb097ebcbe5cceba6fb42'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7236066
-project-id = 236307
+file-id = 5909122
+project-id = 1018363

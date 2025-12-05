@@ -1,5 +1,5 @@
 filename = 'comforts-forge-6.4.0+1.20.1.jar'
-name = 'Comforts (Fabric/Forge/Quilt)'
+name = 'Comforts'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]

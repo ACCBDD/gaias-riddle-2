@@ -142,7 +142,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7277FA4026920033"]
@@ -163,7 +163,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -193,7 +193,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["15966B11B4C3E2F5"]
@@ -216,7 +216,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["7277FA4026920033"]
@@ -237,7 +237,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4124F7AA9DF1444F"]
@@ -260,7 +260,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: [
@@ -303,10 +303,13 @@
 			]
 			title: "Visit the End"
 			x: 0.0d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["269ECE61446E7CE6"]
+			dependencies: [
+				"4AF4C90074636DC7"
+				"62F4B59D66397763"
+			]
 			description: [
 				"Generic biome essence is well and good, but for real ritualistic oomph you'll need a specialized container, capable of collecting attuned essence."
 				""
@@ -324,7 +327,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["269ECE61446E7CE6"]
@@ -415,6 +418,28 @@
 			]
 			title: "Biome Globes"
 			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			id: "62F4B59D66397763"
+			tasks: [{
+				id: "12AF4150021275E9"
+				title: "desertification mats"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["269ECE61446E7CE6"]
+			id: "4AF4C90074636DC7"
+			tasks: [{
+				id: "072DF8201ADB2C0C"
+				title: "verdant growth mats"
+				type: "checkmark"
+			}]
+			x: 1.0d
 			y: -2.5d
 		}
 	]
