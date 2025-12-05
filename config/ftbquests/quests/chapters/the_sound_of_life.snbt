@@ -83,7 +83,7 @@
 			]
 			title: "Terrasteel"
 			x: -5.5d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -414,10 +414,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
+			dependencies: ["4D65182E5671C8A8"]
 			id: "06357FFDCC67269E"
 			tasks: [{
 				id: "0E5E2F0D4070CBE2"
@@ -430,11 +430,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
+			dependencies: ["4D65182E5671C8A8"]
 			id: "4125234B6B0ABAAD"
 			tasks: [{
 				id: "52A3024145AC2379"
@@ -447,14 +447,13 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"3C4414D9DA0EA423"
 				"3E0289A3420971D8"
-				"67CD19C06BED9576"
 			]
 			id: "0A4062B3E1B7681C"
 			tasks: [{
@@ -473,11 +472,11 @@
 			id: "3C4414D9DA0EA423"
 			tasks: [{
 				id: "613EC8A010CA5ACD"
-				title: "tier 1 trees"
+				title: "tier 2 trees"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -488,25 +487,17 @@
 			id: "52A72AC5C6F137B1"
 			tasks: [{
 				id: "692D7C12998D1019"
-				title: "tier 2 trees"
+				title: "tier 3 trees"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -10.0d
 		}
 		{
-			dependencies: ["3C4414D9DA0EA423"]
-			id: "67CD19C06BED9576"
-			tasks: [{
-				id: "6566D2DA590C5CB9"
-				item: "primalmagick:incense_brazier"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["0A4062B3E1B7681C"]
+			dependencies: [
+				"0A4062B3E1B7681C"
+				"651178F97CEC54E5"
+			]
 			id: "658026EA72CB4EBA"
 			tasks: [{
 				id: "79610DAB5D00CD48"
@@ -526,6 +517,55 @@
 			}]
 			x: -0.5d
 			y: -10.5d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"Getting the nether back into shape is relatively easy, now that you have an undeniably &6nether-based gem&r to focus the raw power of &6infused tokens.&r"
+				""
+				"&7Tip: check the new terraforming section of your Reclamation Rituals book to see how to perform the nether terraforming rites!"
+			]
+			id: "0992C0993A6BBB8A"
+			rewards: [{
+				id: "0B658E1DF83AA286"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "45591ED68D7E8CAC"
+				title: "Visit Every Nether Biome"
+				type: "advancement"
+			}]
+			title: "Reclaiming the Nether"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0992C0993A6BBB8A"]
+			description: [""]
+			id: "651178F97CEC54E5"
+			tasks: [{
+				id: "778274675CD55907"
+				title: "infernal magick"
+				type: "checkmark"
+			}]
+			title: "infernal and blood magick"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "4D65182E5671C8A8"
+			tasks: [{
+				id: "4B69D9C212942C89"
+				title: "tier 1 trees"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
 		}
 	]
 	title: "Sounds of Life"

@@ -37,31 +37,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["269ECE61446E7CE6"]
-			description: [
-				"Getting the nether back into shape is relatively easy, now that you understand the shape of terraforming rituals and have a source of biomic essence."
-				""
-				"&7Tip: check the terraforming section of your Reclamation Rituals book to see how to perform the nether terraforming rites!"
-			]
-			id: "0992C0993A6BBB8A"
-			rewards: [{
-				id: "0B658E1DF83AA286"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "minecraft:nether/explore_nether"
-				criterion: ""
-				icon: "minecraft:netherrack"
-				id: "45591ED68D7E8CAC"
-				title: "Visit Every Nether Biome"
-				type: "advancement"
-			}]
-			title: "Reclaiming the Nether"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["797FD98625915CAF"]
 			description: ["With the creation of reclaimed biomes, natural spawns can now occur - drygmies, whirligigs, and starbuncles can all rarely spawn in these biomes, as well as the regular mobs."]
 			icon: "minecraft:spawner"
