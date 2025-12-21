@@ -7,7 +7,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "minecraft:dragon_egg"
 	id: "255B2E87E16AB4A5"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -32,7 +32,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["6D23082F517D5117"]
 			icon: "minecraft:end_portal_frame"
 			id: "647B651959E0F0D0"
 			rewards: [{
@@ -87,5 +86,5 @@
 			y: -5.0d
 		}
 	]
-	title: "The Taste of Power"
+	title: "Chapter 5: The Taste of Power"
 }

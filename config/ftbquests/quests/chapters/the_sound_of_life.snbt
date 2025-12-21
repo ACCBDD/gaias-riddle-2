@@ -23,6 +23,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "3BB1A7C07E3F5376"
@@ -37,7 +38,7 @@
 			]
 			title: "Gems!"
 			x: -3.0d
-			y: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3C4414D9DA0EA423"]
@@ -82,8 +83,8 @@
 				}
 			]
 			title: "Terrasteel"
-			x: -5.5d
-			y: -5.0d
+			x: -10.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -136,8 +137,8 @@
 				type: "item"
 			}]
 			title: "Sin Runes"
-			x: -10.0d
-			y: -5.0d
+			x: -15.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -167,8 +168,8 @@
 				}
 			]
 			title: "The Portal to Alfheim"
-			x: -6.0d
-			y: -6.5d
+			x: -9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -194,8 +195,8 @@
 				type: "item"
 			}]
 			title: "Better Spreader"
-			x: -7.0d
-			y: -8.0d
+			x: -10.5d
+			y: -11.0d
 		}
 		{
 			dependencies: [
@@ -221,8 +222,8 @@
 				type: "item"
 			}]
 			title: "Ex Nihilo"
-			x: -7.5d
-			y: -6.0d
+			x: -12.0d
+			y: -8.25d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -268,8 +269,8 @@
 				type: "item"
 			}]
 			title: "Esoteric Mana Generation"
-			x: -6.0d
-			y: -8.0d
+			x: -7.0d
+			y: -10.5d
 		}
 		{
 			dependencies: [
@@ -293,8 +294,8 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -8.0d
+			x: -14.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -313,8 +314,8 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: -4.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["7B4F1EAF6F7A4A1D"]
@@ -343,8 +344,8 @@
 				}
 			]
 			title: "The Wither"
-			x: -9.5d
-			y: -9.0d
+			x: -14.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -364,8 +365,8 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -8.5d
+			y: -11.5d
 		}
 		{
 			dependencies: [
@@ -387,7 +388,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Roll credits?"
 			tasks: [{
 				biome: "#reclamation:reclaimed"
@@ -397,11 +398,12 @@
 			}]
 			title: "Reclamation"
 			x: -3.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			id: "14EF24D6ED46D5AC"
+			size: 2.0d
 			tasks: [{
 				id: "4809899D3F01F4E4"
 				item: {
@@ -414,11 +416,12 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4D65182E5671C8A8"]
 			id: "06357FFDCC67269E"
+			size: 2.0d
 			tasks: [{
 				id: "0E5E2F0D4070CBE2"
 				item: {
@@ -431,11 +434,12 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D65182E5671C8A8"]
 			id: "4125234B6B0ABAAD"
+			size: 2.0d
 			tasks: [{
 				id: "52A3024145AC2379"
 				item: {
@@ -448,7 +452,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -456,13 +460,14 @@
 				"3E0289A3420971D8"
 			]
 			id: "0A4062B3E1B7681C"
+			size: 2.0d
 			tasks: [{
 				id: "25F46CB820C60845"
 				item: "botania:cocoon"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -470,6 +475,7 @@
 				"4125234B6B0ABAAD"
 			]
 			id: "3C4414D9DA0EA423"
+			size: 2.0d
 			tasks: [{
 				id: "613EC8A010CA5ACD"
 				title: "tier 2 trees"
@@ -485,13 +491,14 @@
 				"658026EA72CB4EBA"
 			]
 			id: "52A72AC5C6F137B1"
+			size: 2.0d
 			tasks: [{
 				id: "692D7C12998D1019"
 				title: "tier 3 trees"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -505,7 +512,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -8.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["52A72AC5C6F137B1"]
@@ -515,8 +522,8 @@
 				title: "high tier primal magick items"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: -1.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -540,8 +547,8 @@
 				type: "advancement"
 			}]
 			title: "Reclaiming the Nether"
-			x: 0.5d
-			y: -1.0d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0992C0993A6BBB8A"]
@@ -553,20 +560,21 @@
 				type: "checkmark"
 			}]
 			title: "infernal and blood magick"
-			x: 2.5d
-			y: -3.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["14EF24D6ED46D5AC"]
 			id: "4D65182E5671C8A8"
+			size: 2.0d
 			tasks: [{
 				id: "4B69D9C212942C89"
 				title: "tier 1 trees"
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: 3.5d
 		}
 	]
-	title: "Sounds of Life"
+	title: "Chapter 4: Sounds of Life"
 }
