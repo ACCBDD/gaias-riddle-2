@@ -16,14 +16,14 @@ ServerEvents.recipes(event => {
         "time": 200
     }).id("reclamation:create/andesite_alloy")
 
-    //disable mechanical press plate recipes
-    event.remove({id: 'create:pressing/brass_ingot'})
-    event.remove({id: 'create:pressing/iron_ingot'})
-    event.remove({id: 'create:pressing/copper_ingot'})
-    event.remove({id: 'create:pressing/gold_ingot'})
+    // //disable mechanical press plate recipes
+    // event.remove({id: 'create:pressing/brass_ingot'})
+    // event.remove({id: 'create:pressing/iron_ingot'})
+    // event.remove({id: 'create:pressing/copper_ingot'})
+    // event.remove({id: 'create:pressing/gold_ingot'})
 
-    //remove blaze burner recipe
-    event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
+    // //remove blaze burner recipe
+    // event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
 
     //disable metals from washing
     event.remove({id: 'create:crushing/diorite'})
