@@ -575,11 +575,18 @@
 			dependencies: ["0992C0993A6BBB8A"]
 			description: [""]
 			id: "651178F97CEC54E5"
-			tasks: [{
-				id: "778274675CD55907"
-				title: "infernal magick"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2D6BD76E11598A9F"
+					item: "primalmagick:essence_dust_infernal"
+					type: "item"
+				}
+				{
+					id: "3A6001EB67727471"
+					item: "primalmagick:essence_dust_blood"
+					type: "item"
+				}
+			]
 			title: "infernal and blood magick"
 			x: 3.5d
 			y: -2.5d
