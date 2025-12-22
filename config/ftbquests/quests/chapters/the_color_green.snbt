@@ -1274,7 +1274,6 @@
 		{
 			dependencies: ["020B8F06D2C86CE3"]
 			description: ["Using the power of the &6Offering Altar&r you can &6activate tokens!&r These activated tokens are useful for various crafts, but they can also be used to trade with &6Ribbits &rin the Nether."]
-			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
 				id: "54963078056ED72D"

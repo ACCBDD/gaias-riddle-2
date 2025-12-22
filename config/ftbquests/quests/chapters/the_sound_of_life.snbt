@@ -473,7 +473,9 @@
 			dependencies: [
 				"3C4414D9DA0EA423"
 				"3E0289A3420971D8"
+				"658026EA72CB4EBA"
 			]
+			description: ["infinite mobworks, made using a PM ritual"]
 			id: "0A4062B3E1B7681C"
 			size: 2.0d
 			tasks: [{
@@ -489,6 +491,7 @@
 				"06357FFDCC67269E"
 				"4125234B6B0ABAAD"
 			]
+			description: ["dunno what tier 2 trees would be, maybe whatever trees drop heartwood? use heartwood for terrasteel instead of mana diamonds or sth"]
 			id: "3C4414D9DA0EA423"
 			rewards: [{
 				id: "3BA7992239CA84C5"
@@ -510,6 +513,7 @@
 				"0721C000948329FF"
 				"658026EA72CB4EBA"
 			]
+			description: ["check flora list"]
 			id: "52A72AC5C6F137B1"
 			size: 2.0d
 			tasks: [{
@@ -521,10 +525,7 @@
 			y: -12.0d
 		}
 		{
-			dependencies: [
-				"0A4062B3E1B7681C"
-				"651178F97CEC54E5"
-			]
+			dependencies: ["651178F97CEC54E5"]
 			id: "658026EA72CB4EBA"
 			tasks: [{
 				id: "79610DAB5D00CD48"
@@ -585,6 +586,7 @@
 		}
 		{
 			dependencies: ["14EF24D6ED46D5AC"]
+			description: ["dunno what tier 1 trees would be, check the flora list"]
 			id: "4D65182E5671C8A8"
 			rewards: [{
 				id: "4CD39CC667D36013"
