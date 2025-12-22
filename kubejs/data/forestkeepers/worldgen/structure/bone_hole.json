@@ -1,13 +1,13 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "reclamation:dead_forest",
+  "biomes": "#reclamation:has_structure/big_ruins",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "terrain_adaptation": "beard_thin",
-  "start_pool": "forestkeepers:greenhouse_pool",
-  "size": 2,
+  "terrain_adaptation": "none",
+  "start_pool": "forestkeepers:bone_hole",
+  "size": 7,
   "start_height": {
-    "absolute": 0
+    "absolute": -25
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
   "max_distance_from_center": 80,

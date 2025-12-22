@@ -1,0 +1,57 @@
+{
+  "name": "forestkeepers:ribbit_village/platform_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+        {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/tall_house_plat",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/small_plat_1",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/small_plat_2",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/small_house_plat",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/tent_plat",
+        "processors": "minecraft:empty"
+      }
+    }
+]
+}

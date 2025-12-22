@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:svalbard",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 34982567,
+    "spacing": 100,
+    "separation": 80,
+    "type": "minecraft:random_spread"
+  }
+}

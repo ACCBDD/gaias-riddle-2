@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:oasis",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 96528535,
+    "spacing": 100,
+    "separation": 80,
+    "type": "minecraft:random_spread"
+  }
+}
