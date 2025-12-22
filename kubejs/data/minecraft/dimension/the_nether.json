@@ -3,33 +3,8 @@
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
-      "biomes": [
-        {
-          "biome": "reclamation:dead_wastes",
-          "parameters": {
-            "continentalness": 0,
-            "depth": 0,
-            "erosion": 0,
-            "humidity": 0,
-            "offset": 0,
-            "temperature": 0,
-            "weirdness": 0
-          }
-        },
-        {
-          "biome": "minecraft:warped_forest",
-          "parameters": {
-            "continentalness": 0,
-            "depth": 0,
-            "erosion": 0,
-            "humidity": 0.5,
-            "offset": 0.375,
-            "temperature": 0,
-            "weirdness": 0
-          }
-        }
-      ],
-      "type": "minecraft:multi_noise"
+      "type": "minecraft:fixed",
+      "biome": "reclamation:dead_wastes"
     },
     "settings": "minecraft:nether"
   }

@@ -1273,7 +1273,7 @@
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
-			description: ["This is it. Using the power of the &6Offering Altar,&r and some magically significant materials, you can create the basis of real, sentient life - chicken eggs."]
+			description: ["Using the power of the &6Offering Altar&r you can &6activate tokens!&r These activated tokens are useful for various crafts, but they can also be used to trade with &6Ribbits &rin the Nether."]
 			icon: "heads:chicken_head"
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
@@ -1283,39 +1283,35 @@
 			}]
 			shape: "circle"
 			size: 4.0d
-			subtitle: "Well, debatably"
+			subtitle: "and trade bads, too!"
 			tasks: [
 				{
-					id: "462012BB2A30BE57"
-					item: "kubejs:feather_flesh_amalgam"
+					id: "125816DF2125B948"
+					item: "naturesaura:token_euphoria"
 					type: "item"
 				}
 				{
-					id: "040064ECC88AE724"
-					item: "kubejs:blooded_amalgam"
+					id: "277500C594FA1ABD"
+					item: "naturesaura:token_terror"
 					type: "item"
 				}
 				{
-					id: "46327E4C8BDADEF4"
-					item: "kubejs:mana_amalgam"
+					id: "46F9CF15292B7FC0"
+					item: "naturesaura:token_rage"
 					type: "item"
 				}
 				{
-					id: "46EDB244AC746667"
-					item: "kubejs:infused_amalgam"
-					type: "item"
-				}
-				{
-					id: "2CD3CFE847F27E3A"
-					item: "minecraft:chicken_spawn_egg"
+					id: "74BE3004113E0584"
+					item: "naturesaura:token_grief"
 					type: "item"
 				}
 			]
-			title: "Sentient Life"
+			title: "Trade Goods"
 			x: 2.0d
 			y: -18.0d
 		}
 		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
 			description: [
 				"With runes, there are a few other options you have for generating mana:"
 				""

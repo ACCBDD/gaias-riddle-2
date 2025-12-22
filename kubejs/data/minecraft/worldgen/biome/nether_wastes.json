@@ -5,28 +5,22 @@
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.nether_wastes.additions",
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
-    "fog_color": 1705242,
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "fog_color": 3344392,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.nether_wastes.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.nether.warped_forest"
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:warped_spore"
-      },
-      "probability": 0.01428
+      "sound": "minecraft:music.nether.nether_wastes"
     },
     "sky_color": 7254527,
     "water_color": 4159204,
@@ -46,6 +40,8 @@
       "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
       "minecraft:ore_magma",
       "minecraft:spring_closed",
       "minecraft:ore_gravel_nether",
@@ -59,21 +55,33 @@
     [
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:warped_fungi",
-      "minecraft:warped_forest_vegetation",
-      "minecraft:nether_sprouts",
-      "minecraft:twisting_vines"
+      "minecraft:red_mushroom_normal"
     ]
   ],
   "has_precipitation": false,
   "spawn_costs": {
     "minecraft:enderman": {
-      "charge": 1.0,
+      "charge": 0.7,
+      "energy_budget": 0.05
+    },
+    "minecraft:ghast": {
+      "charge": 0.7,
+      "energy_budget": 0.05
+    },
+    "minecraft:zombified_piglin": {
+      "charge": 0.7,
       "energy_budget": 0.05
     },
     "minecraft:strider": {
-      "charge": 1.0,
+      "charge": 0.7,
+      "energy_budget": 0.05
+    },
+    "minecraft:piglin": {
+      "charge": 0.7,
+      "energy_budget": 0.05
+    },
+    "minecraft:magma_cube": {
+      "charge": 0.7,
       "energy_budget": 0.05
     }
   },
@@ -91,10 +99,34 @@
     "misc": [],
     "monster": [
       {
+        "type": "minecraft:ghast",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 50
+      },
+      {
+        "type": "minecraft:zombified_piglin",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
         "type": "minecraft:enderman",
         "maxCount": 2,
         "minCount": 1,
         "weight": 1
+      },
+      {
+        "type": "minecraft:piglin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 15
       }
     ],
     "underground_water_creature": [],

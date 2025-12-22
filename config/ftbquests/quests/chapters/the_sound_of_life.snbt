@@ -13,9 +13,9 @@
 		{
 			dependencies: ["4A26B6BEB7981942"]
 			description: [
-				"Now that you have gems, you'll want to turn them into even better kinds of gems."
+				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""
-				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert more materials into that gem's sulfur without having to go through the whole cauldron process again!"
+				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert materials into that gem's sulfur without having to trade for more!"
 			]
 			id: "22F15EC1DF24B1D8"
 			rewards: [{
@@ -294,8 +294,8 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -14.0d
-			y: -12.5d
+			x: -13.0d
+			y: -12.0d
 		}
 		{
 			dependencies: [
@@ -403,6 +403,11 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			id: "14EF24D6ED46D5AC"
+			rewards: [{
+				id: "5CAD01D1B51C9A7F"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "4809899D3F01F4E4"
@@ -421,6 +426,11 @@
 		{
 			dependencies: ["4D65182E5671C8A8"]
 			id: "06357FFDCC67269E"
+			rewards: [{
+				id: "1B60B5FA901A9038"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0E5E2F0D4070CBE2"
@@ -439,6 +449,11 @@
 		{
 			dependencies: ["4D65182E5671C8A8"]
 			id: "4125234B6B0ABAAD"
+			rewards: [{
+				id: "4993853DBE6E01A5"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "52A3024145AC2379"
@@ -475,6 +490,11 @@
 				"4125234B6B0ABAAD"
 			]
 			id: "3C4414D9DA0EA423"
+			rewards: [{
+				id: "3BA7992239CA84C5"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "613EC8A010CA5ACD"
@@ -566,6 +586,11 @@
 		{
 			dependencies: ["14EF24D6ED46D5AC"]
 			id: "4D65182E5671C8A8"
+			rewards: [{
+				id: "4CD39CC667D36013"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "4B69D9C212942C89"

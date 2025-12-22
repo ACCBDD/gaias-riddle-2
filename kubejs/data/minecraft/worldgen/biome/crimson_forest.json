@@ -5,28 +5,28 @@
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
     },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
-    "fog_color": 1705242,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "fog_color": 3343107,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.crimson_forest.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.nether.warped_forest"
+      "sound": "minecraft:music.nether.crimson_forest"
     },
     "particle": {
       "options": {
-        "type": "minecraft:warped_spore"
+        "type": "minecraft:crimson_spore"
       },
-      "probability": 0.01428
+      "probability": 0.025
     },
     "sky_color": 7254527,
     "water_color": 4159204,
@@ -43,7 +43,6 @@
     [
       "minecraft:spring_open",
       "minecraft:patch_fire",
-      "minecraft:patch_soul_fire",
       "minecraft:glowstone_extra",
       "minecraft:glowstone",
       "minecraft:ore_magma",
@@ -60,19 +59,26 @@
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "minecraft:warped_fungi",
-      "minecraft:warped_forest_vegetation",
-      "minecraft:nether_sprouts",
-      "minecraft:twisting_vines"
+      "minecraft:weeping_vines",
+      "minecraft:crimson_fungi",
+      "minecraft:crimson_forest_vegetation"
     ]
   ],
   "has_precipitation": false,
   "spawn_costs": {
-    "minecraft:enderman": {
+    "minecraft:strider": {
       "charge": 1.0,
       "energy_budget": 0.05
     },
-    "minecraft:strider": {
+    "minecraft:zombified_piglin": {
+      "charge": 1.0,
+      "energy_budget": 0.05
+    },
+    "minecraft:hoglin": {
+      "charge": 1.0,
+      "energy_budget": 0.05
+    },
+    "minecraft:piglin": {
       "charge": 1.0,
       "energy_budget": 0.05
     }
@@ -91,10 +97,22 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:enderman",
+        "type": "minecraft:zombified_piglin",
         "maxCount": 2,
         "minCount": 1,
         "weight": 1
+      },
+      {
+        "type": "minecraft:hoglin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 9
+      },
+      {
+        "type": "minecraft:piglin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [],

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "minecraft:warped_forest",
+  "biomes": "reclamation:dead_wastes",
   "step": "vegetal_decoration",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
