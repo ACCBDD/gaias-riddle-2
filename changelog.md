@@ -9,3 +9,4 @@
 
 ## Changed
 * Enabled create press recipes
+* Removed warped forest from nether
