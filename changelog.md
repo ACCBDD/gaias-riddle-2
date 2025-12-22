@@ -1,15 +1,11 @@
-# Gaia's Riddle 2: The Forest Keepers 0.5.0
+# Gaia's Riddle 2: The Forest Keepers 0.6.0
 
 ## Added
-* Desertification
-* Verdant Growth
-* FTB XMod Compat
-
-## Updated
-* Several mods
+* Ribbit villages in the Nether
+* Pseudo-trading to Ribbits - exchange tokens for gems
+* Terraforming rituals
+* Custom ritual patchouli book
+* More quests and quest changes
 
 ## Changed
-* Natural Decor Mod to no biomes version
-
-## Removed
-* Hexerei
+* Enabled create press recipes
