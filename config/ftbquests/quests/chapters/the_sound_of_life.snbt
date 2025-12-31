@@ -490,6 +490,7 @@
 			dependencies: [
 				"06357FFDCC67269E"
 				"4125234B6B0ABAAD"
+				"651178F97CEC54E5"
 			]
 			description: ["dunno what tier 2 trees would be, maybe whatever trees drop heartwood? use heartwood for terrasteel instead of mana diamonds or sth"]
 			id: "3C4414D9DA0EA423"
@@ -540,7 +541,7 @@
 			id: "433963B2F9A30775"
 			tasks: [{
 				id: "1F0D4FC723B6C373"
-				title: "high tier primal magick items"
+				title: "high tier primal magick item"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -592,7 +593,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
+			dependencies: [
+				"14EF24D6ED46D5AC"
+				"0992C0993A6BBB8A"
+			]
 			description: ["dunno what tier 1 trees would be, check the flora list"]
 			id: "4D65182E5671C8A8"
 			rewards: [{
