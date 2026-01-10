@@ -3,7 +3,6 @@
 ## Added
 * Mods
     * Ceramics
-    * Chicken Nest
 
 ## Changed
 * Early game quests to use Ceramics mod stuff
