@@ -120,4 +120,14 @@ ServerEvents.recipes(event => {
         },
         "time": 250
     })
+
+    event.shaped('minecraft:oak_fence', [
+        'CBC',
+        'BGB',
+        'CBC'
+    ], {
+        B: 'minecraft:clay_ball',
+        C: 'minecraft:copper_ingot',
+        G: 'minecraft:glass'
+    })
 })

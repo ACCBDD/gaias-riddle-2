@@ -1277,6 +1277,8 @@
 				"Using the power of the &6Offering Altar&r you can &6activate tokens!&r These activated tokens are useful for various crafts, but they can also be used to trade with &6Ribbits &rin the Nether. "
 				""
 				"Tokens of Euphoria can be traded for quartz, and Tokens of Grief can be traded for amethyst shards."
+				""
+				"Simply right click any ribbit with either token and you'll receive the gems in return."
 			]
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
@@ -1771,35 +1773,6 @@
 			title: "Primal Research"
 			x: 21.0d
 			y: -4.0d
-		}
-		{
-			dependencies: ["27C68B6622F186D7"]
-			description: [
-				"In the Nether, you've found &6Ribbits!&r They say that they fled into the Nether after the unnamed catastrophe that decimated the Overworld; but the Nether isn't exactly a paradise either, so they're &6willing to trade&r for various bits and bobs."
-				""
-				"Most importantly, though, is that they're willing to trade you both &6amethyst&r and &6nether quartz&r - how exactly they acquire these gems, though, they're not saying."
-			]
-			id: "4A26B6BEB7981942"
-			rewards: [{
-				id: "19369CF1F633365E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "18691832D5B5DB5B"
-					item: "minecraft:quartz"
-					type: "item"
-				}
-				{
-					id: "1840253729BD2808"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-			]
-			title: "Hidden Gems"
-			x: 15.5d
-			y: 5.0d
 		}
 		{
 			description: [

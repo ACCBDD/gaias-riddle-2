@@ -10,12 +10,3 @@ StartupEvents.registry('item', event => {
         .sulfurType('misc')
         .tag('theurgy:alchemical_sulfurs')
 })
-
-ItemEvents.modification(event => {
-    event.modify('enchanted:garlic', item => {
-        item.foodProperties = food => {
-            food.hunger(1)
-            food.saturation(0.5)
-        }
-    })
-})

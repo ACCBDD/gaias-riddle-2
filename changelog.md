@@ -1,12 +1,15 @@
-# Gaia's Riddle 2: The Forest Keepers 0.6.0
+# Gaia's Riddle 2: The Forest Keepers 0.7.0
 
 ## Added
-* Ribbit villages in the Nether
-* Pseudo-trading to Ribbits - exchange tokens for gems
-* Terraforming rituals
-* Custom ritual patchouli book
-* More quests and quest changes
+* Mods
+    * Ceramics
+    * Chicken Nest
 
 ## Changed
-* Enabled create press recipes
-* Removed warped forest from nether
+* Early game quests to use Ceramics mod stuff
+
+## Fixed
+* Hemoglobic fluid impossible to get
+
+## Removed
+* Old incorrect gem quest

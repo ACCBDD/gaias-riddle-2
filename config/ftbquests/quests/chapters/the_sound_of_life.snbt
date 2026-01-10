@@ -11,7 +11,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4A26B6BEB7981942"]
 			description: [
 				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""

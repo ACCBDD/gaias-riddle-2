@@ -353,11 +353,6 @@
 			]
 			tasks: [
 				{
-					id: "5F9746FE040527EB"
-					item: "minecraft:bucket"
-					type: "item"
-				}
-				{
 					id: "63A93972FA13E868"
 					item: "theurgy:sal_ammoniac_tank"
 					type: "item"
@@ -365,6 +360,11 @@
 				{
 					id: "5307F768FBCF1481"
 					item: "theurgy:sal_ammoniac_accumulator"
+					type: "item"
+				}
+				{
+					id: "0560E233B530156C"
+					item: "ceramics:empty_clay_bucket"
 					type: "item"
 				}
 			]

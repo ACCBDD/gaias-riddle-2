@@ -260,7 +260,7 @@
 				""
 				"Basically, you found a &6plant that grows blood&r and you're gonna &6make iron out of it&r by putting it into a &6Sal Ammoniac Accumulator above another Sal Ammoniac Accumulator.&r"
 				""
-				"&7Tip: A Sal Ammoniac tank is meant only for sal ammoniac, so you &oneed&r&7 to place the &lother accumulator&r&7 below it."
+				"&7Tip: A Sal Ammoniac tank is meant only for sal ammoniac, so you &oneed&r&7 to place a &lcistern&r&7 below it."
 			]
 			icon: "enchanted:mandrake_root"
 			id: "4CE0C02B0602C06E"
@@ -276,8 +276,19 @@
 					type: "item"
 				}
 				{
-					id: "7881A2308E126CFA"
-					item: "kubejs:hemoglobic_fluid_bucket"
+					id: "24D8E60856B6D28F"
+					item: "ceramics:terracotta_cistern"
+					type: "item"
+				}
+				{
+					id: "517CA9C8618082C7"
+					item: {
+						Count: 1
+						id: "ceramics:fluid_clay_bucket"
+						tag: {
+							fluid: "kubejs:hemoglobic_fluid"
+						}
+					}
 					type: "item"
 				}
 			]
