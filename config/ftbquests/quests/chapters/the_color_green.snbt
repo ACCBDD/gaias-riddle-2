@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7010ED9A666FF89E"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -9,15 +10,6 @@
 	id: "40E17D40DC433CF2"
 	images: [
 		{
-			dependency: "2F210E03731A0E21"
-			height: 5.0d
-			image: "reclamation:textures/quests/theurgy_3.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 25.5d
-			y: -16.5d
-		}
-		{
 			dependency: "4DE7466CAC029EF6"
 			height: 5.0d
 			image: "reclamation:textures/quests/botania_1.png"
@@ -27,20 +19,28 @@
 			y: 6.5d
 		}
 		{
-			height: 150.0d
-			image: "illustrations:textures/quests/testsix.png"
+			height: 4.0d
+			image: "illustrations:textures/quests/chthree.png"
 			rotation: 0.0d
-			width: 200.0d
-			x: 9.0d
-			y: 23.0d
+			width: 4.0d
+			x: 14.0d
+			y: 18.5d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["600A7F0DFD880119"]
-			description: ["You've done it! You finally have grass. It's not exactly green, but you can &6bonemeal&r a large area of it and &6get flowers!&r"]
+			dependencies: ["2CB92927C4692412"]
+			description: [
+				"&7After all of that work, you've finally done it! You can &6plant your pasture seed on any patch of regular dirt and grass will begin to spread from that spot. "
+				""
+				"you may be thinking: &e&oBut wait... It's so... brown...."
+				""
+				"&7Our request to you is this: remember that the world as it was before was also imperfect. &rYou are striving to move forward, to create new perspectives and find new ways of experiencing the things you once knew. "
+				""
+				"&lHere's what you know: &r&7The dry ground from before can breathe a little easier, and fallen tree saplings will auto-plant now that they have access to more nutritious dirt."
+			]
 			disable_toast: true
 			hide_until_deps_complete: true
 			icon: "minecraft:grass_block"
@@ -51,15 +51,15 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			size: 4.0d
+			size: 2.0d
 			tasks: [{
 				id: "65DF7FECE306BB89"
 				item: "botania:grass_seeds"
 				type: "item"
 			}]
 			title: "Grass!"
-			x: 18.0d
-			y: 14.0d
+			x: 17.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
@@ -100,7 +100,7 @@
 					xp: 100
 				}
 			]
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				count: 6L
 				id: "212094225DE3E6B4"
@@ -108,8 +108,8 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: 10.5d
-			y: 1.5d
+			x: 18.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -136,14 +136,15 @@
 					xp: 100
 				}
 			]
-			size: 2.3d
+			shape: "circle"
+			size: 1.5d
 			tasks: [{
 				id: "04DF51069030E5BD"
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: 9.2d
-			y: 12.649999999999999d
+			x: 15.0d
+			y: 15.75d
 		}
 		{
 			dependencies: ["624E015B09427542"]
@@ -174,8 +175,8 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: 7.0d
-			y: 11.0d
+			x: 13.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -194,7 +195,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "7E10DE645C029C5C"
@@ -208,8 +209,8 @@
 				}
 			]
 			title: "Gold"
-			x: 13.0d
-			y: 5.0d
+			x: 18.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2737F0AE3D1835D4"]
@@ -234,8 +235,8 @@
 				}
 			]
 			title: "Living Materials"
-			x: 3.0d
-			y: 8.0d
+			x: 13.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -256,7 +257,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 3.0d
+			size: 1.5d
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -284,8 +285,8 @@
 				}
 			]
 			title: "The Nether"
-			x: 15.0d
-			y: 7.5d
+			x: 17.25d
+			y: 14.25d
 		}
 		{
 			dependencies: ["46CC05A2F2D89079"]
@@ -303,7 +304,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 3.0d
+			size: 2.0d
 			tasks: [
 				{
 					id: "4BD721A26C88ED2C"
@@ -351,8 +352,8 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 25.5d
-			y: 7.5d
+			x: 20.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -369,11 +370,10 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 26.5d
-			y: 5.0d
+			x: 21.5d
+			y: 13.5d
 		}
 		{
-			dependencies: ["5C1E3750F91A38B2"]
 			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
 			id: "153CB8257AEDA4ED"
 			rewards: [{
@@ -387,8 +387,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 31.0d
-			y: -7.0d
+			x: 26.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -409,8 +409,8 @@
 				type: "item"
 			}]
 			title: "Creating Aura"
-			x: 28.0d
-			y: 6.0d
+			x: 22.0d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -443,8 +443,8 @@
 					type: "item"
 				}
 			]
-			x: 30.0d
-			y: 2.0d
+			x: 25.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -498,8 +498,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 2.5d
-			y: 7.0d
+			x: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -515,8 +515,8 @@
 				item: "naturesaura:crushing_catalyst"
 				type: "item"
 			}]
-			x: 30.0d
-			y: -2.5d
+			x: 26.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -570,8 +570,8 @@
 				}
 			]
 			title: "Altar Upgrades"
-			x: 8.0d
-			y: 1.5d
+			x: 19.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -591,8 +591,8 @@
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.5d
+			x: 17.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -635,8 +635,8 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: 7.5d
-			y: -4.5d
+			x: 18.75d
+			y: 6.75d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -665,8 +665,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.4d
+			x: 12.8d
+			y: 9.6d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
@@ -714,7 +714,7 @@
 					xp: 100
 				}
 			]
-			size: 2.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "07380F0DB0F32DC4"
@@ -762,34 +762,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: 5.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["153CB8257AEDA4ED"]
-			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
-			id: "17089FF12C1591B8"
-			rewards: [
-				{
-					count: 8
-					id: "0F4BAEC85C9C5077"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "0A542C39214D4B16"
-					type: "xp"
-					xp: 100
-				}
-			]
-			size: 3.0d
-			tasks: [{
-				id: "7EAC671CDBFEFBA4"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: 28.5d
-			y: -10.5d
+			x: 16.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -814,155 +788,8 @@
 				type: "item"
 			}]
 			title: "Knockoff Blazes"
-			x: -0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["17089FF12C1591B8"]
-			description: ["There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"]
-			icon: "create:basin"
-			id: "2A32CE924C9CB606"
-			optional: true
-			rewards: [{
-				id: "23F62F83D9979503"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "0FB8A5B0F06E426D"
-					item: "create:basin"
-					type: "item"
-				}
-				{
-					id: "6B5791E93915EAF5"
-					item: "create:mechanical_mixer"
-					type: "item"
-				}
-				{
-					id: "178C2463E234E6A2"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-			]
-			title: "Mechanical Crafting"
-			x: 31.5d
-			y: -12.0d
-		}
-		{
-			dependencies: [
-				"00448B9AC0FC3F5D"
-				"17089FF12C1591B8"
-			]
-			description: [
-				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
-				""
-				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial component of the &6Reformation Array.&r"
-			]
-			icon: "create:encased_fan"
-			id: "05820674B5CC639D"
-			rewards: [{
-				id: "7D07BBC1418D7C79"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "4A9D9FBBBDE57536"
-					item: "create:encased_fan"
-					type: "item"
-				}
-				{
-					id: "55F8484DFCFD7029"
-					item: "minecraft:soul_sand"
-					type: "item"
-				}
-				{
-					id: "452FBDCD430ED783"
-					item: "create:hand_crank"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Moving Air"
-			x: 23.5d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"05820674B5CC639D"
-				"5A8DD5C84842AD14"
-			]
-			description: [
-				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
-				""
-				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
-				""
-				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
-			]
-			icon: "theurgy:reformation_result_pedestal"
-			id: "2F210E03731A0E21"
-			rewards: [
-				{
-					count: 2
-					id: "0B48F3CE218EE46B"
-					item: "theurgy:mercury_crystal"
-					type: "item"
-				}
-				{
-					id: "512844E3ED4F22AF"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "48B96711CA5E1E82"
-					item: "theurgy:reformation_result_pedestal"
-					type: "item"
-				}
-				{
-					id: "71C6DFB17E46C57E"
-					item: "theurgy:reformation_target_pedestal"
-					type: "item"
-				}
-				{
-					id: "06032DD1D16334EA"
-					item: "theurgy:reformation_source_pedestal"
-					type: "item"
-				}
-				{
-					id: "5F70BFFABB339810"
-					item: "theurgy:sulfuric_flux_emitter"
-					type: "item"
-				}
-				{
-					id: "5202013C1D67BF1C"
-					item: "theurgy:mercury_catalyst"
-					type: "item"
-				}
-			]
-			title: "Alchemical Reformation"
-			x: 16.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["17089FF12C1591B8"]
-			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power - &6it is much faster than the ember-fueled one!"]
-			id: "2E0F026AB59D83B5"
-			optional: true
-			rewards: [{
-				id: "6A2676B04EF7610A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5E548AA09A77547C"
-				item: "create:mechanical_pump"
-				type: "item"
-			}]
-			x: 29.5d
-			y: -13.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -987,8 +814,8 @@
 				type: "item"
 			}]
 			title: "(almost) Free Dirt"
-			x: -4.5d
-			y: 2.5d
+			x: 10.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1006,8 +833,8 @@
 				type: "item"
 			}]
 			title: "Portable Mana"
-			x: -1.5d
-			y: 3.0d
+			x: 11.25d
+			y: 11.25d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1023,8 +850,8 @@
 				item: "botania:mana_ring"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: 9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1040,8 +867,8 @@
 				item: "botania:aura_ring"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: 11.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
@@ -1073,26 +900,8 @@
 				}
 			]
 			title: "Useful Dusts"
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2E0F026AB59D83B5"]
-			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
-			id: "15AB65CE5C0B95CC"
-			optional: true
-			rewards: [{
-				id: "4B40A3E6B89D17DA"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "63B514655C769766"
-				item: "create:spout"
-				type: "item"
-			}]
-			x: 30.0d
-			y: -15.0d
+			x: 11.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["621BEE0A09882094"]
@@ -1114,8 +923,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -10.0d
+			x: 15.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C1E3750F91A38B2"]
@@ -1137,85 +946,8 @@
 				item: "naturesaura:conversion_catalyst"
 				type: "item"
 			}]
-			x: 28.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["17089FF12C1591B8"]
-			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
-			id: "26942D2DF8C8AF91"
-			optional: true
-			rewards: [{
-				id: "199207E4E8F0B826"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "143D8425B45D3807"
-				item: "create:millstone"
-				type: "item"
-			}]
-			x: 31.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["2F210E03731A0E21"]
-			description: [
-				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
-				""
-				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
-				""
-				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
-			]
-			id: "50D60856E308EC6D"
-			min_width: 400
-			rewards: [{
-				id: "46AD85B696B8299A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "48F63F3E09BD04C1"
-				item: "theurgy:fermentation_vat"
-				type: "item"
-			}]
-			title: "Alchemical Conversion"
-			x: 19.0d
-			y: -14.5d
-		}
-		{
-			dependencies: ["50D60856E308EC6D"]
-			description: [
-				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
-				""
-				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!&r"
-				""
-				"This is a metal loop you could try automating..."
-				""
-				"&7Tip: you can start and stop the vats using a redstone signal!&r"
-			]
-			id: "2368485BEB03F353"
-			rewards: [
-				{
-					count: 4
-					id: "4019A01E02C978B6"
-					item: "theurgy:sal_ammoniac_crystal"
-					type: "item"
-				}
-				{
-					id: "46A030476A7D2CE1"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "525FFCD223358CF7"
-				item: "theurgy:digestion_vat"
-				type: "item"
-			}]
-			title: "Alchemical Exaltation"
-			x: 23.5d
-			y: -14.5d
+			x: 26.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1238,7 +970,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 4.0d
+			size: 2.0d
 			tasks: [
 				{
 					id: "61D4BE7CF94C3895"
@@ -1251,8 +983,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -12.0d
+			x: 17.0d
+			y: 2.0d
 		}
 		{
 			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
@@ -1268,8 +1000,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: 11.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -1287,7 +1019,7 @@
 				xp: 100
 			}]
 			shape: "circle"
-			size: 4.0d
+			size: 2.5d
 			subtitle: "and trade bads, too!"
 			tasks: [
 				{
@@ -1302,8 +1034,8 @@
 				}
 			]
 			title: "Trade Goods"
-			x: 2.0d
-			y: -18.0d
+			x: 16.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -1323,7 +1055,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.6d
+			size: 1.0d
 			tasks: [
 				{
 					id: "7FBBEAD125CEBC23"
@@ -1342,104 +1074,8 @@
 				}
 			]
 			title: "Alternative Mana Sources"
-			x: 2.4d
-			y: 4.0d
-		}
-		{
-			dependencies: ["17089FF12C1591B8"]
-			description: [
-				"Now that you have zinc, you can alloy it with copper to create brass! This is useful almost exclusively for &6mechanical contraptions.&r"
-				""
-				"&6Electron Tubes&r are also an important step to making more complicated contraptions. "
-				""
-				"&6Rose Quartz&r can be made in a heated basin, combining glowstone and redstone in a sal ammoniac bath."
-			]
-			icon: "create:electron_tube"
-			id: "20EF463DB77E09EE"
-			optional: true
-			rewards: [{
-				id: "6B9CCEAAD5EFAAF2"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "0B9F338A37E36108"
-					item: "create:brass_ingot"
-					type: "item"
-				}
-				{
-					id: "5AB8A62B4C42FBE1"
-					item: "create:electron_tube"
-					type: "item"
-				}
-			]
-			title: "Advanced Contraptions"
-			x: 28.0d
-			y: -13.5d
-		}
-		{
-			dependencies: ["17089FF12C1591B8"]
-			description: [
-				"Packages and their associated transport items open up a huge amount of logistical freedom."
-				""
-				"&7Tip: for more information, hover these items and hold W to ponder!"
-			]
-			icon: "create:packager"
-			id: "7027BF39C1223997"
-			optional: true
-			rewards: [{
-				id: "2928C183B230148C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "71DD21702431A790"
-					item: "create:chain_conveyor"
-					type: "item"
-				}
-				{
-					id: "1740117E6C75E6EC"
-					item: "create:package_frogport"
-					type: "item"
-				}
-				{
-					id: "25F76361F4E9E507"
-					item: "create:packager"
-					type: "item"
-				}
-			]
-			title: "Mechanical Logistics"
-			x: 32.0d
-			y: -10.5d
-		}
-		{
-			dependencies: ["20EF463DB77E09EE"]
-			description: ["With access to brass and electron tubes, you can make a Mechanical Crafter. These, in combination with &6factory gauges&r and &6package logistics,&r allow you to set up automatic stocking and crafting of items!"]
-			icon: "create:factory_gauge"
-			id: "0230C7C57435FB3A"
-			optional: true
-			rewards: [{
-				id: "41EA2740A534F40D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "6955607593312B92"
-					item: "create:mechanical_crafter"
-					type: "item"
-				}
-				{
-					id: "468E8D3B8A867517"
-					item: "create:factory_gauge"
-					type: "item"
-				}
-			]
-			title: "Autocrafting"
-			x: 26.5d
-			y: -15.0d
+			x: 14.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["020B8F06D2C86CE3"]
@@ -1459,8 +1095,8 @@
 				item: "naturesaura:generator_limit_remover"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -15.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -1496,7 +1132,7 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			size: 1.0d
 			tasks: [
 				{
 					id: "402A7DA140E7221A"
@@ -1516,8 +1152,8 @@
 				}
 			]
 			title: "Bottling Sunlight"
-			x: 24.0d
-			y: 11.0d
+			x: 18.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["77FBE2FA730A82AE"]
@@ -1537,8 +1173,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -1558,8 +1194,8 @@
 				item: "botania:lens_normal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: 14.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["5A8DD5C84842AD14"]
@@ -1590,8 +1226,8 @@
 				}
 			]
 			title: "Mercurial Power"
-			x: 19.5d
-			y: -9.0d
+			x: 25.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -1609,7 +1245,7 @@
 				xp: 100
 			}]
 			shape: "rsquare"
-			size: 3.0d
+			size: 1.0d
 			subtitle: "pseudo-terraforming"
 			tasks: [{
 				id: "75E38FC6727823EF"
@@ -1623,8 +1259,8 @@
 				type: "item"
 			}]
 			title: "Regrowth?"
-			x: 33.0d
-			y: 1.5d
+			x: 27.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1652,15 +1288,15 @@
 					xp: 100
 				}
 			]
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "3DA044014EEF761D"
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			title: "Real Blazes"
-			x: 3.0d
-			y: -7.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["01C2598A1D9CF754"]
@@ -1675,7 +1311,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.3d
 			subtitle: "what's a thaumcraft?"
 			tasks: [{
 				id: "29941A80B277677E"
@@ -1683,8 +1319,8 @@
 				type: "item"
 			}]
 			title: "Primal Magick"
-			x: 25.0d
-			y: 0.0d
+			x: 21.450000000000003d
+			y: 11.700000000000001d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1702,7 +1338,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.3d
 			tasks: [
 				{
 					id: "7D45AA752BD8008D"
@@ -1715,8 +1351,8 @@
 					type: "item"
 				}
 			]
-			x: 23.0d
-			y: -2.0d
+			x: 21.450000000000003d
+			y: 10.4d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1732,15 +1368,15 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "3CCAD4016139C417"
 				title: "I understand!"
 				type: "checkmark"
 			}]
 			title: "Finding Mana"
-			x: 27.0d
-			y: 0.0d
+			x: 20.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["058AC672AE190DB2"]
@@ -1757,7 +1393,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.3d
 			tasks: [
 				{
 					id: "3B1B0DC73D249EA3"
@@ -1771,8 +1407,8 @@
 				}
 			]
 			title: "Primal Research"
-			x: 21.0d
-			y: -4.0d
+			x: 21.450000000000003d
+			y: 9.100000000000001d
 		}
 		{
 			description: [
@@ -1787,8 +1423,8 @@
 				type: "item"
 			}]
 			title: "making marble?"
-			x: 24.5d
-			y: -12.5d
+			x: 25.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1808,8 +1444,8 @@
 				item: "primalmagick:calcinator_basic"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -6.0d
+			x: 23.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1825,8 +1461,8 @@
 				item: "primalmagick:wand_charger"
 				type: "item"
 			}]
-			x: 19.5d
-			y: -6.5d
+			x: 24.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1841,14 +1477,14 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.6d
+			size: 1.0d
 			tasks: [{
 				id: "6426F8092D959694"
 				item: "primalmagick:wand_assembly_table"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -5.5d
+			x: 23.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1887,8 +1523,8 @@
 				}
 			]
 			title: "Rituals"
-			x: 12.0d
-			y: -8.0d
+			x: 21.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["499BFD6DE9F18512"]
@@ -1910,8 +1546,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -5.0d
+			x: 21.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1927,8 +1563,8 @@
 				item: "primalmagick:primalite_ingot"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -9.0d
+			x: 24.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["499BFD6DE9F18512"]
@@ -1953,8 +1589,8 @@
 				}
 			]
 			title: "Advanced Ritual Props"
-			x: 10.5d
-			y: -10.5d
+			x: 19.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
@@ -1974,8 +1610,8 @@
 				item: "primalmagick:rock_salt"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.5d
+			x: 20.0d
+			y: 6.0d
 		}
 		{
 			id: "0AB108957B2088DB"
@@ -1984,8 +1620,8 @@
 				item: "create:tree_fertilizer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.5d
+			x: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1995,7 +1631,7 @@
 				"You might also be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of getting up there easily."
 			]
 			id: "68558E81E775E5B6"
-			size: 2.0d
+			size: 1.0d
 			tasks: [
 				{
 					id: "08714403837E62A3"
@@ -2021,26 +1657,54 @@
 				}
 			]
 			title: "Breathing Fresh Air"
-			x: 18.0d
-			y: -3.0d
+			x: 23.0d
+			y: 8.5d
 		}
 		{
-			description: ["&dnote: waiting to place this quest until we've been able to test the create tasks"]
-			id: "30C19386906705FD"
+			description: [
+				"&6The power of trees is one of the many things that is overlooked in our wider, harsher realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
+				""
+				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
+			]
+			id: "45DDC2BAC46D5922"
 			size: 2.0d
-			tasks: [{
-				id: "7E8A5311389240C4"
-				item: {
-					Count: 1
-					id: "createornithopterglider:ornithopterglider"
-					tag: {
-						Damage: 0
-					}
+			tasks: [
+				{
+					id: "381ACF51D4857F69"
+					item: "naturesaura:gold_fiber"
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 34.0d
-			y: -14.0d
+				{
+					id: "4DD67EC006D4EED7"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["45DDC2BAC46D5922"]
+			description: [
+				"Now, you can use these magical resources as a way to conduct a &6&lritual of the forest&r. Conducting one of these rituals will create a &6Pasture Seed,&r which will let you finally &6bring back grass to the world!&r"
+				""
+				"&7To find out how to actually do the ritual, check how to do a Ritual of the Forest in your Book of Natural Aura, or use EMI."
+			]
+			id: "2CB92927C4692412"
+			tasks: [
+				{
+					id: "04E5C911AD10BFB4"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+				{
+					id: "2AC47FFD3BA71EBB"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 18.5d
 		}
 	]
 	title: "Chapter 3: Growing Roots"

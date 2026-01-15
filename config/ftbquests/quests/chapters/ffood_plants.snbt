@@ -1,4 +1,5 @@
 {
+	autofocus_id: "303D96CD71A877FA"
 	default_hide_dependency_lines: true
 	default_min_width: 280
 	default_quest_shape: ""
@@ -28,7 +29,6 @@
 			y: -2.5d
 		}
 		{
-			dependency: "600A7F0DFD880119"
 			height: 5.0d
 			image: "reclamation:textures/quests/automation.png"
 			rotation: 0.0d
@@ -37,21 +37,12 @@
 			y: -2.0d
 		}
 		{
-			dependency: "2E15C8681F5D2ACF"
-			height: 5.0d
-			image: "reclamation:textures/quests/cooking_for_blockheads.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: -3.5d
-			y: -8.0d
-		}
-		{
 			height: 2.0d
 			image: "illustrations:textures/quests/farmersdelight.png"
 			rotation: 0.0d
 			width: 5.5d
-			x: 8.5d
-			y: -3.5d
+			x: -0.5d
+			y: 5.5d
 		}
 	]
 	order_index: 0
@@ -849,262 +840,6 @@
 			y: 1.5d
 		}
 		{
-			can_repeat: false
-			dependencies: ["08415BCE11C57437"]
-			description: [
-				"The &6Cooking Table&r is the heart of a multiblock kitchen - allowing you to craft any number of foods with the items stored inside of it. It can also supply you with tools, water, snow/ice, and milk."
-				""
-				"Especially handy when you have a large amount of foods and a limited amount of brainpower."
-			]
-			hide_dependency_lines: true
-			icon: "cookingforblockheads:cooking_table"
-			id: "4D73550447732EA7"
-			rewards: [{
-				id: "6D09FB870BF5871E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "68694769196AB56D"
-				item: "cookingforblockheads:cooking_table"
-				type: "item"
-			}]
-			title: "Cooking for Blockheads"
-			x: -3.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: ["The &6ME Kitchen Station&r lets you connect your multiblock kitchen to your ME system!"]
-			id: "7BAD63BC0715B64B"
-			rewards: [
-				{
-					id: "3A5DA2A94F737E87"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "53804A5D4F3F49E3"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "0D5F5E260FB18663"
-				item: "appliedcooking:kitchen_station"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: ["The &6fridge&r stores items, just like a cabinet."]
-			id: "125C325C7C2A5F96"
-			rewards: [
-				{
-					count: 16
-					id: "1050B037549D4C1E"
-					item: "minecraft:snowball"
-					type: "item"
-				}
-				{
-					id: "698DDA3D7FA57F83"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "1FE2FB207B02A2A9"
-				item: "cookingforblockheads:fridge"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: [
-				"A &6sink&r provides unlimited water to recipes."
-				""
-				"&7Tip: ...and other things."
-			]
-			id: "099EFA6218C75305"
-			rewards: [{
-				id: "794FA35704620008"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4F39577A9F222030"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: ["The oven lets you cook multiple foods in a single block."]
-			id: "77F39CFBE045ED20"
-			rewards: [{
-				id: "1751761C7767AA29"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "609B40D630E5903D"
-				item: "cookingforblockheads:oven"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: [
-				"A &6Cow in a Jar&r slowly produces milk, which can be used in recipes."
-				""
-				"...but how does one get a cow into a jar?"
-				""
-				""
-				"&7Tip: you'll need to turn off claim protection or make this outside a claim, OPAC doesn't really like animal cruelty!"
-			]
-			id: "1401EC6A82EAB753"
-			rewards: [
-				{
-					count: 16
-					id: "145B76F30E19840C"
-					item: "croptopia:raisin_oatmeal_cookie"
-					type: "item"
-				}
-				{
-					id: "0CA2F0919A564D66"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "5D2A98BA2DFB9EC5"
-				item: "cookingforblockheads:cow_jar"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["125C325C7C2A5F96"]
-			description: ["When added to a fridge, the &6ice unit&r provides unlimited ice and snow to recipes."]
-			id: "53AEEB6C2501B3EC"
-			rewards: [
-				{
-					count: 4
-					id: "579414EE8D8EFFCB"
-					item: "minecraft:blue_ice"
-					type: "item"
-				}
-				{
-					id: "19B115D0B7C325FB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "4163E0AB167C93FC"
-				item: "cookingforblockheads:ice_unit"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["77F39CFBE045ED20"]
-			description: ["The &6heating unit,&r applied to a stove, lets it run on energy instead of burnable fuel."]
-			id: "148FE15927A8D3D7"
-			rewards: [{
-				id: "15755214091B0175"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7FDBF51991F2AE34"
-				item: "cookingforblockheads:heating_unit"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: ["The &6tool rack&r provides tools to cooking recipes; pots, pans, and other sorts."]
-			id: "5182E7BBC5921B90"
-			rewards: [
-				{
-					id: "017EF895E75AF8A2"
-					item: "croptopia:knife"
-					type: "item"
-				}
-				{
-					id: "6CE7BA4934193EF7"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "6525DE7190BD2B2A"
-				item: "cookingforblockheads:tool_rack"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4D73550447732EA7"]
-			description: ["The &6Kitchen Cabinet and Counter&r store items for the Cooking Table to use."]
-			icon: "cookingforblockheads:counter"
-			id: "1DF2160AD495F3F4"
-			rewards: [
-				{
-					count: 2
-					id: "76EA5491DEA2437C"
-					item: "cookingforblockheads:corner"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4CCDD4AAB135F43F"
-					item: "cookingforblockheads:hanging_corner"
-					type: "item"
-				}
-				{
-					id: "4A282591DBF0B6FB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "0505402EC8EFD91E"
-					item: "cookingforblockheads:counter"
-					type: "item"
-				}
-				{
-					id: "6BCB9CC6B0896385"
-					item: "cookingforblockheads:cabinet"
-					type: "item"
-				}
-			]
-			title: "Kitchen Storage"
-			x: -3.5d
-			y: -4.5d
-		}
-		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
 				"The &6Horn of the Wild&r lets you harvest a large area of crops without manually collecting them one by one."
@@ -1192,6 +927,10 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"68536E0D3B5694E7"
+				"303D96CD71A877FA"
+			]
 			id: "2CE9933AC4A477E0"
 			tasks: [{
 				id: "5764F851D76C421E"
@@ -1233,10 +972,14 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"0BD99D6E0D93E05F"
+				"303D96CD71A877FA"
+			]
 			description: ["fix with agricraft"]
 			id: "2666953F5E403C00"
 			tasks: [{
@@ -1244,10 +987,14 @@
 				item: "farmersdelight:tomato"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"52641FDAD803360E"
+			]
 			description: ["fix with agricraft"]
 			id: "187C0139224ECE2A"
 			tasks: [{
@@ -1255,38 +1002,22 @@
 				item: "farmersdelight:rice_panicle"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"1281E40889F822FE"
+				"1CE48B2F73EDB8FC"
+			]
 			id: "3B91FF8507BEB2B4"
 			tasks: [{
 				id: "75719D5DB28B933D"
 				item: "farmersdelight:cabbage"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
-		}
-		{
-			id: "6D46F41A02640587"
-			tasks: [{
-				id: "1DDF9C95E5A9BF00"
-				item: "hexerei:sage"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -6.0d
-		}
-		{
-			id: "566A7741237E1498"
-			tasks: [{
-				id: "6E074EF243A3C364"
-				item: "enchanted:garlic"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -6.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			id: "58C10F51F2EBF2CE"
@@ -1302,8 +1033,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: 0.0d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			id: "078228586BA1D07D"
@@ -1312,8 +1043,8 @@
 				item: "farmersdelight:raw_pasta"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			id: "7009C76EB79F608B"
@@ -1328,8 +1059,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			id: "396943B36F9B781E"
@@ -1338,8 +1069,8 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			id: "4B7A1360EE3A4E03"
@@ -1361,8 +1092,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -2.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			id: "332B79C4C4B9131B"
@@ -1371,8 +1102,131 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "1F038A87254FEE1D"
+			tasks: [{
+				id: "79123C30DC28FC58"
+				item: "farmersdelight:full_tatami_mat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "4597A35FA9E02F39"
+			tasks: [
+				{
+					id: "1C6448D5706D289D"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+				{
+					id: "08A3F3492063A2E2"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "774F01ADF68DA3F3"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+			]
+			title: "Beverages"
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "106698BBBCB7C1D4"
+			tasks: [
+				{
+					id: "7A9106ACF35A681B"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+				{
+					id: "2FF71F988A60B248"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+				{
+					id: "409F0F64D8734319"
+					item: "farmersdelight:cod_roll"
+					type: "item"
+				}
+				{
+					id: "7F96CAAE74AE08F2"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			title: "Sushi!"
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "109EED68E3B33A23"
+			tasks: [
+				{
+					id: "3BB05F56CC1F015E"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+				{
+					id: "1F23C2DA67083CEB"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+				{
+					id: "1E01C91D6EFFEAB6"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "2499A59C06EA27C5"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+			]
+			title: "Best thing since sliced bread"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			description: ["Place any of these rich meals on a table if you ever get the urge to host a dinner party"]
+			id: "1937DD93F6E3F6E8"
+			tasks: [
+				{
+					id: "0D2142846EF19425"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "5C293A3E3A276E08"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+				{
+					id: "06CD260956C8B98E"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "707DBF48C456E934"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+				{
+					id: "36E9178E9B2C9D54"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+			]
+			title: "For having company"
+			x: -2.5d
+			y: 9.0d
 		}
 	]
 	title: "Plants Galore"

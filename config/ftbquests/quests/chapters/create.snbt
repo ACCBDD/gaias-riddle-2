@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "2BFAC9C95DAED88B"
+	icon: "create:brass_casing"
+	id: "58C92B6E0F1AD6CA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A8DD5C84842AD14"]
+			description: [
+				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
+				""
+				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
+				""
+				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+			]
+			id: "005E98B30FE9BA24"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4A0B06B8D7F24B86"
+					item: "theurgy:reformation_result_pedestal"
+					type: "item"
+				}
+				{
+					id: "038E755A0BA15720"
+					item: "theurgy:reformation_target_pedestal"
+					type: "item"
+				}
+				{
+					id: "4330209DC8C70C4C"
+					item: "theurgy:reformation_source_pedestal"
+					type: "item"
+				}
+				{
+					id: "64480B59B5AEA2F2"
+					item: "theurgy:sulfuric_flux_emitter"
+					type: "item"
+				}
+				{
+					id: "214FF062156E5DF2"
+					item: "theurgy:mercury_catalyst"
+					type: "item"
+				}
+			]
+			title: "Alchemical Reformation"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["005E98B30FE9BA24"]
+			description: [
+				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
+				""
+				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				""
+				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
+			]
+			id: "13DBDEB0830A188B"
+			tasks: [{
+				id: "59ADF547A6833EAA"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			title: "Alchemical Conversion"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13DBDEB0830A188B"]
+			description: [
+				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
+				""
+				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!&r"
+				""
+				"This is a metal loop you could try automating..."
+				""
+				"&7Tip: you can start and stop the vats using a redstone signal!&r"
+			]
+			id: "7CC51D09D681141E"
+			tasks: [{
+				id: "7ABBEA419D5D8608"
+				item: "theurgy:digestion_vat"
+				type: "item"
+			}]
+			title: "Alchemical Exaltation"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5C1E3750F91A38B2"
+				"153CB8257AEDA4ED"
+			]
+			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
+			id: "450CA3690585CA60"
+			optional: true
+			size: 2.0d
+			tasks: [{
+				id: "700260E5E347B30B"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: [
+				"By blowing air through certain things, you can blast, smoke, wash, or &6haunt&r items. This means you have access to essentially free bulk smelting!"
+				""
+				"More importantly, though - now that you can haunt items, you can make &6blackstone&r by &6haunting&r cobblestone, a crucial component of the &6Reformation Array.&r"
+			]
+			icon: "create:encased_fan"
+			id: "04B2ED80BD6097B6"
+			tasks: [
+				{
+					id: "5FCF423623B9163D"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "5E0CABBFA3AA14E3"
+					item: "minecraft:soul_sand"
+					title: "Moving Air"
+					type: "item"
+				}
+				{
+					id: "5F81A7F358D38D64"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: ["The &6Millstone&r can crush cobble into gravel, bones into bone meal, and a variety of plants into their respective dyes at a much higher rate of return."]
+			id: "5E76994E134B0B5A"
+			tasks: [{
+				id: "08616E64598805AA"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: [
+				"Packages and their associated transport items open up a huge amount of logistical freedom."
+				""
+				"&7Tip: for more information, hover these items and hold W to ponder!"
+			]
+			id: "0962800825711FC3"
+			tasks: [
+				{
+					id: "05DCA419D1A80917"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					id: "3BDCDFEF1B6F9925"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "7A2FB2CC5F647FC7"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+			]
+			title: "Mechanical Logistics"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: ["There are a few other ways you can process materials using andesite-based machinery; namely, &6compacting, pressing, and mixing&r You'll need to find some way to capture a fire elemental if you want to expand your repertoire, though; &bmaybe mana can help you somehow?&r"]
+			id: "2E211DD985D7FFA9"
+			tasks: [
+				{
+					id: "368DD5B78DD04C80"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "1D7A26544854D4FE"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "6D18A6369808FCC4"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "Mechanical Crafting"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: ["A mechanical pump is capable of pumping liquids in the world into pipes when given mechanical power"]
+			id: "39071EEB2C190B9F"
+			tasks: [{
+				id: "4166FD5F7E27A0E5"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39071EEB2C190B9F"]
+			description: ["Once you have a pump, you can create a &6Spout&r to dispense liquid onto items - this is a possible way to make &6glowstone or redstone,&r if you're willing to set up the infrastructure."]
+			id: "6746AA54A774EB2B"
+			tasks: [{
+				id: "662CBFADC54A47CA"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["450CA3690585CA60"]
+			description: [
+				"Now that you have zinc, you can alloy it with copper to create brass! This is useful almost exclusively for &6mechanical contraptions.&r"
+				""
+				"&6Electron Tubes&r are also an important step to making more complicated contraptions. "
+				""
+				"&6Rose Quartz&r can be made in a heated basin, combining glowstone and redstone in a sal ammoniac bath."
+			]
+			id: "4DCB8C23924476B4"
+			tasks: [
+				{
+					id: "283DCDAD30E05D93"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "2380769E9EC80F6A"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "Advanced Contraptions"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DCB8C23924476B4"]
+			description: ["With access to brass and electron tubes, you can make a Mechanical Crafter. These, in combination with &6factory gauges&r and &6package logistics,&r allow you to set up automatic stocking and crafting of items!"]
+			icon: "create:factory_gauge"
+			id: "5778ADA07F71D046"
+			tasks: [
+				{
+					id: "69C5F1C2BD9B90C6"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "14D7B22D0D0E4FE1"
+					item: "create:factory_gauge"
+					type: "item"
+				}
+			]
+			title: "Autocrafting"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5778ADA07F71D046"]
+			icon: {
+				Count: 1
+				id: "createornithopterglider:ornithopterglider"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0DE1216F7CF75659"
+			tasks: [
+				{
+					count: 7L
+					id: "41EC34C7DF0A6429"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "68534E2C591A78F3"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7BB9487F49DFDB4B"
+					item: { Count: 2, id: "createornithopterglider:rope" }
+					type: "item"
+				}
+				{
+					id: "45CBFAFBEF3D069E"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0ABC2EFDCB2EA2B8"
+					item: { Count: 2, id: "create:brass_nugget" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7914FB2FAAFD06CC"
+					item: { Count: 3, id: "minecraft:oak_slab" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5396144CA5BBEBF8"
+					item: { Count: 16, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "Create"
+}

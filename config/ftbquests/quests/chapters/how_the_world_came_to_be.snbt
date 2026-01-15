@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7051A7B9EF38B5D8"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -9,22 +10,13 @@
 	id: "2B630DD43CEBA9AC"
 	images: [
 		{
-			dependency: "6B5B443D2F7DD3D4"
-			height: 4.0d
-			image: "reclamation:textures/quests/theurgy_1.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 1.0d
-			y: 7.0d
-		}
-		{
 			dependency: "01AB2D65C171F1F9"
 			height: 5.0d
 			image: "reclamation:textures/quests/theurgy_2.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 1.0d
-			y: 3.0d
+			x: -10.5d
+			y: 49.0d
 		}
 		{
 			height: 1.0d
@@ -115,28 +107,28 @@
 			y: 2.0d
 		}
 		{
-			height: 100.0d
-			image: "illustrations:textures/quests/testone.png"
+			height: 1.0d
+			image: "illustrations:textures/quests/description_a6a62bb2-8e6b-4fc0-bf17-18916f8cff7c.png"
 			rotation: 0.0d
-			width: 300.0d
-			x: -26.0d
-			y: 38.0d
+			width: 3.0d
+			x: -10.0d
+			y: 54.5d
 		}
 		{
 			height: 2.0d
-			image: "illustrations:textures/quests/description_a6a62bb2-8e6b-4fc0-bf17-18916f8cff7c.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: -10.0d
-			y: 13.0d
-		}
-		{
-			height: 4.0d
 			image: "illustrations:textures/quests/reclamation_banner-png.png"
 			rotation: 0.0d
-			width: 7.0d
-			x: 14.5d
-			y: 22.0d
+			width: 3.5d
+			x: -11.0d
+			y: 53.0d
+		}
+		{
+			height: 4.5d
+			image: "illustrations:textures/quests/chone.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -13.0d
+			y: 37.0d
 		}
 	]
 	order_index: 0
@@ -156,7 +148,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			size: 3.0d
+			size: 2.0d
 			subtitle: "And I won't tell you where it is, so why do I tell you anything?"
 			tasks: [{
 				id: "5837682A2F4F2D20"
@@ -164,8 +156,8 @@
 				type: "checkmark"
 			}]
 			title: "What... happened?"
-			x: -12.0d
-			y: 18.0d
+			x: -13.0d
+			y: 37.0d
 		}
 		{
 			dependencies: ["40200E30710D409D"]
@@ -190,7 +182,7 @@
 					xp: 100
 				}
 			]
-			size: 2.0d
+			size: 1.5d
 			subtitle: "I won't tell you where the place is, in the dark mesh of the woods"
 			tasks: [
 				{
@@ -205,8 +197,8 @@
 				}
 			]
 			title: "Dead Trees"
-			x: 3.0d
-			y: 22.0d
+			x: -16.0d
+			y: 46.0d
 		}
 		{
 			dependencies: ["3BF5FDE3C81BEF26"]
@@ -240,8 +232,8 @@
 				type: "item"
 			}]
 			title: "Useable Copper"
-			x: -8.0d
-			y: 29.5d
+			x: -9.5d
+			y: 43.0d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -263,8 +255,8 @@
 				type: "checkmark"
 			}]
 			title: "Making stuff from scratch!"
-			x: -7.0d
-			y: 25.0d
+			x: -13.0d
+			y: 42.5d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -286,8 +278,8 @@
 				type: "checkmark"
 			}]
 			title: "What About Mining?"
-			x: -11.0d
-			y: 27.0d
+			x: -11.5d
+			y: 41.0d
 		}
 		{
 			dependencies: ["353FED2BF4FBD8EC"]
@@ -326,8 +318,8 @@
 				type: "item"
 			}]
 			title: "Spagyrics"
-			x: -8.0d
-			y: 32.0d
+			x: -7.5d
+			y: 44.0d
 		}
 		{
 			dependencies: ["26C8365A4497F614"]
@@ -369,8 +361,8 @@
 				}
 			]
 			title: "Sal Ammoniac"
-			x: -3.0d
-			y: 28.0d
+			x: -11.0d
+			y: 43.5d
 		}
 		{
 			dependencies: ["353FED2BF4FBD8EC"]
@@ -414,8 +406,8 @@
 				}
 			]
 			title: "Alchemical Mercury"
-			x: -2.5d
-			y: 34.5d
+			x: -10.5d
+			y: 45.5d
 		}
 		{
 			dependencies: ["353FED2BF4FBD8EC"]
@@ -459,8 +451,8 @@
 				}
 			]
 			title: "Alchemical Salt"
-			x: -2.0d
-			y: 32.0d
+			x: -9.5d
+			y: 45.5d
 		}
 		{
 			dependencies: [
@@ -518,8 +510,8 @@
 				}
 			]
 			title: "Alchemical Sulfur"
-			x: -2.0d
-			y: 29.5d
+			x: -11.5d
+			y: 45.5d
 		}
 		{
 			dependencies: [
@@ -569,8 +561,8 @@
 				}
 			]
 			title: "Incubator"
-			x: 6.0d
-			y: 28.0d
+			x: -14.0d
+			y: 48.0d
 		}
 		{
 			dependencies: ["144A644B058EA9F6"]
@@ -594,8 +586,8 @@
 				type: "item"
 			}]
 			title: "Finally! Dirt!"
-			x: 10.0d
-			y: 14.0d
+			x: -14.0d
+			y: 56.0d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -639,8 +631,8 @@
 				type: "checkmark"
 			}]
 			title: "Something Smells...Fishy?"
-			x: -9.0d
-			y: 26.5d
+			x: -12.0d
+			y: 42.0d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -656,7 +648,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.5d
 			subtitle: "to have you listen at all, it's necessary to talk about trees"
 			tasks: [{
 				id: "7CE871AB4BA6259E"
@@ -664,8 +656,8 @@
 				type: "checkmark"
 			}]
 			title: "What Happened to the Biomes?"
-			x: -3.0d
-			y: 24.0d
+			x: -14.25d
+			y: 44.25d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -695,8 +687,8 @@
 				type: "checkmark"
 			}]
 			title: "[Evolving] Mobs and Mob Drops"
-			x: -4.0d
-			y: 18.0d
+			x: -15.0d
+			y: 41.0d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -724,8 +716,8 @@
 				type: "checkmark"
 			}]
 			title: "Too Many Books!?"
-			x: -4.0d
-			y: 20.5d
+			x: -14.5d
+			y: 42.0d
 		}
 		{
 			dependencies: ["1F466C810237B69A"]
@@ -742,8 +734,8 @@
 				type: "item"
 			}]
 			title: "De-coarsing the dirt"
-			x: 9.0d
-			y: 21.5d
+			x: -14.0d
+			y: 50.5d
 		}
 		{
 			dependencies: ["71F2F16098C1DD0D"]
@@ -790,8 +782,8 @@
 				}
 			]
 			title: "A Feathery Friend?"
-			x: 9.0d
-			y: 18.0d
+			x: -14.0d
+			y: 53.0d
 		}
 		{
 			dependencies: ["144A644B058EA9F6"]
@@ -823,8 +815,8 @@
 				type: "checkmark"
 			}]
 			title: "Renewable Wood?"
-			x: 12.0d
-			y: 17.5d
+			x: -15.5d
+			y: 53.0d
 		}
 		{
 			dependencies: ["353FED2BF4FBD8EC"]
@@ -835,8 +827,8 @@
 				item: "createdeco:copper_door"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 32.0d
+			x: -7.5d
+			y: 43.0d
 		}
 		{
 			dependencies: ["73F3DDAFC46A9CD5"]
@@ -857,8 +849,8 @@
 				title: "Living in New Ways"
 				type: "checkmark"
 			}]
-			x: -10.0d
-			y: 20.0d
+			x: -13.0d
+			y: 40.5d
 		}
 		{
 			dependencies: ["353FED2BF4FBD8EC"]
@@ -868,9 +860,10 @@
 				"Pro tip: &7Each of these tools has its own special unique ability, but &ryou need to watch your power consumption online... &eyour tools will be stronger or weaker depending on the charge of the solar panels this server runs on."
 			]
 			id: "48F77FF89702A411"
+			size: 2.0d
 			title: "[SOLAR TOOLS HERE]"
-			x: -9.0d
-			y: 32.0d
+			x: -7.0d
+			y: 46.0d
 		}
 		{
 			dependencies: ["4582469C85E2315D"]
@@ -882,8 +875,8 @@
 				title: "Pollution?"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: 15.0d
+			x: -15.0d
+			y: 40.0d
 		}
 	]
 	subtitle: ["what...happened here?"]

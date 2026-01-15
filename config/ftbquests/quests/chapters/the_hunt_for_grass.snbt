@@ -13,72 +13,72 @@
 			image: "enchanted:block/alder_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: -0.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/acacia_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 2.0d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			height: 1.0d
 			image: "enchanted:block/hawthorn_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: -3.5d
+			x: 5.0d
+			y: -7.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/birch_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: -4.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/oak_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: 3.5d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
 			image: "enchanted:block/rowan_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
-			y: -7.5d
+			x: 7.5d
+			y: -10.0d
 		}
 		{
 			height: 1.0d
 			image: "primalmagick:block/sunwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: -8.5d
+			x: 0.5d
+			y: -5.5d
 		}
 		{
 			height: 1.0d
 			image: "primalmagick:block/moonwood_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.0d
-			y: -8.5d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/dark_oak_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.0d
-			y: -10.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			height: 1.0d
@@ -101,16 +101,16 @@
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: -12.0d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
-			y: -6.5d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			height: 1.0d
@@ -125,16 +125,8 @@
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.5d
-			y: 2.5d
-		}
-		{
-			height: 1.0d
-			image: "integrateddynamics:aspect/write/double/effect/particle"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 3.0d
+			x: 5.5d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
@@ -142,6 +134,14 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
 			y: -4.0d
 		}
 		{
@@ -149,24 +149,24 @@
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.5d
-			y: 0.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -0.5d
 			y: -6.0d
 		}
 		{
-			height: 100.0d
-			image: "illustrations:textures/quests/testfour.png"
+			height: 4.0d
+			image: "illustrations:textures/quests/chtwo.png"
 			rotation: 0.0d
-			width: 200.0d
-			x: 5.0d
-			y: 6.0d
+			width: 4.0d
+			x: 4.5d
+			y: 2.0d
 		}
 	]
 	order_index: 1
@@ -194,7 +194,7 @@
 				type: "item"
 			}]
 			title: "Next Steps"
-			x: 1.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -246,8 +246,8 @@
 				}
 			]
 			title: "Seeds"
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -293,8 +293,8 @@
 				}
 			]
 			title: "Hemoglobic Fluid"
-			x: 1.5d
-			y: -4.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4CE0C02B0602C06E"]
@@ -344,7 +344,7 @@
 			]
 			title: "Salt and Sulfur"
 			x: 3.0d
-			y: -7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5C476B553750BDE9"]
@@ -361,8 +361,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -8.25d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -378,8 +378,8 @@
 				item: "enchanted:anointing_paste"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -430,8 +430,8 @@
 					type: "advancement"
 				}
 			]
-			x: 7.0d
-			y: -9.0d
+			x: 6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6CB296A3AD751F62"]
@@ -520,8 +520,8 @@
 				}
 			]
 			title: "Saplings!"
-			x: 9.0d
-			y: -9.75d
+			x: 6.8999999999999995d
+			y: -8.049999999999999d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -552,8 +552,8 @@
 				type: "item"
 			}]
 			title: "Planting Seeds"
-			x: -1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0207C1DDD4332158"]
@@ -589,8 +589,8 @@
 				type: "checkmark"
 			}]
 			title: "How do I get better stats?"
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -634,8 +634,8 @@
 				type: "checkmark"
 			}]
 			title: "The numbers, Mason!"
-			x: -2.5d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1792BA6A0845320F"]
@@ -669,8 +669,8 @@
 				type: "checkmark"
 			}]
 			title: "That was a lot..."
-			x: -2.5d
-			y: 1.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -703,8 +703,8 @@
 				}
 			]
 			title: "Edible Plants"
-			x: -4.0d
-			y: -3.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["658C67ABFD247487"]
@@ -735,91 +735,11 @@
 				type: "item"
 			}]
 			title: "Growing copper?"
-			x: -5.0d
-			y: -4.0d
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["6831CB6AC2CE40C6"]
-			description: [
-				"&6The power of trees is one of the many things that is overlooked in our wider, harsher realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
-				""
-				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
-			]
-			icon: "naturesaura:gold_leaf"
-			id: "592DBF115E1FBAE9"
-			rewards: [
-				{
-					id: "57B1382104012AD6"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "naturesaura:book"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "33888475CC36A298"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [
-				{
-					id: "177D89055F200F6D"
-					item: "naturesaura:gold_fiber"
-					type: "item"
-				}
-				{
-					id: "5AAF6676D00217C1"
-					item: "naturesaura:gold_leaf"
-					type: "item"
-				}
-				{
-					id: "58CB022FD38828DD"
-					item: "naturesaura:gold_powder"
-					type: "item"
-				}
-			]
-			title: "Gold Leaf"
-			x: 13.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["592DBF115E1FBAE9"]
-			description: [
-				"Now, you can use these magical resources as a way to conduct a &6&lritual of the forest&r. Conducting one of these rituals will create a &6Pasture Seed,&r which will let you finally &6bring back grass to the world!&r"
-				""
-				"&7To find out how to actually do the ritual, check how to do a Ritual of the Forest in your Book of Natural Aura, or use EMI."
-			]
-			icon: "naturesaura:gold_powder"
-			id: "778E09C4AE548E95"
-			rewards: [{
-				id: "5D6E240899147238"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "186D36A3950FBBA4"
-					item: "naturesaura:wood_stand"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "3128AEF2BE4E0F8E"
-					item: { Count: 16, id: "naturesaura:gold_powder" }
-					type: "item"
-				}
-			]
-			title: "Ritual of the Forest"
-			x: 15.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["4075C13786AF4C49"]
+			dependencies: ["389C82D9424B4099"]
 			description: ["&7The &6Witch's Oven&r &7can be used to distill saplings into &6special magic fumes,&r which are especially going to be useful to you when you start learning rituals &7that can be performed when you learn to work with the powers of this world."]
 			id: "6831CB6AC2CE40C6"
 			rewards: [
@@ -840,45 +760,8 @@
 				item: "enchanted:witch_oven"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -9.5d
-		}
-		{
-			dependencies: ["778E09C4AE548E95"]
-			description: [
-				"&7After all of that work, you've finally done it! You can &6plant your pasture seed on any patch of regular dirt and grass will begin to spread from that spot. "
-				""
-				"you may be thinking: &e&oBut wait... It's so... brown...."
-				""
-				"&7Our request to you is this: remember that the world as it was before was also imperfect. &rYou are striving to move forward, to create new perspectives and find new ways of experiencing the things you once knew. "
-				""
-				"&lHere's what you know: &r&7The dry ground from before can breathe a little easier, and fallen tree saplings will auto-plant now that they have access to more nutritious dirt."
-			]
-			icon: "minecraft:grass_block"
-			id: "600A7F0DFD880119"
-			rewards: [
-				{
-					count: 16
-					id: "6A49A265CF4845FA"
-					item: "minecraft:bone_meal"
-					type: "item"
-				}
-				{
-					id: "5356E9C192A1465D"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "hexagon"
-			size: 3.0d
-			tasks: [{
-				id: "5CFCBE5FDA4483B2"
-				item: "botania:grass_seeds"
-				type: "item"
-			}]
-			title: "Not as green as I'd like..."
-			x: 15.0d
-			y: -4.5d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["1525FDF792FDFA20"]
@@ -906,8 +789,8 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.5d
+			x: 1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -954,8 +837,8 @@
 				}
 			]
 			title: "Straw"
-			x: -2.5d
-			y: -5.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["07339A3B3E7714B3"]
@@ -980,63 +863,8 @@
 				type: "item"
 			}]
 			title: "Rich Farmland"
-			x: -4.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4075C13786AF4C49"]
-			description: [
-				"&dnote: i'm not convinced we need this mod&r"
-				""
-				"This pack contains &6Via Romana&r, &7a sign-based fast travel system. In order to fast travel using signs, you must first &6build a path and traverse it.&r"
-				""
-				"&6Shift-left-click&r &7on a sign at the start of your path, then &6shift-left-click&r &7on a sign at the end of your path. &rOnce you start pathing from one sign to the other, you need to follow a player-made path. &4If you deviate, you'll stop building&r the fast travel route and have to backtrack."
-				""
-				"&7Once linked, just punch the sign and you'll fast travel!"
-				""
-				"&8Tip: to see what blocks count as path blocks, search #via_romana:path_block in EMI."
-			]
-			icon: "supplementaries:sign_post_oak"
-			id: "38D0317E85210C44"
-			rewards: [
-				{
-					count: 16
-					id: "1DA546E8161DA745"
-					item: "mcwpaths:oak_planks_path"
-					type: "item"
-				}
-				{
-					id: "7770E67AFA2287F1"
-					item: {
-						Count: 1
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "via_romana:guide"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1F103D45BC4921D6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "51B8EE71AA705541"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "via_romana:warp_sign"
-					}
-				}
-				title: "Any Warpable Sign"
-				type: "item"
-			}]
-			title: "Signpost Travel"
-			x: 9.5d
-			y: -12.0d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6831CB6AC2CE40C6"]
@@ -1052,8 +880,8 @@
 				item: "enchanted:fume_funnel"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -8.5d
+			x: 4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4CE0C02B0602C06E"]
@@ -1081,8 +909,8 @@
 				type: "item"
 			}]
 			title: "OSHA Approved"
-			x: 0.0d
-			y: -5.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["389C82D9424B4099"]
@@ -1106,8 +934,8 @@
 				}
 			]
 			title: "Pollution Filtration"
-			x: 2.6d
-			y: -9.75d
+			x: 1.9500000000000002d
+			y: -8.450000000000001d
 		}
 		{
 			description: ["&7You'll notice there's another chapter titled &6&lPlants Galore&r&7, &rthis is where you can easily view which crops and flowers can be accessed in this modpack. "]
@@ -1124,8 +952,8 @@
 				type: "checkmark"
 			}]
 			title: "See \"Plants Galore\""
-			x: -4.0d
-			y: -0.5d
+			x: -1.0d
+			y: -5.0d
 		}
 	]
 	title: "Chapter 2: A Little Greener"

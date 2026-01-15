@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transportation"
+	group: "2BFAC9C95DAED88B"
+	icon: {
+		Count: 1
+		id: "createornithopterglider:ornithopterglider"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6B1309C3E61A8E5A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D9EDD7D1F11542E"]
+			description: [
+				"Use mechanical crafting to make yourself one of these bad boys and explore further faster "
+				""
+				"(remember that rendering chunks faster uses energy faster)"
+			]
+			hide_dependency_lines: false
+			id: "7190820F784341F2"
+			optional: true
+			tasks: [{
+				id: "07E07627A779DF83"
+				item: {
+					Count: 1
+					id: "createornithopterglider:ornithopterglider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "2DD5CA92FF1D1310"
+			optional: true
+			tasks: [{
+				id: "521E95C2DA633317"
+				item: "bumbilas_friendly_teleport:wormhole_potion"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "2F22AD4614FEC42A"
+			optional: true
+			tasks: [{
+				id: "7C1C14589AFDD45A"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&dnote: i'm not convinced we need this mod&r"
+				""
+				"This pack contains &6Via Romana&r, &7a sign-based fast travel system. In order to fast travel using signs, you must first &6build a path and traverse it.&r"
+				""
+				"&6Shift-left-click&r &7on a sign at the start of your path, then &6shift-left-click&r &7on a sign at the end of your path. &rOnce you start pathing from one sign to the other, you need to follow a player-made path. &4If you deviate, you'll stop building&r the fast travel route and have to backtrack."
+				""
+				"&7Once linked, just punch the sign and you'll fast travel!"
+				""
+				"&8Tip: to see what blocks count as path blocks, search #via_romana:path_block in EMI."
+			]
+			id: "4FD6F4A88C04B375"
+			optional: true
+			tasks: [{
+				id: "05090C7AAC4242A8"
+				item: "supplementaries:sign_post_oak"
+				type: "item"
+			}]
+			title: "Signpost Travel"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Using circle magic, you can make a witches broomstick to fly around the world to your heart's content"]
+			id: "6754E27BE72D3CD5"
+			optional: true
+			tasks: [{
+				id: "504435B0B68EFF79"
+				item: "enchanted:enchanted_broomstick"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "1D9EDD7D1F11542E"
+			optional: true
+			title: "Glider"
+			x: -5.5d
+			y: -1.5d
+		}
+	]
+	title: "Transportation"
+}

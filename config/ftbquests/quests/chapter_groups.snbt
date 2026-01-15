@@ -1,6 +1,3 @@
 {
-	chapter_groups: [
-		{ id: "2BFAC9C95DAED88B", title: "Biodiversity" }
-		{ id: "499FD90D592AFC7B", title: "Side Quests" }
-	]
+	chapter_groups: [{ id: "2BFAC9C95DAED88B", title: "Biodiversity" }]
 }

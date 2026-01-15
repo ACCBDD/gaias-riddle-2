@@ -3,10 +3,10 @@
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "digital_storage"
-	group: "499FD90D592AFC7B"
-	icon: "minecraft:chest"
+	group: "2BFAC9C95DAED88B"
+	icon: "mcwfurnitures:cabinet_drawer"
 	id: "6624F3E176990B6A"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
