@@ -1,14 +1,13 @@
-# Gaia's Riddle 2: The Forest Keepers 0.7.0
+# Gaia's Riddle 2: The Forest Keepers 0.8.0
 
 ## Added
-* Mods
-    * Ceramics
+* More quest bg assets! Thank you Maia!
 
 ## Changed
-* Early game quests to use Ceramics mod stuff
+* Zinc is now accessible
+* Mana prism no longer uses quartz
+* Slightly fleshed out later chapters wrt Primal Magick
 
 ## Fixed
-* Hemoglobic fluid impossible to get
+* Gold chalk impossible to craft
 
-## Removed
-* Old incorrect gem quest

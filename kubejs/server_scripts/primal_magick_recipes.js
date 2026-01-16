@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
 
     event.remove({id: 'primalmagick:mundane_wand'});
+    
     event.custom({
         "type": "minecraft:crafting_shapeless",
         "category": "equipment",
@@ -52,6 +53,31 @@ ServerEvents.recipes(event => {
         "research": "WAND_GEM_APPRENTICE",
         "result": {
             "item": "primalmagick:apprentice_wand_gem_item"
+        }
+    })
+    
+    event.remove({id: 'primalmagick:mana_prism'})
+    event.custom({
+        "type": "primalmagick:arcane_crafting_shaped",
+        "key": {
+            "D": {
+            "tag": "primalmagick:essences/terrestrial_dusts"
+            },
+            "N": {
+            "tag": "forge:nuggets/iron"
+            },
+            "Q": {
+            "tag": "forge:nuggets/gold"
+            }
+        },
+        "pattern": [
+            " N ",
+            "QDQ",
+            " N "
+        ],
+        "research": "BASIC_MANAWEAVING",
+        "result": {
+            "item": "primalmagick:mana_prism"
         }
     })
 })

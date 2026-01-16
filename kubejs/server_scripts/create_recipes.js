@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({id: 'create:crafting/materials/andesite_alloy'})
     event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove({id: 'create:crafting/kinetics/empty_blaze_burner'})
     event.custom({
         "type": "naturesaura:altar",
         "input": {

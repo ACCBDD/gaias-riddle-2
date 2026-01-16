@@ -235,7 +235,7 @@ ServerEvents.recipes(event => {
                 "item": "enchanted:mandrake_root"
             },
             {
-                "item": "embers:dawnstone_ingot"
+                "item": "primalmagick:essence_dust_sun"
             },
             {
                 "item": "enchanted:ritual_chalk"

@@ -115,6 +115,26 @@ ServerEvents.recipes(event => {
         "solvent_amount": 10
     })
 
+    //fish -> zinc sulfur
+    event.custom({
+        "type": "theurgy:liquefaction",
+        "liquefaction_time": 400,
+        "ingredient": {
+            "tag": "forge:raw_fishes",
+        },
+        "result": {
+            "count": 1,
+            "item": "theurgy:alchemical_sulfur_zinc",
+            "nbt": {
+                "theurgy:sulfur.source.id": "#forge:ingots/zinc"
+            }
+        },
+        "solvent": {
+            "fluid": "theurgy:sal_ammoniac"
+        },
+        "solvent_amount": 100
+    })
+
     //dirt sulfur incubation
     event.custom({
         "type": "theurgy:incubation",

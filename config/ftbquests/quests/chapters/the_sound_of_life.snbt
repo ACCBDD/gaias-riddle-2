@@ -14,7 +14,7 @@
 			description: [
 				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""
-				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert materials into that gem's sulfur without having to trade for more!"
+				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert materials into that gem's sulfur without having to trade for more! ...you just need to figure out how to turn regular amethyst into budding amethyst somehow...."
 			]
 			id: "22F15EC1DF24B1D8"
 			rewards: [{
@@ -442,8 +442,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4D65182E5671C8A8"]
@@ -465,8 +465,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -505,7 +505,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -526,22 +526,24 @@
 		}
 		{
 			dependencies: ["651178F97CEC54E5"]
+			description: ["With your newfound knowledge of blood magic, you think you can develop a way to use life essence in rituals, allowing you to supercharge certain interactions and create brand new life!"]
 			id: "658026EA72CB4EBA"
 			tasks: [{
 				id: "79610DAB5D00CD48"
 				item: "primalmagick:bloodletter"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -8.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["52A72AC5C6F137B1"]
+			description: ["The raw power contained in a blood crystal is almost indescribable - but its uses most certainly are."]
 			id: "433963B2F9A30775"
 			tasks: [{
-				id: "1F0D4FC723B6C373"
-				title: "high tier primal magick item"
-				type: "checkmark"
+				id: "7D6CF581DDB38DC4"
+				item: "primalmagick:essence_crystal_blood"
+				type: "item"
 			}]
 			x: -1.5d
 			y: -14.5d
@@ -573,7 +575,11 @@
 		}
 		{
 			dependencies: ["0992C0993A6BBB8A"]
-			description: [""]
+			description: [
+				"Reclaiming a nether biome lets you study the way mana is supposed to flow in the nether, unlocking access to a new form of 'forbidden' magick - Infernal attuned essence."
+				""
+				"Additionally, you might have stumbled across your first bits of blood magick as well - from fending off certain grey-skinned invaders..."
+			]
 			id: "651178F97CEC54E5"
 			tasks: [
 				{
@@ -587,9 +593,9 @@
 					type: "item"
 				}
 			]
-			title: "infernal and blood magick"
+			title: "Forbidden Magicks"
 			x: 3.5d
-			y: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [

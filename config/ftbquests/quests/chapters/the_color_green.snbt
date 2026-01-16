@@ -374,6 +374,7 @@
 			y: 13.5d
 		}
 		{
+			dependencies: ["5C1E3750F91A38B2"]
 			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
 			id: "153CB8257AEDA4ED"
 			rewards: [{
@@ -387,8 +388,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 5.0d
+			x: 28.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
