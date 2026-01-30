@@ -356,7 +356,7 @@
 				}
 				{
 					id: "0560E233B530156C"
-					item: "ceramics:empty_clay_bucket"
+					item: "minecraft:bucket"
 					type: "item"
 				}
 			]

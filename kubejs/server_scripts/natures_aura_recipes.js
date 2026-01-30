@@ -291,11 +291,11 @@ ServerEvents.recipes(event => {
         ],
         "instability": 2,
         "mana": {
-            "earth": 75,
-            "moon": 75,
-            "sea": 75,
-            "sky": 75,
-            "sun": 75
+            "earth": 50,
+            "moon": 50,
+            "sea": 50,
+            "sky": 50,
+            "sun": 50
         },
         "props": [
             {
@@ -308,10 +308,10 @@ ServerEvents.recipes(event => {
                 "tag": "primalmagick:ritual_candles"
             },
             {
-                "tag": "primalmagick:ritual_lectern"
+                "block": "primalmagick:ritual_lectern"
             },
             {
-                "tag": "primalmagick:ritual_bell"
+                "block": "primalmagick:ritual_bell"
             }
         ],
         "research": "MANAFRUIT",

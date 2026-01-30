@@ -1,13 +1,24 @@
-# Gaia's Riddle 2: The Forest Keepers 0.8.0
+# Gaia's Riddle 2: The Forest Keepers 0.9.0
 
 ## Added
-* More quest bg assets! Thank you Maia!
+* Mods
+    * Blueprint
+    * Fintastic
+    * Incubation
+    * Messenger Crow
+    * Quark Delight
+    * Regions Unexplored
+    * Nature's Spirit
+* Mirror world prologue spawn - you will get teleported to the ruined world once you die or sleep
 
-## Changed
-* Zinc is now accessible
-* Mana prism no longer uses quartz
-* Slightly fleshed out later chapters wrt Primal Magick
 
-## Fixed
-* Gold chalk impossible to craft
+## Removed
+* FTB Quests Optimizer
+* Rats
+* Tree Tap
+
+## Fixed 
+* Incorrect requirements for offering altar ritual
+* Changed carry on to use whitelist for blocks instead of blacklist
+* Disabled clay buckets since they're annoying
 

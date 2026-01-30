@@ -1,6 +1,10 @@
 ItemEvents.tooltip(event => {
-    event.addAdvanced('create:mechanical_press', (item, advanced, text) => {
-        text.add(Text.of('Cannot make plates!').red())
+    event.addAdvanced('ceramics:empty_clay_bucket', (item, advanced, text) => {
+        text.add(Text.of('Disabled - use the vanilla bucket!').red())
+    })
+
+    event.addAdvanced('ceramics:unfired_clay_bucket', (item, advanced, text) => {
+        text.add(Text.of('Disabled - use the vanilla bucket!').red())
     })
 })
 

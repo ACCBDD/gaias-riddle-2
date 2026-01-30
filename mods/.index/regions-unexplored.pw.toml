@@ -1,16 +1,16 @@
-filename = 'treetap-1.20.1-0.5.0.jar'
-name = 'Tree Tap'
+filename = 'RegionsUnexploredForge-0.5.6+1.20.1.jar'
+name = 'Regions Unexplored (forge/fabric)'
 side = 'both'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '397dc912e94bb651bc8dcc193c0f77ed38bead17'
+hash = '990b4b9492a8fd7cd150598e3e02a466efa913fb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5922848
-project-id = 927874
+file-id = 5558225
+project-id = 659110

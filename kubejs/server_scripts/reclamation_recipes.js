@@ -130,4 +130,8 @@ ServerEvents.recipes(event => {
         C: 'minecraft:copper_ingot',
         G: 'minecraft:glass'
     })
+
+    event.remove({id: 'ceramics:unfired_clay_bucket'})
+    event.remove({id: 'ceramics:empty_clay_bucket_kiln'})
+    event.remove({id: 'ceramics:empty_clay_bucket_smelting'})
 })

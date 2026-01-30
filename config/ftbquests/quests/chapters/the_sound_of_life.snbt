@@ -610,11 +610,58 @@
 				xp: 100
 			}]
 			size: 2.0d
-			tasks: [{
-				id: "4B69D9C212942C89"
-				title: "tier 1 trees"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2A07FA140E149E8F"
+					item: "integrateddynamics:menril_sapling"
+					type: "item"
+				}
+				{
+					id: "6DA6012BC5EBDF47"
+					item: "natures_spirit:cedar_sapling"
+					type: "item"
+				}
+				{
+					id: "2CF6EA3A860893BD"
+					item: "primalmagick:hallowood_sapling"
+					type: "item"
+				}
+				{
+					id: "587641BB903F0E7C"
+					item: "primalmagick:moonwood_sapling"
+					type: "item"
+				}
+				{
+					id: "48E8B864C26C830C"
+					item: "primalmagick:sunwood_sapling"
+					type: "item"
+				}
+				{
+					id: "4BCC6679FF1F40E5"
+					item: "regions_unexplored:ashen_sapling"
+					type: "item"
+				}
+				{
+					id: "78479C09390C1DC2"
+					item: "naturesaura:ancient_sapling"
+					type: "item"
+				}
+				{
+					id: "5A8EA33966A16E62"
+					item: "regions_unexplored:eucalyptus_sapling"
+					type: "item"
+				}
+				{
+					id: "5B178F7714A7F7E2"
+					item: "regions_unexplored:silver_birch_sapling"
+					type: "item"
+				}
+				{
+					id: "4CDD738AE45B49A0"
+					item: "regions_unexplored:larch_sapling"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 3.5d
 		}
