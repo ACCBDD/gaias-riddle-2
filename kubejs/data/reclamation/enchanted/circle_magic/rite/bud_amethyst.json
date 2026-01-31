@@ -1,8 +1,8 @@
 {
   "items": [
-    { "id": "minecraft:amethyst_block", "Count": 1 },
+    { "id": "primalmagick:flawed_budding_amethyst_block", "Count": 1 },
     { "id": "enchanted:mutandis", "Count": 1 },
-    { "id": "bloodmagic:activationcrystalweak", "Count": 1 },
+    { "id": "primalmagick:essence_shard_earth", "Count": 1 },
     { "id": "botania:rune_greed", "Count": 1 },
     { "id": "botania:rune_gluttony", "Count": 1 }
   ],

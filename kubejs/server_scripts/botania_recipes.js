@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
                     "item": "botania:terrasteel_nugget"
                 },
                 {
-                    "item": "bloodmagic:infusedslate"
+                    "tag": "primalmagick:essences/terrestrial_shards"
                 }
             ],
             "mana": 10000,

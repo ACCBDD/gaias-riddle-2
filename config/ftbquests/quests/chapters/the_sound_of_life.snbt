@@ -40,7 +40,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["3C4414D9DA0EA423"]
+			dependencies: ["2D9541697F88FDC4"]
 			description: [
 				"With the acquisition of lapis, you can now make the &6Terrestrial Agglomeration Plate,&r a necessary step in your mastery of &bbotanic mana.&r"
 				""
@@ -400,7 +400,12 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["22F15EC1DF24B1D8"]
+			dependencies: ["651178F97CEC54E5"]
+			description: [
+				"Combining a &6sea shard &rwith some &6forbidden magick&r allows you to create a small amount of lapis sulfur - lapis itself has many uses, but one of the most immediately useful is its connection to gaia as a terrestrial gem; you can use it in &6cauldron alchemy&r to produce &6new types of saplings!&r"
+				""
+				"&7Tip: use Theurgy sulfur conversion to turn amethyst sulfur into lapis sulfur!"
+			]
 			id: "14EF24D6ED46D5AC"
 			rewards: [{
 				id: "5CAD01D1B51C9A7F"
@@ -420,53 +425,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["4D65182E5671C8A8"]
-			id: "06357FFDCC67269E"
-			rewards: [{
-				id: "1B60B5FA901A9038"
-				type: "xp"
-				xp: 100
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "0E5E2F0D4070CBE2"
-				item: {
-					Count: 1
-					id: "theurgy:alchemical_sulfur_emerald"
-					tag: {
-						"theurgy:sulfur.source.id": "#forge:gems/emerald"
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4D65182E5671C8A8"]
-			id: "4125234B6B0ABAAD"
-			rewards: [{
-				id: "4993853DBE6E01A5"
-				type: "xp"
-				xp: 100
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "52A3024145AC2379"
-				item: {
-					Count: 1
-					id: "theurgy:alchemical_sulfur_diamond"
-					tag: {
-						"theurgy:sulfur.source.id": "#forge:gems/diamond"
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -486,11 +445,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"06357FFDCC67269E"
-				"4125234B6B0ABAAD"
-				"651178F97CEC54E5"
-			]
+			dependencies: ["2D9541697F88FDC4"]
 			description: ["dunno what tier 2 trees would be, maybe whatever trees drop heartwood? use heartwood for terrasteel instead of mana diamonds or sth"]
 			id: "3C4414D9DA0EA423"
 			rewards: [{
@@ -570,8 +525,8 @@
 				type: "advancement"
 			}]
 			title: "Reclaiming the Nether"
-			x: 3.0d
-			y: 4.5d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0992C0993A6BBB8A"]
@@ -580,7 +535,13 @@
 				""
 				"Additionally, you might have stumbled across your first bits of blood magick as well - from fending off certain grey-skinned invaders..."
 			]
+			icon: "primalmagick:essence_dust_infernal"
 			id: "651178F97CEC54E5"
+			rewards: [{
+				id: "600E37A0F4599EBE"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "2D6BD76E11598A9F"
@@ -594,76 +555,173 @@
 				}
 			]
 			title: "Forbidden Magicks"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["651178F97CEC54E5"]
+			description: ["With the power of Primal Magick Alchemy, you can create artificial gem buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
+			id: "353D9BFD7D818C0A"
+			tasks: [{
+				id: "485B7FF9D593E1B1"
+				item: "primalmagick:flawed_budding_amethyst_block"
+				type: "item"
+			}]
+			title: "Artificial Budding Gems"
 			x: 3.5d
-			y: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B4F1EAF6F7A4A1D"]
+			description: ["With the power of sin runes, you can turn your artificial amethyst buds into real, permanent budding amethyst - no maintenance required!"]
+			id: "7C804C41F8C7B083"
+			rewards: [{
+				id: "1344C7539B41587B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43F93E8DC1F9BD5C"
+				item: "minecraft:budding_amethyst"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "6B1646BD22D31300"
+			tasks: [{
+				id: "7988B70EEECA669C"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "0AD18A0E7D3F6DEA"
+			tasks: [{
+				id: "4299F54F43772345"
+				item: "primalmagick:sunwood_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "0527707CF47ABAFE"
+			tasks: [{
+				id: "2F40A47310CD740C"
+				item: "primalmagick:moonwood_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "1BC398D89D58560D"
+			tasks: [{
+				id: "4C35AC1765644447"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "6DDEB8588EAD1C9A"
+			tasks: [{
+				id: "4F9F20296FA0AE2D"
+				item: "regions_unexplored:blackwood_sapling"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "5C12885540007A64"
+			tasks: [{
+				id: "62EB4E2BE13295B2"
+				item: "regions_unexplored:alpha_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "351F4BC2773C954B"
+			tasks: [{
+				id: "7BE8BEF56AC5CFC0"
+				item: "natures_spirit:fir_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["14EF24D6ED46D5AC"]
+			id: "76491919B0C4D015"
+			tasks: [{
+				id: "0660717232178708"
+				item: "natures_spirit:willow_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"14EF24D6ED46D5AC"
-				"0992C0993A6BBB8A"
+				"6DDEB8588EAD1C9A"
+				"76491919B0C4D015"
+				"5C12885540007A64"
+				"6B1646BD22D31300"
+				"0AD18A0E7D3F6DEA"
+				"351F4BC2773C954B"
+				"1BC398D89D58560D"
+				"0527707CF47ABAFE"
 			]
-			description: ["dunno what tier 1 trees would be, check the flora list"]
-			id: "4D65182E5671C8A8"
+			description: ["With increased tree diversity, you can reach higher altar power - about 8000 should let you perform a ritual to convert lapis sulfur into emerald or diamond sulfur."]
+			id: "2D9541697F88FDC4"
 			rewards: [{
-				id: "4CD39CC667D36013"
+				id: "07F4F7643094A60B"
 				type: "xp"
 				xp: 100
 			}]
 			size: 2.0d
 			tasks: [
 				{
-					id: "2A07FA140E149E8F"
-					item: "integrateddynamics:menril_sapling"
+					id: "2C0F93789C34EF90"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_emerald"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:gems/emerald"
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "6DA6012BC5EBDF47"
-					item: "natures_spirit:cedar_sapling"
-					type: "item"
-				}
-				{
-					id: "2CF6EA3A860893BD"
-					item: "primalmagick:hallowood_sapling"
-					type: "item"
-				}
-				{
-					id: "587641BB903F0E7C"
-					item: "primalmagick:moonwood_sapling"
-					type: "item"
-				}
-				{
-					id: "48E8B864C26C830C"
-					item: "primalmagick:sunwood_sapling"
-					type: "item"
-				}
-				{
-					id: "4BCC6679FF1F40E5"
-					item: "regions_unexplored:ashen_sapling"
-					type: "item"
-				}
-				{
-					id: "78479C09390C1DC2"
-					item: "naturesaura:ancient_sapling"
-					type: "item"
-				}
-				{
-					id: "5A8EA33966A16E62"
-					item: "regions_unexplored:eucalyptus_sapling"
-					type: "item"
-				}
-				{
-					id: "5B178F7714A7F7E2"
-					item: "regions_unexplored:silver_birch_sapling"
-					type: "item"
-				}
-				{
-					id: "4CDD738AE45B49A0"
-					item: "regions_unexplored:larch_sapling"
+					id: "12C10F580F42A99E"
+					item: {
+						Count: 1
+						id: "theurgy:alchemical_sulfur_diamond"
+						tag: {
+							"theurgy:sulfur.source.id": "#forge:gems/diamond"
+						}
+					}
 					type: "item"
 				}
 			]
+			title: "Precious Gem Sulfur"
 			x: -3.0d
-			y: 3.5d
+			y: -1.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"

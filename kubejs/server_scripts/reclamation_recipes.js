@@ -134,4 +134,50 @@ ServerEvents.recipes(event => {
     event.remove({id: 'ceramics:unfired_clay_bucket'})
     event.remove({id: 'ceramics:empty_clay_bucket_kiln'})
     event.remove({id: 'ceramics:empty_clay_bucket_smelting'})
+
+    //lapis sulfur
+    event.custom({
+        "type": "primalmagick:ritual",
+        "ingredients": [
+            {
+                "item": "primalmagick:essence_shard_sea"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            },
+            {
+                "item": "minecraft:blue_dye"
+            }
+        ],
+        "instability": 3,
+        "mana": {
+            "earth": 50,
+            "sea": 50,
+            "infernal": 50
+        },
+        "props": [
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "block": "primalmagick:ritual_bell"
+            },
+            {
+                "block": "primalmagick:ritual_bell"
+            }
+        ],
+        "research": "MASTER_RITUAL",
+        "result": {
+            "item": "theurgy:alchemical_sulfur_lapis",
+            "nbt": {
+                "theurgy:sulfur.source.id": "#forge:gems/lapis"
+            }
+        }
+    })
 })
