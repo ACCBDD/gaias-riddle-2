@@ -1,0 +1,26 @@
+{
+  "items": [
+    { "id": "minecraft:lapis_block", "Count": 2 },
+    { "id": "theurgy:alchemical_sulfur_lapis", "Count": 4 },
+    { "id": "primalmagick:essence_shard_earth", "Count": 1 },
+    { "id": "primalmagick:essence_shard_moon", "Count": 1 },
+    { "id": "primalmagick:essence_shard_blood", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:otherwhere_chalk",
+    "enchanted:medium_circle": "enchanted:ritual_chalk"
+  },
+  "power": 8000,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "theurgy:alchemical_sulfur_emerald",
+        "nbt": {
+          "theurgy:sulfur.source.id": "#forge:gems/emerald"
+        },
+        "Count": 1
+      }
+    ]
+  }
+}

@@ -520,4 +520,48 @@ ServerEvents.recipes(event => {
             "item": "minecraft:pink_petals"
         }
     })
+    event.remove({id: 'botania:gaia_ingot'})
+    event.remove({id: 'botania:cocoon'})
+
+    event.custom({
+        "type": "primalmagick:ritual",
+        "ingredients": [
+            {
+                "item": "botania:manaweave_cloth"
+            },
+            {
+                "item": "botania:pixie_dust"
+            },
+            {
+                "item": "quark:ancient_fruit"
+            },
+            {
+                "item": "botania:fel_pumpkin"
+            }
+        ],
+        "instability": 4,
+        "mana": {
+            "earth": 100,
+            "sun": 100
+        },
+        "props": [
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "block": "primalmagick:incense_brazier"
+            },
+            {
+                "block": "primalmagick:bloodletter"
+            },
+        ],
+        "research": "MASTER_RITUAL",
+        "result": {
+            "item": "botania:cocoon",
+            "count": 2
+        }
+    })
 })

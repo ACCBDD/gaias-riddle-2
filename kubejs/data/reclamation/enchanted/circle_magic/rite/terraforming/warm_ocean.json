@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "id": "botania:gaia_ingot",
+      "Count": 1
+    },
+    {
       "id": "enchanted:attuned_stone_charged",
       "Count": 1
     }

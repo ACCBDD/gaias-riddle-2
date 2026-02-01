@@ -1,5 +1,6 @@
 {
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "create"
 	group: "2BFAC9C95DAED88B"
@@ -9,7 +10,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5A8DD5C84842AD14"]
+			dependencies: [
+				"5A8DD5C84842AD14"
+				"04B2ED80BD6097B6"
+			]
 			description: [
 				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
 				""
@@ -134,8 +138,8 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 2.5d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["450CA3690585CA60"]
@@ -146,8 +150,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["450CA3690585CA60"]

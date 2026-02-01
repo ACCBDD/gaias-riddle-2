@@ -1,0 +1,22 @@
+{
+  "items": [
+    { "id": "botania:life_essence", "Count": 2 },
+    { "id": "botania:terrasteel_ingot", "Count": 2 },
+    { "id": "primalmagick:essence_shard_earth", "Count": 1 },
+    { "id": "botania:rune_earth", "Count": 1 }
+  ],
+  "shapes": {
+    "enchanted:small_circle": "enchanted:otherwhere_chalk",
+    "enchanted:medium_circle": "enchanted:otherwhere_chalk"
+  },
+  "power": 27000,
+  "factory": {
+    "type": "enchanted:create_item",
+    "items": [
+      {
+        "id": "botania:gaia_ingot",
+        "Count": 1
+      }
+    ]
+  }
+}

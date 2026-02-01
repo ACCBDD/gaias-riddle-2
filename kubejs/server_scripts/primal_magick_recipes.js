@@ -80,4 +80,6 @@ ServerEvents.recipes(event => {
             "item": "primalmagick:mana_prism"
         }
     })
+
+    event.remove({id: 'primalmagick:bloodletter'}) //crafted with enchanted ritual
 })

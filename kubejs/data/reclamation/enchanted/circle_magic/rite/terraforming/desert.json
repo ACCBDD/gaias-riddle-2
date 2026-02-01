@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "id": "botania:gaia_ingot",
+      "Count": 1
+    },
+    {
       "id": "minecraft:amethyst_shard",
       "Count": 1
     },

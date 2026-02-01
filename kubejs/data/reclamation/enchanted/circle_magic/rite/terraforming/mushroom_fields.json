@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "id": "botania:gaia_ingot",
+      "Count": 1
+    },
+    {
       "id": "naturesaura:token_grief",
       "Count": 1
     },

@@ -68,7 +68,7 @@
 				""
 				"The more &6plantlife&r there is around the&6 Altar,&r the more power you can store. This includes &6trees, grass, flowers, crops, vines, pumpkins, melons, and more!&r"
 				""
-				"&7Tip: the altar has a range of 16 blocks! There is a cap to each kind of plantlife nearby as well, so make sure the surroundings are varied."
+				"&7Tip: the altar has a range of 48 blocks! There is a cap to each kind of plantlife nearby as well, so make sure the surroundings are varied."
 			]
 			id: "359392265BF91571"
 			rewards: [
@@ -905,29 +905,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["621BEE0A09882094"]
-			description: [
-				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
-				""
-				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and ghast tears into ender pearls!"
-				""
-				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
-			]
-			id: "76795AD9B23ACFD7"
-			rewards: [{
-				id: "22749725C9F092FA"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5504BE5D400C6468"
-				item: "botania:alchemy_catalyst"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["5C1E3750F91A38B2"]
 			description: [
 				"The &6transmutation catalyst&r modifies the natural altar to convert items into other items using Aura. Similar to the crumbling catalyst, it must be placed &6atop one of the four lower gold blocks of the altar.&r"
@@ -952,8 +929,8 @@
 		}
 		{
 			dependencies: [
-				"76795AD9B23ACFD7"
 				"1A34EA158DB664B2"
+				"2EF741DB92153BB1"
 			]
 			description: [
 				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
@@ -988,6 +965,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1AF1077B69E1551E"]
 			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
 			id: "27A7CD7E1613FD1B"
 			optional: true
@@ -1009,9 +987,9 @@
 			description: [
 				"Using the power of the &6Offering Altar&r you can &6activate tokens!&r These activated tokens are useful for various crafts, but they can also be used to trade with &6Ribbits &rin the Nether. "
 				""
-				"Tokens of Euphoria can be traded for quartz, and Tokens of Grief can be traded for amethyst shards."
+				"Tokens of Euphoria can be traded for quartz!"
 				""
-				"Simply right click any ribbit with either token and you'll receive the gems in return."
+				"Simply right click any ribbit with a token and you'll receive the gems in return."
 			]
 			id: "1C7C9A1F11DE819B"
 			rewards: [{
@@ -1097,7 +1075,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -1412,10 +1390,11 @@
 			y: 9.100000000000001d
 		}
 		{
+			dependencies: ["123DCDE9B7BE279D"]
 			description: [
-				"Polishing up some &6stone&r by &6washing it with a fan&r will turn it into a nice smooth marble."
+				"You can steal marble from the temples scattered around, but you'll need to make more eventually. Polishing up some &6stone&r by &6washing it with a fan&r will turn it into a nice smooth marble."
 				""
-				"This probably has plenty of uses in the art of &6primal magick.&r"
+				"This stone has plenty of uses in the art of &6primal magick.&r"
 			]
 			id: "1766A376B67F6940"
 			tasks: [{
@@ -1423,12 +1402,12 @@
 				item: "primalmagick:marble_raw"
 				type: "item"
 			}]
-			title: "making marble?"
-			x: 25.0d
+			title: "Better than Stone"
+			x: 22.5d
 			y: 7.0d
 		}
 		{
-			dependencies: ["123DCDE9B7BE279D"]
+			dependencies: ["1766A376B67F6940"]
 			description: [
 				"&6Essence dust&r is fun and all, but how do you get more? You're pretty sure you can devise a device that can &6break down items&r into their affinities..."
 				""
@@ -1468,9 +1447,9 @@
 		{
 			dependencies: ["123DCDE9B7BE279D"]
 			description: [
-				"&6Better wands&r are craftable, but you'll have to research them..."
+				"&6Better wands&r are craftable, but you'll have to research their parts..."
 				""
-				"&7Tip: focus on the Sorcery research line to find out how!"
+				"&7Tip: focus on the Sorcery and Manaweaving research line to find out how!"
 			]
 			id: "55F66C3105D9CC5B"
 			rewards: [{
@@ -1658,8 +1637,8 @@
 				}
 			]
 			title: "Breathing Fresh Air"
-			x: 23.0d
-			y: 8.5d
+			x: 20.5d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -1706,6 +1685,180 @@
 			]
 			x: 15.5d
 			y: 18.5d
+		}
+		{
+			dependencies: ["5A8DD5C84842AD14"]
+			description: ["Primalite wand caps are so good at channeling mana they actually reduce the amount of mana needed for any crafting!"]
+			id: "1B2052EF517908DA"
+			tasks: [{
+				id: "0975B918E2551632"
+				item: "primalmagick:primalite_wand_cap_item"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BB5F4B57C2E73DB"]
+			description: ["What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."]
+			id: "099A26372529561D"
+			rewards: [{
+				id: "58F0A1FA1D33CC1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5975C2CDF18CA03A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_moon"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_earth"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sea"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sun"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sky"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Artificial Mana Fonts"
+			x: 25.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["099A26372529561D"]
+			description: ["With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"]
+			id: "1CA5B2CEF12BFB54"
+			tasks: [{
+				id: "60EF585C9DC807A0"
+				item: "primalmagick:auto_charger"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["27C68B6622F186D7"]
+			description: ["In the Nether you'll find &6Ribbits!&r These funky creatures escaped the Overworld before everything went bad and set up shop here. You'll be able to trade fish for amethyst gems, as well as some other small things."]
+			id: "0F900E721CC074B5"
+			rewards: [{
+				id: "229F289B5F289D11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68F6A3592ABB5A52"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["55F66C3105D9CC5B"]
+			description: ["The best type of &6wand gem&r you'll have access to until you can figure out how to source &6diamonds&r will be the adept wand gem, capable of storing 250 of any type of mana."]
+			id: "3E62D952156351FA"
+			rewards: [{
+				id: "56C363D2B7FE2484"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "778A7E2EBA5AAFB2"
+				item: "primalmagick:adept_wand_gem_item"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2EF741DB92153BB1"]
+			description: [
+				"The &6alchemy catalyst&r allows you to turn &6Organic Mash&r into &6Coral! &r"
+				""
+				"Coral can be cycled between types using the alchemy catalyst as well."
+			]
+			id: "552CE1987D98D073"
+			rewards: [{
+				id: "073E9F8A16E982DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6BF1DBE49B6700BE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:tube_coral"
+							}
+							{
+								Count: 1b
+								id: "minecraft:brain_coral"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bubble_coral"
+							}
+							{
+								Count: 1b
+								id: "minecraft:fire_coral"
+							}
+							{
+								Count: 1b
+								id: "minecraft:horn_coral"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D5E4A2212C421AE"]
+			description: [
+				"The &6Alchemy Catalyst&r allows you to use the power of mana to transmute a wide variety of items. Place it under a mana pool to start alchemizing!"
+				""
+				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and ghast tears into ender pearls!"
+				""
+				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
+			]
+			id: "2EF741DB92153BB1"
+			rewards: [{
+				id: "098E66638AD53BE3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "64D935AF16277F18"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
 		}
 	]
 	title: "Chapter 3: Growing Roots"

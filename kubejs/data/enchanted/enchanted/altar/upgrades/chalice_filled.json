@@ -1,0 +1,7 @@
+{
+  "type": "enchanted:chalice",
+  "block": "enchanted:chalice_filled",
+  "power": 1.0,
+  "recharge": 3.0,
+  "priority": 1
+}

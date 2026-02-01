@@ -1,0 +1,49 @@
+{
+  "type": "create:layered_ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "layer_patterns": [
+      [
+        {
+          "max_size": 5,
+          "min_size": 2,
+          "targets": [
+            [
+              {
+                "state": {
+                  "Name": "create:scoria"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_nether"
+                }
+              }
+            ]
+          ],
+          "weight": 2
+        }
+      ],
+      [
+        {
+          "max_size": 5,
+          "min_size": 2,
+          "targets": [
+            [
+              {
+                "state": {
+                  "Name": "create:scorchia"
+                },
+                "target": {
+                  "predicate_type": "minecraft:tag_match",
+                  "tag": "minecraft:base_stone_nether"
+                }
+              }
+            ]
+          ],
+          "weight": 8
+        }
+      ]
+    ],
+    "size": 32
+  }
+}

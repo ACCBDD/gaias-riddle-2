@@ -180,4 +180,100 @@ ServerEvents.recipes(event => {
             }
         }
     })
+
+    event.shapeless('2x regions_unexplored:cobalt_nylium', [
+        '2x minecraft:blackstone',
+        '1x minecraft:blue_dye',
+        '1x #forge:seeds'
+    ])
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "reclamation:berry_cycle",
+        "input": {
+            "item": "minecraft:tube_coral"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:brain_coral"
+        }
+    })
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "reclamation:berry_cycle",
+        "input": {
+            "item": "minecraft:brain_coral"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:bubble_coral"
+        }
+    })
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "reclamation:berry_cycle",
+        "input": {
+            "item": "minecraft:bubble_coral"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:fire_coral"
+        }
+    })
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "reclamation:berry_cycle",
+        "input": {
+            "item": "minecraft:fire_coral"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:horn_coral"
+        }
+    })
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "group": "reclamation:berry_cycle",
+        "input": {
+            "item": "minecraft:horn_coral"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:tube_coral"
+        }
+    })
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "vintagedelight:organic_mash"
+        },
+        "mana": 240,
+        "output": {
+            "item": "minecraft:tube_coral"
+        }
+    })
 })

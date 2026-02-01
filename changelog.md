@@ -10,14 +10,17 @@
     * Regions Unexplored
     * Nature's Spirit
 * Mirror world prologue spawn - you will get teleported to the ruined world once you die or sleep
-* Tier 1 sapling recipes and quests
+* Sapling recipes and quests
 * Way to craft lapis sulfur
+* More fleshed out chapter 4
+* Way to craft coral (for primal magick wands)
 
 
 ## Removed
 * FTB Quests Optimizer
 * Rats
 * Tree Tap
+* Productive Trees
 
 
 ## Fixed 
@@ -27,5 +30,7 @@
 
 
 ## Changed
-* Enchanted altar radius to 32 blocks
+* Enchanted altar radius to 48 blocks
 * Theurgy digestion much faster
+* Encase fan quest leads to alchemical reformation
+* Burnt to Burnt Basic

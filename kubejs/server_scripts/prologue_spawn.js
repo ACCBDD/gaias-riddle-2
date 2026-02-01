@@ -19,6 +19,7 @@ PlayerEvents.loggedIn(event => {
                 
                 player.teleportTo(MIRROR_DIM, spawnPos.x + 0.5, safeY + 1, spawnPos.z + 0.5, 0, 0)
                 playerData.putBoolean(SPAWNED_KEY, true)
+                player.give('minecraft:oak_boat')
             }
         })
     }

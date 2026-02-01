@@ -57,16 +57,6 @@ ItemEvents.entityInteracted('naturesaura:token_euphoria', event => {
     }
 })
 
-ItemEvents.entityInteracted('naturesaura:token_grief', event => {
-    if (event.target.type === 'ribbits:ribbit') {
-        event.item.count--;
-        event.player.give('2x minecraft:amethyst_shard');
-        event.player.level.playSound(null, event.target.x, event.target.y, event.target.z, 'minecraft:entity.experience_orb.pickup', 'players', 0.5, 1.0);
-        event.player.level.spawnParticles('minecraft:happy_villager', true, event.target.x, event.target.y + 0.5, event.target.z, 0.25, 0.25, 0.25, 10, 0);
-        event.cancel();
-    }
-})
-
 ServerEvents.tick(event => {
     if (event.server.tickCount % 400 != 0) return;
 

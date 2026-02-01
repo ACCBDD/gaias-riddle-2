@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "id": "botania:gaia_ingot",
+      "Count": 1
+    },
+    {
       "id": "minecraft:oak_sapling",
       "Count": 1
     },
