@@ -528,14 +528,30 @@
 				"Reclaiming a nether biome lets you study the way mana is supposed to flow in the nether, unlocking access to a new form of 'forbidden' magick - Infernal attuned essence."
 				""
 				"Additionally, you might have stumbled across your first bits of blood magick as well - from fending off certain grey-skinned invaders..."
+				""
+				"Understanding both of these sources will also unlock your understanding of a third - void mana."
 			]
 			icon: "primalmagick:essence_dust_infernal"
 			id: "651178F97CEC54E5"
-			rewards: [{
-				id: "600E37A0F4599EBE"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "600E37A0F4599EBE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					auto: "invisible"
+					command: "/primalmagick sources @p unlock VOID"
+					elevate_perms: true
+					icon: "primalmagick:essence_dust_void"
+					id: "19962EB3972148DA"
+					ignore_reward_blocking: true
+					silent: true
+					team_reward: false
+					title: "Discover Void Mana"
+					type: "command"
+				}
+			]
 			tasks: [
 				{
 					id: "2D6BD76E11598A9F"

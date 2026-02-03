@@ -9,6 +9,13 @@ ServerEvents.recipes(event => {
     ], {
         A: 'kubejs:scrap_wood'
     })
+    event.shaped('minecraft:chest', [
+        'AAA',
+        'A A',
+        'AAA'
+    ], {
+        A: 'kubejs:flimsy_planks'
+    })
 
     event.custom({
         "type": "farmersdelight:cutting",

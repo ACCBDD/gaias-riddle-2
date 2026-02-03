@@ -34,3 +34,5 @@
 * Theurgy digestion much faster
 * Encase fan quest leads to alchemical reformation
 * Burnt to Burnt Basic
+* Theurgy pyromantic brazier pollutes
+* Chests craftable with flimsy planks
