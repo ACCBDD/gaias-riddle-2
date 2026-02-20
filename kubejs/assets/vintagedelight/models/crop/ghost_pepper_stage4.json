@@ -1,0 +1,6 @@
+{
+  "parent": "agricraft:crop/crop_hash",
+  "textures": {
+    "crop": "vintagedelight:block/ghost_pepper_stage4"
+  }
+}

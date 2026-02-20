@@ -160,5 +160,16 @@
   "biome.reclamation.dead_wastes": "Dead Wastes",
 
   "quark.jei.hint.matrix_enchanting": "Can be used to enchant things.",
-  "quark.jei.hint.matrix_influencing": ""
+  "quark.jei.hint.matrix_influencing": "",
+
+  "plant.agricraft.vintagedelight.cucumber": "Cucumber",
+  "seed.agricraft.vintagedelight.cucumber": "Cucumber Seeds",
+  "plant.agricraft.vintagedelight.gearo_berry": "Gearo Berry",
+  "seed.agricraft.vintagedelight.gearo_berry": "Gearo Berry",
+  "plant.agricraft.vintagedelight.ghost_pepper": "Ghost Pepper",
+  "seed.agricraft.vintagedelight.ghost_pepper": "Ghost Pepper Seeds",
+  "plant.agricraft.vintagedelight.oat": "Oat",
+  "seed.agricraft.vintagedelight.oat": "Oat Seeds",
+  "plant.agricraft.vintagedelight.peanut": "Peanut",
+  "seed.agricraft.vintagedelight.peanut": "Peanut"
 }

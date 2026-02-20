@@ -40,7 +40,7 @@ BlockEvents.rightClicked(event => {
     const block = event.block
     
     if (player.level.dimension === MIRROR_DIM) {
-        if (block.id.contains('bed')) {
+        if (block.id.contains('bed') || block.id.contains('bag')) {
             player.server.scheduleInTicks(50, () => {
                 if (!player.level.isDay() || player.isSleeping()) {
                     player.sendSystemMessage('§6You feel reality pulling you back...')

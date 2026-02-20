@@ -1,0 +1,16 @@
+filename = 'burnt-basic-1.9.4-forge-1.20.1.jar'
+name = 'Burnt Basic (Just the burn)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '66a90da5aba074315645a15a7a234ca7163ea585'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7393519
+project-id = 1001031
