@@ -231,6 +231,11 @@
 			]
 			icon: "akashictome:tome"
 			id: "4004CF144339BA9C"
+			rewards: [{
+				id: "5F07160E52792308"
+				item: "akashictome:tome"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "731D313D22886B95"

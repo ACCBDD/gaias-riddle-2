@@ -10,10 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"5C1E3750F91A38B2"
-				"153CB8257AEDA4ED"
-			]
 			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
 			id: "450CA3690585CA60"
 			optional: true

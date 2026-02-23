@@ -1,5 +1,5 @@
 {
-	autofocus_id: "7010ED9A666FF89E"
+	autofocus_id: "226F9F21A941389C"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -13,7 +13,7 @@
 		image: "illustrations:textures/quests/chthree.png"
 		rotation: 0.0d
 		width: 4.0d
-		x: 14.0d
+		x: 18.5d
 		y: 18.5d
 	}]
 	order_index: 3
@@ -39,22 +39,22 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			size: 2.0d
+			size: 1.3d
 			tasks: [{
 				id: "65DF7FECE306BB89"
 				item: "botania:grass_seeds"
 				type: "item"
 			}]
 			title: "Grass!"
-			x: 17.0d
-			y: 17.0d
+			x: 20.150000000000002d
+			y: 20.8d
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
 			description: [
-				"Now that you have actual plants available, you can start to harness their latent life-energy to power rituals. To start, you'll have to create a structure capable of collecting it - an &6Altar&r should do well here. Place your Altar blocks in a 2x3 rectangle and it should start collecting power!"
+				"Now that you have actual plants available, you can start to power rituals with their latent life-energy. To start, you'll have to make something to collect it - Place your Enchanted Altar blocks in a 2x3 rectangle and it will start collecting power!"
 				""
-				"The more &6plantlife&r there is around the&6 Altar,&r the more power you can store. This includes &6trees, grass, flowers, crops, vines, pumpkins, melons, and more!&r"
+				"The more &6plant life&r there is around the&6 Altar,&r the more power you can store. This includes &6trees, grass, flowers, crops, vines, pumpkins, melons, and more!&r"
 				""
 				"&7Tip: the altar has a range of 48 blocks! There is a cap to each kind of plantlife nearby as well, so make sure the surroundings are varied."
 			]
@@ -96,15 +96,15 @@
 				type: "item"
 			}]
 			title: "Altar"
-			x: 18.0d
-			y: 10.0d
+			x: 20.25d
+			y: 27.0d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
-				"Using dye from the flowers you can get by &6bonemealing grass,&r you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
+				"Using any color dye from flowers combined with bonemeal, you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
 				""
-				"&7Tip: you can also get mystical flower seeds through crossbreeding!"
+				"&7Tip: you can also get mystical flower seeds through crossbreeding! Check the side quests tab!"
 			]
 			id: "624E015B09427542"
 			rewards: [
@@ -125,21 +125,21 @@
 				}
 			]
 			shape: "circle"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "04DF51069030E5BD"
 				item: "botania:fertilizer"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 15.75d
+			x: 18.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["624E015B09427542"]
 			description: [
-				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are a few other things you can purify as well!"
+				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are other things you can purify as well!"
 				""
-				"Simply place the petal apothecary down, fill it with water, then toss in the petals and finally a seed!"
+				"Simply place the petal apothecary down, fill it with water, then drop in the petals and a seed at the end!"
 				""
 				"&7Tip: check the usages of the Pure Daisy to see what else it can transform."
 			]
@@ -163,8 +163,8 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: 13.5d
-			y: 14.5d
+			x: 16.5d
+			y: 21.0d
 		}
 		{
 			dependencies: [
@@ -172,7 +172,9 @@
 				"27C68B6622F186D7"
 			]
 			description: [
-				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
+				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. "
+				""
+				"They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
 				""
 				"&7Tip: there is a better way to make brilliant fiber, but you'll need to get blaze powder somehow... "
 			]
@@ -197,8 +199,8 @@
 				}
 			]
 			title: "Gold"
-			x: 18.0d
-			y: 12.0d
+			x: 20.25d
+			y: 24.75d
 		}
 		{
 			dependencies: ["2737F0AE3D1835D4"]
@@ -223,8 +225,8 @@
 				}
 			]
 			title: "Living Materials"
-			x: 13.5d
-			y: 12.5d
+			x: 15.5d
+			y: 21.0d
 		}
 		{
 			dependencies: [
@@ -234,9 +236,9 @@
 			description: [
 				"You can use a bucket to &6strategically place lava and water&r to make a nether portal frame. It's not ideal, but it's definitely easier than trying to mine obsidian with an iron pickaxe!"
 				""
-				"Similar to the overworld, the nether is bare of ores and even more devoid of life - &4there are zero spawns there, and only one biome."
+				"You can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
 				""
-				"&7Tip: you can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
+				"&7Tip: A warning: similar to the overworld, the nether is devoid of ores and most other resources."
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
@@ -273,17 +275,19 @@
 				}
 			]
 			title: "The Nether"
-			x: 17.25d
-			y: 14.25d
+			x: 20.25d
+			y: 22.5d
 		}
 		{
 			dependencies: ["46CC05A2F2D89079"]
 			description: [
-				"The &6Natural Altar&r is a very important tool in the manipulation of natural energies."
+				"The &6Natural Altar&r will become a very important tool in your relationship with nature here."
 				""
 				"Once the altar is fully built, it will drain &6aura&r from its surroundings. It will then use those energies to &6transform items put into it.&r "
 				""
 				"You should also look into creating the &6Environmental Eye&r - a very useful device that shows you the level of aura in the nearby area."
+				""
+				"&8Are you thinking about the life you spend when you use your altar? Do you care in a virtual world such as this, where you can always start anew by clicking the right button."
 			]
 			icon: "naturesaura:nature_altar"
 			id: "5274A282D9182B7C"
@@ -340,8 +344,8 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 20.0d
-			y: 16.0d
+			x: 27.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -358,31 +362,13 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 21.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["5C1E3750F91A38B2"]
-			description: ["Extremely malleable, &6Andesite Alloy&r is a crucial component of contraptions to come."]
-			id: "153CB8257AEDA4ED"
-			rewards: [{
-				id: "1FDC0C329743808A"
-				type: "xp"
-				xp: 100
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "0C28FD3F5C919A74"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			x: 28.0d
-			y: 10.0d
+			x: 24.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
 			description: [
-				"The Natural Altar requires aura in the surrounding area to function. It won't ever take the aura to a negative level, but it will &4stop working completely if the aura is low enough,&r which means you'll need a way of replenishing it."
+				"The Natural Altar won't ever take the aura to a negative level, but &4it will stop working completely if the aura in the area is low enough,&r which means you'll need a way of replenishing it."
 				""
 				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
 			]
@@ -398,8 +384,8 @@
 				type: "item"
 			}]
 			title: "Creating Aura"
-			x: 22.0d
-			y: 14.5d
+			x: 27.0d
+			y: 23.0d
 		}
 		{
 			dependencies: [
@@ -432,8 +418,8 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
-			y: 12.0d
+			x: 27.0d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -487,25 +473,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 14.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["6628083C19C5F8CB"]
-			description: ["Now that you have a more robust source of aura, you can put it to more use - a &6crumbling catalyst,&r when placed on top of one of the lower four golden blocks of a natural altar, can crush things much more finely than you can by hand. It can get you &6more bone meal per bone, more gold powder per leaf, and even turn cobblestone into sand!&r"]
-			id: "5C1E3750F91A38B2"
-			rewards: [{
-				id: "72FD0BCB4D48D5E6"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "214521E01C8D7374"
-				item: "naturesaura:crushing_catalyst"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 10.5d
+			x: 14.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -516,7 +485,7 @@
 				"&6Skeleton Skull/Husk Head:&r +1x recharge rate, +1x capacity"
 				"&6Chalice:&r +1x capacity"
 				""
-				"Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
+				"&7Tip: Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
 			]
 			icon: "enchanted:chalice"
 			id: "3932D60DF66D4C83"
@@ -559,15 +528,15 @@
 				}
 			]
 			title: "Altar Upgrades"
-			x: 19.0d
-			y: 8.5d
+			x: 18.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["359392265BF91571"]
 			description: [
-				"Attuned stones are a very important part of witchcraft - not only do they let you &6craft necessary workstations,&r they also give you the ability to perform certain rites &6without the need of an altar,&r once charged!"
+				"Attuned stones are a very important part of witchcraft - They let you &6craft necessary workstations,&r and (once charged) also give you the ability to perform certain rites &6without an altar&r!"
 				""
-				"&7Please note that this recipe needs altar power! Make sure your cauldron is within range of your altar!"
+				"&7This recipe needs altar power! Please make sure your cauldron is within range of your altar!"
 			]
 			id: "1145EF33C88C696B"
 			rewards: [{
@@ -575,20 +544,21 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "482401F7FF362672"
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 8.0d
+			x: 20.25d
+			y: 30.75d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
 			description: [
-				"If the &6Altar&r is the backbone of witchcraft, the &6Distillery, Kettle,&r and &6Spinning Wheel &rare its phalanges. "
+				"If the &6Altar&r is the backbone of witchcraft, the &6Distillery, Kettle,&r and &6Spinning Wheel &rare its hands. "
 				""
-				"...strange metaphors aside, these blocks allow you to craft a wide variety of &6witchy goodies.&r They will need to be placed within range of an altar, if their recipes require power."
+				"These blocks allow you to craft a wide variety of witchy goodies. However, &6they will need to be placed within range of an altar, if their recipes require power."
 			]
 			icon: "enchanted:distillery"
 			id: "54838757425A9BA7"
@@ -624,15 +594,17 @@
 				}
 			]
 			title: "Tools of the Trade"
-			x: 18.75d
-			y: 6.75d
+			x: 18.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
 			description: [
-				"An apparatus perfect for channelling large amounts of mana into collections of objects, the &6Runic Altar&r will (obviously) let you make runes."
+				"An apparatus perfect for channelling large amounts of mana into collections of objects, and it will (obviously) let you make runes. "
 				""
-				"&7Tip: with the altar, if you don't have them already, you can craft mystical flower seeds!"
+				"&7Tip: There are 16 types of runes"
+				""
+				"&dnote: purpose of black lotus?"
 			]
 			id: "5EA3E8FCE4EBBA82"
 			rewards: [
@@ -654,15 +626,17 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 12.8d
-			y: 9.6d
+			x: 14.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
 			description: [
 				"One of the main ways to channel altar power is through the practice of &6circle magic.&r Each ritual has a gold chalk glyph at its center, but the placement of other chalk glyphs changes depending on what kind of ritual you want to perform!"
 				""
-				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!&6 Read through the two reward books to find out what rituals you can perform.&r"
+				"Most rituals can target a remote area using a waystone (blooded or otherwise), and some rituals can even be performed away from the altar by adding a charged attuned stone to them!"
+				""
+				"&6Use the books we're gifting you here to read more about rituals.&r"
 				""
 				"&7Tip: the rite of fertility is a cheap, easy way to mass bonemeal grass, crops or anything else!"
 			]
@@ -751,16 +725,16 @@
 				}
 			]
 			title: "Circle Magic"
-			x: 16.5d
-			y: 5.25d
+			x: 16.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Using the power of mana and a pumpkin, you think you can create a &6Fel Pumpkin&r - a weak imitation of a blaze head. Pop this magically-charged head on top of two iron bars, and it'll turn into a passable facsimile of a blaze."
+				"A &6Fel Pumpkin&r is a weak imitation of a blaze head. Make it on your runic altar, and then pop it on top of two iron bars. It will turn into a passable facsimile of a blaze."
 				""
-				"This imitation blaze always drops at least &610 blaze powder.&r This blaze powder can be spun into brilliant fiber, or distilled into more useful dusts!"
+				"This imitation blaze always drops at least &610 blaze powder.&r This can be spun into brilliant fiber, or distilled into more useful dusts!"
 				""
 				"&7Tip: you can capture an imitation blaze in the Blaze Burner!"
 			]
@@ -777,98 +751,17 @@
 				type: "item"
 			}]
 			title: "Knockoff Blazes"
-			x: 12.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["77FBE2FA730A82AE"]
-			description: ["The &6Rod of the Lands&r can corporealize a tiny portion of mana into a full dirt block!"]
-			id: "23390B2CDE30D057"
-			rewards: [
-				{
-					count: 32
-					id: "33AA2687E886E9BC"
-					item: "minecraft:dirt"
-					type: "item"
-				}
-				{
-					id: "3258A91A2AB8DE63"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "6BD20F85E2DD3DEF"
-				item: "botania:dirt_rod"
-				type: "item"
-			}]
-			title: "(almost) Free Dirt"
-			x: 10.5d
-			y: 13.0d
-		}
-		{
-			dependencies: ["5EA3E8FCE4EBBA82"]
-			description: ["Carrying mana around with you enables you to use a plethora of bits and baubles. To transfer mana from a pool into the tablet, make sure the pool is on 'charge' mode by hovering over it with a wand of the forest."]
-			id: "77FBE2FA730A82AE"
-			rewards: [{
-				id: "1FBCB30D6D1B7B94"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.5d
-			tasks: [{
-				id: "781B18571CC61161"
-				item: "botania:mana_tablet"
-				type: "item"
-			}]
-			title: "Portable Mana"
-			x: 11.25d
-			y: 11.25d
-		}
-		{
-			dependencies: ["77FBE2FA730A82AE"]
-			description: ["Turn your mana tablet into a ring to store mana on-the-go &6without taking up an inventory slot!&r"]
-			id: "7AC1E9B4710A8B84"
-			rewards: [{
-				id: "7E5580894EE5E74C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "72B87DADC3BA8740"
-				item: "botania:mana_ring"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["77FBE2FA730A82AE"]
-			description: ["By attaching a mana rune to a manasteel ring, you can (VERY slowly) pull ambient mana into a mana storage device on your person, &6for free!&r"]
-			id: "0E2EAFDEA91C24BD"
-			rewards: [{
-				id: "5FEE92B8F930D27D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6A17A5BA2DFAF67B"
-				item: "botania:aura_ring"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 13.0d
+			x: 14.0d
+			y: 30.5d
 		}
 		{
 			dependencies: ["1AF1077B69E1551E"]
 			description: [
-				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to &6glowstone!&r"
+				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to &6glowstone!&r. &6Redstone&r is similar, using cinder flour in place of gunpowder."
 				""
-				"Getting &6redstone&r is similar, using cinder flour in place of gunpowder."
+				"You can also make glowstone and redstone with strength and night vision potions in a create spout; it's up to you which mod you want to use for these!"
 				""
-				"&7Tip: you can also make glowstone and redstone with strength and night vision potions - it's up to you whether you want to take the Enchanted or Create route for these!&r"
-				""
-				"&7Tip 2: the display for these recipes is a little messed up in EMI - you can place the ingredients in any input slot, not only the bottle slot."
+				"&7Tip 2: The display for these recipes in EMI is innaccurate. Know that you can place the ingredients in any input slot, not only the bottle slot."
 			]
 			id: "4DE7466CAC029EF6"
 			rewards: [{
@@ -889,37 +782,11 @@
 				}
 			]
 			title: "Useful Dusts"
-			x: 11.0d
-			y: 8.0d
+			x: 15.5d
+			y: 29.5d
 		}
 		{
-			dependencies: ["5C1E3750F91A38B2"]
-			description: [
-				"The &6transmutation catalyst&r modifies the natural altar to convert items into other items using Aura. Similar to the crumbling catalyst, it must be placed &6atop one of the four lower gold blocks of the altar.&r"
-				""
-				"The most immediately useful transmutation is that of &6sand into soul sand,&r which will allow you to haunt things using the encased fan, as well as grow nether wart!"
-				""
-				"You can also convert netherrack into crimson and warped nylium."
-			]
-			id: "00448B9AC0FC3F5D"
-			rewards: [{
-				id: "59748105E1BF277D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "372D3B2D4B9F89D4"
-				item: "naturesaura:conversion_catalyst"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 9.5d
-		}
-		{
-			dependencies: [
-				"1A34EA158DB664B2"
-				"2EF741DB92153BB1"
-			]
+			dependencies: ["2EF741DB92153BB1"]
 			description: [
 				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
 				""
@@ -949,12 +816,15 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 2.0d
+			x: 19.0d
+			y: 36.0d
 		}
 		{
-			dependencies: ["1AF1077B69E1551E"]
-			description: ["You can capture a summoned blaze into a magicked cage. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
+			dependencies: [
+				"1AF1077B69E1551E"
+				"7D5E4A2212C421AE"
+			]
+			description: ["You can capture a summoned blaze clicking on it with a magicked cage by. This cage, when placed under a basin, will let you brew potions more efficiently than a brewing stand."]
 			id: "27A7CD7E1613FD1B"
 			optional: true
 			rewards: [{
@@ -967,110 +837,15 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["020B8F06D2C86CE3"]
-			description: [
-				"Using the power of the &6Offering Altar&r you can &6activate tokens!&r These activated tokens are useful for various crafts, but they can also be used to trade with &6Ribbits &rin the Nether. "
-				""
-				"Tokens of Euphoria can be traded for quartz!"
-				""
-				"Simply right click any ribbit with a token and you'll receive the gems in return."
-			]
-			id: "1C7C9A1F11DE819B"
-			rewards: [{
-				id: "54963078056ED72D"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "circle"
-			size: 2.5d
-			subtitle: "and trade bads, too!"
-			tasks: [
-				{
-					id: "125816DF2125B948"
-					item: "naturesaura:token_euphoria"
-					type: "item"
-				}
-				{
-					id: "74BE3004113E0584"
-					item: "naturesaura:token_grief"
-					type: "item"
-				}
-			]
-			title: "Trade Goods"
-			x: 16.25d
-			y: -1.25d
-		}
-		{
-			dependencies: ["5EA3E8FCE4EBBA82"]
-			description: [
-				"With runes, there are a few other options you have for generating mana:"
-				""
-				"* A &6Thermalily&r generates bursts of mana using lava, but will consume lava for no gain if you give it lava too often"
-				"* An &6Entropinnyum&r consumes TNT explosions (and is one of the best generating flowers in the game), but too often and it'll just blow itself up"
-				"* A &6Munchdew&r consumes leaves, but does not drop saplings."
-				""
-				"&7Tip: some flowers will generate too much mana for a basic spreader! You can use potency and velocity lenses to stretch this, but eventually, you'll need better spreaders...&r"
-			]
-			id: "6FAB85F509199CA8"
-			optional: true
-			rewards: [{
-				id: "27B3F318DA9CACAD"
-				type: "xp"
-				xp: 100
-			}]
-			size: 1.0d
-			tasks: [
-				{
-					id: "7FBBEAD125CEBC23"
-					item: "botania:entropinnyum"
-					type: "item"
-				}
-				{
-					id: "5651681BBC5CDDF3"
-					item: "botania:thermalily"
-					type: "item"
-				}
-				{
-					id: "39588C89BC26A419"
-					item: "botania:munchdew"
-					type: "item"
-				}
-			]
-			title: "Alternative Mana Sources"
-			x: 14.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["020B8F06D2C86CE3"]
-			description: [
-				"With empowered tokens, you can craft the &6Creational Catalyst&r - this removes the innate limit on most aura producing blocks, and lets you overcharge the local area with Aura."
-				""
-				"&7Tip: aureareaurearuea"
-			]
-			id: "6C627897FFF1D259"
-			rewards: [{
-				id: "441E2FB83DB075C1"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "2009E7B94071CE08"
-				item: "naturesaura:generator_limit_remover"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 2.0d
+			x: 16.0d
+			y: 31.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
 			description: [
 				"You've felt a strange tingling on your skin ever since you woke up - you think this might be a manifestation of &6Aura,&r a natural phenomenon that you might be able to further harness."
 				""
-				"To get started, craft a &6Bottle and Cork&r and &6right click the air&r to gather some Aura for further study."
+				"To get started, craft a &6Bottle and Cork&r and &6right click the air outside&r to gather some Aura for further study."
 			]
 			icon: {
 				Count: 1
@@ -1119,89 +894,15 @@
 				}
 			]
 			title: "Bottling Sunlight"
-			x: 18.5d
-			y: 17.0d
-		}
-		{
-			dependencies: ["77FBE2FA730A82AE"]
-			description: ["The &6Mana Blaster&r is a portable mana spreader that you can fire at will, using mana from a storage device on your person. You can also attach lenses to it, to use their special properties!"]
-			id: "121D0AE32E2F7267"
-			rewards: [{
-				id: "3B7AD6C882A25FC6"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "6B4F4E037CD70B79"
-				item: {
-					Count: 1
-					id: "botania:mana_gun"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["2FD66F543443B8A8"]
-			description: [
-				"&6Mana Lenses&r can change the properties of a mana burst fired from a spreader. They can increase the color, potency, speed, and even make the burst go &6through blocks&r or &6break them&r altogether! Read your &6Lexica Botania&r for more details."
-				""
-				"&7Tip: the weight lens makes blocks a mana burst hits fall - you can exploit this property to get blocks that normally need silk touch by having them fall onto something like a torch!"
-			]
-			id: "4D4FA4ECA2544486"
-			rewards: [{
-				id: "2AB41299C58FD586"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "189B6DBB7354493B"
-				item: "botania:lens_normal"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["5A8DD5C84842AD14"]
-			description: [
-				"With the acquisition of Primalite, you can make a special chamber to manipulate elemental mercury into a source of energy. "
-				""
-				"The &6Mercury Catalyst&r can convert mercury into Mercury Flux (MF) which, in combination with a &6Caloric Flux Emitter&r, can be used to power alchemical devices that would normally need a pyromantic brazier underneath them!"
-				""
-				"&7Tip: one mercury shard produces as much energy as one piece of charcoal!"
-			]
-			icon: "theurgy:caloric_flux_emitter"
-			id: "3BFD85713462A66A"
-			rewards: [{
-				id: "1FE3DE4328349B77"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "20C4D02E6B22B4D9"
-					item: "theurgy:caloric_flux_emitter"
-					type: "item"
-				}
-				{
-					id: "1200D20D06097CB8"
-					item: "theurgy:mercury_catalyst"
-					type: "item"
-				}
-			]
-			title: "Mercurial Power"
-			x: 25.0d
-			y: 2.5d
+			x: 23.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
 			description: [
 				"With high enough aura in an area, &6dried earth will slowly convert to dirt!&r"
 				""
-				"If you want to stop this effect from happening, &6Powder of Dried Stasis&r will prevent the conversion of dried earth to dirt in the area it's placed in."
+				"&7If you want to stop this effect from happening, Powder of Dried Stasis will prevent the conversion of dried earth to dirt in the area it's placed in."
 			]
 			icon: "minecraft:dirt"
 			id: "316BD23FB6087C07"
@@ -1227,7 +928,7 @@
 			}]
 			title: "Regrowth?"
 			x: 27.0d
-			y: 12.0d
+			y: 26.5d
 		}
 		{
 			dependencies: [
@@ -1235,11 +936,11 @@
 				"1AF1077B69E1551E"
 			]
 			description: [
-				"With an imitation blaze head and a couple of real magical reagents, you can &6summon a real blaze!&r"
+				"With a fel blaze, some potions from your distillery, and a rune of fire in a chalk ritual, you can &6summon a real blaze!&r"
 				""
 				"This summoned blaze always drops at least 3 blaze rods. "
 				""
-				"&7Tip: the ritual to summon the blaze is described in the Reclamation Rituals book.&r"
+				"&7Tip: Check the ritual to summon the blaze in the Reclamation Rituals book.&r"
 			]
 			id: "621BEE0A09882094"
 			rewards: [
@@ -1255,22 +956,22 @@
 					xp: 100
 				}
 			]
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "3DA044014EEF761D"
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
 			title: "Real Blazes"
-			x: 15.0d
-			y: 6.0d
+			x: 14.0d
+			y: 33.0d
 		}
 		{
 			dependencies: ["01C2598A1D9CF754"]
 			description: [
-				"Using the power of nature-attuned iron, you've found that you're able to craft a &6mundane wand.&r"
+				"Using some of your reinforced nature-attuned iron, you've found that you're able to craft a &6mundane wand.&r"
 				""
-				"You think you can use this wand as a stepping stone to bring back the practice of &6Thaumaturgy&r - the art of producing magic in it's purest sense."
+				"You think you can use this wand for the practice of &6Thaumaturgy&r - the art of working with pure, raw magic."
 			]
 			id: "3AF2AE2510484276"
 			rewards: [{
@@ -1286,17 +987,19 @@
 				type: "item"
 			}]
 			title: "Primal Magick"
-			x: 21.450000000000003d
-			y: 11.700000000000001d
+			x: 24.05d
+			y: 25.35d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
 			description: [
-				"By pointing your &6wand&r at a bookshelf and a crafting table, you can produce the &6Grimoire&r and &6Arcane Workbench,&r respectively. &d(you need to collect some energy first, here's where temples come in)&r"
+				"By pointing your &6wand&r at a bookshelf and THEN a crafting table, you can produce the &6Grimoire&r and &6Arcane Workbench,&r respectively. You need to collect some energy in your wand first, this is where temples come in.&r"
+				""
+				"&cRecipes won't become available to you through EMI until you unlock them in the Grimoire, so we really suggest you read through it as you play on our server. "
 				""
 				"The &6Grimoire&r is fundamental to keeping track of your discoveries and pointing you in the directions of new ones, while the &6Workbench&r will let you channel aspected mana to transform items."
 				""
-				"&7Tip: seriously, read the Grimoire. It's important."
+				"&7Seriously, read the Grimoire. It's important."
 			]
 			icon: "primalmagick:grimoire"
 			id: "058AC672AE190DB2"
@@ -1318,8 +1021,8 @@
 					type: "item"
 				}
 			]
-			x: 21.450000000000003d
-			y: 10.4d
+			x: 24.05d
+			y: 26.650000000000002d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1342,13 +1045,13 @@
 				type: "checkmark"
 			}]
 			title: "Finding Mana"
-			x: 20.0d
-			y: 11.5d
+			x: 23.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["058AC672AE190DB2"]
 			description: [
-				"The &6analysis table&r allows you to destructively research an item's affinities, letting you glimpse insight into the primal magick that is innate to all things. "
+				"The &6analysis table&r allows you to research an item's affinities, letting you glimpse insight into the primal magick that is innate to all things (before destroying that item). "
 				""
 				"With enough study, you can generate &6observations,&r crucial to your studies in the &6Grimoire.&r"
 				""
@@ -1374,8 +1077,8 @@
 				}
 			]
 			title: "Primal Research"
-			x: 21.450000000000003d
-			y: 9.100000000000001d
+			x: 24.05d
+			y: 27.950000000000003d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1391,8 +1094,8 @@
 				type: "item"
 			}]
 			title: "Better than Stone"
-			x: 22.5d
-			y: 7.0d
+			x: 24.0d
+			y: 30.0d
 		}
 		{
 			dependencies: ["1766A376B67F6940"]
@@ -1412,12 +1115,16 @@
 				item: "primalmagick:calcinator_basic"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 5.0d
+			x: 24.0d
+			y: 32.5d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
-			description: ["The &6mana charger&r is a slow way to &6recharge your wands&r without having to go all the way back to a font - place some &6essence dust&r in it and watch it imbue your wand with mana!"]
+			description: [
+				"The &6mana charger&r is a slow way to &6recharge your wands&r without having to go all the way back to a font - place some &6essence dust&r in it and watch it imbue your wand with mana!"
+				""
+				"&7Tip: focus on the Manaweaving research line to find out how!"
+			]
 			id: "1BB5F4B57C2E73DB"
 			rewards: [{
 				id: "070F7002F039EDF2"
@@ -1429,8 +1136,8 @@
 				item: "primalmagick:wand_charger"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 5.5d
+			x: 24.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1451,8 +1158,8 @@
 				item: "primalmagick:wand_assembly_table"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 9.5d
+			x: 25.0d
+			y: 28.0d
 		}
 		{
 			dependencies: [
@@ -1491,35 +1198,16 @@
 				}
 			]
 			title: "Rituals"
-			x: 21.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["499BFD6DE9F18512"]
-			description: ["Rituals can be &4unstable.&r The &6dowsing rod&r lets you examine a ritual before starting it, telling you whether or not your setup is &6symmetrical&r enough to reduce the ill effects of instability."]
-			id: "68D6856DA1E03491"
-			rewards: [{
-				id: "6054E9A7261F5C66"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4FA6DD6A920A7B27"
-				item: {
-					Count: 1
-					id: "primalmagick:dowsing_rod"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 21.5d
-			y: 2.0d
+			x: 22.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
-			description: ["An expert alchemical item, &6Primalite&r can be used to make a variety of equipment that tends to be very good."]
+			description: [
+				"An expert alchemical item, &6Primalite&r can be used to make a variety of equipment that tends to be very good."
+				""
+				"&7Tip: focus on the Alchemy research line to find out how!"
+			]
 			id: "5A8DD5C84842AD14"
 			rewards: [{
 				id: "0EC06698F506A13D"
@@ -1531,41 +1219,15 @@
 				item: "primalmagick:primalite_ingot"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 4.0d
+			x: 25.0d
+			y: 32.0d
 		}
 		{
-			dependencies: ["499BFD6DE9F18512"]
-			description: ["With a little more research into &6ritual magick,&r you can start to craft more complex props for rituals. These include the &6Ritual Lectern&r and &6Ritual Bell,&r allowing you to channel more powerful rituals, like the creation of the &6Offering Table.&r"]
-			icon: "primalmagick:ritual_bell"
-			id: "1A34EA158DB664B2"
-			rewards: [{
-				id: "1572A787A6C11C88"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "0780AD7D5A6EC9CC"
-					item: "primalmagick:ritual_lectern"
-					type: "item"
-				}
-				{
-					id: "0B4BD2E10ADBBEAF"
-					item: "primalmagick:ritual_bell"
-					type: "item"
-				}
-			]
-			title: "Advanced Ritual Props"
-			x: 19.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["54838757425A9BA7"]
+			dependencies: ["1145EF33C88C696B"]
 			description: [
 				"Made by distilling water bottles, &6rock salt&r is a crucial part of &6rituals&r (as well as cooking!)"
 				""
-				"&7Tip: the display for these recipes is a little messed up in EMI - you can place the ingredients in any input slot, not only the bottle slot."
+				"&7Tip: The display for these recipes in EMI is innaccurate. - you can place the ingredients in any input slot, not only the bottle slot."
 			]
 			id: "27FCBC89FFB7BA5D"
 			rewards: [{
@@ -1578,23 +1240,23 @@
 				item: "primalmagick:rock_salt"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 21.5d
+			y: 32.0d
 		}
 		{
+			description: ["I wonder what this does...."]
 			id: "0AB108957B2088DB"
 			tasks: [{
 				id: "76A5932BB89A6E32"
 				item: "create:tree_fertilizer"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 16.0d
+			x: 17.0d
+			y: 20.0d
 		}
 		{
-			dependencies: ["123DCDE9B7BE279D"]
 			description: [
-				"Now you can make slime on the alchemical workbench, you have acess to a portable vacuum set that you can craft to go around and suck up any pollution that you might find or generate on-the-go. "
+				"Now, there are a couple of ways you can make slime, which means you have access to a portable vacuum set that you can craft to go around and suck up any pollution that you might find or generate on-the-go. "
 				""
 				"You might also be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of getting up there easily."
 			]
@@ -1625,12 +1287,12 @@
 				}
 			]
 			title: "Breathing Fresh Air"
-			x: 20.5d
-			y: 7.5d
+			x: 22.0d
+			y: 29.0d
 		}
 		{
 			description: [
-				"&6The power of trees is one of the many things that is overlooked in our wider, harsher realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
+				"&6The power of trees is one of the many things that is overlooked in our wider realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
 				""
 				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
 			]
@@ -1648,7 +1310,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 18.5d
 			y: 19.0d
 		}
 		{
@@ -1671,24 +1333,17 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["5A8DD5C84842AD14"]
-			description: ["Primalite wand caps are so good at channeling mana they actually reduce the amount of mana needed for any crafting!"]
-			id: "1B2052EF517908DA"
-			tasks: [{
-				id: "0975B918E2551632"
-				item: "primalmagick:primalite_wand_cap_item"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 4.0d
+			title: "Ritual of the Forest"
+			x: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1BB5F4B57C2E73DB"]
-			description: ["What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."]
+			description: [
+				"What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."
+				""
+				"&7Tip: focus on the Manaweaving research line to find out how!"
+			]
 			id: "099A26372529561D"
 			rewards: [{
 				id: "58F0A1FA1D33CC1C"
@@ -1728,24 +1383,28 @@
 				type: "item"
 			}]
 			title: "Artificial Mana Fonts"
-			x: 25.5d
-			y: 5.5d
+			x: 25.0d
+			y: 34.5d
 		}
 		{
 			dependencies: ["099A26372529561D"]
-			description: ["With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"]
+			description: [
+				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
+				""
+				"&7Tip: Look for the Magitech research line to find out how!"
+			]
 			id: "1CA5B2CEF12BFB54"
 			tasks: [{
 				id: "60EF585C9DC807A0"
 				item: "primalmagick:auto_charger"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 5.5d
+			x: 25.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["27C68B6622F186D7"]
-			description: ["In the Nether you'll find &6Ribbits!&r These funky creatures escaped the Overworld before everything went bad and set up shop here. You'll be able to trade fish for amethyst gems, as well as some other small things."]
+			description: ["In the Nether you'll find &6Ribbits&r These funky creatures escaped the Overworld and set up shop there! You'll be able to trade fish for amethyst gems, as well as many other fun things."]
 			id: "0F900E721CC074B5"
 			rewards: [{
 				id: "229F289B5F289D11"
@@ -1757,8 +1416,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 14.0d
+			x: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["55F66C3105D9CC5B"]
@@ -1774,11 +1433,10 @@
 				item: "primalmagick:adept_wand_gem_item"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 8.0d
+			x: 26.0d
+			y: 28.0d
 		}
 		{
-			dependencies: ["2EF741DB92153BB1"]
 			description: [
 				"The &6alchemy catalyst&r allows you to turn &6Organic Mash&r into &6Coral! &r"
 				""
@@ -1822,8 +1480,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.5d
+			x: 15.0d
+			y: 35.5d
 		}
 		{
 			dependencies: ["7D5E4A2212C421AE"]
@@ -1832,7 +1490,7 @@
 				""
 				"You'll be able to convert flowers into other flowers, stone variants into other stone variants, flint into gunpowder (and vice versa), and ghast tears into ender pearls!"
 				""
-				"&6Notably, it lets you turn flax into feathers, necessary for tokens of fear.&r"
+				"&6Notably, it lets you turn flax into feathers for &ltokens of fear.&r"
 			]
 			id: "2EF741DB92153BB1"
 			rewards: [{
@@ -1845,8 +1503,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 16.0d
+			y: 35.5d
 		}
 		{
 			dependencies: ["5A8DD5C84842AD14"]
@@ -1886,47 +1544,8 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 23.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2CF231A8A8C27426"]
-			description: [
-				"You can convert between sulfurs of the same type and rarity using the reformation array, but if you want to convert between different types (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat.&r"
-				""
-				"Place &6water, sugar, and the sulfur&r you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
-				""
-				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!&r"
-			]
-			id: "6D70115BB36A8BDD"
-			tasks: [{
-				id: "7CFE6566D5515BD7"
-				item: "theurgy:fermentation_vat"
-				type: "item"
-			}]
-			title: "Alchemical Conversion"
-			x: 23.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["6D70115BB36A8BDD"]
-			description: [
-				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa.&r"
-				""
-				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!&r"
-				""
-				"This is a metal loop you could try automating..."
-				""
-				"&7Tip: you can start and stop the vats using a redstone signal!&r"
-			]
-			id: "572C47AACB50B260"
-			tasks: [{
-				id: "4073FB226C4DC419"
-				item: "theurgy:digestion_vat"
-				type: "item"
-			}]
-			x: 24.0d
-			y: -0.5d
+			x: 26.5d
+			y: 32.0d
 		}
 	]
 	title: "Chapter 3: Growing Roots"
