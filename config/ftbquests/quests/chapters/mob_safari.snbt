@@ -1,6 +1,6 @@
 {
 	autofocus_id: "5FEE65C669654E40"
-	default_hide_dependency_lines: true
+	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "mob_safari"

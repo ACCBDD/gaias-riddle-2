@@ -1,4 +1,5 @@
 {
+	autofocus_id: "000A7EAED7A84968"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -13,64 +14,48 @@
 			image: "enchanted:block/alder_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -4.0d
+			x: 0.5d
+			y: -7.5d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/acacia_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -10.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
 			image: "enchanted:block/hawthorn_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: -7.5d
+			x: 8.0d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/birch_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: -3.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			height: 1.0d
 			image: "minecraft:block/oak_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
-			y: -7.0d
+			x: 1.0d
+			y: -7.5d
 		}
 		{
 			height: 1.0d
 			image: "enchanted:block/rowan_sapling"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: -10.0d
-		}
-		{
-			height: 1.0d
-			image: "primalmagick:block/sunwood_sapling"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.5d
-			y: -5.5d
-		}
-		{
-			height: 1.0d
-			image: "primalmagick:block/moonwood_sapling"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: -6.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			height: 1.0d
@@ -78,15 +63,15 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.0d
-			y: 2.0d
+			y: -10.0d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: -10.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
@@ -101,16 +86,16 @@
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: 0.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: -5.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			height: 1.0d
@@ -125,40 +110,40 @@
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.5d
-			y: 1.0d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.5d
-			y: 3.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.5d
-			y: -4.0d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.5d
-			y: -0.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			height: 1.0d
 			image: "integrateddynamics:aspect/write/double/effect/particle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: -6.0d
+			x: -1.0d
+			y: -8.5d
 		}
 		{
 			height: 4.0d
@@ -166,10 +151,82 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 4.5d
-			y: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 4.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 180.0d
+			width: 4.0d
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 180.0d
+			width: 4.0d
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			height: 6.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 0.0d
+			width: 6.0d
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			height: 6.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 180.0d
+			width: 4.0d
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:aspect/write/double/effect/particle"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "illustrations:textures/quests/romanasignfacingright.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -10.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -179,7 +236,6 @@
 				""
 				"&eThe next hurdle to jump over is bringing plant life and agricultural practice back into the world&7. This is about finding better ways to sustain yourself and your environment, surely you must be tired of eating apples, eggs, and bread. "
 			]
-			hide_until_deps_complete: true
 			id: "000A7EAED7A84968"
 			rewards: [{
 				id: "27EE0E066D607838"
@@ -195,7 +251,7 @@
 			}]
 			title: "Next Steps"
 			x: 4.5d
-			y: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["000A7EAED7A84968"]
@@ -246,11 +302,11 @@
 				}
 			]
 			title: "Seeds"
-			x: 2.0d
-			y: 0.0d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["26833208E1F2EB4B"]
+			dependencies: ["44C03608D67B9815"]
 			description: [
 				"&dnote: rewrite this when the quest is fixed"
 				""
@@ -293,8 +349,8 @@
 				}
 			]
 			title: "Hemoglobic Fluid"
-			x: 2.5d
-			y: -2.0d
+			x: 2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4CE0C02B0602C06E"]
@@ -343,8 +399,8 @@
 				}
 			]
 			title: "Salt and Sulfur"
-			x: 3.0d
-			y: -4.0d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5C476B553750BDE9"]
@@ -361,11 +417,11 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["26833208E1F2EB4B"]
+			dependencies: ["44C03608D67B9815"]
 			description: ["You can mash up the magical plants you've found into something called &6Anointing Paste.&r Which can be used to imbue certain items with magical energy"]
 			id: "66B8F071AD7CA037"
 			rewards: [{
@@ -378,8 +434,8 @@
 				item: "enchanted:anointing_paste"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -415,6 +471,7 @@
 					xp: 100
 				}
 			]
+			size: 1.0d
 			tasks: [
 				{
 					id: "09C7309D2ADC01FA"
@@ -430,15 +487,22 @@
 					type: "advancement"
 				}
 			]
-			x: 6.5d
-			y: -3.5d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6CB296A3AD751F62"]
+			dependencies: [
+				"6CB296A3AD751F62"
+				"6831CB6AC2CE40C6"
+			]
 			description: [
 				"&7With a little bit of magic (and your shiny new witch's cauldron), you can make &6mutandis (a potent mutagen)!"
 				""
-				"Believe it or not, this has enough power &6to turn those dead bushes you've been seeing around &linto actual saplings!"
+				"Believe it or not, this has enough power &6to turn those dead bushes you've been seeing around &linto actual saplings! "
+				""
+				"To collect bushes you can either have your conversion chicken make bushes out of placed sticks, or you can use shears to collect the bushes around you."
+				""
+				"&8Hint: make sure you put the bushes on a dirt block so tree saplings you make can grow their roots! "
 			]
 			icon: "minecraft:oak_sapling"
 			id: "4075C13786AF4C49"
@@ -456,7 +520,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.3d
+			size: 2.0d
 			subtitle: "Minor necromancy"
 			tasks: [
 				{
@@ -520,8 +584,8 @@
 				}
 			]
 			title: "Saplings!"
-			x: 6.8999999999999995d
-			y: -8.049999999999999d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
@@ -532,28 +596,29 @@
 				""
 				"&7To start, plant any seeds you have onto specially-prepared &6&lCrop Sticks&r&r."
 			]
-			icon: "agricraft:wooden_crop_sticks"
+			icon: "agricraft:magnifying_glass"
 			id: "2E15C8681F5D2ACF"
-			rewards: [
+			rewards: [{
+				id: "0BB01DADE1595C81"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.0d
+			tasks: [
 				{
-					id: "7596CA51E4F2FEDE"
-					item: "agricraft:magnifying_glass"
+					id: "45CF2796053F5B4A"
+					item: "agricraft:wooden_crop_sticks"
 					type: "item"
 				}
 				{
-					id: "0BB01DADE1595C81"
-					type: "xp"
-					xp: 100
+					id: "44E6ECF97F77BDD4"
+					item: "agricraft:magnifying_glass"
+					type: "item"
 				}
 			]
-			tasks: [{
-				id: "45CF2796053F5B4A"
-				item: "agricraft:wooden_crop_sticks"
-				type: "item"
-			}]
 			title: "Planting Seeds"
-			x: 0.0d
-			y: -1.0d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0207C1DDD4332158"]
@@ -589,8 +654,8 @@
 				type: "checkmark"
 			}]
 			title: "How do I get better stats?"
-			x: -1.5d
-			y: 1.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -607,7 +672,7 @@
 				""
 				"&6&lStrength&r&r broadens the possible growing conditions for a plant &8- for example, cactus can always grow on sand, but with a strength of 10, it can grow on normal farmland!"
 			]
-			icon: "agricraft:magnifying_glass"
+			icon: "agricraft:wooden_crop_sticks"
 			id: "0207C1DDD4332158"
 			rewards: [
 				{
@@ -634,8 +699,8 @@
 				type: "checkmark"
 			}]
 			title: "The numbers, Mason!"
-			x: -1.5d
-			y: 0.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1792BA6A0845320F"]
@@ -669,11 +734,10 @@
 				type: "checkmark"
 			}]
 			title: "That was a lot..."
-			x: -1.5d
-			y: 2.0d
+			x: 9.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["2E15C8681F5D2ACF"]
 			description: [
 				"Now, you can start to expand your farm by cross-breeding different crops to make &e&lmany&r more yummy snacks!"
 				""
@@ -703,8 +767,8 @@
 				}
 			]
 			title: "Edible Plants"
-			x: -2.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["658C67ABFD247487"]
@@ -735,8 +799,8 @@
 				type: "item"
 			}]
 			title: "Growing copper?"
-			x: -2.5d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["389C82D9424B4099"]
@@ -761,7 +825,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1525FDF792FDFA20"]
@@ -789,11 +853,10 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 9.5d
+			y: -6.0d
 		}
 		{
-			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["You can get &6straw&r by cutting grass or wheat with a knife. &7Use it to make leads, ropes, and building blocks!"]
 			icon: "farmersdelight:straw"
 			id: "07339A3B3E7714B3"
@@ -837,8 +900,8 @@
 				}
 			]
 			title: "Straw"
-			x: 0.0d
-			y: -3.5d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["07339A3B3E7714B3"]
@@ -863,8 +926,8 @@
 				type: "item"
 			}]
 			title: "Rich Farmland"
-			x: 0.5d
-			y: -5.0d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6831CB6AC2CE40C6"]
@@ -880,8 +943,8 @@
 				item: "enchanted:fume_funnel"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -9.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4CE0C02B0602C06E"]
@@ -909,8 +972,8 @@
 				type: "item"
 			}]
 			title: "OSHA Approved"
-			x: 1.0d
-			y: -2.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["389C82D9424B4099"]
@@ -934,12 +997,12 @@
 				}
 			]
 			title: "Pollution Filtration"
-			x: 1.9500000000000002d
-			y: -8.450000000000001d
+			x: 3.2500000000000004d
+			y: -3.2500000000000004d
 		}
 		{
-			description: ["&7You'll notice there's another chapter titled &6&lPlants Galore&r&7, &rthis is where you can easily view which crops and flowers can be accessed in this modpack. "]
-			icon: "farmersdelight:vegetable_soup"
+			description: ["&7You'll notice there's another chapter titled &6&lPlants Galore&r&7, &rthis is where you can easily view which crops  flowers, and eventually, trees can be accessed in this modpack. "]
+			icon: "minecraft:farmland"
 			id: "20CC76BFBCDDABE9"
 			rewards: [{
 				id: "568EDB62B74E5313"
@@ -953,7 +1016,42 @@
 			}]
 			title: "See \"Plants Galore\""
 			x: -1.0d
-			y: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4075C13786AF4C49"]
+			description: [
+				"This book will help you on your quest to bring some green back to this land. &6The Book of Natural Aura&r is a great friend to the trees, and will &eguide you through some crucial rituals for getting more saplings and diversifying your forest. "
+				""
+				"&8Hint: you can use a drying basin to make leather"
+			]
+			id: "135477D90A2EC473"
+			size: 1.0d
+			tasks: [{
+				id: "2FE9DD886CD5796D"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26833208E1F2EB4B"]
+			id: "44C03608D67B9815"
+			size: 1.0d
+			tasks: [{
+				id: "7A18B05B2E8D06F0"
+				title: "Magical Agriculture"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -7.0d
 		}
 	]
 	title: "Chapter 2: A Little Greener"

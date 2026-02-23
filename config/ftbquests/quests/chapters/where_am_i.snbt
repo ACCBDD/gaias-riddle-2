@@ -1,0 +1,399 @@
+{
+	autofocus_id: "324DA7CD12EF7580"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "where_am_i"
+	group: ""
+	icon: "kubejs:dried_earth"
+	id: "63323902453D1E65"
+	images: [
+		{
+			height: 3.5d
+			image: "illustrations:textures/quests/placeholderbook.png"
+			order: 10
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "illustrations:textures/quests/hudpreview.png"
+			order: 8
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "illustrations:textures/quests/romanasignfacingright.png"
+			order: 9
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			color: 11355214
+			height: 5.0d
+			image: "illustrations:textures/quests/tutorials.png"
+			order: 7
+			rotation: 50.0d
+			width: 5.0d
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "illustrations:textures/quests/romanasignfacingleft.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			height: 0.5d
+			image: "illustrations:textures/quests/placeholderlogo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			corner: true
+			height: 3.0d
+			image: "illustrations:textures/quests/image.png"
+			order: 1
+			rotation: 0.0d
+			width: 20.0d
+			x: -0.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DCF6729CE12A190"]
+			description: [
+				"You look for &atrees&r to make tools and build a shelter, &7but all you see are gnarled stumps of dry wood."
+				""
+				"You scan the horizon for &esomething to eat...&7 A lone cave spider scurries accross a hill in the distance. "
+				""
+				"&7You are unsure of what to do or how to make your way in the world around you.&r It seems that you are the only living, crafting thing in sight."
+			]
+			icon: "minecraft:dead_bush"
+			id: "324DA7CD12EF7580"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3EE28E21902CB194"
+				title: "What... Happened?"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Curious about our design process? Have a question about a specific quest? Check out the field guide on how we built our game here :)"
+				""
+				"[Clickable Link to field guide]"
+			]
+			id: "25641F0E336D6C14"
+			size: 0.5d
+			title: "Field Guide"
+			x: -2.25d
+			y: 0.25d
+		}
+		{
+			description: [
+				"&lYou'll notice there are several pages of quest lines for you to follow in the side bar on the left. "
+				""
+				"&6&lTo progress,&r&6 focus on the main chapters (1-5)&r in your attempt to establish a more symbiotic relationship with this barren land. "
+				""
+				"&l&6Side Quest Lines&r are marked below this, and detail some of the extra things that the mods in this pack have to offer. &8(This works as a drop-down menu that you can refer back to for things like transportation, and plant mutation later-on). "
+			]
+			id: "6CB0B75207F4EE12"
+			size: 0.4d
+			tasks: [{
+				id: "46F9381685B64FF6"
+				title: "Side Quests"
+				type: "checkmark"
+			}]
+			x: -6.2d
+			y: -3.0d
+		}
+		{
+			dependencies: ["324DA7CD12EF7580"]
+			description: [
+				"&8Hint: To collect rewards for quests, click on any items listed in the box at the top right labeled \"Rewards\"."
+				""
+				"There is a reason you are here; though it may not be the reason you think."
+				""
+				"&7In this modpack we ask that you carry with you the knowledge that &ethere is, in fact, still life around you&7, and that it may present itself to you if you &elearn to work with the environment&r&7 instead of against it."
+			]
+			icon: "desert:dry_grass"
+			id: "26B723F490599EA8"
+			rewards: [{
+				id: "627E9EB86CB7AF2E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "because you still listen, because in times like these"
+			tasks: [{
+				id: "609C9A97E5039109"
+				title: "Biomes?"
+				type: "checkmark"
+			}]
+			title: "Living in New Ways"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&7Take the time to familiarize yourself with your surroundings. &rThere are structures sprinkled around, &eIn them, you may find some useful tools and resources left behind. "
+				""
+				"&7You wonder if there are any civilizations out there surviving somehow, in spite of the hot climate and limited resources... "
+				""
+				"&7&oMaybe somewhere in the nether? "
+			]
+			icon: "minecraft:cracked_stone_bricks"
+			id: "73B2D3552AC99061"
+			rewards: [{
+				id: "57EC75F6C28970A7"
+				type: "xp"
+				xp: 100
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "7A5360625F1D8726"
+				type: "checkmark"
+			}]
+			title: "Ruins and Structures"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&dnote: would this be better in ch 1?"
+				""
+				"&7You'll notice pollution generates when you try to use a furnace. "
+				""
+				"&rUnfortunately, you won't be able to do anything about this until you can make a &l&echimmney&r and a &l&efilter&r for your furnace. "
+			]
+			icon: "adpother:sulfur"
+			id: "42AE68E909116CAA"
+			size: 0.5d
+			tasks: [{
+				id: "5ADF81A95DCAE773"
+				type: "checkmark"
+			}]
+			title: "Pollution?"
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"Some of the mobs seem to have evolved to survive the harsh climate..."
+				""
+				"&7The only spiders that linger are &6venomous cave spiders. "
+				""
+				"&7No witches or zombie villagers to be seen. But hey, &rif you're lucky &emaybe a &6Husk&e will drop a stray ingot of copper or iron."
+				""
+				"&7Look out for &r&6nomadic groups of pillagers,&7 they're pesky, and not inclined to leave you alone. "
+			]
+			icon: "minecraft:ender_pearl"
+			id: "3964A65223C8029E"
+			size: 0.5d
+			tasks: [{
+				id: "65A7C8D38B1F3FB5"
+				type: "checkmark"
+			}]
+			title: "[Evolving] Mobs and Mob Drops"
+			x: 5.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"The &e&lAkashic Tome&r is for &lcombining just about any book in our modpack, &rletting you keep all of your books in a single item slot. &7You will collect more books as you play, so keep this on hand. "
+				""
+				"&6Be warned! &eThese books were written in a Minecraft of a different time. &lSome of the information in them has changed&r as history has recolored their pages. &7Make sure you're comparing your notes as you play. "
+				""
+				"&8Tip: To untransform the tome and choose a different book to read, just punch the air with it."
+				""
+				"&8Tip: To remove a stored book, transform your tome into the book, and then sneak and press your 'drop' key.&r"
+			]
+			icon: "akashictome:tome"
+			id: "4004CF144339BA9C"
+			size: 0.5d
+			tasks: [{
+				id: "731D313D22886B95"
+				type: "checkmark"
+			}]
+			title: "So Many Books"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&7To make things in the desolate environment you are now in, &ryou're going to need to use different materials and recipes from the ones you're used to. "
+				""
+				"Luckily, your recipe browser &6EMI&r has your back. &7Hover over an item and &epress R&7 to look up a recipe, or &epress U&7 to view the uses for a specific item you're researching."
+			]
+			icon: "minecraft:crafting_table"
+			id: "680C129D9E5B7A20"
+			size: 0.5d
+			tasks: [{
+				id: "6709974809F702DC"
+				type: "checkmark"
+			}]
+			title: "Making Stuff From Scratch!"
+			x: 4.25d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&lWELCOME!"
+				""
+				"&7This modpack is designed to run in tandem with our &r&lsolar-powered&r multiplayer server. &eThe goal here is to get you (the players) to think about your relationships with energy and digital media consumption. "
+				""
+				"Do your best! Enjoy! &lExplore! "
+				""
+				"&7Feel free to ask any questions you may have in our discord &d[insert link]"
+			]
+			id: "1B5C60C0BC76B0EB"
+			tasks: [{
+				id: "004DAE25C796AABA"
+				title: "About Us"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["26B723F490599EA8"]
+			description: [
+				"The signs of life that you miss most plague you as you walk over the arid land: &7the buzz of bees, the rustling of leaves in the trees outside of your  window, the reflection of the bright blue of the sky in ponds and lakes and oceans."
+				""
+				"&eWhat do you think this land might ask of you had it the opportunity?"
+			]
+			icon: "supplementaries:globe_sepia"
+			id: "45541AB63751B359"
+			subtitle: "to have you listen at all, it's necessary to talk about trees"
+			tasks: [{
+				id: "049CF4AEDC0838F1"
+				type: "checkmark"
+			}]
+			title: "What Happened to the Biomes?"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&8Hint: To complete this quest, craft whatever item the \"Tasks\" box shows you. Once complete, collect your reward by clicking on whatever the \"Rewards\" box shows you."
+				""
+				"Could it be? &7You thought you saw a glimmer of movement in the water!"
+				""
+				"Is it possible you aren't on your own in weather-worn hills and valleys you trapse? "
+				""
+				"Yes! Fish!"
+				""
+				"&7You have been hungry for so long... &rWith a fishing pole and some patience, you could have a real meal for dinner tonight!"
+			]
+			icon: "minecraft:salmon"
+			id: "52FA7CB2E74392CD"
+			rewards: [{
+				count: 4
+				id: "1B7946C6B79E42A1"
+				item: "farmersdelight:salmon_slice"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "1AF7745523CCB1F8"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "What do I Eat?"
+			x: 4.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&8Hint: To complete this quest, craft whatever item the \"Tasks\" box shows you."
+				""
+				"&7You can either burn charcoal in your furnace; &ror, if you want to avoid extra pollution, you can get it by chopping dead logs of wood on a cutting board. "
+			]
+			id: "2F106228F81876B4"
+			size: 0.5d
+			tasks: [{
+				id: "66DCE6508C8AA627"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: 4.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45541AB63751B359"]
+			description: [
+				"&8Hint: To complete this quest, craft whatever item the \"Tasks\" box shows you. Once complete, collect your reward by clicking on whatever the \"Rewards\" box shows you."
+				""
+				"You will feel the fatigue of the land as you use up dead log after dead log... &7You dream of the days when ripe apples would fall from branches. You can almost hear the sounds of birds chirping. "
+				""
+				"Then, reality sets in. &eYou'll have to make do with what you have&r, even those flimsy planks have their uses."
+			]
+			id: "711166307CB444B9"
+			size: 0.5d
+			tasks: [
+				{
+					id: "0A1D88E3903C5D94"
+					item: "kubejs:dead_log"
+					type: "item"
+				}
+				{
+					id: "2BB1736AA7D02D5F"
+					item: "kubejs:flimsy_planks"
+					type: "item"
+				}
+			]
+			x: 3.25d
+			y: 1.75d
+		}
+		{
+			description: [
+				"&8Tip: This is a quest that can be instantly completed. Simply click the checkmark underneath \"Tasks\" at the top of the window. "
+				""
+				"&7The world looks different. &eThe earth beneath your feet is hard and dry... the water murky and brown. &rThe sun beats down on you, &7casting shadows of dead grass and old relics onto the copper-colored dirt. "
+			]
+			icon: "supplementaries:globe"
+			id: "3DCF6729CE12A190"
+			shape: "square"
+			size: 3.0d
+			subtitle: "And I won't tell you where it is, so why do I tell you anything?"
+			tasks: [{
+				id: "13AE66D41AE5AD8F"
+				title: "Where am I?"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+	]
+	title: "Prologue: Where am I?"
+}
