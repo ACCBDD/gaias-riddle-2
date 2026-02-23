@@ -1,5 +1,5 @@
 {
-	autofocus_id: "226F9F21A941389C"
+	autofocus_id: "2CB92927C4692412"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -14,7 +14,7 @@
 		rotation: 0.0d
 		width: 4.0d
 		x: 18.5d
-		y: 18.5d
+		y: 17.0d
 	}]
 	order_index: 3
 	quest_links: [ ]
@@ -995,7 +995,7 @@
 			description: [
 				"By pointing your &6wand&r at a bookshelf and THEN a crafting table, you can produce the &6Grimoire&r and &6Arcane Workbench,&r respectively. You need to collect some energy in your wand first, this is where temples come in.&r"
 				""
-				"&cRecipes won't become available to you through EMI until you unlock them in the Grimoire, so we really suggest you read through it as you play on our server. "
+				"Recipes won't become available to you through EMI until you unlock them in the Grimoire, so you need to make the grimoire, then read it, then make the alchemical crafting table."
 				""
 				"The &6Grimoire&r is fundamental to keeping track of your discoveries and pointing you in the directions of new ones, while the &6Workbench&r will let you channel aspected mana to transform items."
 				""
@@ -1311,7 +1311,7 @@
 				}
 			]
 			x: 18.5d
-			y: 19.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["45DDC2BAC46D5922"]
@@ -1546,6 +1546,27 @@
 			title: "Alchemical Reformation"
 			x: 26.5d
 			y: 32.0d
+		}
+		{
+			description: [
+				"There's nothing wrong with wanting to build a home for yourself at this point in the game. You have wood now, meaning it's much easier to make an array of building materials and furniture."
+				""
+				"In order to take care of your environment it's important to remember the each of us is a part of that environment, and that means you deserve somewhere to be comfortable, and call home in the wilderness. "
+			]
+			icon: "supplementaries:fire_pit"
+			id: "35BD2520DFCC8C56"
+			rewards: [{
+				id: "380452E3521D6C70"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D686C50AB5D892D"
+				title: "Building a Base"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 17.0d
 		}
 	]
 	title: "Chapter 3: Growing Roots"

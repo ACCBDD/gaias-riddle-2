@@ -173,14 +173,6 @@
 			height: 6.0d
 			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
 			rotation: 0.0d
-			width: 6.0d
-			x: 8.0d
-			y: -9.5d
-		}
-		{
-			height: 6.0d
-			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
-			rotation: 0.0d
 			width: 3.0d
 			x: -1.0d
 			y: -3.5d
@@ -224,6 +216,14 @@
 			width: 3.0d
 			x: 0.0d
 			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "reclamation:textures/quests/cuprosia.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -8.5d
 		}
 	]
 	order_index: 2
@@ -520,7 +520,7 @@
 				}
 			]
 			shape: "hexagon"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "Minor necromancy"
 			tasks: [
 				{
@@ -594,7 +594,7 @@
 				""
 				"If you need to produce stronger crops, you can selectively breed the seeds that you plant. "
 				""
-				"&7To start, plant any seeds you have onto specially-prepared &6&lCrop Sticks&r&r."
+				"&7To start, plant any seeds you have onto &6&lCrop Sticks&r with empty crossed crop sticks in between them."
 			]
 			icon: "agricraft:magnifying_glass"
 			id: "2E15C8681F5D2ACF"
@@ -753,7 +753,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "5E222672F78F50DA"
@@ -775,7 +775,7 @@
 			description: [
 				"Tired of running from ruin to ruin to get copper? Thankfully, there is a special kind of flower called the &6Cuprosia &ryou can breed.&r"
 				""
-				"The flower will only grow on gravel or clay in a waterlogged crop. &eIf you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &6&lit will not grow&r. "
+				"The flower will only grow on gravel in a waterlogged crop. &eIf you successfully crossbreed the Cuprosia but the crop stick it's on is not waterlogged, &6&lit will not grow&r. "
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -1038,7 +1038,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
