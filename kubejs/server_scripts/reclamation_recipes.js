@@ -150,6 +150,9 @@ ServerEvents.recipes(event => {
                 "item": "primalmagick:essence_shard_sea"
             },
             {
+                "item": "natures_spirit:willow_sapling"
+            },
+            {
                 "item": "minecraft:blue_dye"
             },
             {
@@ -163,7 +166,7 @@ ServerEvents.recipes(event => {
         "mana": {
             "earth": 50,
             "sea": 50,
-            "infernal": 50
+            "blood": 50
         },
         "props": [
             {

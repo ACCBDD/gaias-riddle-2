@@ -5,6 +5,7 @@
     * Reclamation Util TFK version - aoe tools, biome bottles, globes, etc.
     * Pipez
 * Vintage Delight crops to agricraft (mutations still needed)
+* Heartwood recipe
 
 
 ## Updated
@@ -21,3 +22,4 @@
 * Initial crop mutation much more likely
 * Wandering trader disabled through gamerules
 * Only core trees contribute to higher altar power
+* Rearranged tree tiering

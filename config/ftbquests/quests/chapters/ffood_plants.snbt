@@ -1228,6 +1228,396 @@
 			x: -2.5d
 			y: 9.0d
 		}
+		{
+			id: "351F4BC2773C954B"
+			tasks: [{
+				id: "7BE8BEF56AC5CFC0"
+				item: "natures_spirit:fir_sapling"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			id: "0527707CF47ABAFE"
+			tasks: [{
+				id: "2F40A47310CD740C"
+				item: "primalmagick:moonwood_sapling"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			id: "0AD18A0E7D3F6DEA"
+			tasks: [{
+				id: "4299F54F43772345"
+				item: "primalmagick:sunwood_sapling"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			id: "6DDEB8588EAD1C9A"
+			tasks: [{
+				id: "4F9F20296FA0AE2D"
+				item: "regions_unexplored:blackwood_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			id: "2E2E02483A3F9AFC"
+			tasks: [{
+				id: "53842DB3E7F5A3BA"
+				item: "regions_unexplored:enchanted_birch_sapling"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			id: "54041B46EAD7143C"
+			tasks: [{
+				id: "18336C62E030EFFF"
+				item: "regions_unexplored:cypress_sapling"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			id: "15F0D032108A2666"
+			tasks: [{
+				id: "10D6416C502E1C5B"
+				item: "regions_unexplored:dead_pine_sapling"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			id: "621CA21786C5E573"
+			tasks: [{
+				id: "46BF16C2875695AA"
+				item: "regions_unexplored:golden_larch_sapling"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			id: "44A893FBF537BD76"
+			tasks: [{
+				id: "1BB3A1E83F2C7F78"
+				item: "quark:red_blossom_sapling"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			id: "3E38417366198862"
+			tasks: [{
+				id: "0E36349E241D4F8C"
+				item: "natures_spirit:white_wisteria_sapling"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			id: "3EB9C7E051EE3609"
+			tasks: [{
+				id: "100EF4701CB29E3A"
+				item: "regions_unexplored:flowering_sapling"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			id: "65DDC3CCA4C6522A"
+			tasks: [{
+				id: "4AD4D1980853C13F"
+				item: "regions_unexplored:apple_oak_sapling"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 9.0d
+		}
+		{
+			id: "50D121AFF69019ED"
+			tasks: [{
+				id: "3D352C9252A84728"
+				item: "naturaldecormod:monkey_puzzle_cone"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			id: "46BC65778AECCA93"
+			tasks: [{
+				id: "03BD5C6FAA383571"
+				item: "regions_unexplored:brimwood_sapling"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			description: ["This needs to be planted on cobalt nylium"]
+			id: "4AA77DF790EE7F3B"
+			tasks: [{
+				id: "3BEEF1DCCB29453B"
+				item: "regions_unexplored:cobalt_sapling"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			id: "1FFFDDAF94489F56"
+			tasks: [{
+				id: "78776F8FF30E8D41"
+				item: "natures_spirit:coconut_sprout"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			id: "2DD064F92F19923D"
+			tasks: [{
+				id: "61802D7132E277F5"
+				item: "regions_unexplored:mauve_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			id: "31C6B1BF61BF72A1"
+			tasks: [{
+				id: "6288685828611B6E"
+				item: "natures_spirit:saxaul_sapling"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			description: ["This sapling needs to be planted in a 2x2"]
+			id: "65B22DEE44D1D5AB"
+			tasks: [{
+				id: "2E510556D05D3F32"
+				item: "regions_unexplored:baobab_sapling"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			id: "476844FFDEF4E59D"
+			rewards: [{
+				id: "27F55B1521DC47DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "200B99A349D38549"
+				item: "natures_spirit:larch_sapling"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			id: "09A87D33FC29B9AF"
+			rewards: [{
+				id: "0D3AFE6D39761CA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B190C83DD123805"
+				item: "regions_unexplored:maple_sapling"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			id: "6F76CC19DD4E3866"
+			rewards: [{
+				id: "10BCFC236BAFDD16"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54513E1E3C398D09"
+				item: "regions_unexplored:bamboo_sapling"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			id: "514989488E171B00"
+			rewards: [{
+				id: "7FE5A6A3022EA03E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A3F6395C76B47C2"
+				item: "regions_unexplored:eucalyptus_sapling"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 11.0d
+		}
+		{
+			id: "06310B31EA72893B"
+			rewards: [{
+				id: "3981186A69121179"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AF3F85C971BB54C"
+				item: "regions_unexplored:silver_birch_sapling"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			id: "3468D9597DD10CAE"
+			rewards: [{
+				id: "7F4AC64F08A32C03"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FF4F8F31CD907BF"
+				item: "natures_spirit:aspen_sapling"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			id: "68F8335F6E2BA992"
+			rewards: [{
+				id: "3EB9E4C5416941BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "72E693876022B56E"
+				item: "natures_spirit:sugi_sapling"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			description: ["This sapling needs to be planted in a 2x2"]
+			id: "4F40BFC326972BA3"
+			rewards: [{
+				id: "5099D1BD98F49499"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5366EAF0FB00DE38"
+				item: "natures_spirit:mahogany_sapling"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			id: "1E28D6F86D456D7F"
+			rewards: [{
+				id: "392E720FEBAC845C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1DA6B61143D03026"
+				item: "regions_unexplored:pine_sapling"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			id: "0143FA850C0BEBF6"
+			rewards: [{
+				id: "5C623EDCA2127EAE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09C7D746029C2E63"
+				item: "natures_spirit:palo_verde_sapling"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			description: ["This sapling needs to be planted in a 2x2"]
+			id: "46D73E386A207C99"
+			rewards: [{
+				id: "0DF2CB25AFAAEEA3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48467FD634B5058D"
+				item: "natures_spirit:olive_sapling"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 11.0d
+		}
+		{
+			description: ["This sapling needs to be planted in a plus shape"]
+			id: "0B8189293D6F6107"
+			rewards: [{
+				id: "132D0582A68B066E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69C883B46C4211C1"
+				item: "regions_unexplored:kapok_sapling"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			id: "5FD56A74E78BC2F7"
+			rewards: [{
+				id: "2D88A4648BBC183D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23E51461BDC8AB04"
+				item: "naturaldecormod:juniper_sapling"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
 	]
 	title: "Plants Galore"
 }

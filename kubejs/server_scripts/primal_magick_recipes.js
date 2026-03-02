@@ -106,4 +106,19 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({id: 'primalmagick:bloodletter'}) //crafted with enchanted ritual
+
+    event.custom({
+        "type": "botania:mana_infusion",
+        "catalyst": {
+            "type": "block",
+            "block": "botania:alchemy_catalyst"
+        },
+        "input": {
+            "item": "botania:glimmering_livingwood_log"
+        },
+        "mana": 10000,
+        "output": {
+            "item": "primalmagick:heartwood"
+        }
+    })
 })

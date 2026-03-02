@@ -37,7 +37,7 @@
 			]
 			title: "Gems!"
 			x: -3.0d
-			y: 9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2D9541697F88FDC4"]
@@ -82,8 +82,8 @@
 				}
 			]
 			title: "Terrasteel"
-			x: -10.0d
-			y: -3.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -136,8 +136,8 @@
 				type: "item"
 			}]
 			title: "Sin Runes"
-			x: -15.0d
-			y: -7.0d
+			x: -10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -167,8 +167,8 @@
 				}
 			]
 			title: "The Portal to Alfheim"
-			x: -9.0d
-			y: -7.5d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -194,8 +194,8 @@
 				type: "item"
 			}]
 			title: "Better Spreader"
-			x: -9.5d
-			y: -9.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -221,8 +221,8 @@
 				type: "item"
 			}]
 			title: "Ex Nihilo"
-			x: -12.0d
-			y: -8.25d
+			x: -8.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -268,8 +268,8 @@
 				type: "item"
 			}]
 			title: "Esoteric Mana Generation"
-			x: -8.0d
-			y: -8.5d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -293,8 +293,8 @@
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -12.0d
+			x: -9.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -313,8 +313,8 @@
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -15.0d
+			x: -9.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7B4F1EAF6F7A4A1D"]
@@ -343,8 +343,8 @@
 				}
 			]
 			title: "The Wither"
-			x: -14.5d
-			y: -13.5d
+			x: -11.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -364,8 +364,8 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -9.5d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -396,12 +396,15 @@
 			}]
 			title: "Reclamation"
 			x: -3.0d
-			y: -18.0d
+			y: -15.0d
 		}
 		{
-			dependencies: ["651178F97CEC54E5"]
+			dependencies: [
+				"651178F97CEC54E5"
+				"76491919B0C4D015"
+			]
 			description: [
-				"Combining a &6sea shard &rwith some &6forbidden magick&r allows you to create a small amount of lapis sulfur - lapis itself has many uses, but one of the most immediately useful is its connection to gaia as a terrestrial gem; you can use it in &6cauldron alchemy&r to produce &6new types of saplings!&r"
+				"Combining a &6sea shard &rwith some &6forbidden magick&r and a &6willow sapling&r allows you to create a small amount of lapis sulfur - lapis itself has many uses, but one of the most immediately useful is its connection to gaia as a terrestrial gem; you can use it in &6cauldron alchemy&r to produce &6new types of saplings!&r"
 				""
 				"&7Tip: use Theurgy sulfur conversion to turn amethyst sulfur into lapis sulfur!"
 			]
@@ -431,7 +434,11 @@
 				"3E0289A3420971D8"
 				"658026EA72CB4EBA"
 			]
-			description: ["With the power of a bloodletter and some Alfheim related materials, you can craft a cocoon of caprice - letting you create brand new life! "]
+			description: [
+				"With the power of a bloodletter and some Alfheim related materials, you can craft a cocoon of caprice - letting you create brand new life! "
+				""
+				"&7Tip: you can feed the cocoon emeralds to create villagers!"
+			]
 			id: "0A4062B3E1B7681C"
 			rewards: [{
 				id: "5587726646ADCE74"
@@ -444,26 +451,13 @@
 				item: "botania:cocoon"
 				type: "item"
 			}]
-			x: -6.75d
-			y: -6.75d
+			x: -5.25d
+			y: -5.5d
 		}
 		{
 			dependencies: [
 				"651178F97CEC54E5"
-				"0B8189293D6F6107"
-				"6F76CC19DD4E3866"
-				"06310B31EA72893B"
-				"1E28D6F86D456D7F"
-				"3468D9597DD10CAE"
-				"07152080164400A3"
-				"514989488E171B00"
-				"46D73E386A207C99"
-				"4F40BFC326972BA3"
-				"0143FA850C0BEBF6"
-				"09A87D33FC29B9AF"
-				"5FD56A74E78BC2F7"
-				"476844FFDEF4E59D"
-				"68F8335F6E2BA992"
+				"6CD38E1C1FD91E44"
 			]
 			description: [
 				"With your newfound knowledge of blood magic, you think you can develop a way to use life essence in rituals, allowing you to supercharge certain interactions and create brand new life!"
@@ -483,7 +477,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["651178F97CEC54E5"]
@@ -494,8 +488,8 @@
 				item: "primalmagick:essence_crystal_blood"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -15.0d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -519,8 +513,8 @@
 				type: "advancement"
 			}]
 			title: "Reclaiming the Nether"
-			x: -3.0d
-			y: 7.0d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0992C0993A6BBB8A"]
@@ -565,8 +559,8 @@
 				}
 			]
 			title: "Forbidden Magicks"
-			x: 5.5d
-			y: -2.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["651178F97CEC54E5"]
@@ -578,8 +572,8 @@
 				type: "item"
 			}]
 			title: "Artificial Budding Gems"
-			x: 7.0d
-			y: -2.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B4F1EAF6F7A4A1D"]
@@ -595,8 +589,8 @@
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.0d
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["14EF24D6ED46D5AC"]
@@ -606,55 +600,22 @@
 				item: "quark:ancient_sapling"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
-			id: "0AD18A0E7D3F6DEA"
-			tasks: [{
-				id: "4299F54F43772345"
-				item: "primalmagick:sunwood_sapling"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["14EF24D6ED46D5AC"]
-			id: "0527707CF47ABAFE"
-			tasks: [{
-				id: "2F40A47310CD740C"
-				item: "primalmagick:moonwood_sapling"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["14EF24D6ED46D5AC"]
+			dependencies: ["5C12885540007A64"]
 			id: "1BC398D89D58560D"
 			tasks: [{
 				id: "4C35AC1765644447"
 				item: "integrateddynamics:menril_sapling"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
-			id: "6DDEB8588EAD1C9A"
-			tasks: [{
-				id: "4F9F20296FA0AE2D"
-				item: "regions_unexplored:blackwood_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["14EF24D6ED46D5AC"]
+			dependencies: ["22F15EC1DF24B1D8"]
 			id: "5C12885540007A64"
 			tasks: [{
 				id: "62EB4E2BE13295B2"
@@ -662,41 +623,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["14EF24D6ED46D5AC"]
-			id: "351F4BC2773C954B"
-			tasks: [{
-				id: "7BE8BEF56AC5CFC0"
-				item: "natures_spirit:fir_sapling"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["14EF24D6ED46D5AC"]
-			id: "76491919B0C4D015"
-			tasks: [{
-				id: "0660717232178708"
-				item: "natures_spirit:willow_sapling"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"6DDEB8588EAD1C9A"
-				"76491919B0C4D015"
-				"5C12885540007A64"
-				"6B1646BD22D31300"
-				"0AD18A0E7D3F6DEA"
-				"351F4BC2773C954B"
-				"1BC398D89D58560D"
-				"0527707CF47ABAFE"
-			]
+			dependencies: ["1910DC60A85B6D71"]
 			description: ["With increased tree diversity, you can reach higher altar power - about 8000 should let you perform a ritual to convert lapis sulfur into emerald or diamond sulfur."]
 			id: "2D9541697F88FDC4"
 			rewards: [{
@@ -705,36 +635,23 @@
 				xp: 100
 			}]
 			size: 2.0d
-			tasks: [
-				{
-					id: "2C0F93789C34EF90"
-					item: {
-						Count: 1
-						id: "theurgy:alchemical_sulfur_emerald"
-						tag: {
-							"theurgy:sulfur.source.id": "#forge:gems/emerald"
-						}
+			tasks: [{
+				id: "12C10F580F42A99E"
+				item: {
+					Count: 1
+					id: "theurgy:alchemical_sulfur_diamond"
+					tag: {
+						"theurgy:sulfur.source.id": "#forge:gems/diamond"
 					}
-					type: "item"
 				}
-				{
-					id: "12C10F580F42A99E"
-					item: {
-						Count: 1
-						id: "theurgy:alchemical_sulfur_diamond"
-						tag: {
-							"theurgy:sulfur.source.id": "#forge:gems/diamond"
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Precious Gem Sulfur"
-			x: -3.0d
-			y: -1.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["2D9541697F88FDC4"]
+			dependencies: ["6B1646BD22D31300"]
 			id: "07152080164400A3"
 			rewards: [{
 				id: "4014BC48DCBDAB2B"
@@ -746,274 +663,19 @@
 				item: "natures_spirit:cedar_sapling"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "476844FFDEF4E59D"
-			rewards: [{
-				id: "27F55B1521DC47DF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "200B99A349D38549"
-				item: "natures_spirit:larch_sapling"
-				type: "item"
-			}]
 			x: -2.0d
-			y: -3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2D9541697F88FDC4"]
-			id: "09A87D33FC29B9AF"
-			rewards: [{
-				id: "0D3AFE6D39761CA0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4B190C83DD123805"
-				item: "regions_unexplored:maple_sapling"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "6F76CC19DD4E3866"
-			rewards: [{
-				id: "10BCFC236BAFDD16"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "54513E1E3C398D09"
-				item: "regions_unexplored:bamboo_sapling"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "514989488E171B00"
-			rewards: [{
-				id: "7FE5A6A3022EA03E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0A3F6395C76B47C2"
-				item: "regions_unexplored:eucalyptus_sapling"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "06310B31EA72893B"
-			rewards: [{
-				id: "3981186A69121179"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3AF3F85C971BB54C"
-				item: "regions_unexplored:silver_birch_sapling"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "3468D9597DD10CAE"
-			rewards: [{
-				id: "7F4AC64F08A32C03"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3FF4F8F31CD907BF"
-				item: "natures_spirit:aspen_sapling"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "68F8335F6E2BA992"
-			rewards: [{
-				id: "3EB9E4C5416941BD"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "72E693876022B56E"
-				item: "natures_spirit:sugi_sapling"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "4F40BFC326972BA3"
-			rewards: [{
-				id: "5099D1BD98F49499"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5366EAF0FB00DE38"
-				item: "natures_spirit:mahogany_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "1E28D6F86D456D7F"
-			rewards: [{
-				id: "392E720FEBAC845C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1DA6B61143D03026"
-				item: "regions_unexplored:pine_sapling"
-				type: "item"
-			}]
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "0143FA850C0BEBF6"
-			rewards: [{
-				id: "5C623EDCA2127EAE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "09C7D746029C2E63"
-				item: "natures_spirit:palo_verde_sapling"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "46D73E386A207C99"
-			rewards: [{
-				id: "0DF2CB25AFAAEEA3"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "48467FD634B5058D"
-				item: "natures_spirit:olive_sapling"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			description: ["This sapling needs to be planted in a plus shape"]
-			id: "0B8189293D6F6107"
-			rewards: [{
-				id: "132D0582A68B066E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "69C883B46C4211C1"
-				item: "regions_unexplored:kapok_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			id: "5FD56A74E78BC2F7"
-			rewards: [{
-				id: "2D88A4648BBC183D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "23E51461BDC8AB04"
-				item: "naturaldecormod:juniper_sapling"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "2E2E02483A3F9AFC"
-			tasks: [{
-				id: "53842DB3E7F5A3BA"
-				item: "regions_unexplored:enchanted_birch_sapling"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "54041B46EAD7143C"
-			tasks: [{
-				id: "18336C62E030EFFF"
-				item: "regions_unexplored:cypress_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "15F0D032108A2666"
-			tasks: [{
-				id: "10D6416C502E1C5B"
-				item: "regions_unexplored:dead_pine_sapling"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
 			id: "28FDD9FBC6FC1117"
 			tasks: [{
 				id: "293AFD3A0A2469D3"
 				item: "regions_unexplored:dead_sapling"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "621CA21786C5E573"
-			tasks: [{
-				id: "46BF16C2875695AA"
-				item: "regions_unexplored:golden_larch_sapling"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -11.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["658026EA72CB4EBA"]
@@ -1023,175 +685,47 @@
 				item: "regions_unexplored:redwood_sapling"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -12.0d
+			x: -4.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["658026EA72CB4EBA"]
+			dependencies: [
+				"6677CA23CC4C6B3C"
+				"28FDD9FBC6FC1117"
+			]
 			id: "6CD38E1C1FD91E44"
 			tasks: [{
 				id: "1A77524CC86C4E0D"
 				item: "regions_unexplored:socotra_sapling"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -12.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "44A893FBF537BD76"
-			tasks: [{
-				id: "1BB3A1E83F2C7F78"
-				item: "quark:red_blossom_sapling"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "3E38417366198862"
-			tasks: [{
-				id: "0E36349E241D4F8C"
-				item: "natures_spirit:white_wisteria_sapling"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
+			dependencies: ["30BE3A7A5B8D0883"]
 			id: "6677CA23CC4C6B3C"
 			tasks: [{
 				id: "639DA28D4903ED0E"
 				item: "regions_unexplored:magnolia_sapling"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -13.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "2DD064F92F19923D"
-			tasks: [{
-				id: "61802D7132E277F5"
-				item: "regions_unexplored:mauve_sapling"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
+			dependencies: [
+				"4F344C5727C20006"
+				"59380ADCA111C33C"
+			]
 			id: "419E0D3BA811BD45"
 			tasks: [{
 				id: "24F45059B53323C8"
 				item: "natures_spirit:ghaf_sapling"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "31C6B1BF61BF72A1"
-			tasks: [{
-				id: "6288685828611B6E"
-				item: "natures_spirit:saxaul_sapling"
-				type: "item"
-			}]
 			x: -3.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "1910DC60A85B6D71"
-			tasks: [{
-				id: "52645AB8BADD3A8E"
-				item: "regions_unexplored:palm_sapling"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "3EB9C7E051EE3609"
-			tasks: [{
-				id: "100EF4701CB29E3A"
-				item: "regions_unexplored:flowering_sapling"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "65DDC3CCA4C6522A"
-			tasks: [{
-				id: "4AD4D1980853C13F"
-				item: "regions_unexplored:apple_oak_sapling"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "65B22DEE44D1D5AB"
-			tasks: [{
-				id: "2E510556D05D3F32"
-				item: "regions_unexplored:baobab_sapling"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "50D121AFF69019ED"
-			tasks: [{
-				id: "3D352C9252A84728"
-				item: "naturaldecormod:monkey_puzzle_cone"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "46BC65778AECCA93"
-			tasks: [{
-				id: "03BD5C6FAA383571"
-				item: "regions_unexplored:brimwood_sapling"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -12.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			description: ["This needs to be planted on cobalt nylium"]
-			id: "4AA77DF790EE7F3B"
-			tasks: [{
-				id: "3BEEF1DCCB29453B"
-				item: "regions_unexplored:cobalt_sapling"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["658026EA72CB4EBA"]
-			id: "1FFFDDAF94489F56"
-			tasks: [{
-				id: "78776F8FF30E8D41"
-				item: "natures_spirit:coconut_sprout"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -13.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["658026EA72CB4EBA"]
@@ -1201,34 +735,13 @@
 				item: "natures_spirit:joshua_sapling"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -12.0d
+			x: -2.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
 				"0721C000948329FF"
-				"50D121AFF69019ED"
-				"6677CA23CC4C6B3C"
-				"2E2E02483A3F9AFC"
-				"4AA77DF790EE7F3B"
-				"65B22DEE44D1D5AB"
-				"31C6B1BF61BF72A1"
-				"4F344C5727C20006"
-				"54041B46EAD7143C"
-				"59380ADCA111C33C"
-				"28FDD9FBC6FC1117"
-				"2DD064F92F19923D"
-				"15F0D032108A2666"
-				"1FFFDDAF94489F56"
-				"3E38417366198862"
 				"419E0D3BA811BD45"
-				"6CD38E1C1FD91E44"
-				"44A893FBF537BD76"
-				"46BC65778AECCA93"
-				"1910DC60A85B6D71"
-				"621CA21786C5E573"
-				"65DDC3CCA4C6522A"
-				"3EB9C7E051EE3609"
 			]
 			description: ["A gaia spirit ingot, while useless on its own, is a great way to provide a large amount of energy to a ritual without needing to be close to an altar. You'll need just about 27,000 altar power to make one of these very powerful ingots. Even more tree diversity should get you there!"]
 			id: "41DCCF2E9DF10222"
@@ -1238,8 +751,8 @@
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -15.0d
+			x: -6.75d
+			y: -11.5d
 		}
 		{
 			dependencies: ["2D9541697F88FDC4"]
@@ -1255,8 +768,55 @@
 				item: "primalmagick:wizard_wand_gem_item"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C12885540007A64"]
+			id: "76491919B0C4D015"
+			tasks: [{
+				id: "0660717232178708"
+				item: "natures_spirit:willow_sapling"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6B1646BD22D31300"]
+			id: "1910DC60A85B6D71"
+			tasks: [{
+				id: "52645AB8BADD3A8E"
+				item: "regions_unexplored:palm_sapling"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07152080164400A3"]
+			description: ["With increased tree diversity, you can reach higher altar power - about 8000 should let you perform a ritual to convert lapis sulfur into emerald or diamond sulfur."]
+			id: "30BE3A7A5B8D0883"
+			rewards: [{
+				id: "3326A0F4CD6EDCA9"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "76293FF99128653B"
+				item: {
+					Count: 1
+					id: "theurgy:alchemical_sulfur_emerald"
+					tag: {
+						"theurgy:sulfur.source.id": "#forge:gems/emerald"
+					}
+				}
+				type: "item"
+			}]
+			title: "Precious Gem Sulfur"
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"

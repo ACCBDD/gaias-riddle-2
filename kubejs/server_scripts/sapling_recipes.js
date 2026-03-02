@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:dark_oak_sapling"
             },
             {
-                "item": "minecraft:lapis_lazuli"
+                "item": "regions_unexplored:alpha_sapling"
             }
         ],
         "power": 4000,
@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
                 "item": "minecraft:gunpowder"
             },
             {
-                "item": "minecraft:lapis_lazuli"
+                "item": "minecraft:quartz"
             }
         ],
         "power": 4000,
@@ -258,7 +258,7 @@ ServerEvents.recipes(event => {
                 "item": "botania:livingwood_twig"
             },
             {
-                "item": "minecraft:lapis_lazuli"
+                "item": "regions_unexplored:alpha_sapling"
             }
         ],
         "power": 4000,
@@ -267,13 +267,21 @@ ServerEvents.recipes(event => {
             "item": "natures_spirit:willow_sapling"
         }
     })
-
-    //tier 2 trees made with ritual of the forest
     event.custom({
-        "type": "naturesaura:tree_ritual",
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            176,
+            223,
+            204
+        ],
         "ingredients": [
             {
-                "item": "natures_spirit:fir_leaves"
+                "item": "quark:ancient_sapling"
             },
             {
                 "item": "enchanted:wood_ash"
@@ -282,14 +290,46 @@ ServerEvents.recipes(event => {
                 "item": "botania:pixie_dust"
             }
         ],
-        "sapling": {
-            "item": "minecraft:spruce_sapling"
-        },
-        "output": {
+        "power": 4000,
+        "result": {
+            "count": 2,
             "item": "natures_spirit:cedar_sapling"
-        },
-        "time": 250
+        }
     })
+    event.custom({
+        "type": "enchanted:witch_cauldron",
+        "cookingColor": [
+            26,
+            71,
+            35
+        ],
+        "finalColor": [
+            176,
+            223,
+            204
+        ],
+        "ingredients": [
+            {
+                "item": "quark:ancient_sapling"
+            },
+            {
+                "item": "primalmagick:essence_dust_sea"
+            },
+            {
+                "item": "farmersdelight:straw"
+            },
+            {
+                "item": "botania:vine_ball"
+            }
+        ],
+        "result": {
+            "count": 2,
+            "item": "regions_unexplored:palm_sapling"
+        }
+    })
+
+    //tier 2 trees made with ritual of the forest
+
     event.custom({
         "type": "naturesaura:tree_ritual",
         "ingredients": [
@@ -602,6 +642,81 @@ ServerEvents.recipes(event => {
         },
         "time": 250
     })
+    event.remove({ id: "regions_unexplored:dead_sapling" })
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "regions_unexplored:alpha_sapling"
+            },
+            {
+                "item": "primalmagick:essence_dust_infernal"
+            },
+            {
+                "item": "minecraft:dead_bush"
+            },
+            {
+                "item": "minecraft:diamond"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:oak_sapling"
+        },
+        "output": {
+            "item": "regions_unexplored:dead_sapling"
+        }
+        ,
+        "time": 250
+    })
+    event.remove({ id: "regions_unexplored:magnolia_sapling" })
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "minecraft:cherry_sapling"
+            },
+            {
+                "item": "primalmagick:essence_dust_earth"
+            },
+            {
+                "item": "minecraft:white_tulip"
+            },
+            {
+                "item": "minecraft:emerald"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:birch_sapling"
+        },
+        "output": {
+            "item": "regions_unexplored:magnolia_sapling"
+        },
+        "time": 250
+    })
+    event.remove({ id: "regions_unexplored:socotra_sapling" })
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "regions_unexplored:dead_sapling"
+            },
+            {
+                "item": "regions_unexplored:magnolia_sapling"
+            },
+            {
+                "item": "primalmagick:bloody_flesh"
+            },
+            {
+                "item": "enchanted:blood_poppy"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:jungle_sapling"
+        },
+        "output": {
+            "item": "regions_unexplored:socotra_sapling"
+        }
+    })
 
     //tier 3 rituals with primal magick
     event.remove({ id: "regions_unexplored:enchanted_birch_sapling" })
@@ -731,48 +846,6 @@ ServerEvents.recipes(event => {
             "item": "regions_unexplored:dead_pine_sapling"
         }
     })
-    event.remove({ id: "regions_unexplored:dead_sapling" })
-    event.custom({
-        "type": "primalmagick:ritual",
-        "ingredients": [
-            {
-                "item": "regions_unexplored:alpha_sapling"
-            },
-            {
-                "item": "primalmagick:essence_dust_infernal"
-            },
-            {
-                "item": "minecraft:dead_bush"
-            },
-            {
-                "item": "minecraft:rotten_flesh"
-            }
-        ],
-        "instability": 2,
-        "mana": {
-            "earth": 125,
-            "moon": 125,
-            "sun": 125
-        },
-        "props": [
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "block": "primalmagick:incense_brazier"
-            },
-            {
-                "block": "primalmagick:bloodletter"
-            },
-        ],
-        "research": "MASTER_RITUAL",
-        "result": {
-            "item": "regions_unexplored:dead_sapling"
-        }
-    })
     event.remove({ id: "regions_unexplored:golden_larch_sapling" })
     event.custom({
         "type": "primalmagick:ritual",
@@ -855,48 +928,6 @@ ServerEvents.recipes(event => {
         "research": "MASTER_RITUAL",
         "result": {
             "item": "regions_unexplored:redwood_sapling"
-        }
-    })
-    event.remove({ id: "regions_unexplored:socotra_sapling" })
-    event.custom({
-        "type": "primalmagick:ritual",
-        "ingredients": [
-            {
-                "item": "regions_unexplored:eucalyptus_sapling"
-            },
-            {
-                "item": "primalmagick:essence_dust_blood"
-            },
-            {
-                "item": "primalmagick:bloody_flesh"
-            },
-            {
-                "item": "enchanted:blood_poppy"
-            }
-        ],
-        "instability": 2,
-        "mana": {
-            "earth": 125,
-            "sky": 125,
-            "sun": 125
-        },
-        "props": [
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "block": "primalmagick:incense_brazier"
-            },
-            {
-                "block": "primalmagick:bloodletter"
-            },
-        ],
-        "research": "MASTER_RITUAL",
-        "result": {
-            "item": "regions_unexplored:socotra_sapling"
         }
     })
     event.remove({ id: "quark:red_blossom_sapling" })
@@ -983,48 +1014,6 @@ ServerEvents.recipes(event => {
             "item": "natures_spirit:white_wisteria_sapling"
         }
     })
-    event.remove({ id: "regions_unexplored:magnolia_sapling" })
-    event.custom({
-        "type": "primalmagick:ritual",
-        "ingredients": [
-            {
-                "item": "minecraft:cherry_sapling"
-            },
-            {
-                "item": "primalmagick:essence_dust_earth"
-            },
-            {
-                "item": "minecraft:white_tulip"
-            },
-            {
-                "item": "minecraft:iron_ingot"
-            }
-        ],
-        "instability": 2,
-        "mana": {
-            "earth": 125,
-            "moon": 125,
-            "sky": 125
-        },
-        "props": [
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "block": "primalmagick:incense_brazier"
-            },
-            {
-                "block": "primalmagick:bloodletter"
-            },
-        ],
-        "research": "MASTER_RITUAL",
-        "result": {
-            "item": "regions_unexplored:magnolia_sapling"
-        }
-    })
     event.remove({ id: "regions_unexplored:mauve_sapling" })
     event.custom({
         "type": "primalmagick:ritual",
@@ -1072,7 +1061,10 @@ ServerEvents.recipes(event => {
         "type": "primalmagick:ritual",
         "ingredients": [
             {
-                "item": "quark:ancient_sapling"
+                "item": "regions_unexplored:redwood_sapling"
+            },
+            {
+                "item": "natures_spirit:joshua_sapling"
             },
             {
                 "item": "primalmagick:essence_dust_sun"
@@ -1149,48 +1141,6 @@ ServerEvents.recipes(event => {
         "research": "MASTER_RITUAL",
         "result": {
             "item": "natures_spirit:saxaul_sapling"
-        }
-    })
-    event.remove({ id: "regions_unexplored:palm_sapling" })
-    event.custom({
-        "type": "primalmagick:ritual",
-        "ingredients": [
-            {
-                "item": "minecraft:jungle_sapling"
-            },
-            {
-                "item": "primalmagick:essence_dust_sea"
-            },
-            {
-                "item": "farmersdelight:straw"
-            },
-            {
-                "item": "botania:vine_ball"
-            }
-        ],
-        "instability": 2,
-        "mana": {
-            "sea": 125,
-            "sky": 125,
-            "sun": 125
-        },
-        "props": [
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "tag": "primalmagick:ritual_candles"
-            },
-            {
-                "block": "primalmagick:incense_brazier"
-            },
-            {
-                "block": "primalmagick:bloodletter"
-            },
-        ],
-        "research": "MASTER_RITUAL",
-        "result": {
-            "item": "regions_unexplored:palm_sapling"
         }
     })
     event.remove({ id: "regions_unexplored:flowering_sapling" })
