@@ -1,7 +1,7 @@
 {
   "name": "Reclamation",
   "icon": "minecraft:grass_block",
-  "advancement": "reclamation:terraform",
+  "advancement": "reclamation:crimson_reclaimed",
   "priority": true,
   "category": "patchouli:terraforming",
   "pages": [

@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "visit_crimson": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:crimson_forest"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "visit_crimson"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

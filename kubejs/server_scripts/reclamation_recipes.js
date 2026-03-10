@@ -286,4 +286,54 @@ ServerEvents.recipes(event => {
             "item": "minecraft:tube_coral"
         }
     })
+
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "minecraft:gunpowder"
+        },
+        "output": {
+            "item": "naturesaura:effect_powder",
+            "nbt": {
+               "effect": "reclamation_util:reclaim_effect"
+            }
+        },
+        "aura": 4000,
+        "time": 200
+    })
+
+    event.custom({
+        "type": "naturesaura:altar",
+        "input": {
+            "item": "reclamation_util:attuned_biome_bottle"
+        },
+        "output": {
+            "item": "reclamation_util:empty_biome_globe"
+        },
+        "aura": 500000,
+        "time": 200
+    })
+
+    //biome bottle
+    event.shaped('4x reclamation_util:empty_biome_bottle', [
+        ' A ',
+        'G G',
+        ' G '
+    ], {
+        A: 'enchanted:attuned_stone_charged',
+        G: 'minecraft:glass'
+    })
+
+    //attuned biome bottle
+    event.shaped('reclamation_util:attuned_biome_bottle', [
+        ' A ',
+        'GBG',
+        ' S '
+    ], {
+        A: 'desert:desert_flower_item',
+        B: 'reclamation_util:empty_biome_bottle',
+        S: 'primalmagick:hexium_ingot',
+        G: 'botania:life_essence'
+    })
 })

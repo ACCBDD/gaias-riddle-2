@@ -1,7 +1,7 @@
 {
   "name": "Bamboo Jungle",
   "icon": "minecraft:bamboo",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

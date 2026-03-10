@@ -475,7 +475,7 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({id: 'botania:exchange_rod'},
         'botania:rune_sloth',
-        'embers:ember_crystal')
+        'primalmagick:essence_shard_sun')
 
     //ender air without end
     event.shapeless('botania:ender_air_bottle', [

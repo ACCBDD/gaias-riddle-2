@@ -1,7 +1,7 @@
 {
   "name": "Nether Wastes",
   "icon": "minecraft:netherrack",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

@@ -121,4 +121,66 @@ ServerEvents.recipes(event => {
             "item": "primalmagick:heartwood"
         }
     })
+
+    //inner demon
+    event.remove({id: 'primalmagick:sanguine_core_inner_demon'})
+    event.custom({
+        "type": "primalmagick:ritual",
+        "ingredients": [
+            {
+                "item": "primalmagick:sanguine_core_blank"
+            },
+            {
+                "tag": "forge:nether_stars"
+            },
+            {
+                "item": "primalmagick:essence_crystal_blood"
+            },
+            {
+                "item": "primalmagick:essence_crystal_infernal"
+            },
+            {
+                "item": "primalmagick:essence_crystal_void"
+            },
+            {
+                "item": "primalmagick:rune_summon"
+            },
+            {
+                "item": "primalmagick:rune_self"
+            },
+            {
+                "item": "primalmagick:rune_power"
+            },
+            {
+                "item": "reclamation:filled_biome_bottle"
+            }
+        ],
+        "instability": 7,
+        "mana": {
+            "blood": 100,
+            "infernal": 100,
+            "void": 100
+        },
+        "props": [
+            {
+                "tag": "primalmagick:ritual_candles"
+            },
+            {
+                "block": "primalmagick:ritual_bell"
+            },
+            {
+                "block": "primalmagick:ritual_lectern"
+            },
+            {
+                "block": "primalmagick:bloodletter"
+            },
+            {
+                "block": "primalmagick:soul_anvil"
+            }
+        ],
+        "research": "CLEANSING_RITE",
+        "result": {
+            "item": "primalmagick:sanguine_core_inner_demon"
+        }
+    })
 })

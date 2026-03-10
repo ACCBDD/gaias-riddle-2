@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "vintagedelight:oat",
+  "parent1": "farmersdelight:rice",
+  "parent2": "minecraft:wheat"
+}

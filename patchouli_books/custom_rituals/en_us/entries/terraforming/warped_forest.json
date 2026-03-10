@@ -1,7 +1,7 @@
 {
   "name": "Warped Forest",
   "icon": "minecraft:warped_nylium",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

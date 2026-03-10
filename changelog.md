@@ -1,25 +1,26 @@
-# Gaia's Riddle 2: The Forest Keepers 0.10.0
+# Gaia's Riddle 2: The Forest Keepers 0.11.0
 
 ## Added
+* Vintage Delight agricraft crop mutations
+* Hidden planted sapling counter (/kubejs persistent_data server get *)
 * Mods
-    * Reclamation Util TFK version - aoe tools, biome bottles, globes, etc.
-    * Pipez
-* Vintage Delight crops to agricraft (mutations still needed)
-* Heartwood recipe
+    * Pretty Pipes
+    * Pretty Pipes Fluids
+    * Crafting Station Improved
+* Basic chapter 5 skeleton
 
 
-## Updated
-* Desertification -> 0.40
 
-
-## Fixed 
-* Cauldron inconsistently needed 3 or 4 buckets - now only 3
-* Sleeping in a sleeping bag did not exit the prologue
-* Tier two gem uncraftable at point in progression it's needed
+## Fixed
+* Terraforming rituals unlocking in incorrect order in the book
+* Axes not correctly boosting harvesting speed
+* Rod of shifting crust uncraftable
 
 
 ## Changed
-* Initial crop mutation much more likely
-* Wandering trader disabled through gamerules
-* Only core trees contribute to higher altar power
-* Rearranged tree tiering
+* Crimson terraforming ritual now the first ritual you perform
+* Gaia's ingot creation ritual spawns desertification
+
+
+## Removed
+* Pipez

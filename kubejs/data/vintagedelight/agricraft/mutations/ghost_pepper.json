@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "vintagedelight:ghost_pepper",
+  "parent1": "farmersdelight:onion",
+  "parent2": "minecraft:nether_wart"
+}

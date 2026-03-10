@@ -1,0 +1,6 @@
+{
+  "chance": 0.25,
+  "child": "vintagedelight:cucumber",
+  "parent1": "farmersdelight:cabbage",
+  "parent2": "minecraft:sea_pickle"
+}

@@ -38,12 +38,17 @@ BlockEvents.rightClicked(event => {
 })
 
 BlockEvents.placed(event => {
-    const { player, level, block } = event;
+    const { player, level, block, server } = event;
     const saplingMessage = Component.of("This soil is too dry for saplings!").red();
+    const saplingCountTag = "saplingsPlanted";
 
-    if (block.hasTag("minecraft:saplings") && level.getBlock(block.pos.below()).id === "kubejs:dried_earth") {
-        player.displayClientMessage(saplingMessage, true);
-        event.cancel();
+    if (block.hasTag("minecraft:saplings")) { 
+        if (level.getBlock(block.pos.below()).id === "kubejs:dried_earth") {
+            player.displayClientMessage(saplingMessage, true);
+            event.cancel();
+        } else {
+            server.persistentData.putInt(saplingCountTag, server.persistentData.getInt(saplingCountTag) + 1);
+        }
     }
 })
 
