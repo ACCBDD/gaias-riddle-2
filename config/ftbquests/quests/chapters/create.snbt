@@ -3,13 +3,15 @@
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "create"
-	group: "2BFAC9C95DAED88B"
+	group: "2D16A7632466DF66"
+	hide_quest_until_deps_complete: true
 	icon: "create:brass_casing"
 	id: "58C92B6E0F1AD6CA"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
 			id: "450CA3690585CA60"
 			optional: true
@@ -214,7 +216,7 @@
 				{
 					count: 2L
 					id: "7BB9487F49DFDB4B"
-					item: { Count: 2, id: "createornithopterglider:rope" }
+					item: "createornithopterglider:rope"
 					type: "item"
 				}
 				{
@@ -225,19 +227,19 @@
 				{
 					count: 2L
 					id: "0ABC2EFDCB2EA2B8"
-					item: { Count: 2, id: "create:brass_nugget" }
+					item: "create:brass_nugget"
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "7914FB2FAAFD06CC"
-					item: { Count: 3, id: "minecraft:oak_slab" }
+					item: "minecraft:oak_slab"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "5396144CA5BBEBF8"
-					item: { Count: 16, id: "create:mechanical_crafter" }
+					item: "create:mechanical_crafter"
 					type: "item"
 				}
 			]

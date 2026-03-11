@@ -2,7 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "transportation"
-	group: "2BFAC9C95DAED88B"
+	group: "2D16A7632466DF66"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "createornithopterglider:ornithopterglider"
@@ -11,7 +12,7 @@
 		}
 	}
 	id: "6B1309C3E61A8E5A"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -39,6 +40,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "2DD5CA92FF1D1310"
 			optional: true
 			tasks: [{
@@ -50,6 +52,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "2F22AD4614FEC42A"
 			optional: true
 			tasks: [{
@@ -58,9 +61,10 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&dnote: i'm not convinced we need this mod&r"
 				""
@@ -84,6 +88,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["Using circle magic, you can make a witches broomstick to fly around the world to your heart's content"]
 			id: "6754E27BE72D3CD5"
 			optional: true
@@ -96,11 +101,28 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "1D9EDD7D1F11542E"
 			optional: true
+			rewards: [{
+				id: "6EF9EE9B8E105DB2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A5AB106AD19FA9A"
+				item: {
+					Count: 1
+					id: "hangglider:hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			title: "Glider"
-			x: -5.5d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 		}
 	]
 	title: "Transportation"

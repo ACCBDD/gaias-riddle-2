@@ -5,18 +5,29 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
+	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_sapling"
 	id: "40E17D40DC433CF2"
-	images: [{
-		height: 4.0d
-		image: "illustrations:textures/quests/chthree.png"
-		rotation: 0.0d
-		width: 4.0d
-		x: 18.5d
-		y: 17.0d
-	}]
-	order_index: 3
+	images: [
+		{
+			height: 4.0d
+			image: "illustrations:textures/quests/chthree.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 18.5d
+			y: 17.0d
+		}
+		{
+			height: 3.0d
+			image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.5d
+			y: 25.5d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -30,7 +41,6 @@
 				""
 				"&lHere's what you know: &r&7The dry ground from before can breathe a little easier, and fallen tree saplings will auto-plant now that they have access to more nutritious dirt."
 			]
-			disable_toast: true
 			icon: "minecraft:grass_block"
 			id: "226F9F21A941389C"
 			rewards: [{
@@ -306,19 +316,19 @@
 				{
 					count: 16L
 					id: "351FCC7A8A161D97"
-					item: { Count: 16, id: "minecraft:stone_bricks" }
+					item: "minecraft:stone_bricks"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "701B2C7A74366E0A"
-					item: { Count: 4, id: "minecraft:chiseled_stone_bricks" }
+					item: "minecraft:chiseled_stone_bricks"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "598F68386899E1AC"
-					item: { Count: 8, id: "naturesaura:gold_brick" }
+					item: "naturesaura:gold_brick"
 					type: "item"
 				}
 				{
@@ -344,7 +354,7 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 27.0d
+			x: 26.0d
 			y: 21.0d
 		}
 		{
@@ -362,8 +372,8 @@
 				type: "item"
 			}]
 			title: "Infused Iron"
-			x: 24.0d
-			y: 23.0d
+			x: 23.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -384,7 +394,7 @@
 				type: "item"
 			}]
 			title: "Creating Aura"
-			x: 27.0d
+			x: 26.0d
 			y: 23.0d
 		}
 		{
@@ -418,7 +428,7 @@
 					type: "item"
 				}
 			]
-			x: 27.0d
+			x: 26.0d
 			y: 25.0d
 		}
 		{
@@ -595,7 +605,7 @@
 			]
 			title: "Tools of the Trade"
 			x: 18.0d
-			y: 31.5d
+			y: 30.75d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -927,7 +937,7 @@
 				type: "item"
 			}]
 			title: "Regrowth?"
-			x: 27.0d
+			x: 26.0d
 			y: 26.5d
 		}
 		{
@@ -987,8 +997,8 @@
 				type: "item"
 			}]
 			title: "Primal Magick"
-			x: 24.05d
-			y: 25.35d
+			x: 23.400000000000002d
+			y: 26.000000000000004d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1021,8 +1031,8 @@
 					type: "item"
 				}
 			]
-			x: 24.05d
-			y: 26.650000000000002d
+			x: 23.400000000000002d
+			y: 27.3d
 		}
 		{
 			dependencies: ["3AF2AE2510484276"]
@@ -1045,8 +1055,8 @@
 				type: "checkmark"
 			}]
 			title: "Finding Mana"
-			x: 23.0d
-			y: 25.5d
+			x: 22.0d
+			y: 26.0d
 		}
 		{
 			dependencies: ["058AC672AE190DB2"]
@@ -1077,8 +1087,8 @@
 				}
 			]
 			title: "Primal Research"
-			x: 24.05d
-			y: 27.950000000000003d
+			x: 23.400000000000002d
+			y: 28.6d
 		}
 		{
 			dependencies: ["123DCDE9B7BE279D"]
@@ -1094,8 +1104,8 @@
 				type: "item"
 			}]
 			title: "Better than Stone"
-			x: 24.0d
-			y: 30.0d
+			x: 23.5d
+			y: 30.5d
 		}
 		{
 			dependencies: ["1766A376B67F6940"]
@@ -1115,7 +1125,7 @@
 				item: "primalmagick:calcinator_basic"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: 32.5d
 		}
 		{
@@ -1158,8 +1168,8 @@
 				item: "primalmagick:wand_assembly_table"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 28.0d
+			x: 26.0d
+			y: 28.5d
 		}
 		{
 			dependencies: [
@@ -1169,7 +1179,7 @@
 			description: [
 				"&6Rituals&r are a complex crafting process that take items, mana, and ritual props. At first, you'll only be able to make &6manafruit,&r but eventually you'll be &6producing wonders&r befitting your title as a Thaumaturge."
 				""
-				"&7Tip: read the Grimoire! Seriously! The Basic Ritual Magick entry will explain how to perform rituals."
+				"&7Tip: read the Grimoire! Seriously! Introduction to Ritual Magick entry will explain how to perform rituals."
 			]
 			icon: "primalmagick:ritual_altar"
 			id: "499BFD6DE9F18512"
@@ -1186,6 +1196,7 @@
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "49B07F76DDDE0F64"
 					item: "primalmagick:offering_pedestal"
 					type: "item"
@@ -1244,7 +1255,9 @@
 			y: 32.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["I wonder what this does...."]
+			hide_until_deps_complete: true
 			id: "0AB108957B2088DB"
 			tasks: [{
 				id: "76A5932BB89A6E32"
@@ -1255,47 +1268,13 @@
 			y: 20.0d
 		}
 		{
-			description: [
-				"Now, there are a couple of ways you can make slime, which means you have access to a portable vacuum set that you can craft to go around and suck up any pollution that you might find or generate on-the-go. "
-				""
-				"You might also be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of getting up there easily."
-			]
-			id: "68558E81E775E5B6"
-			size: 1.0d
-			tasks: [
-				{
-					id: "08714403837E62A3"
-					item: {
-						Count: 1
-						id: "adpother:iron_vacuum_bag"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "764A9818DCD907CE"
-					item: {
-						Count: 1
-						id: "adpother:iron_vacuum_tube"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Breathing Fresh Air"
-			x: 22.0d
-			y: 29.0d
-		}
-		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&6The power of trees is one of the many things that is overlooked in our wider realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
 				""
 				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
 			]
+			hide_until_deps_complete: true
 			id: "45DDC2BAC46D5922"
 			size: 2.0d
 			tasks: [
@@ -1338,71 +1317,6 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["1BB5F4B57C2E73DB"]
-			description: [
-				"What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."
-				""
-				"&7Tip: focus on the Manaweaving research line to find out how!"
-			]
-			id: "099A26372529561D"
-			rewards: [{
-				id: "58F0A1FA1D33CC1C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5975C2CDF18CA03A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_moon"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_earth"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sea"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sun"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sky"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Artificial Mana Fonts"
-			x: 25.0d
-			y: 34.5d
-		}
-		{
-			dependencies: ["099A26372529561D"]
-			description: [
-				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
-				""
-				"&7Tip: Look for the Magitech research line to find out how!"
-			]
-			id: "1CA5B2CEF12BFB54"
-			tasks: [{
-				id: "60EF585C9DC807A0"
-				item: "primalmagick:auto_charger"
-				type: "item"
-			}]
-			x: 25.5d
-			y: 35.5d
-		}
-		{
 			dependencies: ["27C68B6622F186D7"]
 			description: ["In the Nether you'll find &6Ribbits&r These funky creatures escaped the Overworld and set up shop there! You'll be able to trade fish for amethyst gems, as well as many other fun things."]
 			id: "0F900E721CC074B5"
@@ -1433,8 +1347,8 @@
 				item: "primalmagick:adept_wand_gem_item"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 27.5d
+			x: 25.0d
+			y: 29.5d
 		}
 		{
 			dependencies: ["2EF741DB92153BB1"]
@@ -1482,7 +1396,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 35.5d
+			y: 36.0d
 		}
 		{
 			dependencies: ["7D5E4A2212C421AE"]
@@ -1504,8 +1418,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 35.5d
+			x: 16.5d
+			y: 35.0d
 		}
 		{
 			dependencies: ["5A8DD5C84842AD14"]
@@ -1549,11 +1463,13 @@
 			y: 32.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"There's nothing wrong with wanting to build a home for yourself at this point in the game. You have wood now, meaning it's much easier to make an array of building materials and furniture."
 				""
 				"In order to take care of your environment it's important to remember the each of us is a part of that environment, and that means you deserve somewhere to be comfortable, and call home in the wilderness. "
 			]
+			hide_until_deps_complete: true
 			icon: "supplementaries:fire_pit"
 			id: "35BD2520DFCC8C56"
 			rewards: [{
@@ -1578,7 +1494,49 @@
 				type: "item"
 			}]
 			x: 26.0d
-			y: 28.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7010ED9A666FF89E"]
+			description: ["&dnote: still have to write this"]
+			id: "58471522D8F69CA4"
+			tasks: [
+				{
+					id: "1ABEDBD92C1BD9D8"
+					item: "primalmagick:sunwood_sapling"
+					type: "item"
+				}
+				{
+					id: "622D7F422D69AE28"
+					item: "primalmagick:moonwood_sapling"
+					type: "item"
+				}
+			]
+			x: 21.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["499BFD6DE9F18512"]
+			description: ["&7This can be used to check the accuracy of your rituals while you're setting them up :)"]
+			id: "120A7CE04FB81D0E"
+			rewards: [{
+				id: "4D52D6ED7B5F96B2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BFAD9E2FCC3D280"
+				item: {
+					Count: 1
+					id: "primalmagick:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 35.0d
 		}
 	]
 	title: "Chapter 3: Growing Roots"
