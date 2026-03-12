@@ -2,7 +2,7 @@
   "DryDirtGradient": "COARSE_DIRT",
   "Autostart": false,
   "AutostartInDesertsWG": false,
-  "ChangeBiome": false,
+  "ChangeBiome": true,
   "Speed": 1.0,
   "DisableInfection": false,
   "TreesBlocksDesertRegardlessOfBiome": true,

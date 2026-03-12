@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
     }
   )
 
-  event.remove({ id: "toms_storage:ts.inventory_connector" })
+  event.remove({ id: "toms_storage:inventory_connector" })
   event.shaped(
     Item.of('toms_storage:ts.inventory_connector'),
     [
@@ -99,12 +99,12 @@ ServerEvents.recipes(event => {
       A: '#minecraft:planks',
       B: '#c:chests',
       C: 'minecraft:repeater',
-      D: 'minecraft:diamond',
+      D: 'minecraft:gold_ingot',
       E: 'minecraft:ender_pearl'
     }
   )
 
-  event.remove({ id: "toms_storage:ts.storage_terminal" })
+  event.remove({ id: "toms_storage:storage_terminal" })
   event.shaped(
     Item.of('toms_storage:ts.storage_terminal'),
     [

@@ -46,13 +46,13 @@ ServerEvents.recipes(event => {
         }
     });
 
-    event.remove({ id: 'minecraft:coarse_dirt'});
+    event.remove({ id: 'minecraft:coarse_dirt' });
     event.shapeless('2x minecraft:coarse_dirt', [
         '2x minecraft:dirt',
         '2x minecraft:gravel'
     ])
 
-     event.custom({
+    event.custom({
         "type": "farmersdelight:cutting",
         "ingredients": [
             {
@@ -138,9 +138,9 @@ ServerEvents.recipes(event => {
         G: 'minecraft:glass'
     })
 
-    event.remove({id: 'ceramics:unfired_clay_bucket'})
-    event.remove({id: 'ceramics:empty_clay_bucket_kiln'})
-    event.remove({id: 'ceramics:empty_clay_bucket_smelting'})
+    event.remove({ id: 'ceramics:unfired_clay_bucket' })
+    event.remove({ id: 'ceramics:empty_clay_bucket_kiln' })
+    event.remove({ id: 'ceramics:empty_clay_bucket_smelting' })
 
     //lapis sulfur
     event.custom({
@@ -296,7 +296,7 @@ ServerEvents.recipes(event => {
         "output": {
             "item": "naturesaura:effect_powder",
             "nbt": {
-               "effect": "reclamation_util:reclaim_effect"
+                "effect": "reclamation_util:reclaim_effect"
             }
         },
         "aura": 4000,
@@ -335,5 +335,67 @@ ServerEvents.recipes(event => {
         B: 'reclamation_util:empty_biome_bottle',
         S: 'primalmagick:hexium_ingot',
         G: 'botania:life_essence'
+    })
+
+    event.shaped('8x minecraft:end_stone', [
+        'SSS',
+        'SAS',
+        'SSS'
+    ], {
+        A: 'enchanted:ender_dew',
+        S: 'minecraft:stone'
+    })
+
+    event.custom({
+        "type": "naturesaura:tree_ritual",
+        "ingredients": [
+            {
+                "item": "enchanted:ender_dew"
+            },
+            {
+                "item": "botania:ender_air"
+            },
+            {
+                "item": "minecraft:poppy"
+            },
+            {
+                "item": "end_stone"
+            }
+        ],
+        "sapling": {
+            "item": "minecraft:birch_sapling"
+        },
+        "output": {
+            "item": "minecraft:chorus_flower"
+        },
+        "time": 250
+    })
+
+    event.custom({
+        "type": "create:haunting",
+        "ingredients": [
+            {
+                "item": "minecraft:chorus_flower"
+            }
+        ],
+        "results": [
+            {
+                "item": "minecraft:shulker_shell"
+            }
+        ]
+    })
+
+    event.custom({
+        "type": "naturesaura:offering",
+        "input": {
+            "item": "minecraft:egg"
+        },
+        "start_item": {
+            "item": "primalmagick:essence_shard_blood"
+        },
+        "output": {
+            "item": "minecraft:sniffer_egg",
+            "count": 1
+        }
     })
 })

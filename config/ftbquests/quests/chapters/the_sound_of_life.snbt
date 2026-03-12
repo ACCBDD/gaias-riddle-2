@@ -498,12 +498,10 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				advancement: "minecraft:nether/explore_nether"
-				criterion: ""
-				icon: "minecraft:netherrack"
-				id: "45591ED68D7E8CAC"
-				title: "Visit Every Nether Biome"
-				type: "advancement"
+				biome: "minecraft:crimson_forest"
+				id: "553D2B07815C871D"
+				title: "Visit Crimson Forest"
+				type: "biome"
 			}]
 			title: "Crimson Forest Conversion"
 			x: -7.0d
