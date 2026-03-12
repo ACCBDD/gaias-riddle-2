@@ -7,8 +7,8 @@
     * Pretty Pipes
     * Pretty Pipes Fluids
     * Crafting Station Improved
-* Basic chapter 5 skeleton
-
+* Basic chapter 5 skeleton - including chapter 5 hallowed primal magick
+* Recipes for biome bottle and attuned biome bottle
 
 
 ## Fixed
