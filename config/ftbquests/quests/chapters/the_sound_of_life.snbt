@@ -1,16 +1,18 @@
 {
+	autofocus_id: "22F15EC1DF24B1D8"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_sound_of_life"
 	group: ""
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:egg"
 	id: "384351F130068923"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""
@@ -22,7 +24,8 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			shape: "circle"
+			size: 4.0d
 			tasks: [
 				{
 					id: "3BB1A7C07E3F5376"
@@ -36,8 +39,8 @@
 				}
 			]
 			title: "Gems!"
-			x: -3.0d
-			y: 10.0d
+			x: -2.0d
+			y: -30.0d
 		}
 		{
 			dependencies: ["2D9541697F88FDC4"]
@@ -82,8 +85,8 @@
 				}
 			]
 			title: "Terrasteel"
-			x: -6.5d
-			y: -1.5d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -94,6 +97,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "5369B7D08EBAF52A"
 				item: {
@@ -136,8 +140,8 @@
 				type: "item"
 			}]
 			title: "Sin Runes"
-			x: -10.0d
-			y: -1.5d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2F6FB6D4819EF061"]
@@ -153,6 +157,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					count: 2L
@@ -167,12 +172,13 @@
 				}
 			]
 			title: "The Portal to Alfheim"
-			x: -6.5d
-			y: -3.5d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
 			description: ["The &6Elven Mana Spreader&r is much more efficient than it's livingwood predecessor - it shoots larger bursts faster and farther."]
+			hide_dependency_lines: true
 			id: "46E7F06B96AE7AC9"
 			optional: true
 			rewards: [
@@ -194,8 +200,8 @@
 				type: "item"
 			}]
 			title: "Better Spreader"
-			x: -5.5d
-			y: -2.5d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -221,12 +227,13 @@
 				type: "item"
 			}]
 			title: "Ex Nihilo"
-			x: -8.25d
-			y: -2.5d
+			x: 4.5d
+			y: -8.25d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
 			description: ["With the acquisition of specially-charged elven materials, you can create an &6even stronger mana-generating base;&r cake, wool, and even other mana flowers can all be mulched into yet more mana."]
+			hide_dependency_lines: true
 			id: "5750E61C2B1E8D5E"
 			optional: true
 			rewards: [{
@@ -268,8 +275,8 @@
 				type: "item"
 			}]
 			title: "Esoteric Mana Generation"
-			x: -5.0d
-			y: -3.5d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -287,14 +294,15 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [{
 				count: 4L
 				id: "46CDCF3AACBF85C4"
 				item: "botania:gaia_pylon"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.5d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -308,13 +316,14 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 3.0d
 			tasks: [{
 				id: "51D63243515AEAB7"
 				item: "botania:life_essence"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7B4F1EAF6F7A4A1D"]
@@ -343,8 +352,8 @@
 				}
 			]
 			title: "The Wither"
-			x: -11.0d
-			y: -4.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3E0289A3420971D8"]
@@ -353,6 +362,7 @@
 				""
 				"No more fiddling around with potions or distilling to make your redstone and glowstone!"
 			]
+			hide_dependency_lines: true
 			id: "2CC12CE948BCDF7A"
 			rewards: [{
 				id: "088A7018CDDAC6A6"
@@ -364,14 +374,11 @@
 				item: "botania:conjuration_catalyst"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: 1.5d
+			y: -9.5d
 		}
 		{
-			dependencies: [
-				"433963B2F9A30775"
-				"41DCCF2E9DF10222"
-			]
+			dependencies: ["41DCCF2E9DF10222"]
 			description: [
 				"With the raw power afforded to you by aspected will crystals, gaia fragments, and ethereal slates, you finally have enough oomph to begin reversing the damage this world has suffered."
 				""
@@ -386,7 +393,7 @@
 				xp: 100
 			}]
 			shape: "hexagon"
-			size: 3.0d
+			size: 4.0d
 			subtitle: "Roll credits?"
 			tasks: [{
 				biome: "#reclamation:reclaimed"
@@ -396,12 +403,12 @@
 			}]
 			title: "Reclamation"
 			x: -3.0d
-			y: -15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"651178F97CEC54E5"
 				"76491919B0C4D015"
+				"651178F97CEC54E5"
 			]
 			description: [
 				"Combining a &6sea shard &rwith some &6forbidden magick&r and a &6willow sapling&r allows you to create a small amount of lapis sulfur - lapis itself has many uses, but one of the most immediately useful is its connection to gaia as a terrestrial gem; you can use it in &6cauldron alchemy&r to produce &6new types of saplings!&r"
@@ -427,7 +434,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.0d
+			y: -21.0d
 		}
 		{
 			dependencies: [
@@ -451,14 +458,11 @@
 				item: "botania:cocoon"
 				type: "item"
 			}]
-			x: -5.25d
-			y: -5.5d
+			x: 0.75d
+			y: -6.0d
 		}
 		{
-			dependencies: [
-				"651178F97CEC54E5"
-				"6CD38E1C1FD91E44"
-			]
+			dependencies: ["6CD38E1C1FD91E44"]
 			description: [
 				"With your newfound knowledge of blood magic, you think you can develop a way to use life essence in rituals, allowing you to supercharge certain interactions and create brand new life!"
 				""
@@ -477,24 +481,12 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["651178F97CEC54E5"]
-			description: ["The raw power contained in a blood crystal is almost indescribable - perfect for supercharging any kind of life-related ritual."]
-			id: "433963B2F9A30775"
-			tasks: [{
-				id: "7D6CF581DDB38DC4"
-				item: "primalmagick:essence_crystal_blood"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -9.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"Getting the nether back into shape is relatively easy, now that you have an undeniably &6nether-based gem&r to focus the raw power of &6infused tokens.&r"
+				"Getting the nether back into shape is relatively easy, now that you have &6a mineral from the nether&r to focus the raw power of &6infused tokens.&r"
 				""
 				"&7Tip: check the new terraforming section of your Reclamation Rituals book to see how to perform the nether terraforming rites!"
 			]
@@ -504,6 +496,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
@@ -512,9 +505,9 @@
 				title: "Visit Every Nether Biome"
 				type: "advancement"
 			}]
-			title: "Reclaiming the Nether"
-			x: 1.0d
-			y: 8.5d
+			title: "Crimson Forest Conversion"
+			x: -7.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["0992C0993A6BBB8A"]
@@ -546,6 +539,7 @@
 					type: "command"
 				}
 			]
+			size: 2.0d
 			tasks: [
 				{
 					id: "2D6BD76E11598A9F"
@@ -559,21 +553,22 @@
 				}
 			]
 			title: "Forbidden Magicks"
-			x: 2.5d
-			y: 2.5d
+			x: -10.0d
+			y: -14.0d
 		}
 		{
-			dependencies: ["651178F97CEC54E5"]
+			dependencies: ["22F15EC1DF24B1D8"]
 			description: ["With the power of Primal Magick Alchemy, you can create artificial gem buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
 			id: "353D9BFD7D818C0A"
+			size: 1.0d
 			tasks: [{
 				id: "485B7FF9D593E1B1"
 				item: "primalmagick:flawed_budding_amethyst_block"
 				type: "item"
 			}]
 			title: "Artificial Budding Gems"
-			x: 3.5d
-			y: 2.5d
+			x: -8.5d
+			y: -29.0d
 		}
 		{
 			dependencies: ["7B4F1EAF6F7A4A1D"]
@@ -584,50 +579,71 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "43F93E8DC1F9BD5C"
 				item: "minecraft:budding_amethyst"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -0.5d
+			x: 8.25d
+			y: -5.25d
 		}
 		{
 			dependencies: ["14EF24D6ED46D5AC"]
 			id: "6B1646BD22D31300"
+			size: 2.0d
 			tasks: [{
 				id: "7988B70EEECA669C"
 				item: "quark:ancient_sapling"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["5C12885540007A64"]
+			description: [
+				"What do you think the original biomes these trees came from looked like? "
+				""
+				"You can almost picture them in your mind, as if from a dream..."
+			]
 			id: "1BC398D89D58560D"
+			size: 2.0d
 			tasks: [{
 				id: "4C35AC1765644447"
 				item: "integrateddynamics:menril_sapling"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -1.0d
+			y: -24.0d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"This is your opportunity to think about what shape the forest needs to take. "
+				""
+				"Have you considered what changes when there is a variety of trees with different heights and colors and ecological histories?"
+			]
 			id: "5C12885540007A64"
+			rewards: [{
+				count: 5
+				id: "631AC4DC381933CD"
+				item: "minecraft:glow_lichen"
+				type: "item"
+			}]
+			size: 1.5d
 			tasks: [{
 				id: "62EB4E2BE13295B2"
 				item: "regions_unexplored:alpha_sapling"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 8.0d
+			y: -26.25d
 		}
 		{
 			dependencies: ["1910DC60A85B6D71"]
 			description: ["With increased tree diversity, you can reach higher altar power - about 8000 should let you perform a ritual to convert lapis sulfur into emerald or diamond sulfur."]
+			icon: "minecraft:diamond"
 			id: "2D9541697F88FDC4"
 			rewards: [{
 				id: "07F4F7643094A60B"
@@ -646,9 +662,9 @@
 				}
 				type: "item"
 			}]
-			title: "Precious Gem Sulfur"
-			x: -4.0d
-			y: 0.0d
+			title: "Diamonds!"
+			x: 0.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6B1646BD22D31300"]
@@ -658,35 +674,38 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "62B41580AD0BF3BB"
 				item: "natures_spirit:cedar_sapling"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -4.0d
+			y: -17.0d
 		}
 		{
-			dependencies: ["2D9541697F88FDC4"]
+			dependencies: ["07152080164400A3"]
 			id: "28FDD9FBC6FC1117"
+			size: 2.0d
 			tasks: [{
 				id: "293AFD3A0A2469D3"
 				item: "regions_unexplored:dead_sapling"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: -5.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["658026EA72CB4EBA"]
 			id: "59380ADCA111C33C"
+			size: 2.0d
 			tasks: [{
 				id: "212C90108D8DC2A8"
 				item: "regions_unexplored:redwood_sapling"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -7.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -694,108 +713,106 @@
 				"28FDD9FBC6FC1117"
 			]
 			id: "6CD38E1C1FD91E44"
+			size: 2.0d
 			tasks: [{
 				id: "1A77524CC86C4E0D"
 				item: "regions_unexplored:socotra_sapling"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.5d
+			y: -9.0d
 		}
 		{
-			dependencies: ["30BE3A7A5B8D0883"]
+			dependencies: ["1910DC60A85B6D71"]
 			id: "6677CA23CC4C6B3C"
+			size: 2.0d
 			tasks: [{
 				id: "639DA28D4903ED0E"
 				item: "regions_unexplored:magnolia_sapling"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -1.0d
+			y: -13.0d
 		}
 		{
 			dependencies: [
 				"4F344C5727C20006"
 				"59380ADCA111C33C"
+				"47CCB48E0771F3A8"
 			]
 			id: "419E0D3BA811BD45"
+			size: 3.0d
 			tasks: [{
 				id: "24F45059B53323C8"
 				item: "natures_spirit:ghaf_sapling"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["658026EA72CB4EBA"]
 			id: "4F344C5727C20006"
+			size: 2.0d
 			tasks: [{
 				id: "09A091F0E8A17B02"
 				item: "natures_spirit:joshua_sapling"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.5d
+			x: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"0721C000948329FF"
 				"419E0D3BA811BD45"
+				"6A2794045017BBCC"
 			]
 			description: ["A gaia spirit ingot, while useless on its own, is a great way to provide a large amount of energy to a ritual without needing to be close to an altar. You'll need just about 27,000 altar power to make one of these very powerful ingots. Even more tree diversity should get you there!"]
 			id: "41DCCF2E9DF10222"
-			size: 1.5d
+			size: 3.0d
 			tasks: [{
 				id: "4BB5DB92A31A733D"
 				item: "botania:gaia_ingot"
 				type: "item"
 			}]
-			x: -6.75d
-			y: -11.5d
-		}
-		{
-			dependencies: ["2D9541697F88FDC4"]
-			description: ["With the clarity of diamonds, you can create an even better gem for your wand, capable of storing up to 750 of each type of mana! This should cut down on the amount of time you spend at your fonts recharging."]
-			id: "2769A1E68730D0F9"
-			rewards: [{
-				id: "4ED3BEA859884BD7"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "27E23F746DFC43F8"
-				item: "primalmagick:wizard_wand_gem_item"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5C12885540007A64"]
+			description: [
+				"What if, instead of spending your energy trying to build the biggest best base; you spend your time fostering a game environment that reflects your own ecological ideals?"
+				""
+				"&oIs your forest going to be pretty? practical? in a grid, or placed randomly? Do you have a different section for your brilliant fiber to spread through? What about flowers?&r"
+			]
 			id: "76491919B0C4D015"
+			size: 2.0d
 			tasks: [{
 				id: "0660717232178708"
 				item: "natures_spirit:willow_sapling"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.0d
+			y: -23.0d
 		}
 		{
 			dependencies: ["6B1646BD22D31300"]
 			id: "1910DC60A85B6D71"
+			shape: "circle"
+			size: 2.0d
 			tasks: [{
 				id: "52645AB8BADD3A8E"
 				item: "regions_unexplored:palm_sapling"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -2.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["07152080164400A3"]
 			description: ["With increased tree diversity, you can reach higher altar power - about 8000 should let you perform a ritual to convert lapis sulfur into emerald or diamond sulfur."]
+			icon: "minecraft:emerald"
 			id: "30BE3A7A5B8D0883"
 			rewards: [{
 				id: "3326A0F4CD6EDCA9"
@@ -814,9 +831,190 @@
 				}
 				type: "item"
 			}]
-			title: "Precious Gem Sulfur"
-			x: -2.0d
-			y: 0.0d
+			title: "Emeralds!"
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."
+				""
+				"&7Tip: focus on the Manaweaving research line to find out how!"
+			]
+			id: "1852F8A48B423A9C"
+			size: 2.0d
+			tasks: [{
+				id: "23B193CA902CA1C5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_moon"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sun"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sky"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sea"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_earth"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Artificial Fonts"
+			x: -10.0d
+			y: -25.5d
+		}
+		{
+			dependencies: [
+				"1852F8A48B423A9C"
+				"30BE3A7A5B8D0883"
+			]
+			description: [
+				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
+				""
+				"&7Tip: Look for the Magitech research line to find out how!"
+			]
+			id: "37602D5348FD8503"
+			size: 2.0d
+			tasks: [{
+				id: "36424B8D15C73DC0"
+				item: "primalmagick:auto_charger"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"651178F97CEC54E5"
+				"2D9541697F88FDC4"
+			]
+			id: "342593F659795624"
+			tasks: [{
+				id: "3888F8ED861BC9A3"
+				item: "primalmagick:runecarving_table"
+				type: "item"
+			}]
+			title: "Runeworking"
+			x: -9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["342593F659795624"]
+			id: "47CCB48E0771F3A8"
+			tasks: [{
+				id: "36E8ABAC3687FE33"
+				item: "primalmagick:rune_insight"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["342593F659795624"]
+			description: ["VOID QUEST OOOO SPOOKY"]
+			id: "6A2794045017BBCC"
+			title: "Void Quest"
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"Now that you have quartz and a couple of ways you can make slime, you have access to a portable vacuum set that you can craft to go around and suck up any pollution in the air that you might find or generate on-the-go. "
+				""
+				"You might need to be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of flying..."
+				""
+				"&7Hint: Look for something fun in the transportation tab!"
+			]
+			hide_dependency_lines: true
+			id: "1B1E164CF7EAF61C"
+			tasks: [
+				{
+					id: "28B2624E894AC01B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354C5A92110FC786"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -27.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"

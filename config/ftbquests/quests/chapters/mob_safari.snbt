@@ -7,7 +7,7 @@
 	group: "2BFAC9C95DAED88B"
 	icon: "exposure:camera"
 	id: "7F55650372975893"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -77,8 +77,8 @@
 				}
 			]
 			title: "Camera"
-			x: 6.0d
-			y: -2.5d
+			x: 4.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
@@ -2977,8 +2977,8 @@
 				type: "checkmark"
 			}]
 			title: "Safari LEGEND"
-			x: 6.0d
-			y: 9.5d
+			x: 4.5d
+			y: 10.5d
 		}
 	]
 	title: "Mob Safari"

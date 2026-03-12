@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "2BFAC9C95DAED88B", title: "Biodiversity" }]
+	chapter_groups: [
+		{ id: "2BFAC9C95DAED88B", title: "Biodiversity" }
+		{ id: "2D16A7632466DF66", title: "Logistics" }
+	]
 }

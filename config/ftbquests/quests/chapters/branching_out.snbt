@@ -1,0 +1,921 @@
+{
+	autofocus_id: "3480A2CA6D6D3B1B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "branching_out"
+	group: "2BFAC9C95DAED88B"
+	icon: "natures_spirit:blue_wisteria_sapling"
+	id: "74E8C1F9087ADB4E"
+	images: [
+		{
+			height: 2.0d
+			image: "enchanted:item/mutandis"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "illustrations:textures/quests/romanasignfacingright.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -11.5d
+			y: -1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "3B25461FFBBF70FC"
+			tasks: [{
+				id: "354E012B8F0265A8"
+				item: "enchanted:alder_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0E94E815D160B908"
+			tasks: [{
+				id: "5BF9FB669E2BC4A7"
+				item: "enchanted:hawthorn_sapling"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "45BF69F01210B3D4"
+			tasks: [{
+				id: "5BA7C1F30E11E20C"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "39263709577A6641"
+			tasks: [{
+				id: "48241FACD22AE9DE"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "46818F34F4A32828"
+			tasks: [{
+				id: "04F1D4D874D5F0D6"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "71AFF85408AB5347"
+			tasks: [{
+				id: "7190B05ECCB09F85"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2C1BCDA3333909E6"
+			tasks: [{
+				id: "28B378A758DEE819"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0002CF23CAE53FE1"
+			tasks: [{
+				id: "15E8CC86A3501401"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["note about podzol spreading if you let them grow naturally without using tree fert"]
+			hide_dependent_lines: true
+			id: "02510AA1661CC408"
+			tasks: [{
+				id: "59B92178465A21A7"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "51D673963432B1F7"
+			tasks: [{
+				id: "74F9E674D5EDF692"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51D673963432B1F7"]
+			hide_dependent_lines: true
+			id: "64FB975B1B9342EB"
+			tasks: [{
+				id: "27CC6EAF3365DA1D"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "331BE199589A566E"
+			size: 1.3d
+			tasks: [{
+				id: "174532B6EFD46D43"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["331BE199589A566E"]
+			id: "7312A59CB599DF69"
+			tasks: [{
+				id: "785B920FDB44FF95"
+				item: "regions_unexplored:ashen_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51D673963432B1F7"]
+			hide_dependent_lines: true
+			id: "2BFD605C34D86BD5"
+			size: 1.3d
+			tasks: [{
+				id: "78E71346B84A7265"
+				item: "regions_unexplored:alpha_sapling"
+				type: "item"
+			}]
+			x: -7.800000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46818F34F4A32828"]
+			hide_dependent_lines: true
+			id: "091F4F44F9220104"
+			tasks: [{
+				id: "63F36542C99D35C2"
+				item: "primalmagick:sunwood_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46818F34F4A32828"]
+			hide_dependent_lines: true
+			id: "6E8297CA4F6E8A82"
+			tasks: [{
+				id: "437B228949151127"
+				item: "primalmagick:moonwood_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: ["note: might not keep this in"]
+			id: "0882B7852786F666"
+			tasks: [{
+				id: "4CA58DA1B3E6972B"
+				item: "primalmagick:hallowood_sapling"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02510AA1661CC408"]
+			hide_dependent_lines: true
+			id: "3ADD69EFA520A48E"
+			tasks: [{
+				id: "12B9C5B7E78DD608"
+				item: "natures_spirit:fir_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71AFF85408AB5347"]
+			id: "3480A2CA6D6D3B1B"
+			tasks: [{
+				id: "68E348910948F5CC"
+				item: "regions_unexplored:blackwood_sapling"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0002CF23CAE53FE1"]
+			hide_dependent_lines: true
+			id: "76268AE5F6F81FE0"
+			tasks: [{
+				id: "74B39F53B65B70DC"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C1BCDA3333909E6"]
+			id: "0A961EB5946247FB"
+			tasks: [{
+				id: "4988B7A241FED25F"
+				item: "regions_unexplored:bamboo_sapling"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39263709577A6641"
+				"2C1BCDA3333909E6"
+			]
+			hide_dependent_lines: true
+			id: "261B6321CA3DE2E3"
+			tasks: [{
+				id: "32F5B88184E166BD"
+				item: "natures_spirit:mahogany_sapling"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B25461FFBBF70FC"
+				"45BF69F01210B3D4"
+			]
+			id: "6B8EC108859F40CE"
+			tasks: [{
+				id: "26B345F15EA20827"
+				item: "regions_unexplored:eucalyptus_sapling"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0E94E815D160B908"
+				"0002CF23CAE53FE1"
+			]
+			hide_dependent_lines: true
+			id: "4921F8E0227FE19A"
+			tasks: [{
+				id: "4F7CCBE2F859910E"
+				item: "naturaldecormod:juniper_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51D673963432B1F7"]
+			hide_dependent_lines: true
+			id: "393FD77787EA4A55"
+			tasks: [{
+				id: "4E3D89BF74F7F916"
+				item: "regions_unexplored:maple_sapling"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["393FD77787EA4A55"]
+			id: "5F105DAF9CA6FEE4"
+			tasks: [
+				{
+					id: "7ABC2758B65E34BD"
+					item: "natures_spirit:red_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "6472934E4E50F17F"
+					item: "natures_spirit:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "1E671E67BB6CEFE1"
+					item: "natures_spirit:yellow_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "795262E5B6FC6774"
+					item: "regions_unexplored:orange_maple_sapling"
+					type: "item"
+				}
+				{
+					id: "20251512D3638C78"
+					item: "regions_unexplored:red_maple_sapling"
+					type: "item"
+				}
+			]
+			title: "autumnal hues"
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"02510AA1661CC408"
+				"331BE199589A566E"
+			]
+			id: "615222755EA96642"
+			size: 1.3d
+			tasks: [{
+				id: "3F052DCE84500F6A"
+				item: "natures_spirit:cedar_sapling"
+				type: "item"
+			}]
+			x: -3.9000000000000004d
+			y: 1.3d
+		}
+		{
+			dependencies: ["2BFD605C34D86BD5"]
+			hide_dependent_lines: true
+			id: "64CD6896A135B044"
+			size: 1.3d
+			tasks: [{
+				id: "19B69980DBA25E70"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 1.3d
+		}
+		{
+			dependencies: ["2BFD605C34D86BD5"]
+			hide_dependent_lines: true
+			id: "3962C75E4464D3EA"
+			size: 1.3d
+			tasks: [{
+				id: "126549BC920B85A2"
+				item: "natures_spirit:willow_sapling"
+				type: "item"
+			}]
+			x: -8.450000000000001d
+			y: 1.3d
+		}
+		{
+			dependencies: ["3962C75E4464D3EA"]
+			id: "5F24C811315A9263"
+			tasks: [{
+				id: "6CA6B4CC552673C2"
+				item: "regions_unexplored:willow_sapling"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"02510AA1661CC408"
+				"3ADD69EFA520A48E"
+			]
+			id: "75753C8CB31ED394"
+			tasks: [{
+				id: "503E2D9BA0F56968"
+				item: "natures_spirit:sugi_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3ADD69EFA520A48E"
+				"02510AA1661CC408"
+			]
+			hide_dependent_lines: true
+			id: "0B6D36E1BEF90B4C"
+			tasks: [{
+				id: "4AB5F7A8A3F8274D"
+				item: "regions_unexplored:pine_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"71AFF85408AB5347"
+				"2C1BCDA3333909E6"
+			]
+			hide_dependent_lines: true
+			id: "40FF5115D5DA55BE"
+			tasks: [{
+				id: "2D249AE62760DFF8"
+				item: "regions_unexplored:kapok_sapling"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C1BCDA3333909E6"]
+			id: "55F385223F4455F4"
+			size: 1.3d
+			tasks: [{
+				id: "5249CF52DA7C7448"
+				item: "regions_unexplored:palm_sapling"
+				type: "item"
+			}]
+			x: 0.65d
+			y: 1.3d
+		}
+		{
+			dependencies: [
+				"3ADD69EFA520A48E"
+				"46818F34F4A32828"
+			]
+			hide_dependent_lines: true
+			id: "2CFAF4152E08BB9B"
+			tasks: [{
+				id: "457F497B02D1211D"
+				item: "natures_spirit:larch_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CFAF4152E08BB9B"]
+			id: "2A84B16AB407F3CF"
+			tasks: [{
+				id: "32476DB931455312"
+				item: "regions_unexplored:larch_sapling"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"45BF69F01210B3D4"
+				"2BFD605C34D86BD5"
+			]
+			id: "07AAEE97BFDADD28"
+			tasks: [{
+				id: "5CA2A4BED8C57C03"
+				item: "natures_spirit:palo_verde_sapling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"091F4F44F9220104"
+				"46818F34F4A32828"
+			]
+			id: "53D76E41E6AC527A"
+			tasks: [{
+				id: "296EF09BFCA95F09"
+				item: "natures_spirit:aspen_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6E8297CA4F6E8A82"
+				"46818F34F4A32828"
+			]
+			hide_dependent_lines: true
+			id: "070273D81CA715E0"
+			tasks: [{
+				id: "01CF1265944FE8DD"
+				item: "regions_unexplored:silver_birch_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"71AFF85408AB5347"
+				"2BFD605C34D86BD5"
+			]
+			hide_dependent_lines: true
+			id: "6F206A3670ED70DE"
+			tasks: [{
+				id: "39ED0EFC80F916F0"
+				item: "natures_spirit:olive_sapling"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["261B6321CA3DE2E3"]
+			id: "262FCBEA8C70988E"
+			tasks: [{
+				id: "33D241BFA9F507D2"
+				item: "regions_unexplored:brimwood_sapling"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B6D36E1BEF90B4C"
+				"40FF5115D5DA55BE"
+			]
+			id: "14E3F4AA43F6AFFC"
+			tasks: [{
+				id: "55D7FE9CFD5BB490"
+				item: "naturaldecormod:monkey_puzzle_cone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C1BCDA3333909E6"]
+			id: "7FED3E1201F9DCE1"
+			tasks: [{
+				id: "5F03EA804870F21E"
+				item: "natures_spirit:coconut_sprout"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76268AE5F6F81FE0"]
+			hide_dependent_lines: true
+			id: "6F902BD3FA5F3DA0"
+			tasks: [{
+				id: "791382F55E9A5C0A"
+				item: "quark:red_blossom_sapling"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F902BD3FA5F3DA0"]
+			id: "0609A24ACCE50C84"
+			tasks: [
+				{
+					id: "13216B2DA81A4140"
+					item: "quark:yellow_blossom_sapling"
+					type: "item"
+				}
+				{
+					id: "47F50923B9C44458"
+					item: "quark:orange_blossom_sapling"
+					type: "item"
+				}
+				{
+					id: "58B77F5C15BAD0F4"
+					item: "quark:lavender_blossom_sapling"
+					type: "item"
+				}
+				{
+					id: "6433361D5F5136E3"
+					item: "quark:blue_blossom_sapling"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B6D36E1BEF90B4C"]
+			hide_dependent_lines: true
+			id: "5B444FA5F9B0537C"
+			size: 1.4d
+			tasks: [{
+				id: "1FE86B6601EF5309"
+				item: "regions_unexplored:redwood_sapling"
+				type: "item"
+			}]
+			x: -2.1d
+			y: 2.8d
+		}
+		{
+			dependencies: ["5B444FA5F9B0537C"]
+			id: "5841524D67BD7DBD"
+			tasks: [{
+				id: "5A464AB60BBEBFBE"
+				item: "natures_spirit:redwood_sapling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B6D36E1BEF90B4C"]
+			id: "22B32796B1FDA058"
+			tasks: [{
+				id: "281E667F93D93AD9"
+				item: "regions_unexplored:dead_pine_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BFD605C34D86BD5"]
+			hide_dependent_lines: true
+			id: "75E4D319C9ABC0D4"
+			size: 1.3d
+			tasks: [{
+				id: "4DA4319363C5681A"
+				item: "regions_unexplored:dead_sapling"
+				type: "item"
+			}]
+			x: -3.2500000000000004d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["2CFAF4152E08BB9B"]
+			id: "6986AD04D2C01D1F"
+			tasks: [{
+				id: "7E978791F53117F9"
+				item: "regions_unexplored:golden_larch_sapling"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51D673963432B1F7"]
+			id: "5B0FBE3B6E133FE2"
+			tasks: [{
+				id: "0A18939115AF0A3F"
+				item: "regions_unexplored:apple_oak_sapling"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0002CF23CAE53FE1"]
+			hide_dependent_lines: true
+			id: "4EA2C53852764E9F"
+			size: 1.3d
+			tasks: [{
+				id: "24EAF27FC6C0C99E"
+				item: "regions_unexplored:magnolia_sapling"
+				type: "item"
+			}]
+			x: -4.550000000000001d
+			y: 4.550000000000001d
+		}
+		{
+			dependencies: ["4EA2C53852764E9F"]
+			id: "3F95E2644161020D"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6B8234690B2D11EA"
+					item: "regions_unexplored:blue_magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "1796930AC18ABB71"
+					item: "regions_unexplored:pink_magnolia_sapling"
+					type: "item"
+				}
+				{
+					id: "3412836F18830FB8"
+					item: "regions_unexplored:white_magnolia_sapling"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"070273D81CA715E0"
+				"331BE199589A566E"
+			]
+			id: "202DAA4FA4346AEF"
+			tasks: [{
+				id: "3ACB1829E3F7051B"
+				item: "regions_unexplored:enchanted_birch_sapling"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4921F8E0227FE19A"]
+			id: "07D1F5CCC178A4E6"
+			tasks: [{
+				id: "5D42DA882F4F25C7"
+				item: "natures_spirit:saxaul_sapling"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4921F8E0227FE19A"]
+			id: "0B3479A3A078E29F"
+			tasks: [{
+				id: "7FABB8B512FC3931"
+				item: "natures_spirit:cypress_sapling"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["64CD6896A135B044"]
+			id: "4EA887628302871A"
+			tasks: [{
+				id: "792C1E2872438B84"
+				item: "regions_unexplored:cobalt_sapling"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"64FB975B1B9342EB"
+				"0002CF23CAE53FE1"
+			]
+			icon: "regions_unexplored:mauve_sapling"
+			id: "67BBA18C0C6496D0"
+			tasks: [
+				{
+					id: "2AFC6740A80D1650"
+					item: "regions_unexplored:mauve_sapling"
+					type: "item"
+				}
+				{
+					id: "6621F90C6A7A2052"
+					item: "naturesaura:ancient_planks"
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"75E4D319C9ABC0D4"
+				"4EA2C53852764E9F"
+			]
+			id: "2D7C60FF6FA7E11D"
+			size: 1.3d
+			tasks: [{
+				id: "733E72BD778F1A31"
+				item: "regions_unexplored:socotra_sapling"
+				type: "item"
+			}]
+			x: -3.9000000000000004d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: [
+				"331BE199589A566E"
+				"6F206A3670ED70DE"
+			]
+			id: "55971F3503FD343D"
+			tasks: [{
+				id: "2081D4FB81F55504"
+				item: "regions_unexplored:baobab_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0002CF23CAE53FE1"
+				"51D673963432B1F7"
+			]
+			id: "099D54F0868FF8EE"
+			tasks: [{
+				id: "52AFEDEAFB8EA02C"
+				item: "regions_unexplored:flowering_sapling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3962C75E4464D3EA"]
+			hide_dependent_lines: true
+			id: "09EC69B433CDB922"
+			tasks: [{
+				id: "42BA49CA42238AC4"
+				item: "natures_spirit:white_wisteria_sapling"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09EC69B433CDB922"]
+			id: "17184EE849F179C1"
+			tasks: [
+				{
+					id: "77C819AD72B767D7"
+					item: "natures_spirit:purple_wisteria_sapling"
+					type: "item"
+				}
+				{
+					id: "24FFEF0EC08FCBCD"
+					item: "natures_spirit:blue_wisteria_sapling"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F206A3670ED70DE"]
+			hide_dependent_lines: true
+			id: "6E345C0151E40657"
+			size: 1.3d
+			tasks: [{
+				id: "62A323C0DE8FB439"
+				item: "natures_spirit:joshua_sapling"
+				type: "item"
+			}]
+			x: 0.65d
+			y: 5.8500000000000005d
+		}
+		{
+			dependencies: ["6E345C0151E40657"]
+			id: "4853C2B85AE4E52A"
+			tasks: [{
+				id: "04FAF1CD06753350"
+				item: "regions_unexplored:joshua_sapling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6E345C0151E40657"
+				"51D673963432B1F7"
+				"71AFF85408AB5347"
+				"5B444FA5F9B0537C"
+			]
+			id: "7971971AD8B4236F"
+			size: 1.8d
+			tasks: [{
+				id: "105BDD47A937E114"
+				item: "natures_spirit:ghaf_sapling"
+				type: "item"
+			}]
+			x: -6.3d
+			y: 7.199999999999999d
+		}
+	]
+	title: "Branching out "
+}

@@ -5,8 +5,7 @@
 	default_quest_shape: ""
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "farmersdelight:vegetable_soup"
 	id: "50D63635ACA38A6D"
 	images: [
@@ -29,23 +28,25 @@
 			y: -2.5d
 		}
 		{
+			dependency: "19C29BAAD5DD7FC9"
 			height: 5.0d
 			image: "reclamation:textures/quests/automation.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -11.0d
-			y: -2.0d
+			x: -1.5d
+			y: -8.0d
 		}
 		{
+			dependency: "7009C76EB79F608B"
 			height: 2.0d
 			image: "illustrations:textures/quests/farmersdelight.png"
 			rotation: 0.0d
 			width: 5.5d
-			x: -0.5d
+			x: -1.0d
 			y: 5.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -865,8 +866,8 @@
 				item: "botania:horn_grass"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -1.0d
+			x: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19C29BAAD5DD7FC9"]
@@ -894,8 +895,8 @@
 				item: "botania:drum_wild"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 0.0d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
@@ -923,8 +924,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.0d
+			x: -0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -972,7 +973,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 8.0d
 		}
 		{
@@ -987,7 +988,7 @@
 				item: "farmersdelight:tomato"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 8.0d
 		}
 		{
@@ -1002,7 +1003,7 @@
 				item: "farmersdelight:rice_panicle"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 8.0d
 		}
 		{
@@ -1016,10 +1017,11 @@
 				item: "farmersdelight:cabbage"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 8.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "58C10F51F2EBF2CE"
 			tasks: [
 				{
@@ -1033,20 +1035,22 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 9.0d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "078228586BA1D07D"
 			tasks: [{
 				id: "0F5925A8CC60C719"
 				item: "farmersdelight:raw_pasta"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
+			x: -0.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "7009C76EB79F608B"
 			tasks: [{
 				id: "39D21083390688FE"
@@ -1059,20 +1063,22 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "396943B36F9B781E"
 			tasks: [{
 				id: "67A24EB31B5772B3"
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "4B7A1360EE3A4E03"
 			tasks: [
 				{
@@ -1092,30 +1098,33 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: -3.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "332B79C4C4B9131B"
 			tasks: [{
 				id: "21019B45B2F8A085"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "1F038A87254FEE1D"
 			tasks: [{
 				id: "79123C30DC28FC58"
 				item: "farmersdelight:full_tatami_mat"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "4597A35FA9E02F39"
 			tasks: [
 				{
@@ -1135,10 +1144,11 @@
 				}
 			]
 			title: "Beverages"
-			x: 2.5d
-			y: 9.0d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "106698BBBCB7C1D4"
 			tasks: [
 				{
@@ -1163,10 +1173,11 @@
 				}
 			]
 			title: "Sushi!"
-			x: -0.5d
-			y: 9.0d
+			x: -1.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "109EED68E3B33A23"
 			tasks: [
 				{
@@ -1191,10 +1202,11 @@
 				}
 			]
 			title: "Best thing since sliced bread"
-			x: -1.5d
-			y: 9.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["Place any of these rich meals on a table if you ever get the urge to host a dinner party"]
 			id: "1937DD93F6E3F6E8"
 			tasks: [
@@ -1225,398 +1237,78 @@
 				}
 			]
 			title: "For having company"
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2CE9933AC4A477E0"
+				"303D96CD71A877FA"
+			]
+			id: "397C62167CB32CDA"
+			tasks: [{
+				id: "523886256FA8EA94"
+				item: "vintagedelight:peanut"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3EDF39CD6F94943F"
+				"2CE9933AC4A477E0"
+			]
+			id: "5AAC2B358F350D4C"
+			tasks: [{
+				id: "6057457EDEEA0C95"
+				item: "vintagedelight:ghost_pepper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5867D599B1DA6E6F"
+				"3B91FF8507BEB2B4"
+			]
+			id: "211B4D734ECBD742"
+			tasks: [{
+				id: "3B10616566BDAE51"
+				item: "vintagedelight:cucumber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"33BAEE563814DCDB"
+				"187C0139224ECE2A"
+			]
+			id: "407105CD7EDFF2D3"
+			tasks: [{
+				id: "6C664FD2236ACE80"
+				item: "vintagedelight:oat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1DA6A370C87C0775"
+				"2666953F5E403C00"
+			]
+			id: "34B2BC6AFA9B80FD"
+			tasks: [{
+				id: "5410EE8033CB0566"
+				item: "vintagedelight:gearo_berry"
+				type: "item"
+			}]
 			x: -2.5d
 			y: 9.0d
-		}
-		{
-			id: "351F4BC2773C954B"
-			tasks: [{
-				id: "7BE8BEF56AC5CFC0"
-				item: "natures_spirit:fir_sapling"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 8.0d
-		}
-		{
-			id: "0527707CF47ABAFE"
-			tasks: [{
-				id: "2F40A47310CD740C"
-				item: "primalmagick:moonwood_sapling"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 7.0d
-		}
-		{
-			id: "0AD18A0E7D3F6DEA"
-			tasks: [{
-				id: "4299F54F43772345"
-				item: "primalmagick:sunwood_sapling"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 7.0d
-		}
-		{
-			id: "6DDEB8588EAD1C9A"
-			tasks: [{
-				id: "4F9F20296FA0AE2D"
-				item: "regions_unexplored:blackwood_sapling"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 7.0d
-		}
-		{
-			id: "2E2E02483A3F9AFC"
-			tasks: [{
-				id: "53842DB3E7F5A3BA"
-				item: "regions_unexplored:enchanted_birch_sapling"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 10.0d
-		}
-		{
-			id: "54041B46EAD7143C"
-			tasks: [{
-				id: "18336C62E030EFFF"
-				item: "regions_unexplored:cypress_sapling"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 10.0d
-		}
-		{
-			id: "15F0D032108A2666"
-			tasks: [{
-				id: "10D6416C502E1C5B"
-				item: "regions_unexplored:dead_pine_sapling"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 10.0d
-		}
-		{
-			id: "621CA21786C5E573"
-			tasks: [{
-				id: "46BF16C2875695AA"
-				item: "regions_unexplored:golden_larch_sapling"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 10.0d
-		}
-		{
-			id: "44A893FBF537BD76"
-			tasks: [{
-				id: "1BB3A1E83F2C7F78"
-				item: "quark:red_blossom_sapling"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 9.0d
-		}
-		{
-			id: "3E38417366198862"
-			tasks: [{
-				id: "0E36349E241D4F8C"
-				item: "natures_spirit:white_wisteria_sapling"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 9.0d
-		}
-		{
-			id: "3EB9C7E051EE3609"
-			tasks: [{
-				id: "100EF4701CB29E3A"
-				item: "regions_unexplored:flowering_sapling"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 8.0d
-		}
-		{
-			id: "65DDC3CCA4C6522A"
-			tasks: [{
-				id: "4AD4D1980853C13F"
-				item: "regions_unexplored:apple_oak_sapling"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 9.0d
-		}
-		{
-			id: "50D121AFF69019ED"
-			tasks: [{
-				id: "3D352C9252A84728"
-				item: "naturaldecormod:monkey_puzzle_cone"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 10.0d
-		}
-		{
-			id: "46BC65778AECCA93"
-			tasks: [{
-				id: "03BD5C6FAA383571"
-				item: "regions_unexplored:brimwood_sapling"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 9.0d
-		}
-		{
-			description: ["This needs to be planted on cobalt nylium"]
-			id: "4AA77DF790EE7F3B"
-			tasks: [{
-				id: "3BEEF1DCCB29453B"
-				item: "regions_unexplored:cobalt_sapling"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 10.0d
-		}
-		{
-			id: "1FFFDDAF94489F56"
-			tasks: [{
-				id: "78776F8FF30E8D41"
-				item: "natures_spirit:coconut_sprout"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 9.0d
-		}
-		{
-			id: "2DD064F92F19923D"
-			tasks: [{
-				id: "61802D7132E277F5"
-				item: "regions_unexplored:mauve_sapling"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 8.0d
-		}
-		{
-			id: "31C6B1BF61BF72A1"
-			tasks: [{
-				id: "6288685828611B6E"
-				item: "natures_spirit:saxaul_sapling"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 8.0d
-		}
-		{
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "65B22DEE44D1D5AB"
-			tasks: [{
-				id: "2E510556D05D3F32"
-				item: "regions_unexplored:baobab_sapling"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 9.0d
-		}
-		{
-			id: "476844FFDEF4E59D"
-			rewards: [{
-				id: "27F55B1521DC47DF"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "200B99A349D38549"
-				item: "natures_spirit:larch_sapling"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 11.0d
-		}
-		{
-			id: "09A87D33FC29B9AF"
-			rewards: [{
-				id: "0D3AFE6D39761CA0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "4B190C83DD123805"
-				item: "regions_unexplored:maple_sapling"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 12.0d
-		}
-		{
-			id: "6F76CC19DD4E3866"
-			rewards: [{
-				id: "10BCFC236BAFDD16"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "54513E1E3C398D09"
-				item: "regions_unexplored:bamboo_sapling"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 12.0d
-		}
-		{
-			id: "514989488E171B00"
-			rewards: [{
-				id: "7FE5A6A3022EA03E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "0A3F6395C76B47C2"
-				item: "regions_unexplored:eucalyptus_sapling"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 11.0d
-		}
-		{
-			id: "06310B31EA72893B"
-			rewards: [{
-				id: "3981186A69121179"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3AF3F85C971BB54C"
-				item: "regions_unexplored:silver_birch_sapling"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 12.0d
-		}
-		{
-			id: "3468D9597DD10CAE"
-			rewards: [{
-				id: "7F4AC64F08A32C03"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "3FF4F8F31CD907BF"
-				item: "natures_spirit:aspen_sapling"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 12.0d
-		}
-		{
-			id: "68F8335F6E2BA992"
-			rewards: [{
-				id: "3EB9E4C5416941BD"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "72E693876022B56E"
-				item: "natures_spirit:sugi_sapling"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 8.0d
-		}
-		{
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "4F40BFC326972BA3"
-			rewards: [{
-				id: "5099D1BD98F49499"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5366EAF0FB00DE38"
-				item: "natures_spirit:mahogany_sapling"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 12.0d
-		}
-		{
-			id: "1E28D6F86D456D7F"
-			rewards: [{
-				id: "392E720FEBAC845C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "1DA6B61143D03026"
-				item: "regions_unexplored:pine_sapling"
-				type: "item"
-			}]
-			x: -11.5d
-			y: 12.0d
-		}
-		{
-			id: "0143FA850C0BEBF6"
-			rewards: [{
-				id: "5C623EDCA2127EAE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "09C7D746029C2E63"
-				item: "natures_spirit:palo_verde_sapling"
-				type: "item"
-			}]
-			x: -13.5d
-			y: 11.0d
-		}
-		{
-			description: ["This sapling needs to be planted in a 2x2"]
-			id: "46D73E386A207C99"
-			rewards: [{
-				id: "0DF2CB25AFAAEEA3"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "48467FD634B5058D"
-				item: "natures_spirit:olive_sapling"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 11.0d
-		}
-		{
-			description: ["This sapling needs to be planted in a plus shape"]
-			id: "0B8189293D6F6107"
-			rewards: [{
-				id: "132D0582A68B066E"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "69C883B46C4211C1"
-				item: "regions_unexplored:kapok_sapling"
-				type: "item"
-			}]
-			x: -12.5d
-			y: 11.0d
-		}
-		{
-			id: "5FD56A74E78BC2F7"
-			rewards: [{
-				id: "2D88A4648BBC183D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "23E51461BDC8AB04"
-				item: "naturaldecormod:juniper_sapling"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 11.0d
 		}
 	]
 	title: "Plants Galore"

@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "supplementaries:globe"
+	id: "7335D09FB9BA621B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["441CCBE08B89C06D"]
+			description: ["Make an axe!"]
+			id: "6BD53DEB696AC6FD"
+			tasks: [{
+				id: "5A39795081659243"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:primalite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:hexium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:hallowsteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Make an Axe"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			description: ["Get Wood!"]
+			id: "441CCBE08B89C06D"
+			size: 1.5d
+			subtitle: "1+1 = 2"
+			tasks: [{
+				id: "4D7CF3A849A7A1F0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:spruce_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:birch_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:jungle_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:acacia_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:dark_oak_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:mangrove_log"
+							}
+							{
+								Count: 1b
+								id: "minecraft:cherry_log"
+							}
+							{
+								Count: 1b
+								id: "quark:ancient_log"
+							}
+							{
+								Count: 1b
+								id: "quark:azalea_log"
+							}
+							{
+								Count: 1b
+								id: "quark:blossom_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:redwood_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:sugi_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:wisteria_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:fir_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:willow_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:aspen_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:maple_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:cypress_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:olive_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:ghaf_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:palo_verde_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:coconut_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:cedar_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:larch_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:mahogany_log"
+							}
+							{
+								Count: 1b
+								id: "natures_spirit:saxaul_log"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Get Wood"
+			x: -2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["6BD53DEB696AC6FD"]
+			description: ["Sleep through the night."]
+			icon: "minecraft:white_bed"
+			id: "1FA17E4CF9795CB5"
+			tasks: [{
+				icon: "minecraft:white_bed"
+				id: "54D73B21CF39FC72"
+				stat: "minecraft:sleep_in_bed"
+				title: "Make a Bed and Sleep in it"
+				type: "stat"
+				value: 1
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+	title: "Welcome!"
+}
