@@ -1,17 +1,17 @@
 {
   "items": [
     { "id": "minecraft:stone_bricks", "Count": 2 },
-    { "id": "enchanted:exhale_of_the_horned_one", "Count": 1 },
+    { "id": "enchanted:poppet", "Count": 1 },
     { "id": "primalmagick:essence_shard_blood", "Count": 1 },
-    { "id": "primalmagick:essence_shard_infernal", "Count": 1 },
-    { "id": "minecraft:netherrack", "Count": 1 },
+    { "id": "regions_unexplored:socotra_sapling", "Count": 1 },
+    { "id": "primalmagick:rune_infernal", "Count": 1 },
     { "id": "minecraft:diamond_sword", "Count": 1 }
   ],
   "shapes": {
     "enchanted:small_circle": "enchanted:nether_chalk",
     "enchanted:medium_circle": "enchanted:nether_chalk"
   },
-  "power": 16000,
+  "power": 12000,
   "factory": {
     "type": "enchanted:create_item",
     "items": [

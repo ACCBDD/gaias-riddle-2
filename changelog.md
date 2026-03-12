@@ -19,7 +19,10 @@
 
 ## Changed
 * Crimson terraforming ritual now the first ritual you perform
-* Gaia's ingot creation ritual spawns desertification
+* Gaia's ingot creation ritual spawns desertification, looks prettier, makes more at a time
+* Overall structure of chapter 4 to be more tree-focused
+* Bloodletter recipe
+* Diamond and emerald sulfur recipe
 
 
 ## Removed

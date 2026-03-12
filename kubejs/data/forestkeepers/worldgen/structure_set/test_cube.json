@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:test_cube",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 64889577,
+    "spacing": 100,
+    "separation": 80,
+    "type": "minecraft:random_spread"
+  }
+}

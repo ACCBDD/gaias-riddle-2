@@ -1,10 +1,11 @@
+
 {
   "items": [
     { "id": "minecraft:lapis_block", "Count": 2 },
-    { "id": "theurgy:alchemical_sulfur_lapis", "Count": 4 },
+    { "id": "minecraft:lapis_lazuli", "Count": 4 },
     { "id": "primalmagick:essence_shard_sea", "Count": 1 },
     { "id": "primalmagick:essence_shard_sky", "Count": 1 },
-    { "id": "primalmagick:essence_shard_infernal", "Count": 1 }
+    { "id": "regions_unexplored:palm_sapling", "Count": 1 }
   ],
   "shapes": {
     "enchanted:small_circle": "enchanted:otherwhere_chalk",

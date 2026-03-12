@@ -52,6 +52,33 @@
         "location": "forestkeepers:ribbit_village/platforms/tent_plat",
         "processors": "minecraft:empty"
       }
+    },
+        {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/cafe_plat",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/food_truck_plat",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:ribbit_village/platforms/small_plat_portal",
+        "processors": "minecraft:empty"
+      }
     }
 ]
 }

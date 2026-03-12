@@ -558,7 +558,7 @@
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
-			description: ["With the power of Primal Magick Alchemy, you can create artificial gem buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
+			description: ["With the power of Primal Magick Alchemy, you can create artificial amethyst buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
 			id: "353D9BFD7D818C0A"
 			size: 1.0d
 			tasks: [{
@@ -928,9 +928,14 @@
 		}
 		{
 			dependencies: ["342593F659795624"]
-			description: ["VOID QUEST OOOO SPOOKY"]
+			description: ["Forbidden! Magic!"]
 			id: "6A2794045017BBCC"
-			title: "Void Quest"
+			tasks: [{
+				id: "74D51AA55A9DD78C"
+				item: "primalmagick:rune_power"
+				type: "item"
+			}]
+			title: "Power Rune"
 			x: -9.0d
 			y: -2.0d
 		}

@@ -5,7 +5,7 @@
   "spawn_overrides": {},
   "terrain_adaptation": "beard_box",
   "start_pool": "forestkeepers:ribbit_village/village_center",
-  "size": 3,
+  "size": 5,
   "start_height": {
     "absolute": 30
   },

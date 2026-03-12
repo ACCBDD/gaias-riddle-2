@@ -4,7 +4,7 @@
     { "id": "theurgy:alchemical_sulfur_lapis", "Count": 4 },
     { "id": "primalmagick:essence_shard_earth", "Count": 1 },
     { "id": "primalmagick:essence_shard_moon", "Count": 1 },
-    { "id": "primalmagick:essence_shard_blood", "Count": 1 }
+    { "id": "natures_spirit:cedar_sapling", "Count": 1 }
   ],
   "shapes": {
     "enchanted:small_circle": "enchanted:otherwhere_chalk",

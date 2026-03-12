@@ -152,7 +152,7 @@ ServerEvents.recipes(event => {
                 "item": "primalmagick:rune_power"
             },
             {
-                "item": "reclamation:filled_biome_bottle"
+                "item": "reclamation_util:filled_biome_bottle"
             }
         ],
         "instability": 7,
