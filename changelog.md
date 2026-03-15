@@ -12,6 +12,7 @@
 * Several sapling recipes - colored, etc
 * Recipes for end stone, shulker shell, and chorus flower
 * Recipe for sniffer egg
+* Sniffers can snuff wither skulls and other assorted goodies from crimson nylium
 
 
 ## Fixed

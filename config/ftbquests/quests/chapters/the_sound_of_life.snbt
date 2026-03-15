@@ -499,6 +499,7 @@
 			size: 2.0d
 			tasks: [{
 				biome: "minecraft:crimson_forest"
+				icon: "minecraft:crimson_nylium"
 				id: "553D2B07815C871D"
 				title: "Visit Crimson Forest"
 				type: "biome"
@@ -1018,6 +1019,26 @@
 			]
 			x: -1.0d
 			y: -27.0d
+		}
+		{
+			dependencies: ["0992C0993A6BBB8A"]
+			description: ["how many skulls would a sniffer snuff if a sniffer could snuff skulls?"]
+			icon: "minecraft:sniffer_egg"
+			id: "2473155B0BCBB9EF"
+			tasks: [
+				{
+					id: "48402F7641F6F927"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "481E785A6C469C89"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -23.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"

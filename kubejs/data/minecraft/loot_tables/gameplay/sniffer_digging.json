@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+        {
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:torchflower_seeds"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_skeleton_skull"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "primalmagick:bloody_flesh"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:blaze_rod"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull"
+                }
+            ],
+            "rolls": 1.0
+        }
+    ],
+    "random_sequence": "minecraft:gameplay/sniffer_digging"
+}

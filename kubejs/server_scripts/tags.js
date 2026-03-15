@@ -9,3 +9,8 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('fluid', event => {
     event.add('theurgy:solvent', 'kubejs:hemoglobic_fluid')
 })
+
+ServerEvents.tags('block', event => {
+	event.removeAll('minecraft:sniffer_diggable_block')
+	event.add('minecraft:sniffer_diggable_block', 'minecraft:crimson_nylium')
+})
