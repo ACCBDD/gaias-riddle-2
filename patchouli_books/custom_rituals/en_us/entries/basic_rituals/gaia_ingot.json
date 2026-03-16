@@ -1,0 +1,16 @@
+{
+  "name": "Create Gaia Ingot",
+  "icon": "botania:gaia_ingot",
+  "category": "patchouli:basic_rituals",
+  "pages": [
+    {
+      "type": "patchouli:rite_description",
+      "rite_name": "Create Gaia Ingot",
+      "text": "Use this rite to create four Gaia Ingots - be warned! This ritual may have long-lasting, unintended side effects... you should probably do this ritual a little ways away from your base."
+    },
+    {
+      "type": "patchouli:rite_requirements",
+      "rite": "reclamation:gaia_ingot"
+    }
+  ]
+}

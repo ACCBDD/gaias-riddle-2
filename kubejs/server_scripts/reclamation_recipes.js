@@ -304,15 +304,17 @@ ServerEvents.recipes(event => {
     })
 
     event.custom({
-        "type": "naturesaura:altar",
+        "type": "naturesaura:offering",
         "input": {
-            "item": "reclamation_util:attuned_biome_bottle"
+            "item": "desert:glazed_sand"
+        },
+        "start_item": {
+            "item": "reclamation_util:filled_biome_bottle"
         },
         "output": {
-            "item": "reclamation_util:empty_biome_globe"
-        },
-        "aura": 500000,
-        "time": 200
+            "item": "reclamation_util:empty_biome_globe",
+            "count": 1
+        }
     })
 
     //biome bottle
@@ -398,4 +400,55 @@ ServerEvents.recipes(event => {
             "count": 1
         }
     })
+
+    function orb_recipe(one, two, out) {
+        event.custom({
+            "type": "naturesaura:tree_ritual",
+            "ingredients": [
+                {
+                    "item": "primalmagick:essence_crystal_earth"
+                },
+                {
+                    "item": "desert:desert_flower_item"
+                },
+                {
+                    "item": one
+                },
+                {
+                    "item": two
+                },
+                {
+                    "item": "reclamation_util:filled_biome_bottle"
+                },
+                {
+                    "item": "reclamation_util:filled_biome_bottle"
+                },
+                {
+                    "item": "reclamation_util:filled_biome_bottle"
+                },
+                {
+                    "item": "reclamation_util:filled_biome_bottle"
+                }
+            ],
+            "sapling": {
+                "item": "minecraft:oak_sapling"
+            },
+            "output": {
+                "item": "reclamation_util:" + out + "_biome_globe"
+            },
+            "time": 200
+        })
+    }
+
+    orb_recipe("minecraft:grass_block", "regions_unexplored:magnolia_sapling", "plains")
+    orb_recipe("minecraft:sand", "reclamation_util:arid_biome_bottle", "desert")
+    orb_recipe("minecraft:oak_sapling", "regions_unexplored:redwood_sapling", "forest")
+    orb_recipe("minecraft:sea_pickle", "minecraft:nautilus_shell", "ocean")
+    orb_recipe("minecraft:horn_coral_block", "reclamation_util:watery_biome_bottle", "warm_ocean")
+    orb_recipe("minecraft:podzol", "minecraft:spruce_sapling", "taiga")
+    orb_recipe("minecraft:crimson_nylium", "reclamation_util:hellish_biome_bottle", "crimson")
+    orb_recipe("minecraft:warped_nylium", "reclamation_util:hellish_biome_bottle", "warped")
+    orb_recipe("naturaldecormod:jungle_bonsai", "reclamation_util:lush_biome_bottle", "lush")
+    orb_recipe("minecraft:mycelium", "reclamation_util:mycelic_biome_bottle", "mycelic")
+    orb_recipe("botania:ice_pendant", "reclamation_util:icy_biome_bottle", "snowy")
 })
