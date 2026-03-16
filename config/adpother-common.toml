@@ -50,11 +50,11 @@ maxGasEntitiesInChunk = 10
 	#Enables / disables emissions from this source
 	LavaTouchingWater = true
 	#Enables / disables emissions from this source
-	HostileMobDying = true
+	HostileMobDying = false
 	#Enables / disables emissions from this source
-	HostileMobBurning = true
+	HostileMobBurning = false
 	#Enables / disables emissions from this source
-	PlayerEating = true
+	PlayerEating = false
 	#Enables / disables emissions from this source
 	PlayerBurning = true
 	#Enables / disables emissions from this source
