@@ -1,0 +1,11 @@
+{
+  "items": [
+    "primalmagick:hallowood_sapling", 
+"primalmagick:moonwood_sapling",
+"primalmagick:sunwood_sapling"
+  ],
+  "reload_ticks": 5,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sticky": true
+}

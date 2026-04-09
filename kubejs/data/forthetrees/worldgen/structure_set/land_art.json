@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forthetrees:land_art",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 49836157,
+    "spacing": 30,
+    "separation": 10,
+    "type": "minecraft:random_spread"
+  }
+}

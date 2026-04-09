@@ -1,0 +1,19 @@
+{
+  "items": [
+"regions_unexplored:dead_sapling",
+"regions_unexplored:enchanted_birch_sapling",
+"regions_unexplored:eucalyptus_sapling",
+"regions_unexplored:flowering_sapling",
+"regions_unexplored:golden_larch_sapling",
+"regions_unexplored:joshua_sapling",
+"regions_unexplored:kapok_sapling",
+"regions_unexplored:larch_sapling",
+"regions_unexplored:magnolia_sapling",
+"regions_unexplored:maple_sapling",
+"regions_unexplored:mauve_sapling"
+  ],
+  "reload_ticks": 5,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sticky": true
+}

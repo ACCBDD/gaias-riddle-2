@@ -11,32 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["671D5ABC9E1873B2"]
-			icon: "minecraft:end_portal_frame"
-			id: "647B651959E0F0D0"
-			rewards: [{
-				id: "4A0A80BD3060A7CC"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "hexagon"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				icon: "minecraft:end_portal_frame"
-				id: "6DB59B5506EB9396"
-				title: "Visit the End"
-				type: "dimension"
-			}]
-			title: "Visit the End"
-			x: -2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"002E63B4A44D2F33"
-				"647B651959E0F0D0"
-				"05F7EE451D6C0172"
-			]
+			dependencies: ["05F7EE451D6C0172"]
 			dependency_requirement: "one_completed"
 			description: ["You have &lKept The Forest&r."]
 			hide_until_deps_complete: false
@@ -186,23 +161,20 @@
 		}
 		{
 			dependencies: ["671D5ABC9E1873B2"]
-			id: "002E63B4A44D2F33"
-			tasks: [{
-				id: "3532A212633EA8DA"
-				title: "Back to the Mirror World"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["671D5ABC9E1873B2"]
 			id: "05F7EE451D6C0172"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BC60C303D7F2EF8"
+				table_id: 3656975251724470054L
+				title: "Decide your fate:"
+				type: "choice"
+			}]
 			tasks: [{
 				id: "0D7FA2134E44F158"
 				title: "Stay"
 				type: "checkmark"
 			}]
+			title: "Now what?"
 			x: -0.5d
 			y: -2.0d
 		}

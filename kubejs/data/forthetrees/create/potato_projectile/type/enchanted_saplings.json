@@ -1,0 +1,11 @@
+{
+  "items": [
+    "enchanted:alder_sapling", 
+"enchanted:hawthorn_sapling",
+"enchanted:rowan_sapling"
+  ],
+  "reload_ticks": 5,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sticky": true
+}

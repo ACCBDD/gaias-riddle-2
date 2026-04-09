@@ -1,0 +1,120 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:candy",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "natures_spirit:olives",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans"
+        }
+      ]
+    },
+        {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book"
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "comforts:sleeping_bag_red",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "comforts:sleeping_bag_blue",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "comforts:sleeping_bag_yellow"
+        }
+      ]
+    },
+        {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exposure:black_and_white_film",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "exposure:color_film",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:upgrade_base"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:antique_ink"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:backpack",
+          "conditions": [],
+          "functions": []
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exposure:camera",
+          "conditions": [],
+          "functions": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "items": [
+"regions_unexplored:alpha_sapling",
+"regions_unexplored:apple_oak_sapling",
+"regions_unexplored:ashen_sapling",
+"regions_unexplored:bamboo_sapling",
+"regions_unexplored:baobab_sapling",
+"regions_unexplored:blackwood_sapling",
+"regions_unexplored:blue_magnolia_sapling",
+"regions_unexplored:brimwood_sapling",
+"regions_unexplored:cobalt_sapling",
+"regions_unexplored:cypress_sapling",
+"regions_unexplored:dead_pine_sapling"
+  ],
+  "reload_ticks": 5,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sticky": true
+}

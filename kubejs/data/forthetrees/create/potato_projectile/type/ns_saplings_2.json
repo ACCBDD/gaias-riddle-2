@@ -1,0 +1,19 @@
+{
+  "items": [
+"natures_spirit:orange_maple_sapling",
+"natures_spirit:palo_verde_sapling",
+"natures_spirit:pink_wisteria_sapling",
+"natures_spirit:purple_wisteria_sapling",
+"natures_spirit:red_maple_sapling",
+"natures_spirit:redwood_sapling",
+"natures_spirit:saxaul_sapling",
+"natures_spirit:sugi_sapling",
+"natures_spirit:white_wisteria_sapling",
+"natures_spirit:willow_sapling",
+"natures_spirit:yellow_maple_sapling"
+  ],
+  "reload_ticks": 5,
+  "knockback": 2,
+  "velocity_multiplier": 1.2,
+  "sticky": true
+}

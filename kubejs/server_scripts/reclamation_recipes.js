@@ -409,7 +409,7 @@ ServerEvents.recipes(event => {
                     "item": "primalmagick:essence_crystal_earth"
                 },
                 {
-                    "item": "desert:desert_flower_item"
+                    "item": "reclamation_util:empty_biome_globe"
                 },
                 {
                     "item": one
@@ -451,4 +451,24 @@ ServerEvents.recipes(event => {
     orb_recipe("naturaldecormod:jungle_bonsai", "reclamation_util:lush_biome_bottle", "lush")
     orb_recipe("minecraft:mycelium", "reclamation_util:mycelic_biome_bottle", "mycelic")
     orb_recipe("botania:ice_pendant", "reclamation_util:icy_biome_bottle", "snowy")
+    orb_recipe("minecraft:gravel", "minecraft:seagrass", "cold_ocean")
+    orb_recipe("minecraft:smooth_stone", "minecraft:emerald", "stony_peaks")
+    orb_recipe("minecraft:infested_stone", "minecraft:fern", "windswept_hills")
+    orb_recipe("minecraft:birch_sapling", "minecraft:grass", "birch_forest")
+    orb_recipe("minecraft:slime_ball", "minecraft:vine", "swamp")
+    orb_recipe("minecraft:mangrove_propagule", "minecraft:lily_pad", "mangrove_swamp")
+    orb_recipe("minecraft:snow_block", "reclamation_util:icy_biome_bottle", "snowy_plains")
+    orb_recipe("minecraft:acacia_sapling", "minecraft:grass", "savanna")
+    orb_recipe("minecraft:terracotta", "minecraft:gold_ingot", "badlands")
+    orb_recipe("minecraft:salmon", "minecraft:cod", "river")
+
+    event.shaped('reclamation_util:empty_biome_globe', [
+        'SSS',
+        'GAG',
+        'SSS'
+    ], {
+        A: 'enchanted:attuned_stone',
+        G: 'minecraft:glass',
+        S: 'desert:living_glass_shard'
+    })
 })

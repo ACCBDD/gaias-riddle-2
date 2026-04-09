@@ -1,0 +1,131 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forthetrees:land_art/well_top",
+        "processors": "minecraft:empty"
+      }
+    },
+        {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forthetrees:land_art/big_tree_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+        "weight": 7,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/big_tree_2",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/ribbit_tea_party",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/b_1",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/b_2",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/b_3",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/b_4",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/dead_thing_1a",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/prada",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/ascend",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 3,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/ice",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 2,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/elements",
+        "processors": "minecraft:empty"
+        }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forthetrees:land_art/temple",
+        "processors": "minecraft:empty"
+        }
+    }
+  ]
+}

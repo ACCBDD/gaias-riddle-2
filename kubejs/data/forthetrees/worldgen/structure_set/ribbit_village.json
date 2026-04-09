@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forthetrees:ribbit_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 65489325,
+    "spacing": 40,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}
