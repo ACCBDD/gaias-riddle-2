@@ -40,11 +40,14 @@ BlockEvents.rightClicked(event => {
 BlockEvents.placed(event => {
     const { player, level, block, server } = event;
     const saplingMessage = Component.of("This soil is too dry for saplings!").red();
+    const saplingCountTag = "saplingsPlanted";
 
     if (block.hasTag("minecraft:saplings")) { 
         if (level.getBlock(block.pos.below()).id === "kubejs:dried_earth") {
             player.displayClientMessage(saplingMessage, true);
             event.cancel();
+        } else {
+            server.persistentData.putInt(saplingCountTag, server.persistentData.getInt(saplingCountTag) + 1);
         }
     }
 })
@@ -103,23 +106,3 @@ ServerEvents.tick(event => {
         }
     }
 });
-
-ServerEvents.commandRegistry(event => {
-    const { commands: Commands } = event;
-
-    event.register(
-        Commands.literal('treecount')
-            .executes(ctx => {
-                const server = ctx.source.server;
-                const treesGrownTag = "treesGrown";
-                let count = server.persistentData.getInt(treesGrownTag);
-
-                ctx.source.sendSuccess(
-                    Text.green(`Total trees grown: `).append(Text.white(count)), 
-                    false
-                );
-
-                return 1;
-            })
-    );
-})

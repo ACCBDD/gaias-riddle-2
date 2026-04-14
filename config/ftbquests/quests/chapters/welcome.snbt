@@ -10,100 +10,14 @@
 	quests: [
 		{
 			dependencies: ["441CCBE08B89C06D"]
-			description: ["Make an axe!"]
 			id: "6BD53DEB696AC6FD"
 			tasks: [{
-				id: "5A39795081659243"
+				id: "0BE46D0413CCA21C"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "minecraft:wooden_axe"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "minecraft:wooden_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:stone_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:iron_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:golden_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:diamond_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:netherite_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sunblockcore:solar_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "botania:manasteel_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "botania:elementium_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "primalmagick:primalite_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "primalmagick:hexium_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "primalmagick:hallowsteel_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+						Damage: 0
 					}
 				}
 				type: "item"
@@ -113,10 +27,8 @@
 			y: 0.5d
 		}
 		{
-			description: ["Get Wood!"]
 			id: "441CCBE08B89C06D"
 			size: 1.5d
-			subtitle: "1+1 = 2"
 			tasks: [{
 				id: "4D7CF3A849A7A1F0"
 				item: {
@@ -243,7 +155,6 @@
 		}
 		{
 			dependencies: ["6BD53DEB696AC6FD"]
-			description: ["Sleep through the night."]
 			icon: "minecraft:white_bed"
 			id: "1FA17E4CF9795CB5"
 			tasks: [{

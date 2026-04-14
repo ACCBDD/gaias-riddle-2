@@ -1,0 +1,27 @@
+{
+  "name": "test_cube",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "forestkeepers:test_cube",
+        "processors": [
+          {
+            "processor_type": "minecraft:block_rot",
+            "integrity": 0.9,
+            "rottable_blocks": [
+              "minecraft:stone"
+            ]
+          },
+          {
+            "processor_type": "minecraft:block_age",
+            "mossiness": 0.3
+          }
+        ]
+      }
+    }
+  ]
+}

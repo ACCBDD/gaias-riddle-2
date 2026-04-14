@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "brewery:beer_hops",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:noodle_soup"
+        }
+      ]
+    },
+        {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "naturaldecormod:orenji_eggs_ndm",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vintagedelight:pickle_soup"
+        }
+      ]
+    },
+        {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "vintagedelight:pickled_egg",
+          "conditions": [],
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vintagedelight:pickle",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "vintagedelight:salt_dust"
+        }
+      ]
+    }
+  ]
+}

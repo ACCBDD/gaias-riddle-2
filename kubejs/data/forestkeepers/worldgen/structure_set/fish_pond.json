@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:fish_pond",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 64976535,
+    "spacing": 100,
+    "separation": 80,
+    "type": "minecraft:random_spread"
+  }
+}

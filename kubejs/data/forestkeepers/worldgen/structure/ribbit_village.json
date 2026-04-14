@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "reclamation:dead_wastes",
+  "step": "vegetal_decoration",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_box",
+  "start_pool": "forestkeepers:ribbit_village/village_center",
+  "size": 5,
+  "start_height": {
+    "absolute": 30
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

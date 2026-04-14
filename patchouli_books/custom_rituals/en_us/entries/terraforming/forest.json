@@ -1,7 +1,7 @@
 {
   "name": "Forest",
   "icon": "minecraft:oak_sapling",
-  "advancement": "reclamation:biome_essence",
+  
   "category": "patchouli:terraforming",
   "pages": [
     {

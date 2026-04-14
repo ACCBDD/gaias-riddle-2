@@ -1,7 +1,7 @@
 {
   "name": "Plains",
   "icon": "minecraft:grass",
-  "advancement": "reclamation:biome_essence",
+  
   "category": "patchouli:terraforming",
   "pages": [
     {

@@ -33,17 +33,13 @@ PlayerEvents.respawned(event => {
         player.give('ftbquests:book')
         player.persistentData.putBoolean(MESSAGE_KEY, true)
     }
-
-    if (player.persistentData.getBoolean('endSpawnSet')) {
-        player.teleportTo('minecraft:the_end', 100, 51, 0, 0, 0)
-    }
 })
 
 BlockEvents.rightClicked(event => {
     const player = event.player
     const block = event.block
     
-    if (player.level.dimension === MIRROR_DIM && player.persistentData.canaccessmirror != 1) {
+    if (player.level.dimension === MIRROR_DIM) {
         if (block.id.contains('bed') || block.id.contains('bag')) {
             player.server.scheduleInTicks(50, () => {
                 if (!player.level.isDay() || player.isSleeping()) {
@@ -73,7 +69,7 @@ PlayerEvents.tick(event => {
     const {player,server,player:{username}} = event
     const message = Component.of('The portal vanishes before your eyes! Maybe it was just a dream...').bold().red()
     if(!(player.age % 20 == 0)) return
-    if (player.persistentData.getBoolean('canAccessMirror') && player.level.dimension === OVERWORLD_DIM) return
+    if (player.persistentData.canaccessnetherportal == 1) return
     if (player.block.id == 'overworldmirror:portal') {
         player.block.set('air')
         player.displayClientMessage(message, true)

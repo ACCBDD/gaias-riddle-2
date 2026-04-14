@@ -1,0 +1,51 @@
+{
+  "name": "forestkeepers:ribbit_village/dude_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{	
+      "weight": 4,
+      "element": {
+        "location": "forestkeepers:ribbit_village/village_dudes/chiller",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 6,
+      "element": {
+        "location": "forestkeepers:ribbit_village/village_dudes/fisher",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+	{	
+      "weight": 10,
+      "element": {
+        "location": "forestkeepers:ribbit_village/village_dudes/gardener",
+        "processors": "minecraft:empty",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+        "weight": 4,
+        "element": {
+            "location": "forestkeepers:ribbit_village/village_dudes/merchant",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+        },
+            {
+        "weight": 2,
+        "element": {
+            "location": "forestkeepers:ribbit_village/village_dudes/wizard",
+            "processors": "minecraft:empty",
+            "projection": "rigid",
+            "element_type": "minecraft:single_pool_element"
+        }
+        }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "Soul Sand Valley",
   "icon": "minecraft:soul_sand",
-  "advancement": "reclamation:biome_essence",
+  
   "category": "patchouli:terraforming",
   "pages": [
     {

@@ -5,7 +5,6 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
-	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_sapling"
 	id: "40E17D40DC433CF2"
@@ -41,6 +40,7 @@
 				""
 				"&lHere's what you know: &r&7The dry ground from before can breathe a little easier, and fallen tree saplings will auto-plant now that they have access to more nutritious dirt."
 			]
+			disable_toast: true
 			icon: "minecraft:grass_block"
 			id: "226F9F21A941389C"
 			rewards: [{
@@ -1255,9 +1255,7 @@
 			y: 32.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["I wonder what this does...."]
-			hide_until_deps_complete: true
 			id: "0AB108957B2088DB"
 			tasks: [{
 				id: "76A5932BB89A6E32"
@@ -1268,13 +1266,47 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
+			description: [
+				"Now, there are a couple of ways you can make slime, which means you have access to a portable vacuum set that you can craft to go around and suck up any pollution that you might find or generate on-the-go. "
+				""
+				"You might also be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of flying..."
+			]
+			id: "68558E81E775E5B6"
+			size: 1.0d
+			tasks: [
+				{
+					id: "08714403837E62A3"
+					item: {
+						Count: 1
+						id: "adpother:iron_vacuum_bag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "764A9818DCD907CE"
+					item: {
+						Count: 1
+						id: "adpother:iron_vacuum_tube"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Breathing Fresh Air"
+			x: 22.0d
+			y: 29.0d
+		}
+		{
 			description: [
 				"&6The power of trees is one of the many things that is overlooked in our wider realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
 				""
 				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
 			]
-			hide_until_deps_complete: true
 			id: "45DDC2BAC46D5922"
 			size: 2.0d
 			tasks: [
@@ -1315,6 +1347,76 @@
 			title: "Ritual of the Forest"
 			x: 20.0d
 			y: 19.5d
+		}
+		{
+			dependencies: ["1BB5F4B57C2E73DB"]
+			description: [
+				"What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."
+				""
+				"&7Tip: focus on the Manaweaving research line to find out how!"
+			]
+			id: "099A26372529561D"
+			rewards: [{
+				id: "58F0A1FA1D33CC1C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5975C2CDF18CA03A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_moon"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_earth"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sea"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sun"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:artificial_font_sky"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Artificial Mana Fonts"
+			x: 31.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["099A26372529561D"]
+			description: [
+				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
+				""
+				"&7Tip: Look for the Magitech research line to find out how!"
+			]
+			id: "1CA5B2CEF12BFB54"
+			rewards: [{
+				id: "5DCC9B6526E2BA11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60EF585C9DC807A0"
+				item: "primalmagick:auto_charger"
+				type: "item"
+			}]
+			x: 31.5d
+			y: 36.0d
 		}
 		{
 			dependencies: ["27C68B6622F186D7"]
@@ -1463,13 +1565,11 @@
 			y: 32.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"There's nothing wrong with wanting to build a home for yourself at this point in the game. You have wood now, meaning it's much easier to make an array of building materials and furniture."
 				""
 				"In order to take care of your environment it's important to remember the each of us is a part of that environment, and that means you deserve somewhere to be comfortable, and call home in the wilderness. "
 			]
-			hide_until_deps_complete: true
 			icon: "supplementaries:fire_pit"
 			id: "35BD2520DFCC8C56"
 			rewards: [{
