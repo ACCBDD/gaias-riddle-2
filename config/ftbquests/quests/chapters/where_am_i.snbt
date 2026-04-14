@@ -191,6 +191,11 @@
 				""
 				"&rUnfortunately, you won't be able to do anything about this until you can make a &l&echimmney&r and a &l&efilter&r for your furnace. "
 			]
+			hide_details_until_startable: false
+			hide_lock_icon: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: "adpother:sulfur"
 			id: "42AE68E909116CAA"
 			size: 0.5d
@@ -258,6 +263,10 @@
 				""
 				"Luckily, your recipe browser &6EMI&r has your back. &7Hover over an item and &epress R&7 to look up a recipe, or &epress U&7 to view the uses for a specific item you're researching."
 			]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: "minecraft:crafting_table"
 			id: "680C129D9E5B7A20"
 			size: 0.5d
@@ -297,6 +306,11 @@
 				""
 				"&eWhat do you think this land might ask of you had it the opportunity?"
 			]
+			hide_details_until_startable: false
+			hide_lock_icon: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: "supplementaries:globe_sepia"
 			id: "45541AB63751B359"
 			subtitle: "to have you listen at all, it's necessary to talk about trees"
@@ -395,6 +409,11 @@
 				""
 				"&7The world looks different. &eThe earth beneath your feet is hard and dry... the water murky and brown. &rThe sun beats down on you, &7casting shadows of dead grass and old relics onto the copper-colored dirt. "
 			]
+			hide_details_until_startable: false
+			hide_lock_icon: true
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: "supplementaries:globe"
 			id: "3DCF6729CE12A190"
 			shape: "square"

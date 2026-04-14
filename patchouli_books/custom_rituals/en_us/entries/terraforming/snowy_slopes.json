@@ -1,7 +1,7 @@
 {
   "name": "Snowy Slope",
   "icon": "minecraft:snow_block",
-  "advancement": "reclamation:biome_essence",
+  
   "category": "patchouli:terraforming",
   "pages": [
     {

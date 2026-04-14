@@ -1,7 +1,7 @@
 {
   "name": "Warm Ocean",
   "icon": "minecraft:bubble_coral_block",
-  "advancement": "reclamation:biome_essence",
+  
   "category": "patchouli:terraforming",
   "pages": [
     {

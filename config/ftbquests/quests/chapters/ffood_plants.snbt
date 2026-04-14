@@ -5,7 +5,8 @@
 	default_quest_shape: ""
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"
-	hide_quest_until_deps_complete: true
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:vegetable_soup"
 	id: "50D63635ACA38A6D"
 	images: [
@@ -28,7 +29,6 @@
 			y: -2.5d
 		}
 		{
-			dependency: "19C29BAAD5DD7FC9"
 			height: 5.0d
 			image: "reclamation:textures/quests/automation.png"
 			rotation: 0.0d
@@ -37,7 +37,6 @@
 			y: -8.0d
 		}
 		{
-			dependency: "7009C76EB79F608B"
 			height: 2.0d
 			image: "illustrations:textures/quests/farmersdelight.png"
 			rotation: 0.0d
@@ -1021,7 +1020,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "58C10F51F2EBF2CE"
 			tasks: [
 				{
@@ -1039,7 +1037,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "078228586BA1D07D"
 			tasks: [{
 				id: "0F5925A8CC60C719"
@@ -1050,7 +1047,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "7009C76EB79F608B"
 			tasks: [{
 				id: "39D21083390688FE"
@@ -1067,7 +1063,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "396943B36F9B781E"
 			tasks: [{
 				id: "67A24EB31B5772B3"
@@ -1078,7 +1073,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "4B7A1360EE3A4E03"
 			tasks: [
 				{
@@ -1102,7 +1096,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "332B79C4C4B9131B"
 			tasks: [{
 				id: "21019B45B2F8A085"
@@ -1113,7 +1106,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "1F038A87254FEE1D"
 			tasks: [{
 				id: "79123C30DC28FC58"
@@ -1124,7 +1116,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "4597A35FA9E02F39"
 			tasks: [
 				{
@@ -1148,7 +1139,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "106698BBBCB7C1D4"
 			tasks: [
 				{
@@ -1177,7 +1167,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			id: "109EED68E3B33A23"
 			tasks: [
 				{
@@ -1206,7 +1195,6 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["Place any of these rich meals on a table if you ever get the urge to host a dinner party"]
 			id: "1937DD93F6E3F6E8"
 			tasks: [

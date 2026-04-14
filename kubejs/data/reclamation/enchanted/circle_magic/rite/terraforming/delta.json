@@ -5,7 +5,11 @@
       "Count": 1
     },
     {
-      "id": "reclamation_util:filled_biome_bottle",
+      "id": "minecraft:quartz_block",
+      "Count": 2
+    },
+    {
+      "id": "primalmagick:essence_shard_earth",
       "Count": 1
     },
     {
