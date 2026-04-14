@@ -5,7 +5,7 @@
 	default_quest_shape: ""
 	filename: "how_the_world_came_to_be"
 	group: ""
-	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:dirt"
 	id: "2B630DD43CEBA9AC"
 	images: [
@@ -655,11 +655,59 @@
 				xp: 100
 			}]
 			size: 0.75d
-			title: "[SOLAR TOOLS HERE]"
+			tasks: [{
+				id: "415930932823DC85"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sunblockcore:solar_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Solar Tools"
 			x: -11.625d
 			y: 40.125d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&7The land has been depleted of its minerals and natural resources.&r Perhaps it's for the best,&e living in abundance didn't seem to do much for civilizations long-past."
 				""

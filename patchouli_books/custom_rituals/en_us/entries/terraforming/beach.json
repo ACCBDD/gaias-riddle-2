@@ -1,7 +1,7 @@
 {
   "name": "Beach",
   "icon": "minecraft:kelp",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

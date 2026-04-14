@@ -45,7 +45,7 @@
 	tools = true
 	tweaks = true
 	world = true
-	mobs = true
+	mobs = false
 	client = true
 	experimental = true
 	oddities = true
@@ -318,9 +318,6 @@
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
 
-	[management.hotbar_changer]
-		"Animation Time" = 7.0
-
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
 		"Enable Player Inventory In Chests" = true
@@ -336,6 +333,9 @@
 
 	[management.quick_armor_swapping]
 		"Swap Off Hand" = true
+
+	[management.hotbar_changer]
+		"Animation Time" = 7.0
 
 [tools]
 	Abacus = true
@@ -775,8 +775,8 @@
 	"Fairy Rings" = true
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
-	"Monster Box" = true
-	"Nether Obsidian Spikes" = true
+	"Monster Box" = false
+	"Nether Obsidian Spikes" = false
 	"New Stone Types" = true
 	"No More Lava Pockets" = true
 	Permafrost = true

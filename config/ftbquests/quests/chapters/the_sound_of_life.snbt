@@ -5,13 +5,14 @@
 	default_quest_shape: ""
 	filename: "the_sound_of_life"
 	group: ""
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:egg"
 	id: "384351F130068923"
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""
@@ -497,12 +498,11 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				advancement: "minecraft:nether/explore_nether"
-				criterion: ""
-				icon: "minecraft:netherrack"
-				id: "45591ED68D7E8CAC"
-				title: "Visit Every Nether Biome"
-				type: "advancement"
+				biome: "minecraft:crimson_forest"
+				icon: "minecraft:crimson_nylium"
+				id: "553D2B07815C871D"
+				title: "Visit Crimson Forest"
+				type: "biome"
 			}]
 			title: "Crimson Forest Conversion"
 			x: -7.0d
@@ -557,12 +557,7 @@
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
-			description: ["With the power of Primal Magick Alchemy, you can create artificial gem buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
+			description: ["With the power of Primal Magick Alchemy, you can create artificial amethyst buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
 			id: "353D9BFD7D818C0A"
 			size: 1.0d
 			tasks: [{
@@ -932,11 +927,118 @@
 		}
 		{
 			dependencies: ["342593F659795624"]
-			description: ["VOID QUEST OOOO SPOOKY"]
+			description: ["Forbidden! Magic!"]
 			id: "6A2794045017BBCC"
-			title: "Void Quest"
+			tasks: [{
+				id: "74D51AA55A9DD78C"
+				item: "primalmagick:rune_power"
+				type: "item"
+			}]
+			title: "Power Rune"
 			x: -9.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["22F15EC1DF24B1D8"]
+			description: [
+				"Now that you have quartz and a couple of ways you can make slime, you have access to a portable vacuum set that you can craft to go around and suck up any pollution in the air that you might find or generate on-the-go. "
+				""
+				"You might need to be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of flying..."
+				""
+				"&7Hint: Look for something fun in the transportation tab!"
+			]
+			hide_dependency_lines: true
+			id: "1B1E164CF7EAF61C"
+			tasks: [
+				{
+					id: "28B2624E894AC01B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "354C5A92110FC786"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0992C0993A6BBB8A"]
+			description: ["how many skulls would a sniffer snuff if a sniffer could snuff skulls?"]
+			icon: "minecraft:sniffer_egg"
+			id: "2473155B0BCBB9EF"
+			tasks: [
+				{
+					id: "48402F7641F6F927"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "481E785A6C469C89"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -23.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"

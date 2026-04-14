@@ -1,7 +1,7 @@
 {
   "name": "Ocean",
   "icon": "minecraft:seagrass",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

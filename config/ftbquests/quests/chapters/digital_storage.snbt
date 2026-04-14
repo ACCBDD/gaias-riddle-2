@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "digital_storage"
 	group: "2D16A7632466DF66"
+	hide_quest_details_until_startable: true
 	icon: "mcwfurnitures:cabinet_drawer"
 	id: "6624F3E176990B6A"
 	order_index: 2

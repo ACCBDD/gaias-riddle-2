@@ -1,7 +1,7 @@
 {
   "name": "Mushroom Field",
   "icon": "minecraft:red_mushroom_block",
-  
+  "advancement": "reclamation:biome_essence",
   "category": "patchouli:terraforming",
   "pages": [
     {

@@ -5,11 +5,15 @@
       "Count": 1
     },
     {
+      "id": "reclamation_util:filled_biome_bottle",
+      "Count": 1
+    },
+    {
       "id": "minecraft:grass",
       "Count": 1
     },
     {
-      "id": "ars_noveau:earth_essence",
+      "id": "minecraft:fern",
       "Count": 1
     },
     {
