@@ -1040,6 +1040,132 @@
 			x: -9.0d
 			y: -23.0d
 		}
+		{
+			dependencies: ["651178F97CEC54E5"]
+			id: "7F9E20C61B8A5E79"
+			tasks: [{
+				id: "7A1009269635073D"
+				item: "primalmagick:hexium_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"1852F8A48B423A9C"
+				"7F9E20C61B8A5E79"
+			]
+			description: [
+				"With the power of forbidden magic, you can upgrade your artificial fonts to store twice as much mana."
+				""
+				"&7Tip: focus on the Manaweaving research line to find out how!"
+			]
+			id: "55FA7684B4B60D34"
+			tasks: [{
+				id: "684C21E4BBDF8CC2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_blood"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_infernal"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_void"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_earth"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_sea"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_sky"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_sun"
+							}
+							{
+								Count: 1b
+								id: "primalmagick:forbidden_font_moon"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Forbidden Mana Fonts"
+			x: -16.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7F9E20C61B8A5E79"]
+			description: [
+				"Researching the source of Blood imparts you with the knowledge of a spell to sever the very soul from living beings. Putting these soul slivers together results in a &6Soul Gem,&r very useful for &6creating life&r through the use of &6Sanguine Cores.&r"
+				""
+				"&7Tip: research blood spells and alchemy to understand how to sever souls!"
+			]
+			icon: "primalmagick:sanguine_crucible"
+			id: "25CB9C04CC13150C"
+			tasks: [
+				{
+					id: "1C5E3E6B8B56E932"
+					item: "primalmagick:sanguine_crucible"
+					type: "item"
+				}
+				{
+					id: "56D6D5F20E0375BF"
+					item: "primalmagick:soul_gem"
+					type: "item"
+				}
+				{
+					id: "45B75ABF290AA033"
+					item: "primalmagick:sanguine_core_blank"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"37602D5348FD8503"
+				"7F9E20C61B8A5E79"
+			]
+			description: ["With the addition of some specially-made hexium parts, your Auto-Charger can be upgraded to store mana itself, letting you charge wands faster and letting your fonts accumulate more mana for later."]
+			id: "290F2DDF95AF2212"
+			tasks: [{
+				id: "66E0EDF6B9961F0C"
+				item: "primalmagick:mana_nexus"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7F9E20C61B8A5E79"]
+			description: ["Hexium wand caps are very conductive to mana, providing a 10% mana discount to wands!"]
+			id: "3D1A25FAF222C8CF"
+			tasks: [{
+				id: "1D8C4F57073E7351"
+				item: "primalmagick:hexium_wand_cap_item"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -13.0d
+		}
 	]
 	title: "Chapter 4: Sounds of Life"
 }

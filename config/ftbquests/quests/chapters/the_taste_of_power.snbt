@@ -180,6 +180,11 @@
 		}
 		{
 			dependencies: ["35DB920DC7230DF3"]
+			description: [
+				"To take your magic to the next level, you'll need to fight your own inner demons. Using a &6special sanguine core&r in your &6sanguine crucible,&r you can summon a manifestation of all your accumulated sins. This should result in enlightenment, but you'll have to &4defeat your demons first...&r"
+				""
+				"&7Tip: make sure you're prepared for a fight!"
+			]
 			id: "295DA7914131F472"
 			tasks: [
 				{
@@ -194,55 +199,60 @@
 				}
 			]
 			title: "Hallowed Magic"
-			x: -4.0d
+			x: -6.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: ["The pinnacle of all wand gems, the Archmage wand gem can store up to 2,500 points of mana of each source."]
 			id: "008633FFB4AE587E"
 			tasks: [{
 				id: "0A8F49595D28C54D"
 				item: "primalmagick:archmage_wand_gem_item"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: ["Saintswool robes are even stronger than Hexweave, and provide an even larger mana discount."]
 			id: "131ECE58FE32C7D2"
 			tasks: [{
 				id: "054B4528F332DFBB"
 				item: "primalmagick:saintswool"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -7.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: ["Hallowsteel is lighter, stronger, and more mana-conductive than even Hexium, with all the benefits that entails."]
 			id: "3C3C111CE38EC818"
 			tasks: [{
 				id: "51315D37A0CDDE38"
 				item: "primalmagick:hallowsteel_ingot"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: ["The Heavenly Calcinator can produce clusters, the highest tier of crystallized mana at 100 points. It also runs faster than previous tiers."]
 			id: "3839AA364416C793"
 			tasks: [{
 				id: "6D83C500EC6F9C54"
 				item: "primalmagick:calcinator_heavenly"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["3C3C111CE38EC818"]
+			description: ["Hallowsteel can upgrade your forbidden fonts, allowing them to hold ten times as much mana."]
 			id: "4C4585386FB09488"
 			tasks: [{
 				id: "15789B997FE35D67"
@@ -293,55 +303,66 @@
 				type: "item"
 			}]
 			title: "Heavenly Fonts"
-			x: -7.0d
+			x: -9.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["3C3C111CE38EC818"]
+			description: ["Hallowsteel wand caps provide a fifteen percent discount to all crafting when used on a wand."]
 			id: "0E16A38927534EBF"
 			tasks: [{
 				id: "237D0C2958681E08"
 				item: "primalmagick:hallowsteel_wand_cap_item"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -9.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: ["Hallowood is a fantastic, renewable source of Hallowed mana."]
 			id: "30EFA914B66BCCCB"
 			tasks: [{
 				id: "0D1630C06AA8C220"
 				item: "primalmagick:hallowood_sapling"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3C3C111CE38EC818"]
+			description: ["The Mana Singularity, like the Mana Nexus before it, can store accumulated mana from all nearby sources - such as fonts - for quick charging of wands placed inside. "]
 			id: "1FE89B587EBA9789"
 			tasks: [{
 				id: "609EEBB00713CF09"
 				item: "primalmagick:mana_singularity"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -8.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["30EFA914B66BCCCB"]
+			description: ["The Pure Primal wand core is the pinnacle of wandmaking - it naturally recharges all types of mana, provides a large discount to all workings, and can store four spells."]
 			id: "666D632527A45E76"
 			tasks: [{
 				id: "67A519C35961F3E8"
 				item: "primalmagick:pure_primal_wand_core_item"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
+			description: [
+				"Your understanding of the harmony within all living things allows you to bring out the latent potential in all types of crystals, resulting in a budding version!"
+				""
+				"Note that the process is flawed, and will require you to periodically re-energize the block to continue growth."
+				""
+				"&7Tip: focus on researching alchemy to unlock these!"
+			]
 			id: "186EE0C0B7E3AC8B"
 			tasks: [{
 				id: "5A90B54E2EE2F58A"
@@ -368,7 +389,7 @@
 				type: "item"
 			}]
 			title: "Synthetic Buds"
-			x: -3.0d
+			x: -5.5d
 			y: 8.0d
 		}
 	]
