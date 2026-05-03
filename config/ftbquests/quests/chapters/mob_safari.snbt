@@ -5,6 +5,8 @@
 	default_quest_shape: ""
 	filename: "mob_safari"
 	group: "2BFAC9C95DAED88B"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "exposure:camera"
 	id: "7F55650372975893"
 	order_index: 2
@@ -47,7 +49,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["389C82D9424B4099"]
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"In this new post-apocalyptic world, you've realized that it might be a good idea to document what lifeforms exist - just in case it happens again. "
 				""

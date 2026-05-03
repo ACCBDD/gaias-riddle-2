@@ -6,6 +6,7 @@
 	filename: "how_the_world_came_to_be"
 	group: ""
 	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:dirt"
 	id: "2B630DD43CEBA9AC"
 	images: [
@@ -167,8 +168,8 @@
 			image: "illustrations:textures/quests/sunblocklogo.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -7.5d
-			y: 38.0d
+			x: -7.0d
+			y: 39.5d
 		}
 		{
 			color: 16755793
@@ -187,30 +188,6 @@
 			width: 3.3d
 			x: -13.0d
 			y: 38.5d
-		}
-		{
-			height: 1.0d
-			image: "illustrations:textures/quests/solar_axe_full.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -8.5d
-			y: 40.5d
-		}
-		{
-			height: 1.0d
-			image: "illustrations:textures/quests/solar_axe_low.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -10.5d
-			y: 40.5d
-		}
-		{
-			height: 1.0d
-			image: "illustrations:textures/quests/solar_axe_med.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -9.5d
-			y: 40.5d
 		}
 		{
 			color: 11513775
@@ -237,11 +214,24 @@
 			icon: "theurgy:sal_ammoniac_crystal"
 			id: "353FED2BF4FBD8EC"
 			progression_mode: "linear"
-			rewards: [{
-				id: "27F410B6A92272C2"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "27F410B6A92272C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DF36F24A31274FA"
+					item: {
+						Count: 1
+						id: "modonomicon:modonomicon"
+						tag: {
+							"modonomicon:book_id": "theurgy:the_hermetica"
+						}
+					}
+					type: "item"
+				}
+			]
 			size: 0.75d
 			tasks: [{
 				id: "3632868B5FA36AE4"
@@ -347,7 +337,7 @@
 			description: [
 				"&l&6Alchemical Salt&r&r&7: to provide minerals and help give structure to fresh dirt."
 				""
-				"&eMake a Calcination Oven, and place it on top of a Pyromantic Brazier&7. Place your materials in the oven, and give the brazier some fuel. this should slowly convert its conotents into Alchemical Salt"
+				"&eMake a Calcination Oven, and place it on top of a Pyromantic Brazier&7. Place your materials in the oven, and give the brazier some fuel. this should slowly convert its contents into Alchemical Salt"
 				""
 				"&8Hint: There are many different kinds of salt, but since you're starting with dirt, focus on getting Strata Salt."
 			]
@@ -543,7 +533,7 @@
 		{
 			dependencies: ["71F2F16098C1DD0D"]
 			description: [
-				"You remember how good chickens are for breaking up that pesky top layer of soil. &7You wish you had their natural affinity for loosening and airating the ground, but alas."
+				"You remember how good chickens are for breaking up that pesky top layer of soil. &7You wish you had their natural affinity for loosening and aerating the ground, but alas."
 				""
 				"&7you wonder if harnessing the power of &ean ender pearl&7, a strong conduit of magic, might allow you to generate enough energy for a transfiguration spell of some kind..."
 				""
@@ -591,11 +581,9 @@
 		{
 			dependencies: ["144A644B058EA9F6"]
 			description: [
-				"&dnote: is this wording more clear for people that were confused by this?"
+				"Your feathery friend will also be able to convert &6sticks placed on the dried dirt&r into &6dried bushes, &ewhich can then be turned into saplings using &6Mutandis&r"
 				""
-				"Your feathery friend will also be able to convert &6sticks placed on the dried dirt&r into &6dried bushes, &ewhich can then be turned into trees using &6Mutandis&r"
-				""
-				"&7You can also break these bushes for additional sticks, and the sticks can then be crafted into scrap wood. &rBoom! Recycling! "
+				"&7Break these bushes for additional sticks, which can then be crafted into scrap wood. &rBoom! Recycling! "
 				""
 				"&8Tip: we're giving you a lead because you're going to want to keep your chicken close by..."
 				""
@@ -644,75 +632,90 @@
 		{
 			dependencies: ["7A9475BF62B9DA1A"]
 			description: [
-				"&7Copper isn't quite as hardy as iron, but &emaybe you can make some tools with the Copepr Ingots you're using&7? You might need a special ingredient though, &rHave you tried checking your recipe catalogue?"
+				"&7Copper isn't quite as hardy as iron, but &emaybe you can make some tools with the Copper Ingots you're using&7? You might need a special ingredient though, &rHave you tried checking your recipe catalogue?"
 				""
-				"Each of these tools has its own special unique ability, but you need to watch your power consumption online... &l&eyour tools will be stronger or weaker depending on the charge of the solar panels this server runs on."
+				"Each of these tools has its own special unique ability, but you need to watch your power consumption online... &eyour tools will be stronger or weaker depending on the charge of the solar panels this server runs on."
+				""
+				"&6You can also mend these tools when the solar power is high enough, all you have to do is crouch :)"
 			]
+			hide_dependency_lines: true
 			id: "48F77FF89702A411"
+			optional: true
 			rewards: [{
 				id: "4194DE412149C7EA"
 				type: "xp"
 				xp: 100
 			}]
-			size: 0.75d
-			tasks: [{
-				id: "415930932823DC85"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sunblockcore:solar_sword"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sunblockcore:solar_pickaxe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sunblockcore:solar_axe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sunblockcore:solar_hoe"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "sunblockcore:solar_shovel"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+			size: 2.0d
+			tasks: [
+				{
+					id: "121EA1C276957C7E"
+					item: {
+						Count: 1
+						id: "sunblockcore:solar_pickaxe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0F9BF940B90CC61E"
+					item: {
+						Count: 1
+						id: "sunblockcore:solar_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DD75F31C6B2F4B9"
+					item: {
+						Count: 1
+						id: "sunblockcore:solar_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC56E3EDDC2E83B"
+					item: {
+						Count: 1
+						id: "sunblockcore:solar_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64A61644506AF442"
+					item: {
+						Count: 1
+						id: "sunblockcore:solar_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Solar Tools"
-			x: -11.625d
-			y: 40.125d
+			x: -9.5d
+			y: 39.5d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&7The land has been depleted of its minerals and natural resources.&r Perhaps it's for the best,&e living in abundance didn't seem to do much for civilizations long-past."
 				""
-				"You have no choice but to turn your attention elsewhere. &eYou don't have coal or iron, but what &oDO&r&e you have?&r "
+				"You have no choice but to turn your attention elsewhere. &eYou can't find coal or iron by mining, but what &oDO&r&e you have?&r "
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_ore"
 			id: "31BD82CC3092134D"
 			size: 1.3d

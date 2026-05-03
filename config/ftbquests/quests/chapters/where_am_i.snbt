@@ -5,27 +5,19 @@
 	default_quest_shape: ""
 	filename: "where_am_i"
 	group: ""
-	hide_quest_until_deps_complete: true
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "kubejs:dried_earth"
 	id: "63323902453D1E65"
 	images: [
-		{
-			height: 3.5d
-			image: "illustrations:textures/quests/placeholderbook.png"
-			order: 10
-			rotation: 0.0d
-			width: 5.0d
-			x: -4.0d
-			y: 0.0d
-		}
 		{
 			height: 2.0d
 			image: "illustrations:textures/quests/hudpreview.png"
 			order: 8
 			rotation: 0.0d
 			width: 3.0d
-			x: -5.0d
-			y: -4.5d
+			x: -4.410714285714285d
+			y: -4.696428571428573d
 		}
 		{
 			height: 3.0d
@@ -35,16 +27,6 @@
 			width: 3.0d
 			x: -5.5d
 			y: -3.0d
-		}
-		{
-			color: 11355214
-			height: 5.0d
-			image: "illustrations:textures/quests/tutorials.png"
-			order: 7
-			rotation: 50.0d
-			width: 5.0d
-			x: 5.5d
-			y: -0.5d
 		}
 		{
 			height: 2.0d
@@ -62,16 +44,6 @@
 			x: 5.5d
 			y: -4.0d
 		}
-		{
-			corner: true
-			height: 3.0d
-			image: "illustrations:textures/quests/image.png"
-			order: 1
-			rotation: 0.0d
-			width: 20.0d
-			x: -0.5d
-			y: -2.0d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -81,7 +53,7 @@
 			description: [
 				"You look for &atrees&r to make tools and build a shelter, &7but all you see are gnarled stumps of dry wood."
 				""
-				"You scan the horizon for &esomething to eat...&7 A lone cave spider scurries accross a hill in the distance. "
+				"You scan the horizon for &esomething to eat...&7 A lone cave spider scurries across a hill in the distance. "
 				""
 				"&7You are unsure of what to do or how to make your way in the world around you.&r It seems that you are the only living, crafting thing in sight."
 			]
@@ -95,21 +67,7 @@
 				type: "checkmark"
 			}]
 			x: 0.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3DCF6729CE12A190"]
-			description: [
-				"Curious about our design process? Have a question about a specific quest? Check out the field guide on how we built our game here :)"
-				""
-				"[Clickable Link to field guide]"
-			]
-			hide_dependency_lines: true
-			id: "25641F0E336D6C14"
-			size: 0.5d
-			title: "Field Guide"
-			x: -2.25d
-			y: 0.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3DCF6729CE12A190"]
@@ -139,14 +97,17 @@
 				"There is a reason you are here; though it may not be the reason you think."
 				""
 				"&7In this modpack we ask that you carry with you the knowledge that &ethere is, in fact, still life around you&7, and that it may present itself to you if you &elearn to work with the environment&r&7 instead of against it."
+				""
+				"&6&lWe ask you: &r&6what does a forest look like when you build it? What do you need to make it your home and a sustainable source of resources?"
 			]
-			icon: "desert:dry_grass"
+			icon: "naturaldecormod:wetland_tall_grass"
 			id: "26B723F490599EA8"
 			rewards: [{
 				id: "627E9EB86CB7AF2E"
 				type: "xp"
 				xp: 100
 			}]
+			size: 2.0d
 			subtitle: "because you still listen, because in times like these"
 			tasks: [{
 				id: "609C9A97E5039109"
@@ -185,17 +146,10 @@
 		{
 			dependencies: ["45541AB63751B359"]
 			description: [
-				"&dnote: would this be better in ch 1?"
-				""
-				"&7You'll notice pollution generates when you try to use a furnace. "
+				"&7You'll notice pollution generates when you do certain things in this modpack. Don't forget that the way you play has consequences."
 				""
 				"&rUnfortunately, you won't be able to do anything about this until you can make a &l&echimmney&r and a &l&efilter&r for your furnace. "
 			]
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
 			icon: "adpother:sulfur"
 			id: "42AE68E909116CAA"
 			size: 0.5d
@@ -263,10 +217,6 @@
 				""
 				"Luckily, your recipe browser &6EMI&r has your back. &7Hover over an item and &epress R&7 to look up a recipe, or &epress U&7 to view the uses for a specific item you're researching."
 			]
-			hide_details_until_startable: false
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
 			icon: "minecraft:crafting_table"
 			id: "680C129D9E5B7A20"
 			size: 0.5d
@@ -306,11 +256,6 @@
 				""
 				"&eWhat do you think this land might ask of you had it the opportunity?"
 			]
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
 			icon: "supplementaries:globe_sepia"
 			id: "45541AB63751B359"
 			subtitle: "to have you listen at all, it's necessary to talk about trees"
@@ -329,7 +274,7 @@
 				""
 				"Could it be? &7You thought you saw a glimmer of movement in the water!"
 				""
-				"Is it possible you aren't on your own in weather-worn hills and valleys you trapse? "
+				"Is it possible you aren't on your own in weather-worn hills and valleys you walk over? "
 				""
 				"Yes! Fish!"
 				""
@@ -364,7 +309,7 @@
 			description: [
 				"&8Hint: To complete this quest, craft whatever item the \"Tasks\" box shows you."
 				""
-				"&7You can either burn charcoal in your furnace; &ror, if you want to avoid extra pollution, you can get it by chopping dead logs of wood on a cutting board. "
+				"&7You can either burn logs in your furnace to get charcoal; &ror, if you want to avoid extra pollution, you can get it by chopping dead logs of wood on a cutting board. "
 			]
 			id: "2F106228F81876B4"
 			size: 0.5d
@@ -407,13 +352,9 @@
 			description: [
 				"&8Tip: This is a quest that can be instantly completed. Simply click the checkmark underneath \"Tasks\" at the top of the window. "
 				""
-				"&7The world looks different. &eThe earth beneath your feet is hard and dry... the water murky and brown. &rThe sun beats down on you, &7casting shadows of dead grass and old relics onto the copper-colored dirt. "
+				"You must feel disoriented... That was quite a vivid dream, you can almost hear the birds chirping in the trees around you. &6Wait. Where are all of the trees?&e The earth beneath your feet is hard and dry... the water murky and brown. &rThe sun beats down on you, &7casting shadows of dead grass and old relics onto hot copper-colored dirt. "
 			]
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: true
 			icon: "supplementaries:globe"
 			id: "3DCF6729CE12A190"
 			shape: "square"
@@ -424,9 +365,9 @@
 				title: "Where am I?"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -4.5d
 		}
 	]
-	title: "Prologue: Where am I?"
+	title: "Where am I?"
 }

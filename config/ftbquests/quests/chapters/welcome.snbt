@@ -10,25 +10,100 @@
 	quests: [
 		{
 			dependencies: ["441CCBE08B89C06D"]
-<<<<<<< Updated upstream
 			description: ["Make an axe!"]
-=======
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
->>>>>>> Stashed changes
 			id: "6BD53DEB696AC6FD"
-			progression_mode: "flexible"
-			require_sequential_tasks: false
 			tasks: [{
 				id: "5A39795081659243"
 				item: {
 					Count: 1
-					id: "minecraft:wooden_axe"
+					id: "itemfilters:or"
 					tag: {
-						Damage: 0
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "sunblockcore:solar_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:primalite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:hexium_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primalmagick:hallowsteel_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
 					}
 				}
 				type: "item"
@@ -38,17 +113,12 @@
 			y: 0.5d
 		}
 		{
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
+			description: ["Get Wood!"]
 			id: "441CCBE08B89C06D"
-			progression_mode: "flexible"
-			require_sequential_tasks: false
 			size: 1.5d
+			subtitle: "1+1 = 2"
 			tasks: [{
-				id: "4D7CF3A849A7A1F0"
+				id: "5C80955582A9FEFC"
 				item: {
 					Count: 1
 					id: "itemfilters:or"
@@ -160,7 +230,7 @@
 							}
 							{
 								Count: 1b
-								id: "natures_spirit:saxaul_log"
+								id: "kubejs:dead_log"
 							}
 						]
 					}
@@ -173,11 +243,7 @@
 		}
 		{
 			dependencies: ["6BD53DEB696AC6FD"]
-			hide_details_until_startable: false
-			hide_lock_icon: true
-			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
+			description: ["Sleep through the night."]
 			icon: "minecraft:white_bed"
 			id: "1FA17E4CF9795CB5"
 			tasks: [{
@@ -192,5 +258,5 @@
 			y: -0.5d
 		}
 	]
-	title: "Welcome!"
+	title: "Prologue: Welcome!"
 }

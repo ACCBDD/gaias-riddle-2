@@ -1,9 +1,10 @@
 {
 	autofocus_id: "3480A2CA6D6D3B1B"
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "branching_out"
 	group: "2BFAC9C95DAED88B"
+	hide_quest_until_deps_complete: true
 	icon: "natures_spirit:blue_wisteria_sapling"
 	id: "74E8C1F9087ADB4E"
 	images: [
@@ -28,6 +29,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "3B25461FFBBF70FC"
 			tasks: [{
@@ -39,6 +41,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "0E94E815D160B908"
 			tasks: [{
@@ -50,6 +53,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "45BF69F01210B3D4"
 			tasks: [{
@@ -61,6 +65,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "39263709577A6641"
 			tasks: [{
@@ -72,6 +77,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "46818F34F4A32828"
 			tasks: [{
@@ -83,6 +89,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "71AFF85408AB5347"
 			tasks: [{
@@ -94,6 +101,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "2C1BCDA3333909E6"
 			tasks: [{
@@ -105,6 +113,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "0002CF23CAE53FE1"
 			tasks: [{
@@ -116,6 +125,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["note about podzol spreading if you let them grow naturally without using tree fert"]
 			hide_dependent_lines: true
 			id: "02510AA1661CC408"
@@ -128,6 +138,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependent_lines: true
 			id: "51D673963432B1F7"
 			tasks: [{
@@ -151,6 +162,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "331BE199589A566E"
@@ -212,6 +224,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["note: might not keep this in"]
 			id: "0882B7852786F666"
 			tasks: [{

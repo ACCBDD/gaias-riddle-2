@@ -4,12 +4,14 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "2D16A7632466DF66"
+	hide_quest_until_deps_complete: true
 	icon: "create:brass_casing"
 	id: "58C92B6E0F1AD6CA"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["The Andesite Casing is a crucial part of any kind of mechanical apparatus."]
 			id: "450CA3690585CA60"
 			optional: true

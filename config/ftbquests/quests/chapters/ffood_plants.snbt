@@ -5,46 +5,8 @@
 	default_quest_shape: ""
 	filename: "ffood_plants"
 	group: "2BFAC9C95DAED88B"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "farmersdelight:vegetable_soup"
 	id: "50D63635ACA38A6D"
-	images: [
-		{
-			dependency: "2E15C8681F5D2ACF"
-			height: 5.0d
-			image: "reclamation:textures/quests/vanilla.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: -4.499999999999979d
-			y: -2.5833333333333357d
-		}
-		{
-			dependency: "2E15C8681F5D2ACF"
-			height: 5.0d
-			image: "reclamation:textures/quests/flowers.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 2.0d
-			y: -2.5d
-		}
-		{
-			height: 5.0d
-			image: "reclamation:textures/quests/automation.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: -1.5d
-			y: -8.0d
-		}
-		{
-			height: 2.0d
-			image: "illustrations:textures/quests/farmersdelight.png"
-			rotation: 0.0d
-			width: 5.5d
-			x: -1.0d
-			y: 5.5d
-		}
-	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -65,8 +27,8 @@
 				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -0.5d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -86,8 +48,8 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -0.5d
+			x: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -106,8 +68,8 @@
 				item: "minecraft:beetroot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -126,8 +88,8 @@
 				item: "minecraft:potato"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -146,8 +108,8 @@
 				item: "minecraft:pumpkin"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -166,8 +128,8 @@
 				item: "minecraft:melon_slice"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -186,13 +148,12 @@
 				item: "minecraft:sweet_berries"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Wheat once rippled like golden seas, feeding countless lives. Fields of it marked the heart of many homesteads."]
-			hide_until_deps_complete: true
 			id: "33BAEE563814DCDB"
 			rewards: [{
 				id: "28497B6B69E8F722"
@@ -204,8 +165,8 @@
 				item: "minecraft:wheat"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
@@ -214,7 +175,6 @@
 				""
 				"&7Tip: you might want to only harvest these at night!"
 			]
-			hide_until_deps_complete: true
 			id: "63353784E3C39D83"
 			rewards: [{
 				id: "38617424A6803F65"
@@ -226,13 +186,12 @@
 				item: "enchanted:mandrake_root"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["With deep golden petals and a bitter scent, wolfsbane once grew where night lingered longest. "]
-			hide_until_deps_complete: true
 			id: "1281E40889F822FE"
 			rewards: [{
 				id: "67157A0947DD110C"
@@ -244,13 +203,12 @@
 				item: "enchanted:wolfsbane_flower"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.5d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Snowbells had once blossomed in the coldest reaches, their pale blue petals dusted with frost."]
-			hide_until_deps_complete: true
 			id: "1B02944C57BF74FB"
 			rewards: [{
 				id: "41AA176CD1FDEB6A"
@@ -262,13 +220,12 @@
 				item: "enchanted:icy_needle"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Prized by herbalists for its strange resilience, who claimed it drew strength from the moonlit depths."]
-			hide_until_deps_complete: true
 			id: "6BE467B7626E5085"
 			rewards: [{
 				id: "3C1CF50E65D62199"
@@ -280,8 +237,8 @@
 				item: "enchanted:water_artichoke"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -300,8 +257,8 @@
 				item: "minecraft:brown_mushroom"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -320,8 +277,8 @@
 				item: "minecraft:red_mushroom"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -340,15 +297,15 @@
 				item: "minecraft:bamboo"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"6BE467B7626E5085"
 				"1CE48B2F73EDB8FC"
 			]
-			description: ["Sailors swore it marked safe waters—while some claimed it hid the bones of the drowned."]
+			description: ["Fun fact: kelp is really good for calcination  "]
 			id: "3E746C60CE874EC2"
 			rewards: [{
 				id: "70CFF79AEF57E449"
@@ -360,8 +317,8 @@
 				item: "minecraft:kelp"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -380,8 +337,8 @@
 				item: "minecraft:seagrass"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -400,8 +357,8 @@
 				item: "minecraft:sea_pickle"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 2.5d
+			x: -4.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -420,8 +377,8 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -440,8 +397,8 @@
 				item: "minecraft:warped_fungus"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -460,13 +417,12 @@
 				item: "minecraft:crimson_fungus"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2E15C8681F5D2ACF"]
 			description: ["Once used in deadly draughts and sleeping curses, favored by those who studied the poisoner's art."]
-			hide_until_deps_complete: true
 			id: "0BD99D6E0D93E05F"
 			rewards: [{
 				id: "15D1D07D4B03CF62"
@@ -478,8 +434,8 @@
 				item: "enchanted:belladonna_flower"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 1.0d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -498,8 +454,8 @@
 				item: "supplementaries:flax"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0B5C8BA575972913"]
@@ -790,7 +746,6 @@
 				""
 				"&7Tip: once the strength trait of a flower is high enough, you won't need to plant them on podzol!"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:podzol"
 			id: "0B5C8BA575972913"
 			rewards: [{
@@ -836,95 +791,8 @@
 				item: "minecraft:cactus"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["226F9F21A941389C"]
-			description: [
-				"The &6Horn of the Wild&r lets you harvest a large area of crops without manually collecting them one by one."
-				""
-				"Useful!"
-			]
-			id: "19C29BAAD5DD7FC9"
-			rewards: [
-				{
-					count: 2
-					id: "6F6540D364BC0D01"
-					item: "botania:black_lotus"
-					type: "item"
-				}
-				{
-					id: "6CDDB66742A5ADC6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "7DD35B7FE457E8E6"
-				item: "botania:horn_grass"
-				type: "item"
-			}]
 			x: -1.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["19C29BAAD5DD7FC9"]
-			description: [
-				"The &6Drum of the Wild&r is a block-based version of the horn - set a mana spreader to shoot mana through it and it'll harvest crops nearby."
-				""
-				"Add a &6hopperhock&r and you have fully automatic crop harvesting!"
-			]
-			id: "7F50D792CA810945"
-			rewards: [
-				{
-					count: 2
-					id: "7A71763B1D69CB72"
-					item: "botania:black_lotus"
-					type: "item"
-				}
-				{
-					id: "175BE015E4A98ABB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "2F27C82883801B53"
-				item: "botania:drum_wild"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["226F9F21A941389C"]
-			description: [
-				"The &6Mechanical Harvester&r lets you harvest... mechanically! "
-				""
-				"Attach it to any variety of contraption and as it moves through a crop it will harvest it."
-			]
-			id: "25E18523F7B68AEE"
-			rewards: [
-				{
-					count: 16
-					id: "3FE24E4C19A34887"
-					item: "create:andesite_alloy"
-					type: "item"
-				}
-				{
-					id: "1DFFDBA23A7405AD"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "13B2A676D43F186B"
-				item: "create:mechanical_harvester"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -933,47 +801,12 @@
 			]
 			id: "2CE9933AC4A477E0"
 			tasks: [{
-				id: "5764F851D76C421E"
-				item: {
-					Count: 1
-					id: "agricraft:seed"
-					tag: {
-						genes: {
-							fertility: {
-								dom: 1
-								rec: 1
-							}
-							gain: {
-								dom: 1
-								rec: 1
-							}
-							growth: {
-								dom: 1
-								rec: 1
-							}
-							mutativity: {
-								dom: 1
-								rec: 1
-							}
-							resistance: {
-								dom: 10
-								rec: 10
-							}
-							species: {
-								dom: "farmersdelight:onion"
-								rec: "farmersdelight:onion"
-							}
-							strength: {
-								dom: 1
-								rec: 1
-							}
-						}
-					}
-				}
+				id: "33F9F47CA8ACB43B"
+				item: "farmersdelight:onion"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -988,7 +821,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1003,7 +836,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1017,216 +850,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 8.0d
-		}
-		{
-			id: "58C10F51F2EBF2CE"
-			tasks: [
-				{
-					id: "0A25E9FFADB39A27"
-					item: "farmersdelight:wheat_dough"
-					type: "item"
-				}
-				{
-					id: "0B46AFC05AD72E54"
-					item: "vintagedelight:oat_dough"
-					type: "item"
-				}
-			]
-			x: 0.5d
-			y: 10.0d
-		}
-		{
-			id: "078228586BA1D07D"
-			tasks: [{
-				id: "0F5925A8CC60C719"
-				item: "farmersdelight:raw_pasta"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 10.0d
-		}
-		{
-			id: "7009C76EB79F608B"
-			tasks: [{
-				id: "39D21083390688FE"
-				item: {
-					Count: 1
-					id: "farmersdelight:skillet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.5d
-			y: 7.0d
-		}
-		{
-			id: "396943B36F9B781E"
-			tasks: [{
-				id: "67A24EB31B5772B3"
-				item: "farmersdelight:cooking_pot"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.0d
-		}
-		{
-			id: "4B7A1360EE3A4E03"
-			tasks: [
-				{
-					id: "5FB6868A128DCDAE"
-					item: "farmersdelight:cutting_board"
-					type: "item"
-				}
-				{
-					id: "2E41F8AC2D66A21D"
-					item: {
-						Count: 1
-						id: "farmersdelight:flint_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -3.5d
-			y: 7.0d
-		}
-		{
-			id: "332B79C4C4B9131B"
-			tasks: [{
-				id: "21019B45B2F8A085"
-				item: "farmersdelight:stove"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			id: "1F038A87254FEE1D"
-			tasks: [{
-				id: "79123C30DC28FC58"
-				item: "farmersdelight:full_tatami_mat"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			id: "4597A35FA9E02F39"
-			tasks: [
-				{
-					id: "1C6448D5706D289D"
-					item: "farmersdelight:melon_juice"
-					type: "item"
-				}
-				{
-					id: "08A3F3492063A2E2"
-					item: "farmersdelight:apple_cider"
-					type: "item"
-				}
-				{
-					id: "774F01ADF68DA3F3"
-					item: "farmersdelight:hot_cocoa"
-					type: "item"
-				}
-			]
-			title: "Beverages"
-			x: 1.5d
-			y: 10.0d
-		}
-		{
-			id: "106698BBBCB7C1D4"
-			tasks: [
-				{
-					id: "7A9106ACF35A681B"
-					item: "farmersdelight:kelp_roll"
-					type: "item"
-				}
-				{
-					id: "2FF71F988A60B248"
-					item: "farmersdelight:kelp_roll_slice"
-					type: "item"
-				}
-				{
-					id: "409F0F64D8734319"
-					item: "farmersdelight:cod_roll"
-					type: "item"
-				}
-				{
-					id: "7F96CAAE74AE08F2"
-					item: "farmersdelight:salmon_roll"
-					type: "item"
-				}
-			]
-			title: "Sushi!"
-			x: -1.5d
-			y: 10.0d
-		}
-		{
-			id: "109EED68E3B33A23"
-			tasks: [
-				{
-					id: "3BB05F56CC1F015E"
-					item: "farmersdelight:cake_slice"
-					type: "item"
-				}
-				{
-					id: "1F23C2DA67083CEB"
-					item: "farmersdelight:apple_pie_slice"
-					type: "item"
-				}
-				{
-					id: "1E01C91D6EFFEAB6"
-					item: "farmersdelight:sweet_berry_cheesecake_slice"
-					type: "item"
-				}
-				{
-					id: "2499A59C06EA27C5"
-					item: "farmersdelight:chocolate_pie_slice"
-					type: "item"
-				}
-			]
-			title: "Best thing since sliced bread"
-			x: -2.5d
-			y: 10.0d
-		}
-		{
-			description: ["Place any of these rich meals on a table if you ever get the urge to host a dinner party"]
-			id: "1937DD93F6E3F6E8"
-			tasks: [
-				{
-					id: "0D2142846EF19425"
-					item: "farmersdelight:honey_glazed_ham_block"
-					type: "item"
-				}
-				{
-					id: "5C293A3E3A276E08"
-					item: "farmersdelight:stuffed_pumpkin_block"
-					type: "item"
-				}
-				{
-					id: "06CD260956C8B98E"
-					item: "farmersdelight:roast_chicken_block"
-					type: "item"
-				}
-				{
-					id: "707DBF48C456E934"
-					item: "farmersdelight:shepherds_pie_block"
-					type: "item"
-				}
-				{
-					id: "36E9178E9B2C9D54"
-					item: "farmersdelight:rice_roll_medley_block"
-					type: "item"
-				}
-			]
-			title: "For having company"
-			x: -3.5d
-			y: 10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1239,8 +863,8 @@
 				item: "vintagedelight:peanut"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: 1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1253,8 +877,8 @@
 				item: "vintagedelight:ghost_pepper"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1267,8 +891,8 @@
 				item: "vintagedelight:cucumber"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.0d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1281,8 +905,8 @@
 				item: "vintagedelight:oat"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 9.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1295,8 +919,232 @@
 				item: "vintagedelight:gearo_berry"
 				type: "item"
 			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0BD99D6E0D93E05F"
+				"53D1E7880BE9CBF3"
+			]
+			id: "67FE7413FBCFB59E"
+			tasks: [{
+				id: "680737DBFF8895D6"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67C65DA4BC653420"
+				"67FE7413FBCFB59E"
+			]
+			id: "5B4BDF4EC14F2903"
+			tasks: [{
+				id: "35EDD9E17846E448"
+				item: "botania:light_gray_mystical_flower"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F9400604E8B86D2"
+				"32195AB6E6F75FF1"
+			]
+			id: "67C65DA4BC653420"
+			tasks: [{
+				id: "7323C2143A4C13DF"
+				item: "botania:gray_mystical_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"719CBB4A3D5865A8"
+				"73C8B382D7746660"
+			]
+			id: "375BDE0A421A16B1"
+			tasks: [{
+				id: "1E2A1527C3E0274F"
+				item: "botania:black_mystical_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D608AD6B6F3B596"
+				"67FE7413FBCFB59E"
+			]
+			id: "4F9400604E8B86D2"
+			tasks: [{
+				id: "4CAAD2EED8BF420B"
+				item: "botania:brown_mystical_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73C8B382D7746660"
+				"4CAAD2EED8BF420B"
+			]
+			id: "7E2BD5C497B1143B"
+			tasks: [{
+				id: "7A4B5CD0E3A4AB54"
+				item: "botania:red_mystical_flower"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7D608AD6B6F3B596"
+				"7E2BD5C497B1143B"
+			]
+			id: "5F0FE863580B8DA4"
+			tasks: [{
+				id: "683A2B8DCDCD1A62"
+				item: "botania:orange_mystical_flower"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1281E40889F822FE"
+				"5FA8835DAD8496B6"
+			]
+			id: "7D608AD6B6F3B596"
+			tasks: [{
+				id: "7A6A971DB5C9EDA9"
+				item: "botania:yellow_mystical_flower"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73C8B382D7746660"
+				"7D608AD6B6F3B596"
+			]
+			id: "7E82F342838B1594"
+			tasks: [{
+				id: "1E65357641A0AAA9"
+				item: "botania:lime_mystical_flower"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73C8B382D7746660"
+				"7D608AD6B6F3B596"
+			]
+			id: "30EC304FB4E74FCA"
+			tasks: [{
+				id: "569C71D095F17425"
+				item: "botania:green_mystical_flower"
+				type: "item"
+			}]
 			x: -2.5d
-			y: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"67C65DA4BC653420"
+				"1AD960F38D986F1A"
+			]
+			id: "5548460CD5A9269F"
+			tasks: [{
+				id: "686ADB6F7F615311"
+				item: "botania:cyan_mystical_flower"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"73C8B382D7746660"
+				"67FE7413FBCFB59E"
+			]
+			id: "02BAB188ED379939"
+			tasks: [{
+				id: "55FDE63BB25B8147"
+				item: "botania:light_blue_mystical_flower"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5548460CD5A9269F"
+				"67FE7413FBCFB59E"
+			]
+			id: "73C8B382D7746660"
+			tasks: [{
+				id: "3798C1320E160F61"
+				item: "botania:blue_mystical_flower"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"73C8B382D7746660"
+				"7E2BD5C497B1143B"
+			]
+			id: "08ED8215AD082631"
+			tasks: [{
+				id: "60888471EC1C5E83"
+				item: "botania:purple_mystical_flower"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5F0FE863580B8DA4"
+				"08ED8215AD082631"
+			]
+			id: "719CBB4A3D5865A8"
+			tasks: [{
+				id: "2C2A93F305072098"
+				item: "botania:magenta_mystical_flower"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5548460CD5A9269F"
+				"08ED8215AD082631"
+			]
+			id: "0DF609909D41BA80"
+			tasks: [{
+				id: "45BE23E92B4B7058"
+				item: "botania:pink_mystical_flower"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "Plants Galore"

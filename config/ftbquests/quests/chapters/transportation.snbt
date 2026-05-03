@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "transportation"
 	group: "2D16A7632466DF66"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		id: "createornithopterglider:ornithopterglider"
@@ -19,7 +20,7 @@
 			description: [
 				"Use mechanical crafting to make yourself one of these bad boys and explore further faster "
 				""
-				"(remember that rendering chunks faster uses energy faster)"
+				"(remember that rendering chunks faster uses solar energy faster)"
 			]
 			hide_dependency_lines: false
 			id: "7190820F784341F2"
@@ -35,10 +36,11 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -5.214285714285715d
+			y: -2.6428571428571495d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "2DD5CA92FF1D1310"
 			optional: true
 			tasks: [{
@@ -46,10 +48,11 @@
 				item: "bumbilas_friendly_teleport:wormhole_potion"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -0.357142857142847d
+			y: -3.642857142857153d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "2F22AD4614FEC42A"
 			optional: true
 			tasks: [{
@@ -57,10 +60,11 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -1.9285714285714306d
+			y: 1.0714285714285623d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&dnote: i'm not convinced we need this mod&r"
 				""
@@ -80,10 +84,11 @@
 				type: "item"
 			}]
 			title: "Signpost Travel"
-			x: 0.5d
-			y: -3.5d
+			x: 1.2142857142857224d
+			y: -2.6428571428571495d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["Using circle magic, you can make a witches broomstick to fly around the world to your heart's content"]
 			id: "6754E27BE72D3CD5"
 			optional: true
@@ -92,10 +97,11 @@
 				item: "enchanted:enchanted_broomstick"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.2142857142857224d
+			y: -0.642857142857153d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			id: "1D9EDD7D1F11542E"
 			optional: true
 			rewards: [{
@@ -115,8 +121,62 @@
 				type: "item"
 			}]
 			title: "Glider"
-			x: -5.5d
-			y: -1.5d
+			x: -3.5d
+			y: -2.2142857142857224d
+		}
+		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			id: "11E51038261B8115"
+			tasks: [{
+				id: "69A808D8B9C8D22A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:travel_belt"
+							}
+							{
+								Count: 1b
+								id: "botania:super_travel_belt"
+							}
+							{
+								Count: 1b
+								id: "botania:speed_up_belt"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: ["If you can fish up a saddle you can ride one of the stray camels around in search of lost structures and loot."]
+			id: "4FE2A16EA1DABC6A"
+			tasks: [{
+				id: "433B25D9E1BE4881"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Camels"
+			x: -3.357142857142854d
+			y: -0.2142857142857224d
+		}
+		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			id: "399C804024F2A885"
+			tasks: [{
+				id: "02E14902C57E4232"
+				item: "primalmagick:flying_carpet"
+				type: "item"
+			}]
+			x: -2.499999999999993d
+			y: -3.500000000000007d
 		}
 	]
 	title: "Transportation"

@@ -3,9 +3,9 @@
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
-	default_repeatable_quest: true
 	filename: "the_hunt_for_grass"
 	group: ""
+	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:grass_block"
 	id: "0F8CD7C8C7FD56E6"
@@ -236,16 +236,16 @@
 		}
 	]
 	order_index: 3
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["448ABF53EEACBFA7"]
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"Now that you've made it through Chapter 1, you have dirt! Congratulations!! "
 				""
-				"&eThe next hurdle to jump over is bringing plant life and agricultural practice back into the world&7. This is about finding better ways to sustain yourself and your environment, surely you must be tired of eating apples, eggs, and bread. "
+				"&eThe next hurdle to jump over is bringing plant life and agricultural practice back into the world&7. This is about finding better ways to sustain yourself and your environment. "
 			]
+			hide_until_deps_complete: true
 			id: "000A7EAED7A84968"
 			rewards: [{
 				id: "27EE0E066D607838"
@@ -318,17 +318,15 @@
 		{
 			dependencies: ["44C03608D67B9815"]
 			description: [
-				"&dnote: rewrite this when the quest is fixed"
+				"Unless you get lucky and find an ingot or two, you'll need some way to make iron. "
 				""
-				"Unless you get lucky and find an ingot or two, you'll need some way to make iron ingots. "
+				"Luckily, the Mandrake root has a circulatory system, which works a lot like real hemoglobin."
 				""
-				"Luckily, one of those plants you found has a rudimentary circulatory system, which actually works a lot like real hemoglobin that you can use it to create hemoglobic fluid..."
+				"Basically, you're gonna &6make iron out of the blood in this plant&r by putting it into a &6Sal Ammoniac Accumulator on top of a Cistern&r"
 				""
-				"Basically, you found a &6plant that grows blood&r and you're gonna &6make iron out of it&r by putting it into a &6Sal Ammoniac Accumulator above another Sal Ammoniac Accumulator.&r"
-				""
-				"&7Tip: A Sal Ammoniac tank is meant only for sal ammoniac, so you &oneed&r&7 to place a &lcistern&r&7 below it."
+				"&7Tip: A Sal Ammoniac tank is meant only for sal ammoniac, so you won't be able to use the normal setup for this."
 			]
-			icon: "enchanted:mandrake_root"
+			icon: "kubejs:hemoglobic_fluid_bucket"
 			id: "4CE0C02B0602C06E"
 			rewards: [{
 				id: "4D1374FDFBCF254C"
@@ -347,14 +345,8 @@
 					type: "item"
 				}
 				{
-					id: "517CA9C8618082C7"
-					item: {
-						Count: 1
-						id: "ceramics:fluid_clay_bucket"
-						tag: {
-							fluid: "kubejs:hemoglobic_fluid"
-						}
-					}
+					id: "70DE06294EFF61F1"
+					item: "kubejs:hemoglobic_fluid_bucket"
 					type: "item"
 				}
 			]
@@ -604,7 +596,9 @@
 				""
 				"If you need to produce stronger crops, you can selectively breed the seeds that you plant. "
 				""
-				"&7To start, plant any seeds you have onto &6&lCrop Sticks&r with empty crossed crop sticks in between them."
+				"&7To start, plant any seeds you have onto &r&lCrop Sticks&r with &l&6empty crossed crop sticks in between them."
+				""
+				"&7Tip: to cross crop sticks, click on a set of crop sticks placed in the ground with a second set of crop sticks, et voila!"
 			]
 			icon: "agricraft:magnifying_glass"
 			id: "2E15C8681F5D2ACF"
@@ -715,7 +709,7 @@
 		{
 			dependencies: ["1792BA6A0845320F"]
 			description: [
-				"&7That was &fA LOT&7 of info... what it boils down to is &ehigher numbers = better. &rUse bonemeal on crop sticks to speed up the crossbreeding process. "
+				"&7That was &fA LOT&7 of info... what it boils down to is &ehigher numbers = better. &6Plant any seeds you have onto empty crop sticks adjacent to crossed crop sticks to get more crops and expand your farm. &rUse bonemeal on crop sticks to speed up the process. "
 				""
 				"If your plant is not growing, look at it while crouching - it might need a different type of soil."
 				""
@@ -748,6 +742,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"Now, you can start to expand your farm by cross-breeding different crops to make &e&lmany&r more yummy snacks!"
 				""
@@ -755,8 +750,7 @@
 				""
 				"&8Crops can be recessive! Use your magnifying glass.&r"
 			]
-			hide_until_deps_complete: false
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "658C67ABFD247487"
 			rewards: [{
 				id: "63DAC576E1524B28"
@@ -777,8 +771,8 @@
 				}
 			]
 			title: "Edible Plants"
-			x: 6.0d
-			y: -5.0d
+			x: 5.982142857142854d
+			y: -4.535714285714285d
 		}
 		{
 			dependencies: ["658C67ABFD247487"]
@@ -839,11 +833,7 @@
 		}
 		{
 			dependencies: ["1525FDF792FDFA20"]
-			description: [
-				"&6&lComposters&r&r are a much more efficient way to collect fertalizer &7(bone meal). &7Reduce, Reuse, Recycle, right?&r"
-				""
-				"&7You'll need some stronger wood for that though... &rbetter focus on getting trees first."
-			]
+			description: ["&6&lComposters&r&r are a much more efficient way to collect fertalizer &7(bone meal). &7Reduce, Reuse, Recycle, right?&r"]
 			id: "4A6F59E74183ACCD"
 			rewards: [
 				{
@@ -867,7 +857,9 @@
 			y: -6.0d
 		}
 		{
-			description: ["You can get &6straw&r by cutting grass or wheat with a knife. &7Use it to make leads, ropes, and building blocks!"]
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: ["You can get &6straw&r by cutting grass or wheat with a knife. &7Use it to make leads, ropes, and string!"]
+			hide_until_deps_complete: true
 			icon: "farmersdelight:straw"
 			id: "07339A3B3E7714B3"
 			rewards: [
@@ -940,23 +932,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["6831CB6AC2CE40C6"]
-			description: ["&6Fume Funnels,&r when placed next to a Witch's Oven, raise the chance of getting fumes from items."]
-			id: "101A61A74FD4E38A"
-			rewards: [{
-				id: "5C5154DC1D3C9E50"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "60223DF57FAF6164"
-				item: "enchanted:fume_funnel"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["4CE0C02B0602C06E"]
 			description: [
 				"&7Those godforsaken mandrake shrieks really are awful. &rMake some &6earmuffs!&r They'll protect you from getting your ears blown out by their piercing scream."
@@ -1011,7 +986,9 @@
 			y: -3.2500000000000004d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: ["&7You'll notice there's another chapter titled &6&lPlants Galore&r&7, &rthis is where you can easily view which crops  flowers, and eventually, trees can be accessed in this modpack. "]
+			hide_until_deps_complete: true
 			icon: "minecraft:farmland"
 			id: "20CC76BFBCDDABE9"
 			rewards: [{
@@ -1053,17 +1030,43 @@
 		}
 		{
 			dependencies: ["26833208E1F2EB4B"]
+			description: [
+				"It's important that you get comfortable with the idea of combining magic and science to bring life back to the land around you."
+				""
+				"As you work through this side of chapter 3, consider the ways that playing our game might mirror your relationship to the ecosystem you are a part of in the real world, as well."
+			]
 			id: "44C03608D67B9815"
+			rewards: [
+				{
+					id: "3522E6408FB7899E"
+					item: {
+						Count: 1
+						id: "herbalbrews:witch_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2547AAFF7A1C7B5E"
+					item: "quark:seed_pouch"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				id: "7A18B05B2E8D06F0"
 				title: "Magical Agriculture"
 				type: "checkmark"
 			}]
+			title: "Planting with Magic"
 			x: 0.5d
 			y: -7.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			icon: "natures_spirit:blue_wisteria_sapling"
 			id: "2381DAE1637D1BD7"
 			tasks: [{
@@ -1076,33 +1079,32 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["389C82D9424B4099"]
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
-				"It occurs to you eventually that this dry climate is probably prone to burning,,, fast..."
+				"You know that by combining rich natural materials with the earth that it will be better at fostering life. "
 				""
-				"Luckily, now that you know how to create iron, you can make a fire extinguisher, just in case.  "
+				"You also know you've learned a lot about the value in playing &owith&r the patterns of the game environment as it progresses without you."
+				""
+				"While you wait for the trees to grow, you can perform rituals, breed crops, or explore the many other things this modpack has to offer. "
+				""
+				"Do you want to intervene with that rhythm?"
+				""
+				"&7Hint: There's a second page in the crafting recipes that doesn't require coral."
 			]
-			id: "15CAFB9EC61FD06A"
+			id: "66A90CABF3CA33E7"
 			rewards: [{
-				id: "72F570BFF24AC75E"
+				id: "3A8FCF5B13BBC5CA"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "7B8AD6F6421C918D"
-				item: {
-					Count: 1
-					id: "burnt:extinguisher"
-					tag: {
-						Damage: 0
-					}
-				}
+				id: "4C2CF8C790740478"
+				item: "create:tree_fertilizer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.5d
 		}
 	]
-	require_sequential_tasks: true
 	title: "Chapter 2: A Little Greener"
 }

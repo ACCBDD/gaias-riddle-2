@@ -5,6 +5,7 @@
 	default_quest_shape: ""
 	filename: "the_color_green"
 	group: ""
+	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "minecraft:oak_sapling"
 	id: "40E17D40DC433CF2"
@@ -40,7 +41,6 @@
 				""
 				"&lHere's what you know: &r&7The dry ground from before can breathe a little easier, and fallen tree saplings will auto-plant now that they have access to more nutritious dirt."
 			]
-			disable_toast: true
 			icon: "minecraft:grass_block"
 			id: "226F9F21A941389C"
 			rewards: [{
@@ -107,45 +107,10 @@
 			}]
 			title: "Altar"
 			x: 20.25d
-			y: 27.0d
+			y: 28.321428571428577d
 		}
 		{
 			dependencies: ["226F9F21A941389C"]
-			description: [
-				"Using any color dye from flowers combined with bonemeal, you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
-				""
-				"&7Tip: you can also get mystical flower seeds through crossbreeding! Check the side quests tab!"
-			]
-			id: "624E015B09427542"
-			rewards: [
-				{
-					id: "58F7C78A39D0658F"
-					item: "botania:flower_bag"
-					type: "item"
-				}
-				{
-					id: "314D4253EEBA2094"
-					item: "botania:lexicon"
-					type: "item"
-				}
-				{
-					id: "48006DB12ACD550E"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "circle"
-			size: 1.0d
-			tasks: [{
-				id: "04DF51069030E5BD"
-				item: "botania:fertilizer"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 21.0d
-		}
-		{
-			dependencies: ["624E015B09427542"]
 			description: [
 				"The &6Pure Daisy&r can, as its name implies, purify nearby objects. The most important things you should start with are &6logs and stone,&r but there are other things you can purify as well!"
 				""
@@ -173,20 +138,17 @@
 				}
 			]
 			title: "Pure Daisy"
-			x: 16.5d
-			y: 21.0d
+			x: 17.880952380952376d
+			y: 20.80952380952381d
 		}
 		{
-			dependencies: [
-				"2737F0AE3D1835D4"
-				"27C68B6622F186D7"
-			]
+			dependencies: ["2737F0AE3D1835D4"]
 			description: [
 				"The combination of brilliant fiber and nether bricks is superficially similar to the weak gold ore deposits you remember existing in the Nether. "
 				""
 				"They're so similar, in fact, that &6a Pure Daisy will convert Golden Nether Bricks into Nether Gold Ore!&r"
 				""
-				"&7Tip: there is a better way to make brilliant fiber, but you'll need to get blaze powder somehow... "
+				"&7Tip: There are a couple of ways you can speed up this process... You can use a Mana Pulse Spreader combined with a weight lens on nether gold ore, which can then be put in a liquification cauldron from theurgy to get gold sulfur."
 			]
 			icon: "minecraft:gold_ingot"
 			id: "7010ED9A666FF89E"
@@ -235,8 +197,8 @@
 				}
 			]
 			title: "Living Materials"
-			x: 15.5d
-			y: 21.0d
+			x: 15.738095238095237d
+			y: 20.80952380952381d
 		}
 		{
 			dependencies: [
@@ -248,7 +210,7 @@
 				""
 				"You can also make obsidian on the natural altar - but be warned, it's pretty costly aura-wise!"
 				""
-				"&7Tip: A warning: similar to the overworld, the nether is devoid of ores and most other resources."
+				"&7Tip: A warning: similar to the overworld, the nether is devoid of diverse biomes and most resources."
 			]
 			icon: "minecraft:netherrack"
 			id: "27C68B6622F186D7"
@@ -354,8 +316,8 @@
 				}
 			]
 			title: "Natural Altar"
-			x: 26.0d
-			y: 21.0d
+			x: 26.023809523809522d
+			y: 20.761904761904766d
 		}
 		{
 			dependencies: ["5274A282D9182B7C"]
@@ -381,6 +343,8 @@
 				"The Natural Altar won't ever take the aura to a negative level, but &4it will stop working completely if the aura in the area is low enough,&r which means you'll need a way of replenishing it."
 				""
 				"&6Ancient Saplings&r are the most basic way to do this; once grown, if the area's aura is low enough, the tree's leaves will &4slowly wither away,&r &6producing aura in the process.&r"
+				""
+				"&8Tip: Tree fertilizer won't work on these, it overpowers the sapling. Try more classic methods, bone meal will do the trick."
 			]
 			id: "58C55BE2ECDC9FD5"
 			rewards: [{
@@ -483,8 +447,8 @@
 				}
 			]
 			title: "Generating Mana"
-			x: 14.0d
-			y: 21.0d
+			x: 14.023809523809522d
+			y: 20.80952380952381d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -560,8 +524,8 @@
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: 20.25d
-			y: 30.75d
+			x: 20.250000000000007d
+			y: 31.10714285714287d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -593,19 +557,14 @@
 					type: "item"
 				}
 				{
-					id: "0C3773A080F18741"
-					item: "enchanted:kettle"
-					type: "item"
-				}
-				{
 					id: "756133C30FFC6521"
 					item: "enchanted:spinning_wheel"
 					type: "item"
 				}
 			]
 			title: "Tools of the Trade"
-			x: 18.0d
-			y: 30.75d
+			x: 18.392857142857146d
+			y: 31.392857142857153d
 		}
 		{
 			dependencies: ["2FD66F543443B8A8"]
@@ -614,7 +573,7 @@
 				""
 				"&7Tip: There are 16 types of runes"
 				""
-				"&dnote: purpose of black lotus?"
+				"&8note: The black lotus turns into a decent amount of mana when thrown at a mana pool"
 			]
 			id: "5EA3E8FCE4EBBA82"
 			rewards: [
@@ -636,8 +595,8 @@
 				item: "botania:runic_altar"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 25.5d
+			x: 14.071428571428566d
+			y: 25.476190476190474d
 		}
 		{
 			dependencies: ["54838757425A9BA7"]
@@ -735,8 +694,8 @@
 				}
 			]
 			title: "Circle Magic"
-			x: 16.0d
-			y: 33.0d
+			x: 17.17857142857143d
+			y: 32.96428571428572d
 		}
 		{
 			dependencies: ["5EA3E8FCE4EBBA82"]
@@ -765,7 +724,10 @@
 			y: 30.5d
 		}
 		{
-			dependencies: ["1AF1077B69E1551E"]
+			dependencies: [
+				"1AF1077B69E1551E"
+				"018DE12240C13789"
+			]
 			description: [
 				"Distilling blaze powder and gunpowder together in a Distillery will grant you access to &6glowstone!&r. &6Redstone&r is similar, using cinder flour in place of gunpowder."
 				""
@@ -796,7 +758,10 @@
 			y: 29.5d
 		}
 		{
-			dependencies: ["2EF741DB92153BB1"]
+			dependencies: [
+				"2EF741DB92153BB1"
+				"499BFD6DE9F18512"
+			]
 			description: [
 				"The &6Offering Table&r is a special altar that will allow you to convert items into special empowered versions of themselves, most notably tokens and nature-infused ingots."
 				""
@@ -826,8 +791,8 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: 36.0d
+			x: 19.48214285714286d
+			y: 35.12500000000001d
 		}
 		{
 			dependencies: [
@@ -904,8 +869,8 @@
 				}
 			]
 			title: "Bottling Sunlight"
-			x: 23.0d
-			y: 21.0d
+			x: 23.023809523809508d
+			y: 20.761904761904766d
 		}
 		{
 			dependencies: ["6628083C19C5F8CB"]
@@ -1055,8 +1020,8 @@
 				type: "checkmark"
 			}]
 			title: "Finding Mana"
-			x: 22.0d
-			y: 26.0d
+			x: 24.75d
+			y: 25.964285714285722d
 		}
 		{
 			dependencies: ["058AC672AE190DB2"]
@@ -1125,8 +1090,8 @@
 				item: "primalmagick:calcinator_basic"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 32.5d
+			x: 23.535714285714292d
+			y: 32.0357142857143d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1146,15 +1111,20 @@
 				item: "primalmagick:wand_charger"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 33.5d
+			x: 24.55357142857143d
+			y: 32.767857142857146d
 		}
 		{
-			dependencies: ["123DCDE9B7BE279D"]
+			dependencies: [
+				"4632D8B02AF53A58"
+				"58471522D8F69CA4"
+			]
 			description: [
 				"&6Better wands&r are craftable, but you'll have to research their parts..."
 				""
-				"&7Tip: focus on the Sorcery and Manaweaving research line to find out how!"
+				"The best type of &6wand gem&r you'll have access to until you can figure out how to source &6diamonds&r will be the adept wand gem, capable of storing 250 of any type of mana."
+				""
+				"&7Tip: focus on the Sorcery and Manaweaving research line to find out more!"
 			]
 			id: "55F66C3105D9CC5B"
 			rewards: [{
@@ -1163,18 +1133,36 @@
 				xp: 100
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "6426F8092D959694"
-				item: "primalmagick:wand_assembly_table"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 28.5d
+			tasks: [
+				{
+					id: "6426F8092D959694"
+					item: "primalmagick:wand_assembly_table"
+					type: "item"
+				}
+				{
+					id: "2D8AB2CA5F496C20"
+					item: "primalmagick:heartwood_wand_core_item"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00E244A95E64FC47"
+					item: "primalmagick:gold_wand_cap_item"
+					type: "item"
+				}
+				{
+					id: "1A94C865EAD65507"
+					item: "primalmagick:apprentice_wand_gem_item"
+					type: "item"
+				}
+			]
+			x: 22.60714285714286d
+			y: 32.96428571428572d
 		}
 		{
 			dependencies: [
-				"4632D8B02AF53A58"
 				"27FCBC89FFB7BA5D"
+				"55F66C3105D9CC5B"
 			]
 			description: [
 				"&6Rituals&r are a complex crafting process that take items, mana, and ritual props. At first, you'll only be able to make &6manafruit,&r but eventually you'll be &6producing wonders&r befitting your title as a Thaumaturge."
@@ -1188,7 +1176,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 2.0d
+			size: 1.4d
 			tasks: [
 				{
 					id: "422851E3DAAE12F1"
@@ -1209,8 +1197,8 @@
 				}
 			]
 			title: "Rituals"
-			x: 22.0d
-			y: 34.0d
+			x: 21.35714285714286d
+			y: 33.96428571428572d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1230,8 +1218,8 @@
 				item: "primalmagick:primalite_ingot"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 32.0d
+			x: 24.964285714285715d
+			y: 31.60714285714287d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -1251,62 +1239,19 @@
 				item: "primalmagick:rock_salt"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 32.0d
+			x: 21.035714285714285d
+			y: 32.321428571428584d
 		}
 		{
-			description: ["I wonder what this does...."]
-			id: "0AB108957B2088DB"
-			tasks: [{
-				id: "76A5932BB89A6E32"
-				item: "create:tree_fertilizer"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 20.0d
-		}
-		{
-			description: [
-				"Now, there are a couple of ways you can make slime, which means you have access to a portable vacuum set that you can craft to go around and suck up any pollution that you might find or generate on-the-go. "
-				""
-				"You might also be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of flying..."
-			]
-			id: "68558E81E775E5B6"
-			size: 1.0d
-			tasks: [
-				{
-					id: "08714403837E62A3"
-					item: {
-						Count: 1
-						id: "adpother:iron_vacuum_bag"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "764A9818DCD907CE"
-					item: {
-						Count: 1
-						id: "adpother:iron_vacuum_tube"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Breathing Fresh Air"
-			x: 22.0d
-			y: 29.0d
-		}
-		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
 				"&6The power of trees is one of the many things that is overlooked in our wider realities. &rThe air we breathe is thanks to them, the grass that grows is a part of their ecosystem:&7 Healthy trees need healthy air, soil, and water."
 				""
 				"&6Witchcraft will help you &lgrow grass&r&7 in these harsh climates. &eBrew up some brilliant fiber, apply it to the tops of some of your trees, and watch it spread through the treetops. &rOnce you have enough, &6break the leaves&r - the gilded leaves you'll get will be able to crush into a &6fine gold dust,&r perfect for &6rituals of the forest&r."
+				""
+				"&7Tip: There is a better way to make brilliant fiber, but you'll need to get blaze powder somehow... "
 			]
+			hide_until_deps_complete: true
 			id: "45DDC2BAC46D5922"
 			size: 2.0d
 			tasks: [
@@ -1345,112 +1290,41 @@
 				}
 			]
 			title: "Ritual of the Forest"
-			x: 20.0d
-			y: 19.5d
-		}
-		{
-			dependencies: ["1BB5F4B57C2E73DB"]
-			description: [
-				"What's even better than charging your wand from essence dust? &6Creating your own fonts!&r Now you can craft your own fonts, cutting down drastically on travel time or charge time."
-				""
-				"&7Tip: focus on the Manaweaving research line to find out how!"
-			]
-			id: "099A26372529561D"
-			rewards: [{
-				id: "58F0A1FA1D33CC1C"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5975C2CDF18CA03A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_moon"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_earth"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sea"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sun"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:artificial_font_sky"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Artificial Mana Fonts"
-			x: 31.0d
-			y: 35.0d
-		}
-		{
-			dependencies: ["099A26372529561D"]
-			description: [
-				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
-				""
-				"&7Tip: Look for the Magitech research line to find out how!"
-			]
-			id: "1CA5B2CEF12BFB54"
-			rewards: [{
-				id: "5DCC9B6526E2BA11"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "60EF585C9DC807A0"
-				item: "primalmagick:auto_charger"
-				type: "item"
-			}]
-			x: 31.5d
-			y: 36.0d
+			x: 20.142857142857146d
+			y: 19.48214285714286d
 		}
 		{
 			dependencies: ["27C68B6622F186D7"]
-			description: ["In the Nether you'll find &6Ribbits&r These funky creatures escaped the Overworld and set up shop there! You'll be able to trade fish for amethyst gems, as well as many other fun things."]
+			description: ["In the Nether you'll find &6Ribbits&r These funky creatures escaped the Overworld and set up shop there! You'll be able to trade fish for amethyst gems, as well as many other fun things. They have some great local cuisine and beverages on tap too."]
+			icon: "ribbits:toadstool"
 			id: "0F900E721CC074B5"
-			rewards: [{
-				id: "229F289B5F289D11"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "229F289B5F289D11"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "0304D2D38E063163"
+					item: "brewery:beer_hops"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "79046E75393070CE"
+					item: "ribbits:giant_lilypad"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "68F6A3592ABB5A52"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
+			title: "Trading for Amethyst"
 			x: 21.5d
 			y: 22.5d
-		}
-		{
-			dependencies: ["55F66C3105D9CC5B"]
-			description: ["The best type of &6wand gem&r you'll have access to until you can figure out how to source &6diamonds&r will be the adept wand gem, capable of storing 250 of any type of mana."]
-			id: "3E62D952156351FA"
-			rewards: [{
-				id: "56C363D2B7FE2484"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "778A7E2EBA5AAFB2"
-				item: "primalmagick:adept_wand_gem_item"
-				type: "item"
-			}]
-			x: 25.0d
-			y: 29.5d
 		}
 		{
 			dependencies: ["2EF741DB92153BB1"]
@@ -1497,8 +1371,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.0d
-			y: 36.0d
+			x: 15.26190476190476d
+			y: 35.63690476190476d
 		}
 		{
 			dependencies: ["7D5E4A2212C421AE"]
@@ -1520,8 +1394,8 @@
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 35.0d
+			x: 17.821428571428577d
+			y: 34.678571428571445d
 		}
 		{
 			dependencies: ["5A8DD5C84842AD14"]
@@ -1530,7 +1404,7 @@
 				""
 				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
 				""
-				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and the sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
 			]
 			id: "2CF231A8A8C27426"
 			tasks: [
@@ -1561,15 +1435,22 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 26.5d
-			y: 32.0d
+			x: 26.160714285714292d
+			y: 31.553571428571438d
 		}
 		{
+			dependencies: [
+				"1FA17E4CF9795CB5"
+				"45DDC2BAC46D5922"
+			]
 			description: [
-				"There's nothing wrong with wanting to build a home for yourself at this point in the game. You have wood now, meaning it's much easier to make an array of building materials and furniture."
+				"There's nothing wrong with wanting a break. You're allowed to take a moment to take care of yourself and your interests. "
+				""
+				"This is a great time to build a home for yourself. You have wood now, meaning it's much easier to make an array of building materials and furniture."
 				""
 				"In order to take care of your environment it's important to remember the each of us is a part of that environment, and that means you deserve somewhere to be comfortable, and call home in the wilderness. "
 			]
+			hide_dependency_lines: true
 			icon: "supplementaries:fire_pit"
 			id: "35BD2520DFCC8C56"
 			rewards: [{
@@ -1577,29 +1458,26 @@
 				item: "supplementaries:wind_vane"
 				type: "item"
 			}]
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "7D686C50AB5D892D"
 				title: "Building a Base"
 				type: "checkmark"
 			}]
-			x: 20.0d
-			y: 17.0d
-		}
-		{
-			dependencies: ["55F66C3105D9CC5B"]
-			id: "679578625A5004F8"
-			tasks: [{
-				id: "3BCECA7660C7F652"
-				item: "primalmagick:heartwood"
-				type: "item"
-			}]
-			x: 26.0d
-			y: 30.0d
+			x: 25.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["7010ED9A666FF89E"]
-			description: ["&dnote: still have to write this"]
+			description: ["Heartwood is a rare, living wood material. You can obtain it by harvesting sunwood and moonwood trees, and it will be crucial for higher-tiered magical items. "]
 			id: "58471522D8F69CA4"
+			rewards: [{
+				count: 2
+				id: "00569D1CA93DC162"
+				item: "primalmagick:heartwood"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1ABEDBD92C1BD9D8"
@@ -1612,8 +1490,8 @@
 					type: "item"
 				}
 			]
-			x: 21.5d
-			y: 24.0d
+			x: 22.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["499BFD6DE9F18512"]
@@ -1635,8 +1513,327 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 35.0d
+			x: 23.892857142857146d
+			y: 34.89285714285715d
+		}
+		{
+			dependencies: ["7010ED9A666FF89E"]
+			description: [
+				"The Weight Lens, attached to a spreader, makes mana bursts apply gravity to blocks as if they were sand or gravel upon impact. The blocks will fall, and if dropped over the top of a torch will drop in their full block form. "
+				""
+				"&7This is a particularly efficient way of getting gold, because you can use a pure daisy to create nether gold ore, and then use this setup to get the ore blocks and smelt them directly into ingots. "
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "44680DC8009C0423"
+			optional: true
+			rewards: [{
+				id: "173CD7A09D62D981"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "293B61615FE9C376"
+					item: "botania:redstone_spreader"
+					type: "item"
+				}
+				{
+					id: "474293DD942943AC"
+					item: "botania:lens_weight"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["499BFD6DE9F18512"]
+			description: [
+				"Some rituals will require a specially constructed ritual lectern. When a ritual calls for this, you must begin without anything on the lectern. When prompted, you must place an enchanted book onto it to activate it. "
+				""
+				"Other rituals will need one (or more) ritual bells! To make one of these, you will need an extra-ordinary material. Primalite is perfect for this kind of thing. A ritual that requires this bell prop will prompt you to ring it once the ritual has already begun."
+				""
+				"There are also different colored ritual candles that recipes may require, which are easy to craft once you unlock their entry in the Grimoire"
+			]
+			id: "55014A5E45758400"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6F3CFA9F598D67AD"
+					item: "primalmagick:ritual_bell"
+					type: "item"
+				}
+				{
+					id: "6D9877B0C15F6931"
+					item: "primalmagick:ritual_lectern"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "47F43F2391A09337"
+					item: "primalmagick:ritual_candle_white"
+					type: "item"
+				}
+			]
+			title: "Ritual Tools"
+			x: 20.339285714285722d
+			y: 33.267857142857146d
+		}
+		{
+			dependencies: ["4DE7466CAC029EF6"]
+			description: [
+				"Now that you have redstone and a couple of ways you can make slime, you have access to a portable vacuum set that you can craft to go around and suck up any pollution in the air that you might find or generate on-the-go. "
+				""
+				"You might need to be able to get up into the skies and clear up what's built up from the last chapter or so of gameplay... if only you had a way of flying..."
+				""
+				"&7Hint: Look for something fun in the transportation tab!"
+			]
+			hide_dependency_lines: true
+			id: "57A655F2455135E0"
+			tasks: [
+				{
+					id: "72E8167A8FE30EBF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_tube"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322D3E4C5337CF45"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "adpother:iron_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:diamond_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "adpother:gold_vacuum_bag"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Breathing Fresh Air"
+			x: 16.880952380952387d
+			y: 29.523809523809526d
+		}
+		{
+			dependencies: ["2BC025482FFB813C"]
+			description: [
+				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa."
+				""
+				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!"
+				""
+				"This is a metal loop you could try automating... "
+				""
+				"&7Tip: you can start and stop the vats using a redstone signal!"
+			]
+			id: "548D56DAEFDF5AE5"
+			tasks: [{
+				id: "74B9B0EF7B189E20"
+				item: "theurgy:digestion_vat"
+				type: "item"
+			}]
+			x: 26.19642857142857d
+			y: 34.05357142857144d
+		}
+		{
+			dependencies: ["2CF231A8A8C27426"]
+			description: [
+				"You can convert between sulfurs of the same kind and rarity using the reformation array, but if you want to convert between different kinds (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat&r"
+				""
+				"Place &6water, sugar, and the sulfur you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				""
+				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!"
+			]
+			id: "2BC025482FFB813C"
+			rewards: [{
+				id: "168C175D1C584FF9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35327A7F65F7984F"
+				item: "theurgy:fermentation_vat"
+				type: "item"
+			}]
+			title: "Alchemical Conversion"
+			x: 26.19642857142857d
+			y: 32.839285714285715d
+		}
+		{
+			dependencies: [
+				"1FA17E4CF9795CB5"
+				"45DDC2BAC46D5922"
+			]
+			description: [
+				"Looking at the work ahead of you, you can't help but think how tedious this all is. "
+				""
+				"Every time you think you're close to accomplishing a task, there's another thing you're missing. "
+				""
+				"Why go to the trouble? It's just Minecraft, after all. "
+				""
+				"Because in this world, where the mods change how everything around you works, the world has agency, and you have account for things you don't expect. "
+			]
+			hide_dependency_lines: true
+			icon: "botania:mana_pearl"
+			id: "358EFD65569C5977"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "6F9D98FE1E5641E2"
+				title: "This is a Lot..."
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"1FA17E4CF9795CB5"
+				"45DDC2BAC46D5922"
+			]
+			description: [
+				"It's tedious for a reason."
+				""
+				"By creating a world where the landscape makes it harder to progress in its lack of resources, we hope to make players more aware of the energy they extract from their real lives in abundance. "
+				""
+				"Either you put in the work, and stand to learn something about yourself and your relationshiop to the environment, or you play against the game we made and risk missing our message."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "reclamation_util:iron_excavator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "626C31C8EC3834A4"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "05AFB3B28C02C1CA"
+				title: "It's Supposed to be Hard"
+				type: "checkmark"
+			}]
+			x: 22.892857142857146d
+			y: 18.07142857142857d
+		}
+		{
+			dependencies: ["5EA3E8FCE4EBBA82"]
+			description: [
+				"This block is going to be part of your Natural Altar. Placed on top of one of the shorter pillars, it will automatically \"crush\" or transmute blocks and items using aura in the area."
+				""
+				"You will need this for making redstone from netherrack (Check EMI)"
+				""
+				"&8Tip: this is also really good for sand"
+			]
+			id: "018DE12240C13789"
+			tasks: [{
+				id: "5996D0CB105AA300"
+				item: "naturesaura:crushing_catalyst"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: [
+				"Using any color dye from flowers combined with bonemeal, you can craft a special kind of fertilizer that can coax &6mystical flowers&r to life."
+				""
+				"&7Tip: you can also get mystical flower seeds through crossbreeding! Check the side quests tab!"
+			]
+			hide_until_deps_complete: true
+			id: "0F2E0D14DF3DBA86"
+			rewards: [
+				{
+					id: "0EC5301B68E94F16"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "575C70FB63B325A6"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AC32E1C9BE20468"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0F2E0D14DF3DBA86"]
+			description: [
+				"You will want to start a practice of beekeeping, because you will need their honeycomb to make your ritual candles, and they are going to come in handy because they will help you polinate your crops."
+				""
+				"&6A bee's nest can spawn on either a cherry, oak, or birch tree within two blocks of a flower. "
+			]
+			icon: "minecraft:bee_nest"
+			id: "1FF9B9D2CB3917FD"
+			rewards: [{
+				count: 3
+				id: "47D779E40667D1BC"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "710FA58A431D45BA"
+				title: "Bees? "
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 19.5d
 		}
 	]
 	title: "Chapter 3: Growing Roots"

@@ -1,23 +1,34 @@
 {
-	autofocus_id: "22F15EC1DF24B1D8"
+	autofocus_id: "5C12885540007A64"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
 	filename: "the_sound_of_life"
 	group: ""
-	hide_quest_until_deps_complete: true
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:egg"
 	id: "384351F130068923"
+	images: [{
+		height: 12.0d
+		image: "integrateddynamics:aspect/read/boolean/inventory/empty"
+		rotation: 0.0d
+		width: 12.0d
+		x: 5.0d
+		y: -27.0d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
-				"You can trade Tokens of Grief for &6amethyst shards&r and Tokens of Euphoria for &6nether quartz&r - just offer one to a &6Ribbit&r by &6right clicking them&r and they'll exchange you a few gems."
 				""
-				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert materials into that gem's sulfur without having to trade for more! ...you just need to figure out how to turn regular amethyst into budding amethyst somehow...."
+				"&7Tip: once you've made one of a specific kind of gem, you can use Theurgy to convert materials into that gem's sulfur without having to trade for more! "
+				""
+				"&7You wonder if there's a way to turn regular amethyst into budding amethyst somehow...."
 			]
+			hide_until_deps_complete: true
 			id: "22F15EC1DF24B1D8"
 			rewards: [{
 				id: "021801B296B134CB"
@@ -39,8 +50,8 @@
 				}
 			]
 			title: "Gems!"
-			x: -2.0d
-			y: -30.0d
+			x: -3.5714285714285765d
+			y: -29.464285714285715d
 		}
 		{
 			dependencies: ["2D9541697F88FDC4"]
@@ -146,9 +157,11 @@
 		{
 			dependencies: ["2F6FB6D4819EF061"]
 			description: [
-				"With Terrasteel, you can utilize an old ritual to open a &6gateway to Alfheim,&r which you're certain has escaped whatever happened to this world. The portal won't be able to transport living beings, but maybe you can trade for some &6useful materials?&r"
+				"With Terrasteel, and a good source of mana, you can utilize an old ritual to open a &6gateway to Alfheim,&r a land of elves that once lived here, in the more lush times of our world. Perhaps you can re-establish a connection and begin to build a mutually-beneficial relationship? Maybe they have resources that can help you to re-green the world around you."
 				""
-				"&7Tip: For more information on the portal, read your Lexica Botania! For even more than that, throw your entire Lexica Botania into the portal! (but make sure you don't throw your Akashic Tome away!)"
+				"&7The portal won't be able to transport living beings, but maybe you can trade for some useful materials?"
+				""
+				"&8Tip: For more information on the portal, read your Lexica Botania! For even more than that, throw your entire Lexica Botania into the portal! (but make sure you don't throw your Akashic Tome away!)"
 			]
 			icon: "botania:natura_pylon"
 			id: "3E0289A3420971D8"
@@ -486,7 +499,9 @@
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
-				"Getting the nether back into shape is relatively easy, now that you have &6a mineral from the nether&r to focus the raw power of &6infused tokens.&r"
+				"Now that you have &6a mineral from the nether&r to focus the raw power of infused tokens, &6you're ready for your first biome conversion. "
+				""
+				"You feel that getting the nether back into shape is a good place to start. &6You figure it's good to test a ritual this powerful somewhere far away from the forest you've been cultivating. "
 				""
 				"&7Tip: check the new terraforming section of your Reclamation Rituals book to see how to perform the nether terraforming rites!"
 			]
@@ -552,8 +567,8 @@
 				}
 			]
 			title: "Forbidden Magicks"
-			x: -10.0d
-			y: -14.0d
+			x: -10.785714285714285d
+			y: -14.035714285714285d
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
@@ -561,8 +576,8 @@
 			id: "353D9BFD7D818C0A"
 			size: 1.0d
 			tasks: [{
-				id: "485B7FF9D593E1B1"
-				item: "primalmagick:flawed_budding_amethyst_block"
+				id: "1558CBF7667DB0C2"
+				item: "primalmagick:damaged_budding_amethyst_block"
 				type: "item"
 			}]
 			title: "Artificial Budding Gems"
@@ -876,8 +891,8 @@
 				type: "item"
 			}]
 			title: "Artificial Fonts"
-			x: -10.0d
-			y: -25.5d
+			x: -11.035714285714285d
+			y: -24.57142857142857d
 		}
 		{
 			dependencies: [
@@ -885,7 +900,7 @@
 				"30BE3A7A5B8D0883"
 			]
 			description: [
-				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts all at once!"
+				"With the &6Auto-Charger,&r you can charge your wand from multiple nearby fonts (including the artificial ones you just made) all at once!"
 				""
 				"&7Tip: Look for the Magitech research line to find out how!"
 			]
@@ -896,8 +911,8 @@
 				item: "primalmagick:auto_charger"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -20.0d
+			x: -10.964285714285708d
+			y: -22.57142857142857d
 		}
 		{
 			dependencies: [
@@ -911,8 +926,8 @@
 				type: "item"
 			}]
 			title: "Runeworking"
-			x: -9.5d
-			y: -7.5d
+			x: -10.785714285714285d
+			y: -8.178571428571438d
 		}
 		{
 			dependencies: ["342593F659795624"]
@@ -938,7 +953,6 @@
 			x: -9.0d
 			y: -2.0d
 		}
-		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
 				"Now that you have quartz and a couple of ways you can make slime, you have access to a portable vacuum set that you can craft to go around and suck up any pollution in the air that you might find or generate on-the-go. "
@@ -1163,8 +1177,8 @@
 				item: "primalmagick:hexium_wand_cap_item"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -13.0d
+			x: -10.5d
+			y: -27.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"
