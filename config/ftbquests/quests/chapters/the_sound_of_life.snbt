@@ -1063,7 +1063,7 @@
 				item: "primalmagick:hexium_ingot"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -14.0d
 		}
 		{
@@ -1122,7 +1122,7 @@
 				type: "item"
 			}]
 			title: "Forbidden Mana Fonts"
-			x: -16.0d
+			x: -17.0d
 			y: -16.5d
 		}
 		{
@@ -1151,7 +1151,7 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -13.0d
 			y: -12.0d
 		}
 		{
@@ -1166,7 +1166,7 @@
 				item: "primalmagick:mana_nexus"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: -16.0d
 		}
 		{
@@ -1178,8 +1178,8 @@
 				item: "primalmagick:hexium_wand_cap_item"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -27.0d
+			x: -14.5d
+			y: -13.0d
 		}
 	]
 	title: "Chapter 4: Sounds of Life"
