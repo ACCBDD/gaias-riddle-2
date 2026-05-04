@@ -2,7 +2,4 @@
 
 ## Added
 * Updated reclamation_utils
-
-## Changed
-* Biome globe recipes to require empty globe + living shards instead of glazed sand
-* forestkeepers -> forthetrees
+* More quest text in chapter 5!
