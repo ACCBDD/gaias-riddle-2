@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["35DB920DC7230DF3"]
-			description: ["Glazed sand is slowly generated near overcharged sand roses - which spawn when a gust of wind stops near weathered standstone. It does require silk touch to mine, though!"]
+			description: ["These &6living glass shards&r are the perfect material to hold raw concentrated biomic essence for &6easy deployment! &rThey drop from glass skeletons, which seem to &6only spawn in the spreading desert.&r"]
 			icon: "reclamation_util:empty_biome_globe"
 			id: "04D6DD37734683E0"
 			tasks: [{
@@ -133,6 +133,12 @@
 		{
 			dependencies: ["671D5ABC9E1873B2"]
 			id: "05F7EE451D6C0172"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40C1E1C5AC578241"
+				table_id: 3656975251724470054L
+				type: "choice"
+			}]
 			tasks: [{
 				id: "0D7FA2134E44F158"
 				title: "Stay"
