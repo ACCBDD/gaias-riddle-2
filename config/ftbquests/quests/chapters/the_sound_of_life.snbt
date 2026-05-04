@@ -953,6 +953,7 @@
 			x: -9.0d
 			y: -2.0d
 		}
+		{
 			dependencies: ["22F15EC1DF24B1D8"]
 			description: [
 				"Now that you have quartz and a couple of ways you can make slime, you have access to a portable vacuum set that you can craft to go around and suck up any pollution in the air that you might find or generate on-the-go. "
