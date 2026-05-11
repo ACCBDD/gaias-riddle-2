@@ -1848,6 +1848,7 @@
 			y: 19.5d
 		}
 		{
+			dependencies: ["020B8F06D2C86CE3"]
 			description: ["This block will come in handy for maxxing the aura cap on blocks that generate aura, meaning the levels of magic can go above the minimum... Now that's Aura Farming. "]
 			id: "14995FF060A62BFB"
 			rewards: [{

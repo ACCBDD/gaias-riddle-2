@@ -357,12 +357,17 @@
 			y: 1.75d
 		}
 		{
-			dependencies: ["1FA17E4CF9795CB5"]
+			dependencies: [
+				"1FA17E4CF9795CB5"
+				"76724CA2634E1EE9"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&8Tip: This is a quest that can be instantly completed. Simply click the checkmark underneath \"Tasks\" at the top of the window. "
 				""
 				"You must feel disoriented... That was quite a vivid dream, you can almost hear the birds chirping in the trees around you. &6Wait. Where are all of the trees?&e The earth beneath your feet is hard and dry... the water murky and brown. &rThe sun beats down on you, &7casting shadows of dead grass and old relics onto hot copper-colored dirt. "
 			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "supplementaries:globe"
 			id: "3DCF6729CE12A190"
@@ -376,6 +381,44 @@
 			}]
 			x: -1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["4F63212444956964"]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "76724CA2634E1EE9"
+			invisible: true
+			progression_mode: "linear"
+			size: 0.001d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "653D5DE3C3624FFA"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: false
+			disable_toast: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "4F63212444956964"
+			invisible: true
+			progression_mode: "linear"
+			size: 0.001d
+			tasks: [{
+				dimension: "overworldmirror:overworld"
+				disable_toast: true
+				id: "49740B215C59BC32"
+				type: "dimension"
+			}]
+			x: -3.5d
+			y: -7.0d
 		}
 	]
 	title: "Introduction: Where am I?"

@@ -1,0 +1,25 @@
+filename = 'fancymenu_forge_3.9.0_MC_1.20.1.jar'
+name = 'FancyMenu'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Forge] v3.9.0 MC 1.20.1'
+
+[download]
+hash = '1e0b0ec2cc205c009a920ff4909ef08fafd24dce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8032692
+project-id = 367706
+
+[[x-prismlauncher-dependencies]]
+addonId = '410295'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '938643'
+type = 'REQUIRED'

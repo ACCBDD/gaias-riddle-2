@@ -193,10 +193,10 @@
 			icon: "desert:desert_flower_item"
 			id: "05F7EE451D6C0172"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "40C1E1C5AC578241"
-				table_id: 3656975251724470054L
-				type: "choice"
+				icon: "minecraft:end_crystal"
+				id: "17864D7220BBB0AF"
+				title: "Unlock the epilogue"
+				type: "custom"
 			}]
 			tasks: [{
 				id: "0D7FA2134E44F158"
@@ -407,8 +407,8 @@
 				item: "primalmagick:mana_singularity"
 				type: "item"
 			}]
-			x: -25.0d
-			y: 4.5d
+			x: -22.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["30EFA914B66BCCCB"]
@@ -463,7 +463,7 @@
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
-				"Sometimes, without explanation, an anomoly in nature occurs that changes everything; a great flood, a meteor, or a huge volcano eruption. "
+				"Sometimes, without explanation, an anomaly in nature occurs that changes everything; a great flood, a meteor, or a huge volcano eruption. "
 				""
 				"You may have noticed a new biome has taken root where you performed your first ritual for a gaia's ingot: a desert, and it's spreading. "
 				""

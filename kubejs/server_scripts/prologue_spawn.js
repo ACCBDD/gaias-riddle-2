@@ -36,6 +36,12 @@ PlayerEvents.respawned(event => {
 
     if (player.persistentData.getBoolean('endSpawnSet')) {
         player.teleportTo('minecraft:the_end', 100, 51, 0, 0, 0)
+        player.setGameMode('spectator')
+    }
+
+    if (player.persistentData.getBoolean('mirrorSpawnSet')) {
+        player.teleportTo('overworldmirror:overworld', player.persistentData.getInt('mirrorSpawnX'), player.persistentData.getInt('mirrorSpawnY'), player.persistentData.getInt('mirrorSpawnZ'), 0, 0)
+        player.setGameMode('spectator')
     }
 })
 
@@ -73,7 +79,7 @@ PlayerEvents.tick(event => {
     const {player,server,player:{username}} = event
     const message = Component.of('The portal vanishes before your eyes! Maybe it was just a dream...').bold().red()
     if(!(player.age % 20 == 0)) return
-    if (player.persistentData.getBoolean('canAccessMirror') && player.level.dimension === OVERWORLD_DIM) return
+    if (player.persistentData.getBoolean('canAccessMirror') && (player.level.dimension === OVERWORLD_DIM || player.level.dimension === MIRROR_DIM)) return
     if (player.block.id == 'overworldmirror:portal') {
         player.block.set('air')
         player.displayClientMessage(message, true)

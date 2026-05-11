@@ -13,7 +13,7 @@
 			type: "command"
 		}
 		{
-			command: "/say Hi, @p!"
+			command: ""
 			icon: "kubejs:dried_earth"
 			title: "Stay and Rebuild"
 			type: "command"

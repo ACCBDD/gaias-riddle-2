@@ -1,6 +1,7 @@
 {
 	autofocus_id: "4DDD216B1896D127"
 	default_hide_dependency_lines: false
+	default_min_width: 280
 	default_quest_shape: ""
 	filename: "epilogue"
 	group: ""
@@ -12,43 +13,62 @@
 	quests: [
 		{
 			dependencies: ["05F7EE451D6C0172"]
-			icon: "minecraft:ender_eye"
-			id: "14DB8ADD8D9A2802"
+			description: [
+				"A crossroads lies ahead. What will you choose?"
+				""
+				"&7Note: this choice is PERMANENT! Once you make it, you'll be stuck there - forever."
+			]
+			id: "54454F9A0EBC4A14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28AF977E179E9D76"
+				table_id: 3656975251724470054L
+				title: "Choose your ending."
+				type: "choice"
+			}]
 			tasks: [{
-				id: "6ECF669A3B1A6AA7"
+				id: "5B3CC42DD806CFBC"
+				title: "Make your choice."
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["05F7EE451D6C0172"]
-			icon: "quark:yellow_blossom_sapling"
-			id: "4DDD216B1896D127"
+			dependencies: ["54454F9A0EBC4A14"]
+			description: [
+				"To escape into the end, you'll need to create the end portal using a special ritual involving all of the attuned essences."
+				""
+				"&7Tip: check your reclamation rituals book!"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "03B93774C712B896"
+			optional: true
 			tasks: [{
-				id: "6B5C91003AF8AAAB"
-				title: "Stay Here"
+				id: "4F61DC27D006CAC6"
+				title: "End Portal"
 				type: "checkmark"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["05F7EE451D6C0172"]
-			icon: "minecraft:oak_sapling"
-			id: "594BA7DFD3B35FCB"
-			rewards: [{
-				command: "/tp @p "
-				id: "68A98C9CC668B8A6"
-				type: "command"
-			}]
+			dependencies: ["54454F9A0EBC4A14"]
+			description: [
+				"To &6escape into the mirror world,&r you'll need to place a 3x3 square of flowers, surround it with a ring of stone bricks, then &6shift-right-click&r one of the flowers with bonemeal in your hand."
+				""
+				"{image:reclamation:textures/quests/mirror_portal.png width:100 height:100 align:center}"
+			]
+			icon: "minecraft:stone_bricks"
+			id: "28B9678020CF5939"
+			optional: true
 			tasks: [{
-				id: "2A7B1535FEEEEEB0"
-				title: "Go Back"
+				id: "301F78DAA137AF46"
+				title: "Mirror World Portal"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 0.0d
+			x: -1.5d
+			y: -2.5d
 		}
 	]
 	title: "Epilogue: What's Left?"

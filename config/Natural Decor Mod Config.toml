@@ -10,9 +10,9 @@
 	"Spawn Carp" = true
 
 ["NDM Structure Config:"]
-	#Enables or disables Botany Beagle House. Enabled by default.
+	#Enable or disable Botany Beagle House. 
 	"Spawn Botany Beagle House" = true
-	#Enables or disables Koi Pond. Enabled by default.
+	#Enable or disable Koi Pond
 	"Spawn Koi Pond" = true
 
 ["NDM's Spring to life Config:"]
@@ -106,4 +106,8 @@
 	"Spawn Agave" = true
 	#Enables or disables frost flowers (not a true plant). Enabled by default.
 	"Spawn Frost Flowers" = true
+
+["NDM Client Settings:"]
+	#Enable or Disable specific blocks from having ambient sounds
+	"NDM Block Ambient Sounds" = true
 

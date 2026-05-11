@@ -78,8 +78,8 @@
   "gravestone": {
     "grave": true
   },
-  "balm": {
-    "jade": true
+  "underlay": {
+    "overlay": true
   },
   "integrateddynamicscompat": {
     "proxy": true,

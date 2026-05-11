@@ -157,7 +157,7 @@
 		}
 		{
 			height: 0.5d
-			image: "exposure:item/camera_gui_active"
+			image: "exposure:item/camera/camera_gui"
 			rotation: 0.0d
 			width: 0.5d
 			x: -14.0d
@@ -168,8 +168,8 @@
 			image: "illustrations:textures/quests/sunblocklogo.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -10.42857142857143d
-			y: 37.10714285714286d
+			x: -10.5d
+			y: 37.0d
 		}
 		{
 			color: 16755793
@@ -756,24 +756,6 @@
 			title: "Useable Copper"
 			x: -13.0d
 			y: 40.5d
-		}
-		{
-			id: "1441D63E5190F5B0"
-			tasks: [{
-				id: "3A3DD16AFAA49AD9"
-				type: "checkmark"
-			}]
-			x: -7.428571428571431d
-			y: 38.96428571428571d
-		}
-		{
-			id: "3BD05CA76EC54A6D"
-			tasks: [{
-				id: "1FC339456D6D4028"
-				type: "checkmark"
-			}]
-			x: -7.428571428571431d
-			y: 40.03571428571429d
 		}
 	]
 	subtitle: ["what...happened here?"]

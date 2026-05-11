@@ -4,8 +4,12 @@
 * Mods
     * Kotlin for Forge
     * Spice of Life: Carrot Edition
+    * FancyMenu
+    * Konkrete
+    * Melody
 * Stone recipes
-
+* Fancy menu
+* Full implementation of ending
 
 ## Updated
 * Addons Lib 1.5 -> 1.8
@@ -81,6 +85,7 @@
 * Spreading desert can be blocked by trees no matter what
 * Default windowed size to 1024x768
 * Rearranged plant quests
-* Fancy menu
 * Rearranged and updated mob safari quests
 * Rearranged and reworded some chapter 3 quests
+* Many more slight changes to quests
+* Main questline unlocks even if prologue 'fails'
