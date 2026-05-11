@@ -1,16 +1,18 @@
-filename = 'CyclopsCore-1.20.1-1.21.3.jar'
+filename = 'CyclopsCore-1.20.1-1.22.1.jar'
 name = 'Cyclops Core'
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'CyclopsCore-1.20.1-1.22.1.jar'
 
 [download]
-hash = '271553b8a4f1e05d46607479bbef4d7fd9167034'
+hash = '3e3787f9979dc8c63690e5d0267ea68b364191fb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7210370
+file-id = 8006236
 project-id = 232758

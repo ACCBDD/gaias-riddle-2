@@ -1,16 +1,18 @@
-filename = 'midnightlib-forge-1.4.2.jar'
+filename = 'midnightlib-forge-1.9.2+1.20.1.jar'
 name = 'MidnightLib'
-side = 'both'
-x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'MidnightLib 1.9.2 - Forge 1.20.1'
 
 [download]
-hash = '9c99369a5b703f428dc31f8e4a1a83fc892bba48'
+hash = 'ff01aa718b71249012c41d9926d3fd2982809fdb'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4980331
+file-id = 7318663
 project-id = 488090

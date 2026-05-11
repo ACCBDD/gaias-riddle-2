@@ -1,16 +1,18 @@
-filename = 'Friendly Teleport 2.1.1 1.20.1 (forge).jar'
-name = 'Friendly Teleport'
-side = 'both'
+filename = 'Friendly Teleport 3.0.1 1.20.1 (forge).jar'
+name = "Bumbila's Friendly Teleport"
+side = 'server'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
-x-prismlauncher-release-type = 'release'
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Friendly Teleport 3.0.1 1.20.1 (forge).jar'
 
 [download]
-hash = '33f858425a19c4a3f2af6416f9588ee30047a9f1'
+hash = 'd99ae59af484f9ad2e5125b24652f7c63854c771'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6426998
+file-id = 7724734
 project-id = 1034030

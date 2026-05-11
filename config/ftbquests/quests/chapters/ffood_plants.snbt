@@ -933,7 +933,7 @@
 				item: "botania:white_mystical_flower"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 0.0d
 		}
 		{
@@ -947,7 +947,7 @@
 				item: "botania:light_gray_mystical_flower"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -961,7 +961,7 @@
 				item: "botania:gray_mystical_flower"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -975,7 +975,7 @@
 				item: "botania:black_mystical_flower"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -989,7 +989,7 @@
 				item: "botania:brown_mystical_flower"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -997,13 +997,14 @@
 				"73C8B382D7746660"
 				"4CAAD2EED8BF420B"
 			]
+			hide_until_deps_complete: true
 			id: "7E2BD5C497B1143B"
 			tasks: [{
 				id: "7A4B5CD0E3A4AB54"
 				item: "botania:red_mystical_flower"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -1011,13 +1012,14 @@
 				"7D608AD6B6F3B596"
 				"7E2BD5C497B1143B"
 			]
+			hide_until_deps_complete: true
 			id: "5F0FE863580B8DA4"
 			tasks: [{
 				id: "683A2B8DCDCD1A62"
 				item: "botania:orange_mystical_flower"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -5.0d
 			y: 1.0d
 		}
 		{
@@ -1031,7 +1033,7 @@
 				item: "botania:yellow_mystical_flower"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -1045,7 +1047,7 @@
 				item: "botania:lime_mystical_flower"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -1059,7 +1061,7 @@
 				item: "botania:green_mystical_flower"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 1.0d
 		}
 		{
@@ -1073,7 +1075,7 @@
 				item: "botania:cyan_mystical_flower"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -1087,7 +1089,7 @@
 				item: "botania:light_blue_mystical_flower"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 2.0d
 		}
 		{
@@ -1101,7 +1103,7 @@
 				item: "botania:blue_mystical_flower"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -1109,13 +1111,14 @@
 				"73C8B382D7746660"
 				"7E2BD5C497B1143B"
 			]
+			hide_until_deps_complete: true
 			id: "08ED8215AD082631"
 			tasks: [{
 				id: "60888471EC1C5E83"
 				item: "botania:purple_mystical_flower"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 2.0d
 		}
 		{
@@ -1123,13 +1126,14 @@
 				"5F0FE863580B8DA4"
 				"08ED8215AD082631"
 			]
+			hide_until_deps_complete: true
 			id: "719CBB4A3D5865A8"
 			tasks: [{
 				id: "2C2A93F305072098"
 				item: "botania:magenta_mystical_flower"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
@@ -1137,13 +1141,14 @@
 				"5548460CD5A9269F"
 				"08ED8215AD082631"
 			]
+			hide_until_deps_complete: true
 			id: "0DF609909D41BA80"
 			tasks: [{
 				id: "45BE23E92B4B7058"
 				item: "botania:pink_mystical_flower"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 2.0d
 		}
 	]

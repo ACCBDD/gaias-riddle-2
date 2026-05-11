@@ -1,16 +1,65 @@
-filename = 'mcwquark-1.20.1-1.4.jar'
+filename = 'mcwquark-1.20.1-1.6.1.jar'
 name = "Macaw's Quark"
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'mcwquark-1.20.1-1.6.1'
 
 [download]
-hash = 'b92ea501ae3f9d2650df002fdbc2ed4aa5176976'
+hash = 'aa21e83867b990620935e11cd628e21b4dca348c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6396834
+file-id = 7353569
 project-id = 1091564
+
+[[x-prismlauncher-dependencies]]
+addonId = '453925'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '359540'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351725'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '352039'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '378646'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1090999'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '968868'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '400933'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '629153'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1119394'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '363569'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '243121'
+type = 'REQUIRED'

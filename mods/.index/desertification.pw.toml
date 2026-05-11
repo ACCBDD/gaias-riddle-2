@@ -1,16 +1,29 @@
-filename = 'desert_1.20.1-neo-forge-0.40.jar'
+filename = 'desert_1.20.1-neo-forge-0.41.2.jar'
 name = 'Desertification'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Desertification 0.41.2  1.20.1 (Neo)Forge (BACKUP, Essential Mod fix, other fixes)'
 
 [download]
-hash = '76e79138943ba3304871901d6dd2d9881372f0e3'
+hash = '97c3cb572a6e9954be10ba2ee3e1e89c25df67b3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7641289
+file-id = 7868955
 project-id = 1092266
+
+[[x-prismlauncher-dependencies]]
+addonId = '890127'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '488090'
+type = 'REQUIRED'

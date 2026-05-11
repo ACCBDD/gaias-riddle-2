@@ -1,0 +1,4 @@
+Welcome to FancyMenu!
+{"placeholder":"your_placeholder_id_here"}
+{"text":"This is gold and bold text.","color":"gold","bold":true}
+&6Use &lMinecraft formatting codes!

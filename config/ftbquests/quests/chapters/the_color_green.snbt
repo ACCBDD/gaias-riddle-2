@@ -456,10 +456,12 @@
 				"There are a few items you can place on top of your altar to increase its capacity and recharge rate:"
 				""
 				"&6Torch:&r +0.5x recharge rate"
-				"&6Skeleton Skull/Husk Head:&r +1x recharge rate, +1x capacity"
+				"&6Skull/Head:&r +1x recharge rate, +1x capacity"
 				"&6Chalice:&r +1x capacity"
 				""
 				"&7Tip: Eventually, you can replace the torch with a candelabra, the skeleton skull with a wither skeleton or player skull, and the chalice with a filled chalice for even more recharge rate and capacity."
+				""
+				"&8Tip: If you drink a bottle of mana from your mana pool you can get a player head"
 			]
 			icon: "enchanted:chalice"
 			id: "3932D60DF66D4C83"
@@ -503,7 +505,7 @@
 			]
 			title: "Altar Upgrades"
 			x: 18.5d
-			y: 27.0d
+			y: 28.0d
 		}
 		{
 			dependencies: ["359392265BF91571"]
@@ -524,8 +526,8 @@
 				item: "enchanted:attuned_stone"
 				type: "item"
 			}]
-			x: 20.250000000000007d
-			y: 31.10714285714287d
+			x: 20.214285714285722d
+			y: 30.875d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -791,8 +793,8 @@
 					type: "item"
 				}
 			]
-			x: 19.48214285714286d
-			y: 35.12500000000001d
+			x: 19.714285714285715d
+			y: 35.23214285714286d
 		}
 		{
 			dependencies: [
@@ -1198,7 +1200,7 @@
 			]
 			title: "Rituals"
 			x: 21.35714285714286d
-			y: 33.96428571428572d
+			y: 34.23214285714287d
 		}
 		{
 			dependencies: ["4632D8B02AF53A58"]
@@ -1207,6 +1209,7 @@
 				""
 				"&7Tip: focus on the Alchemy research line to find out how!"
 			]
+			hide_dependent_lines: true
 			id: "5A8DD5C84842AD14"
 			rewards: [{
 				id: "0EC06698F506A13D"
@@ -1218,8 +1221,8 @@
 				item: "primalmagick:primalite_ingot"
 				type: "item"
 			}]
-			x: 24.964285714285715d
-			y: 31.60714285714287d
+			x: 25.5d
+			y: 30.5d
 		}
 		{
 			dependencies: ["1145EF33C88C696B"]
@@ -1239,8 +1242,8 @@
 				item: "primalmagick:rock_salt"
 				type: "item"
 			}]
-			x: 21.035714285714285d
-			y: 32.321428571428584d
+			x: 21.35714285714286d
+			y: 32.30357142857143d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
@@ -1398,14 +1401,20 @@
 			y: 34.678571428571445d
 		}
 		{
-			dependencies: ["5A8DD5C84842AD14"]
+			dependencies: [
+				"548D56DAEFDF5AE5"
+				"5A8DD5C84842AD14"
+			]
 			description: [
 				"Alchemical reformation is the process of &6turning one alchemical sulfur into another&r - initially, you'll only be able to convert sulfurs of the &6same tier and type&r to each other &6(like iron sulfur into lead sulfur!) &r"
 				""
 				"To set up the reformation array, place down the target, source, and result pedestals somewhat near each other. Hold the sulfuric flux emitter and right click each pedestal, then place it on the mercury catalyst. "
 				""
-				"Put mercury in the mercury catalyst, the target sulfur in the target pedestal, and sulfur to convert in the source pedestal. Give it a moment, and you'll start converting the source sulfur into the target sulfur!"
+				"&lTo continue the process of creating more quartz from amethyst, &6place one quartz sulfur onto the &etarget pedestal&r&l, this will not be consumed and can be used over and over again."
+				""
+				"&l&6Next, place your common gem niter in the source pedestal.&r&l This will convert it into whatever is in the source pedestal (quartz sulfur, in this case), and willl be transferred into the result pedestal."
 			]
+			hide_dependency_lines: false
 			id: "2CF231A8A8C27426"
 			tasks: [
 				{
@@ -1435,8 +1444,8 @@
 				}
 			]
 			title: "Alchemical Reformation"
-			x: 26.160714285714292d
-			y: 31.553571428571438d
+			x: 26.5d
+			y: 32.5d
 		}
 		{
 			dependencies: [
@@ -1666,13 +1675,13 @@
 		{
 			dependencies: ["2BC025482FFB813C"]
 			description: [
-				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some niter and sal ammoniac (and if you're converting up, some alchemically pure gold) into it, and shift-right-click the vat to start the process! &6Four of the previous tier converts into one of the next tier, and vice versa."
+				"The &6digestion vat&r lets you &6convert sulfurs between rarities!&r Place some &erare gem niter&r and &esal ammoniac&r into it, and shift-right-click the vat to start the process! "
 				""
-				"This (in combination with the fermentation vat) allows you to convert iron sulfur into common metal niter, down into four abundant metal niter, into four copper sulfur - that's &6FOUR copper per iron!"
+				"This will turn into &l&64x Common Gem Niter&r."
 				""
-				"This is a metal loop you could try automating... "
+				"&7This also allows you to convert iron sulfur into common metal - that's FOUR copper per iron!"
 				""
-				"&7Tip: you can start and stop the vats using a redstone signal!"
+				"&8Tip: you can start and stop the vats using a redstone signal (meaning this process can be automated)!"
 			]
 			id: "548D56DAEFDF5AE5"
 			tasks: [{
@@ -1680,18 +1689,21 @@
 				item: "theurgy:digestion_vat"
 				type: "item"
 			}]
-			x: 26.19642857142857d
-			y: 34.05357142857144d
+			x: 26.5d
+			y: 31.5d
 		}
 		{
-			dependencies: ["2CF231A8A8C27426"]
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
-				"You can convert between sulfurs of the same kind and rarity using the reformation array, but if you want to convert between different kinds (and the same rarity), you'll want to make &6Alchemical Niter&r in a &6Fermentation Vat&r"
+				"You can convert between sulfurs of the same kind and rarity using the reformation array, you'll want to start by make &6Alchemical Niter&r in a &6Fermentation Vat&r"
 				""
-				"Place &6water, sugar, and the sulfur you want to ferment into the vat, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new Niter!"
+				"This is particularly useful for making more quartz out of amethyst. Use a liquification cauldron to make at least one amethyst sulfur and one quartz sulfur. "
 				""
-				"Alchemical Niter can be converted in the &6Reformation Array&r similar to how you convert sulfur - note, however, that depending on what type you're converting to, you will produce or require &6more than one niter!"
+				"Amethyst is considered a &erare gem&r while quartz is considered a &ecommon gem&r. for this reason you can't just use their normal sulfurs in the reformation set-up."
+				""
+				"Place &6water, sugar, and the sulfur you want (in this case, amethystsulfur) into the &6fermentation vat&r, then &6shift-right-click it to close it&r and start the fermentation process. Once the barrel opens again, your fermentation is done, and you can take out your shiny new &eRare Gem Niter&r!"
 			]
+			hide_until_deps_complete: true
 			id: "2BC025482FFB813C"
 			rewards: [{
 				id: "168C175D1C584FF9"
@@ -1704,8 +1716,8 @@
 				type: "item"
 			}]
 			title: "Alchemical Conversion"
-			x: 26.19642857142857d
-			y: 32.839285714285715d
+			x: 26.5d
+			y: 30.5d
 		}
 		{
 			dependencies: [
@@ -1834,6 +1846,22 @@
 			}]
 			x: 16.0d
 			y: 19.5d
+		}
+		{
+			description: ["This block will come in handy for maxxing the aura cap on blocks that generate aura, meaning the levels of magic can go above the minimum... Now that's Aura Farming. "]
+			id: "14995FF060A62BFB"
+			rewards: [{
+				id: "482F3B06B6865068"
+				item: "naturesaura:aura_detector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "499CC66D0789B58D"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 36.0d
 		}
 	]
 	title: "Chapter 3: Growing Roots"

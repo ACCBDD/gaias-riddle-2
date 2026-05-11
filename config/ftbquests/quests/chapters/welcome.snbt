@@ -109,8 +109,8 @@
 				type: "item"
 			}]
 			title: "Make an Axe"
-			x: -0.5d
-			y: 0.5d
+			x: 0.3214285714285694d
+			y: 0.3571428571428541d
 		}
 		{
 			description: ["Get Wood!"]

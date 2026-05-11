@@ -1,0 +1,27 @@
+
+["Configs for Fintastic"]
+	#Defines if vanilla Cod is removed from the biome spawns. turned on by default
+	"Replace Vanilla Cod?" = true
+	#Defines if vanilla Salmon is removed from the biome spawns. turned on by default
+	"Replace Vanilla Salmon?" = true
+	#Defines if Fintastic's revamped Cod is allowed to spawn. turned on by default
+	"Allow Fintastic Cod?" = true
+	#Defines if Fintastic's revamped Salmon is allowed to spawn. turned on by default
+	"Allow Fintastic Salmon?" = true
+	#Defines the frequency that Lotus Pads will produce a sound. Lotus Pads will have this much change out of a 1000 to play a sound every tick. Number should not be above 1000.
+	"Lotus Pad Sound Frequency, This Many Times Every 1000 Ticks" = 30
+	#Defines the volume of the sounds produced by Lotus Pads. Should be a floating number, ranging from 0 to 1.
+	"Lotus Pad Volume" = 0.5
+	#Defines the weight of aquarium shops in plains villages. The higher the value the more common they become. Default value is 30 and the number must be 0 or higher.
+	"Plains aquarium shop weight:" = 30
+	#Defines the weight of aquarium shops in savanna villages. The higher the value the more common they become. Default value is 25 and the number must be 0 or higher.
+	"Savanna aquarium shop weight:" = 25
+	#Defines the weight of aquarium shops in taiga villages. The higher the value the more common they become. Default value is 20 and the number must be 0 or higher.
+	"Taiga aquarium shop weight:" = 20
+	#Defines the weight of aquarium shops in snowy villages. The higher the value the more common they become. Default value is 20 and the number must be 0 or higher.
+	"Snowy aquarium shop weight:" = 20
+	#Defines the weight of aquarium shops in desert villages. The higher the value the more common they become. Default value is 30 and the number must be 0 or higher.
+	"Desert aquarium shop weight:" = 30
+	#Defines how often Hounen Fairy Shrimp will bonemeal plants. The value is once every X amount of ticks, resulting in lower values making bonemealing more often and higher values making bonemealing less often.Default value is 250 and the number must be 0 or higher.
+	"Hounen Fairy Shrimp Bonemeal Rate:" = 250
+

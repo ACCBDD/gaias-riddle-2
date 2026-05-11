@@ -1,0 +1,76 @@
+{
+	id: "3334A147FD87D83B"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 64, item: "minecraft:oak_sapling" }
+		{ count: 64, item: "minecraft:spruce_sapling" }
+		{ count: 64, item: "minecraft:birch_sapling" }
+		{ count: 64, item: "minecraft:jungle_sapling" }
+		{ count: 64, item: "minecraft:acacia_sapling" }
+		{ count: 64, item: "minecraft:dark_oak_sapling" }
+		{ count: 64, item: "minecraft:cherry_sapling" }
+		{ count: 64, item: "natures_spirit:redwood_sapling" }
+		{ count: 64, item: "natures_spirit:sugi_sapling" }
+		{ count: 64, item: "regions_unexplored:alpha_sapling" }
+		{ count: 64, item: "regions_unexplored:apple_oak_sapling" }
+		{ count: 64, item: "regions_unexplored:ashen_sapling" }
+		{ count: 64, item: "regions_unexplored:bamboo_sapling" }
+		{ count: 64, item: "regions_unexplored:blackwood_sapling" }
+		{ count: 64, item: "regions_unexplored:baobab_sapling" }
+		{ count: 64, item: "natures_spirit:purple_wisteria_sapling" }
+		{ count: 64, item: "natures_spirit:white_wisteria_sapling" }
+		{ count: 64, item: "natures_spirit:blue_wisteria_sapling" }
+		{ count: 64, item: "natures_spirit:pink_wisteria_sapling" }
+		{ count: 64, item: "natures_spirit:fir_sapling" }
+		{ count: 64, item: "natures_spirit:willow_sapling" }
+		{ count: 64, item: "natures_spirit:aspen_sapling" }
+		{ count: 64, item: "natures_spirit:red_maple_sapling" }
+		{ count: 64, item: "natures_spirit:orange_maple_sapling" }
+		{ count: 64, item: "natures_spirit:yellow_maple_sapling" }
+		{ count: 64, item: "natures_spirit:cypress_sapling" }
+		{ count: 64, item: "natures_spirit:olive_sapling" }
+		{ count: 64, item: "natures_spirit:joshua_sapling" }
+		{ count: 64, item: "natures_spirit:ghaf_sapling" }
+		{ count: 64, item: "natures_spirit:palo_verde_sapling" }
+		{ count: 64, item: "natures_spirit:cedar_sapling" }
+		{ count: 64, item: "natures_spirit:larch_sapling" }
+		{ count: 64, item: "natures_spirit:mahogany_sapling" }
+		{ count: 64, item: "natures_spirit:saxaul_sapling" }
+		{ count: 64, item: "quark:ancient_sapling" }
+		{ count: 64, item: "quark:blue_blossom_sapling" }
+		{ count: 64, item: "quark:lavender_blossom_sapling" }
+		{ count: 64, item: "quark:orange_blossom_sapling" }
+		{ count: 64, item: "quark:yellow_blossom_sapling" }
+		{ count: 64, item: "quark:red_blossom_sapling" }
+		{ count: 64, item: "desert:jujubier_sapling" }
+		{ count: 64, item: "integrateddynamics:menril_sapling" }
+		{ count: 64, item: "regions_unexplored:pine_sapling" }
+		{ count: 64, item: "regions_unexplored:redwood_sapling" }
+		{ count: 64, item: "regions_unexplored:silver_birch_sapling" }
+		{ count: 64, item: "regions_unexplored:enchanted_birch_sapling" }
+		{ count: 64, item: "regions_unexplored:socotra_sapling" }
+		{ count: 64, item: "regions_unexplored:willow_sapling" }
+		{ count: 64, item: "naturaldecormod:saguaro_seedling" }
+		{ count: 64, item: "naturaldecormod:bungalo_palm_sapling" }
+		{ count: 64, item: "regions_unexplored:brimwood_sapling" }
+		{ count: 64, item: "regions_unexplored:cobalt_sapling" }
+		{ count: 64, item: "regions_unexplored:cypress_sapling" }
+		{ count: 64, item: "regions_unexplored:eucalyptus_sapling" }
+		{ count: 64, item: "regions_unexplored:flowering_sapling" }
+		{ count: 64, item: "regions_unexplored:joshua_sapling" }
+		{ count: 64, item: "regions_unexplored:kapok_sapling" }
+		{ count: 64, item: "regions_unexplored:larch_sapling" }
+		{ count: 64, item: "regions_unexplored:golden_larch_sapling" }
+		{ count: 64, item: "regions_unexplored:magnolia_sapling" }
+		{ count: 64, item: "regions_unexplored:blue_magnolia_sapling" }
+		{ count: 64, item: "regions_unexplored:pink_magnolia_sapling" }
+		{ count: 64, item: "regions_unexplored:white_magnolia_sapling" }
+		{ count: 64, item: "regions_unexplored:maple_sapling" }
+		{ count: 64, item: "regions_unexplored:orange_maple_sapling" }
+		{ count: 64, item: "regions_unexplored:red_maple_sapling" }
+		{ count: 64, item: "regions_unexplored:mauve_sapling" }
+		{ count: 64, item: "regions_unexplored:palm_sapling" }
+	]
+	title: "saplings"
+}

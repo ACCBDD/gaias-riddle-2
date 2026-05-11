@@ -1091,6 +1091,7 @@
 				""
 				"&7Hint: There's a second page in the crafting recipes that doesn't require coral."
 			]
+			hide_until_deps_complete: true
 			id: "66A90CABF3CA33E7"
 			rewards: [{
 				id: "3A8FCF5B13BBC5CA"

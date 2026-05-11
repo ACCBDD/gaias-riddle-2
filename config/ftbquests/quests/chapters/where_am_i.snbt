@@ -124,8 +124,6 @@
 				"&7Take the time to familiarize yourself with your surroundings. &rThere are structures sprinkled around, &eIn them, you may find some useful tools and resources left behind. "
 				""
 				"&7You wonder if there are any civilizations out there surviving somehow, in spite of the hot climate and limited resources... "
-				""
-				"&7&oMaybe somewhere in the nether? "
 			]
 			icon: "minecraft:cracked_stone_bricks"
 			id: "73B2D3552AC99061"
@@ -152,6 +150,17 @@
 			]
 			icon: "adpother:sulfur"
 			id: "42AE68E909116CAA"
+			rewards: [{
+				id: "46C7CF603CC76BB6"
+				item: {
+					Count: 1
+					id: "adpother:aerometer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5ADF81A95DCAE773"
@@ -369,5 +378,5 @@
 			y: -4.5d
 		}
 	]
-	title: "Where am I?"
+	title: "Introduction: Where am I?"
 }

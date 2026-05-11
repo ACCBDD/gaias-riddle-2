@@ -120,7 +120,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:husk_head"
+			icon: "minecraft:sand"
 			id: "7E23259C854E6B53"
 			rewards: [
 				{
@@ -156,7 +156,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:drowned_head"
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "03A7E34F277C3E99"
 			rewards: [
 				{
@@ -192,7 +198,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:spider_head"
+			icon: "minecraft:spider_eye"
 			id: "779FA19A3239A378"
 			rewards: [
 				{
@@ -228,7 +234,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:cave_spider_head"
+			icon: "minecraft:fermented_spider_eye"
 			id: "32E71A804BD0B705"
 			rewards: [
 				{
@@ -264,7 +270,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:enderman_head"
+			icon: "supplementaries:enderman_head"
 			id: "32805191DFE77A0B"
 			rewards: [
 				{
@@ -300,7 +306,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:endermite_head"
+			icon: "minecraft:ender_pearl"
 			id: "64032D23DECB2605"
 			rewards: [
 				{
@@ -336,7 +342,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:silverfish_head"
+			icon: "minecraft:infested_cracked_stone_bricks"
 			id: "702C9B9584FAC44B"
 			rewards: [
 				{
@@ -372,7 +378,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:evoker_head"
+			icon: "minecraft:totem_of_undying"
 			id: "4ABAF8F1D6D1C7CA"
 			rewards: [
 				{
@@ -407,7 +413,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:ghast_head"
+			icon: "minecraft:ghast_tear"
 			id: "61EDF16012C8383B"
 			rewards: [
 				{
@@ -443,7 +449,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:guardian_spawn_egg"
+			icon: "minecraft:prismarine_shard"
 			id: "6C993C0581C3E53C"
 			rewards: [
 				{
@@ -479,7 +485,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:hoglin_head"
+			icon: "minecraft:porkchop"
 			id: "0E1371CB614ECA67"
 			rewards: [
 				{
@@ -515,7 +521,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:phantom_spawn_egg"
+			icon: "minecraft:phantom_membrane"
 			id: "1B838E76CB6E8813"
 			rewards: [
 				{
@@ -551,7 +557,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:piglin_brute_head"
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "054B1BAE47E9827D"
 			rewards: [
 				{
@@ -588,7 +600,13 @@
 		{
 			dependencies: ["5FEE65C669654E40"]
 			description: ["&7Tip: there is a ritual that can grant you the bad omen effect!"]
-			icon: "heads:pillager_head"
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7B689257A882A7B2"
 			rewards: [
 				{
@@ -629,7 +647,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:ravager_spawn_egg"
+			icon: "minecraft:saddle"
 			id: "13065DEC26C02737"
 			rewards: [
 				{
@@ -665,7 +683,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "sophisticatedstorage:shulker_box"
+			icon: "minecraft:shulker_shell"
 			id: "3642889B8CF6CA79"
 			rewards: [
 				{
@@ -737,7 +755,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:slime_head"
+			icon: "minecraft:slime_block"
 			id: "25D1C2664FD1180E"
 			rewards: [
 				{
@@ -773,7 +791,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:stray_head"
+			icon: "minecraft:powder_snow_bucket"
 			id: "78041B5DC298A02A"
 			rewards: [
 				{
@@ -809,7 +827,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:vex_spawn_egg"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3EA5F9BCAF5464C7"
 			rewards: [
 				{
@@ -845,7 +869,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:vindicator_head"
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "77C07B16F8E30C78"
 			rewards: [
 				{
@@ -897,7 +927,7 @@
 		{
 			dependencies: ["5FEE65C669654E40"]
 			description: ["&7Tip: the sculk catalyst is craftable, and you can use a sculk awakener on a sculk shrieker to convert it into one that can spawn Wardens."]
-			icon: "minecraft:warden_spawn_egg"
+			icon: "minecraft:sculk_shrieker"
 			id: "0694D62C45F6C430"
 			rewards: [
 				{
@@ -933,7 +963,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:witch_head"
+			icon: "minecraft:cauldron"
 			id: "5C410251B4C4761F"
 			rewards: [
 				{
@@ -1005,7 +1035,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:zoglin_head"
+			icon: "minecraft:zoglin_spawn_egg"
 			id: "20F56F091F24EA9B"
 			rewards: [
 				{
@@ -1040,7 +1070,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:blaze_head"
+			icon: "minecraft:blaze_rod"
 			id: "0A4876B63C9EB256"
 			rewards: [
 				{
@@ -1147,7 +1177,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:piglin_head"
+			icon: "minecraft:piglin_head"
 			id: "462883AD2132D0FB"
 			rewards: [
 				{
@@ -1182,7 +1212,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:allay_spawn_egg"
+			icon: "minecraft:amethyst_cluster"
 			id: "0B665D225E9F7EFB"
 			rewards: [
 				{
@@ -1218,7 +1248,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:axolotl_lucy_head"
+			icon: "minecraft:axolotl_bucket"
 			id: "548BAFC1F30732D5"
 			rewards: [
 				{
@@ -1253,7 +1283,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:bat_head"
+			icon: "minecraft:bat_spawn_egg"
 			id: "495EBE7C9A59CFF4"
 			rewards: [
 				{
@@ -1289,7 +1319,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:camel_spawn_egg"
+			icon: "minecraft:cactus"
 			id: "0A65ACA8A26E8615"
 			rewards: [
 				{
@@ -1324,7 +1354,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:cat_black_head"
+			icon: "unusual_furniture:cat_plush"
 			id: "475D26474BD6C8DA"
 			rewards: [
 				{
@@ -1360,7 +1390,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:chicken_head"
+			icon: "minecraft:egg"
 			id: "04E89E0140A571ED"
 			rewards: [
 				{
@@ -1396,7 +1426,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:cod_head"
+			icon: "minecraft:cod"
 			id: "540EFA54873D7817"
 			rewards: [
 				{
@@ -1432,7 +1462,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:cow_head"
+			icon: "minecraft:milk_bucket"
 			id: "7FC2BADD39C85339"
 			rewards: [
 				{
@@ -1468,7 +1498,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:donkey_head"
+			icon: "minecraft:lead"
 			id: "6152DA47D7793A3A"
 			rewards: [
 				{
@@ -1504,7 +1534,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:frog_spawn_egg"
+			icon: "minecraft:frogspawn"
 			id: "175F712801D32FAF"
 			rewards: [{
 				id: "3CA793BD0DCC2315"
@@ -1532,7 +1562,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:glow_squid_head"
+			icon: "minecraft:glow_ink_sac"
 			id: "71FE47F9771AC590"
 			rewards: [
 				{
@@ -1568,7 +1598,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:horse_creamy_head"
+			icon: "minecraft:leather_horse_armor"
 			id: "57F7FA9EC58C17D2"
 			rewards: [
 				{
@@ -1603,7 +1633,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:red_mooshroom_head"
+			icon: "minecraft:red_mushroom"
 			id: "6AEC834765E31B9C"
 			rewards: [
 				{
@@ -1639,7 +1669,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:mule_head"
+			icon: "minecraft:chest"
 			id: "0C071F354268E2F3"
 			rewards: [
 				{
@@ -1674,7 +1704,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:ocelot_head"
+			icon: "minecraft:jungle_sapling"
 			id: "38F12122B25EDC4B"
 			rewards: [
 				{
@@ -1710,7 +1740,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:parrot_spawn_egg"
+			icon: "minecraft:music_disc_otherside"
 			id: "71EFE5EE55ED2892"
 			rewards: [
 				{
@@ -1746,7 +1776,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:pig_head"
+			icon: {
+				Count: 1
+				id: "minecraft:carrot_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F49E1C160460A4C"
 			rewards: [
 				{
@@ -1818,7 +1854,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:rabbit_spawn_egg"
+			icon: "minecraft:rabbit_hide"
 			id: "60FE60BAC866A44A"
 			rewards: [
 				{
@@ -1854,7 +1890,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:salmon_head"
+			icon: "minecraft:salmon"
 			id: "0F1E3F328B60A287"
 			rewards: [
 				{
@@ -1890,7 +1926,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:sheep_head"
+			icon: "minecraft:white_wool"
 			id: "0824814C85D4EC70"
 			rewards: [
 				{
@@ -1998,7 +2034,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:squid_head"
+			icon: "minecraft:ink_sac"
 			id: "4E0561789221C0C6"
 			rewards: [
 				{
@@ -2034,7 +2070,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:strider_spawn_egg"
+			icon: "minecraft:lava_bucket"
 			id: "4628062EB903069B"
 			rewards: [
 				{
@@ -2106,7 +2142,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:turtle_head"
+			icon: "minecraft:turtle_egg"
 			id: "4C576278786773E7"
 			rewards: [
 				{
@@ -2142,7 +2178,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:villager_head"
+			icon: "minecraft:emerald"
 			id: "01BEBBE4FBE04567"
 			rewards: [
 				{
@@ -2179,7 +2215,7 @@
 		{
 			dependencies: ["5FEE65C669654E40"]
 			description: ["&7Tip: an oak or birch tree grown near flowers has a small chance to spawn a beehive!"]
-			icon: "heads:bee_head"
+			icon: "minecraft:bee_nest"
 			id: "747E5509C0DC0ABB"
 			rewards: [
 				{
@@ -2215,7 +2251,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:dolphin_head"
+			icon: "minecraft:kelp"
 			id: "3B0FA728A68DF081"
 			rewards: [
 				{
@@ -2250,7 +2286,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:fox_head"
+			icon: "minecraft:sweet_berries"
 			id: "36843D2999963F1D"
 			rewards: [
 				{
@@ -2286,7 +2322,13 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:goat_head"
+			icon: {
+				Count: 1
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
 			id: "414F19EFE2ECF6D8"
 			rewards: [
 				{
@@ -2322,7 +2364,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:iron_golem_head"
+			icon: "minecraft:poppy"
 			id: "6E022C1FAAE4E0EB"
 			rewards: [
 				{
@@ -2358,7 +2400,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:llama_spawn_egg"
+			icon: "minecraft:light_blue_carpet"
 			id: "116964A25A5D54C7"
 			rewards: [
 				{
@@ -2400,7 +2442,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:panda_spawn_egg"
+			icon: "minecraft:bamboo"
 			id: "02BDB1291FBC4C26"
 			rewards: [
 				{
@@ -2436,7 +2478,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "minecraft:polar_bear_spawn_egg"
+			icon: "minecraft:ice"
 			id: "34230DF080BF39A0"
 			rewards: [
 				{
@@ -2472,7 +2514,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:wolf_head"
+			icon: "minecraft:bone"
 			id: "79C543875927560D"
 			rewards: [
 				{
@@ -2508,7 +2550,7 @@
 		}
 		{
 			dependencies: ["5FEE65C669654E40"]
-			icon: "heads:zombified_piglin_skull"
+			icon: "minecraft:rotten_flesh"
 			id: "695828B1929D0DD9"
 			rewards: [
 				{
@@ -2545,7 +2587,7 @@
 		{
 			dependencies: ["5FEE65C669654E40"]
 			description: ["&7Tip: there is a ritual that spawns the Elder Guardian!"]
-			icon: "minecraft:elder_guardian_spawn_egg"
+			icon: "minecraft:sponge"
 			id: "176F9C7ED259CD39"
 			rewards: [
 				{
@@ -2580,299 +2622,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:starbuncle_shards"
-			id: "0DC160D3B62DD504"
-			rewards: [
-				{
-					id: "06FBD98D8214AA96"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "0C41B8586D7EBA77"
-					item: "ars_nouveau:starbuncle_shards"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "0F89A186E490D2AE"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:starbuncle": 1b
-						}
-					}
-				}
-				title: "Starbuncle Photo"
-				type: "item"
-			}]
-			title: "Starbuncle"
-			x: 13.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:wilden_spike"
-			id: "6DD0B4019FB2E6C3"
-			rewards: [
-				{
-					id: "257D4C1ABF2003D0"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "47D907677AB4E3DF"
-					item: "ars_nouveau:wilden_spike"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "112DD46BD89B58CE"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:wilden_guardian": 1b
-						}
-					}
-				}
-				title: "Wilden Guardian Photo"
-				type: "item"
-			}]
-			title: "Wilden Defender"
-			x: 14.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:wilden_horn"
-			id: "7756DF5E136A1333"
-			rewards: [
-				{
-					id: "11740E0F741C7446"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "231464450644116E"
-					item: "ars_nouveau:wilden_horn"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "50673D1BD85D91AA"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:wilden_hunter": 1b
-						}
-					}
-				}
-				title: "Wilden Pack Hunter Photo"
-				type: "item"
-			}]
-			title: "Wilden Pack Hunter"
-			x: 15.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:wilden_wing"
-			id: "41C3721BABC35699"
-			rewards: [
-				{
-					id: "5B0639A3740611DC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 16
-					id: "0C579A053BD40E57"
-					item: "ars_nouveau:wilden_wing"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "79FC2FFEF4A644B1"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:wilden_stalker": 1b
-						}
-					}
-				}
-				title: "Wilden Stalker Photo"
-				type: "item"
-			}]
-			title: "Wilden Stalker"
-			x: 16.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:drygmy_shard"
-			id: "07F5D38D37650C3C"
-			rewards: [
-				{
-					id: "3F5317F5CEC309ED"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "7DB51811EDFF3368"
-					item: "ars_nouveau:drygmy_shard"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "39216CB3CD6E55D8"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:drygmy": 1b
-						}
-					}
-				}
-				title: "Drygmy Photo"
-				type: "item"
-			}]
-			title: "Drygmy"
-			x: 14.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:wilden_tribute"
-			id: "46CC688E523D17D3"
-			rewards: [
-				{
-					id: "6280FF8023AE8627"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "30CCEDFD831A9533"
-					item: "ars_nouveau:wilden_tribute"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "0E2257FBB0C02462"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:wilden_boss": 1b
-						}
-					}
-				}
-				title: "Wilden Chimera Photo"
-				type: "item"
-			}]
-			title: "Wilden Chimera"
-			x: 15.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			icon: "ars_nouveau:whirlisprig_shards"
-			id: "2D476CDAF27AC863"
-			rewards: [
-				{
-					id: "6C6B8C47465AD2CC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "60DF657879CA2D1C"
-					item: "ars_nouveau:whirlisprig_shards"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "5352E88F3CBB325D"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_nouveau:drygmy": 1b
-						}
-					}
-				}
-				title: "Drygmy Photo"
-				type: "item"
-			}]
-			title: "Whirlisprig"
-			x: 15.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["5FEE65C669654E40"]
-			description: ["&7Tip: a spawned siren, not a tamed familiar!"]
-			icon: "ars_elemental:siren_shards"
-			id: "5EE98525E9A06AAC"
-			rewards: [
-				{
-					id: "770A0F2CAAEDCEBC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "4DD0EAF8AEFE2901"
-					item: "ars_elemental:siren_shards"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: "exposure:photograph"
-				id: "146C6CE87FF122B9"
-				item: {
-					Count: 1
-					id: "itemfilters:weak_nbt"
-					tag: {
-						value: {
-							"ars_elemental:siren_entity": 1b
-						}
-					}
-				}
-				title: "Siren Photo"
-				type: "item"
-			}]
-			title: "Siren"
-			x: 16.5d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"7F49E1C160460A4C"
-				"41C3721BABC35699"
-				"2D476CDAF27AC863"
 				"18B34979DBED11A1"
 				"702C9B9584FAC44B"
 				"1B838E76CB6E8813"
@@ -2893,14 +2644,11 @@
 				"13065DEC26C02737"
 				"4628062EB903069B"
 				"0B665D225E9F7EFB"
-				"6DD0B4019FB2E6C3"
 				"04E89E0140A571ED"
-				"07F5D38D37650C3C"
 				"7E23259C854E6B53"
 				"36843D2999963F1D"
 				"0C071F354268E2F3"
 				"3B0FA728A68DF081"
-				"46CC688E523D17D3"
 				"695828B1929D0DD9"
 				"4C576278786773E7"
 				"32E71A804BD0B705"
@@ -2908,8 +2656,6 @@
 				"0A65ACA8A26E8615"
 				"57F7FA9EC58C17D2"
 				"1FF5B073DC12ABAC"
-				"0DC160D3B62DD504"
-				"5EE98525E9A06AAC"
 				"17DE6D948744F44F"
 				"20F56F091F24EA9B"
 				"779FA19A3239A378"
@@ -2926,7 +2672,6 @@
 				"24D8747868DA8135"
 				"4ABAF8F1D6D1C7CA"
 				"116964A25A5D54C7"
-				"7756DF5E136A1333"
 				"517413E5CD697BAA"
 				"6AEC834765E31B9C"
 				"3642889B8CF6CA79"

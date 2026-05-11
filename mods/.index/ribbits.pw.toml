@@ -1,16 +1,25 @@
-filename = 'Ribbits-1.20.1-Forge-3.0.4.jar'
+filename = 'Ribbits-1.20.1-Forge-3.0.5.jar'
 name = 'Ribbits'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ribbits [Forge] 3.0.5 for 1.20.1'
 
 [download]
-hash = '71ea783348537edaf992366b3be306f9ede9a6d4'
+hash = '5cc73d3399248300a188164406cd801cc4ae00b3'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 6182692
+file-id = 7354928
 project-id = 622967
+
+[[x-prismlauncher-dependencies]]
+addonId = '388172'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '421850'
+type = 'REQUIRED'

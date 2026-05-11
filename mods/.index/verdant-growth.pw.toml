@@ -1,16 +1,18 @@
-filename = 'verdant-1.5.1.jar'
-name = 'Verdant Growth'
-side = 'both'
+filename = 'verdant-1.5.3.jar'
+name = 'Verdant'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Verdant 1.5.3'
 
 [download]
-hash = '5a8b61aa5e853e8c061cb097ebcbe5cceba6fb42'
+hash = '640a1b869f9bfb630bf6de8a2701683222eb293d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5909122
+file-id = 7775555
 project-id = 1018363

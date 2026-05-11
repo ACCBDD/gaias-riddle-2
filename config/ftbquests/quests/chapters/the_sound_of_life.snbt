@@ -7,7 +7,7 @@
 	group: ""
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
-	icon: "minecraft:egg"
+	icon: "regions_unexplored:flowering_sapling"
 	id: "384351F130068923"
 	images: [{
 		height: 12.0d
@@ -572,14 +572,36 @@
 		}
 		{
 			dependencies: ["22F15EC1DF24B1D8"]
-			description: ["With the power of Primal Magick Alchemy, you can create artificial amethyst buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."]
+			description: [
+				"With the power of Primal Magick Alchemy, you can create artificial amethyst buds. This can massively reduce the amount of time you spend using Theurgy to create amethyst."
+				""
+				"&8Pro Tip: Once you've got flawed budding amethyst, you can use that in a circle ritual to make a vanilla MC budding amethyst block."
+			]
 			id: "353D9BFD7D818C0A"
-			size: 1.0d
-			tasks: [{
-				id: "1558CBF7667DB0C2"
-				item: "primalmagick:damaged_budding_amethyst_block"
+			rewards: [{
+				count: 6
+				id: "00C19327287DE777"
+				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "1558CBF7667DB0C2"
+					item: "primalmagick:damaged_budding_amethyst_block"
+					type: "item"
+				}
+				{
+					id: "0EBE2F77C4FF3F91"
+					item: "primalmagick:chipped_budding_amethyst_block"
+					type: "item"
+				}
+				{
+					id: "59E221C39EE62568"
+					item: "primalmagick:flawed_budding_amethyst_block"
+					type: "item"
+				}
+			]
 			title: "Artificial Budding Gems"
 			x: -8.5d
 			y: -29.0d

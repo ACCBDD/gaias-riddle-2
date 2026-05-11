@@ -1,5 +1,5 @@
 {
-	autofocus_id: "35DB920DC7230DF3"
+	autofocus_id: "5AFA270813DCB86A"
 	default_hide_dependency_lines: false
 	default_min_width: 280
 	default_quest_shape: ""
@@ -7,15 +7,34 @@
 	group: ""
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
-	icon: "minecraft:dragon_egg"
+	icon: {
+		Count: 1
+		id: "reclamation_util:forest_biome_globe"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "255B2E87E16AB4A5"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
+			description: [
+				"Now work really begins as life returns. Make a biome bottle and extract some of its essence.  "
+				""
+				"You will need several bottles as you strive toward some semblance of biodiversity."
+				""
+				"&8Tip: This is also your best defense against increasing desertification."
+			]
 			hide_until_deps_complete: true
 			id: "35DB920DC7230DF3"
+			rewards: [{
+				count: 2
+				id: "6B8BB4C0481751C7"
+				item: "reclamation_util:empty_biome_bottle"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "56283B4E6F656680"
@@ -30,10 +49,10 @@
 			]
 			title: "Biome Essence"
 			x: -17.5d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["2C6CBF318911D4B5"]
+			dependencies: ["0DDAFCF3ACEDB047"]
 			id: "5AFA270813DCB86A"
 			tasks: [{
 				id: "0506E2C07545005D"
@@ -41,7 +60,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5AFA270813DCB86A"]
@@ -109,6 +128,20 @@
 				"&7Tip: desert flowers spawn in the spreading desert after rain!"
 			]
 			id: "2C6CBF318911D4B5"
+			rewards: [{
+				id: "6CE7AFB3587D7FBF"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "desert:swift_sands"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F5FBE74999CA998"
 				item: "reclamation_util:attuned_biome_bottle"
@@ -128,10 +161,36 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["671D5ABC9E1873B2"]
+			dependencies: [
+				"671D5ABC9E1873B2"
+				"40C6867E7788BA73"
+				"5AFA270813DCB86A"
+				"116DC136BE73914E"
+				"08FA51AC5CF45E79"
+				"3609905EAB1AAFE6"
+				"64DD2FDB53D2B119"
+				"2D0B224E23B1F237"
+				"1904D143D303F54A"
+				"7AD1E395B62991F2"
+				"19047D5F4C7871C0"
+				"7EC2EC01D6BCE39B"
+			]
+			description: [
+				"You did it! "
+				""
+				"Did you save the world, or maybe you just saved yourself?  "
+				""
+				"Surely you did not make things worse. "
+				""
+				"Thanks to your efforts the world is habitable now, right?  "
+				""
+				"...Right?"
+			]
+			hide_dependency_lines: true
+			icon: "desert:desert_flower_item"
 			id: "05F7EE451D6C0172"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -144,17 +203,25 @@
 				title: "Stay"
 				type: "checkmark"
 			}]
-			title: "A Crossroads"
+			title: "Tipping Point"
 			x: -17.5d
 			y: -2.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
 			description: [
-				"To take your magic to the next level, you'll need to fight your own inner demons. Using a &6special sanguine core&r in your &6sanguine crucible,&r you can summon a manifestation of all your accumulated sins. This should result in enlightenment, but you'll have to &4defeat your demons first...&r"
+				"Using a &6special sanguine core&r in your &6sanguine crucible,&r you can summon a manifestation of all your accumulated sins. This should result in enlightenment, but you'll have to &edefeat your inner demons first...&r"
 				""
 				"&7Tip: make sure you're prepared for a fight!"
 			]
+			hide_until_deps_complete: true
 			id: "295DA7914131F472"
+			rewards: [{
+				count: 5
+				id: "6C309A2E3F0B8FDA"
+				item: "primalmagick:magitech_parts_basic"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2A6FE3F24B1D0732"
@@ -172,125 +239,157 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["295DA7914131F472"]
-			description: ["The pinnacle of all wand gems, the Archmage wand gem can store up to 2,500 points of mana of each source."]
+			dependencies: [
+				"295DA7914131F472"
+				"3C3C111CE38EC818"
+				"30EFA914B66BCCCB"
+			]
+			description: [
+				"The Pure Primal wand core is the pinnacle of wandmaking - it naturally recharges all types of mana, provides a large discount to all workings, and can store four spells."
+				""
+				"Hallowsteel wand caps provide a fifteen percent discount to all crafting when used on a wand."
+				""
+				"The Archmage wand gem can store up to 2,500 points of mana of each source."
+				""
+				"Nothing can stand in your way now."
+			]
 			id: "008633FFB4AE587E"
-			tasks: [{
-				id: "0A8F49595D28C54D"
-				item: "primalmagick:archmage_wand_gem_item"
-				type: "item"
-			}]
-			x: -22.0d
+			tasks: [
+				{
+					id: "0A8F49595D28C54D"
+					item: "primalmagick:archmage_wand_gem_item"
+					type: "item"
+				}
+				{
+					id: "44377797F681CED4"
+					item: "primalmagick:hallowsteel_wand_cap_item"
+					type: "item"
+				}
+				{
+					id: "2A63EFBE93829DC9"
+					item: "primalmagick:pure_primal_wand_core_item"
+					type: "item"
+				}
+			]
+			x: -23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["295DA7914131F472"]
+			description: [
+				"Hallowsteel is lighter, stronger, and more mana-conductive than even Hexium, with all the benefits that entails."
+				""
+				"Saintswool robes are even stronger than Hexweave, and provide an even larger mana discount."
+				""
+				"Together, these three things will bring you closer to achieving magical mastery."
+			]
+			id: "3C3C111CE38EC818"
+			tasks: [
+				{
+					id: "51315D37A0CDDE38"
+					item: "primalmagick:hallowsteel_ingot"
+					type: "item"
+				}
+				{
+					id: "696A86379FD69842"
+					item: "primalmagick:celestial_harp"
+					type: "item"
+				}
+				{
+					id: "056D9597213E3A15"
+					item: "primalmagick:saintswool"
+					type: "item"
+				}
+			]
+			title: "Magic FTW"
+			x: -21.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["295DA7914131F472"]
-			description: ["Saintswool robes are even stronger than Hexweave, and provide an even larger mana discount."]
-			id: "131ECE58FE32C7D2"
-			tasks: [{
-				id: "054B4528F332DFBB"
-				item: "primalmagick:saintswool"
-				type: "item"
-			}]
-			x: -21.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["295DA7914131F472"]
-			description: ["Hallowsteel is lighter, stronger, and more mana-conductive than even Hexium, with all the benefits that entails."]
-			id: "3C3C111CE38EC818"
-			tasks: [{
-				id: "51315D37A0CDDE38"
-				item: "primalmagick:hallowsteel_ingot"
-				type: "item"
-			}]
-			x: -23.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["295DA7914131F472"]
-			description: ["The Heavenly Calcinator can produce clusters, the highest tier of crystallized mana at 100 points. It also runs faster than previous tiers."]
-			id: "3839AA364416C793"
-			tasks: [{
-				id: "6D83C500EC6F9C54"
-				item: "primalmagick:calcinator_heavenly"
-				type: "item"
-			}]
-			x: -19.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["3C3C111CE38EC818"]
-			description: ["Hallowsteel can upgrade your forbidden fonts, allowing them to hold ten times as much mana."]
+			description: [
+				"The Mana Singularity, like the Mana Nexus before it, can store accumulated mana from all nearby sources - such as fonts - for quick charging of wands placed inside. "
+				""
+				"Hallowsteel can upgrade your forbidden fonts, allowing them to hold ten times as much mana."
+				""
+				"How are you going to play the game now that you are essentially a god? What kind of choice will you make in the end, now that you wield this much power?"
+			]
 			id: "4C4585386FB09488"
-			tasks: [{
-				id: "15789B997FE35D67"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_earth"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_sea"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_sky"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_sun"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_moon"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_blood"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_void"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_infernal"
-							}
-							{
-								Count: 1b
-								id: "primalmagick:heavenly_font_hallowed"
-							}
-						]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40732CFEEC0D2391"
+				table_id: 6272205656018710046L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "15789B997FE35D67"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_earth"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_sea"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_sky"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_sun"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_moon"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_blood"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_void"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_infernal"
+								}
+								{
+									Count: 1b
+									id: "primalmagick:heavenly_font_hallowed"
+								}
+							]
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "35725F6CD4BD5040"
+					item: "primalmagick:mana_singularity"
+					type: "item"
+				}
+			]
 			title: "Heavenly Fonts"
-			x: -24.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["3C3C111CE38EC818"]
-			description: ["Hallowsteel wand caps provide a fifteen percent discount to all crafting when used on a wand."]
-			id: "0E16A38927534EBF"
-			tasks: [{
-				id: "237D0C2958681E08"
-				item: "primalmagick:hallowsteel_wand_cap_item"
-				type: "item"
-			}]
-			x: -24.5d
-			y: 3.5d
+			x: -20.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["295DA7914131F472"]
-			description: ["Hallowood is a fantastic, renewable source of Hallowed mana."]
+			description: ["Hallowood is a fantastic, renewable source of Hallowed mana. There seems to be deep magic linked to their natural energy."]
 			id: "30EFA914B66BCCCB"
+			rewards: [{
+				count: 2
+				id: "212324F087621E77"
+				item: "botania:vivid_seeds"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D1630C06AA8C220"
 				item: "primalmagick:hallowood_sapling"
@@ -371,18 +470,27 @@
 				"You wonder how this will change the game... Is it possible this will bring new life to the world? What happens if it reaches the forest you've been building? "
 			]
 			hide_until_deps_complete: true
-			icon: "desert:desert_flower_item"
+			icon: "desert:salt_crystals"
 			id: "7B7E0EA901F875E3"
 			tasks: [{
 				id: "543D1FDFA376A435"
 				title: "Is the Desert... Spreading?"
 				type: "checkmark"
 			}]
-			x: -14.5d
-			y: 7.0d
+			x: -19.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: ["These tools will help “shape your world” (Mojang) and bend it to your will."]
+			hide_until_deps_complete: true
 			id: "5AA8386ECF9C1F1C"
+			optional: true
+			rewards: [{
+				id: "66BDD78F1872E629"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2D36F83E016A4663"
@@ -409,12 +517,27 @@
 					item: "botania:exchange_rod"
 					type: "item"
 				}
+				{
+					id: "2F7D5E6E52854C62"
+					item: {
+						Count: 1
+						id: "desert:wand_o_grass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			x: -15.0d
-			y: 4.5d
+			title: "Terraforming Magic"
+			x: -14.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "62E3241913092A67"
+			optional: true
 			tasks: [{
 				id: "33DB188136402653"
 				item: {
@@ -426,10 +549,12 @@
 				}
 				type: "item"
 			}]
-			x: -18.750000000000014d
-			y: 0.1919642857142989d
+			x: -12.642857142857139d
+			y: -4.339285714285715d
 		}
 		{
+			dependencies: ["40C6867E7788BA73"]
+			hide_dependency_lines: true
 			id: "7EC2EC01D6BCE39B"
 			tasks: [{
 				id: "24D72A8370C933B6"
@@ -443,10 +568,13 @@
 				type: "item"
 			}]
 			x: -20.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "69444772C6FBB964"
+			optional: true
 			tasks: [{
 				id: "3E5706E62756EB7E"
 				item: {
@@ -458,43 +586,57 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
-			y: -3.0d
+			x: -13.785714285714292d
+			y: -0.5357142857142847d
 		}
 		{
+			dependencies: ["3609905EAB1AAFE6"]
+			hide_dependency_lines: true
 			id: "1904D143D303F54A"
-			tasks: [{
-				id: "0669593045688F61"
-				item: {
-					Count: 1
-					id: "reclamation_util:ocean_biome_globe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0669593045688F61"
+					item: {
+						Count: 1
+						id: "reclamation_util:ocean_biome_globe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -20.5d
+				{
+					id: "3E306DA60F5C04C2"
+					item: {
+						Count: 1
+						id: "reclamation_util:warm_ocean_biome_globe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AE093B3F095108A"
+					item: {
+						Count: 1
+						id: "reclamation_util:cold_ocean_biome_globe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ocean Biome Globes"
+			x: -15.0d
 			y: -5.0d
 		}
 		{
-			id: "422D8BAAA10A52D2"
-			tasks: [{
-				id: "7B4ED053276E072D"
-				item: {
-					Count: 1
-					id: "reclamation_util:warm_ocean_biome_globe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -18.5d
-			y: -6.5d
-		}
-		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "677E921C86511261"
+			optional: true
 			tasks: [{
 				id: "70EB9B24C16CF2B4"
 				item: {
@@ -506,42 +648,44 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -6.5d
+			x: -20.714285714285715d
+			y: -6.321428571428573d
 		}
 		{
+			dependencies: ["5AFA270813DCB86A"]
+			hide_dependency_lines: true
 			id: "64DD2FDB53D2B119"
-			tasks: [{
-				id: "3AE8709D4A1969D8"
-				item: {
-					Count: 1
-					id: "reclamation_util:crimson_biome_globe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "3AE8709D4A1969D8"
+					item: {
+						Count: 1
+						id: "reclamation_util:crimson_biome_globe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -15.0d
-			y: -5.5d
+				{
+					id: "6FC52CB61E1E48F1"
+					item: {
+						Count: 1
+						id: "reclamation_util:warped_biome_globe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Nether Biome Globes"
+			x: -15.964285714285708d
+			y: -0.4999999999999929d
 		}
 		{
-			id: "6D02500BDEC2DB1D"
-			tasks: [{
-				id: "000D0DB4B5793636"
-				item: {
-					Count: 1
-					id: "reclamation_util:warped_biome_globe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -14.0d
-			y: -4.0d
-		}
-		{
+			dependencies: ["116DC136BE73914E"]
+			hide_dependency_lines: true
 			id: "2D0B224E23B1F237"
 			tasks: [{
 				id: "27E09558E39F8C3C"
@@ -554,10 +698,12 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: -2.0d
+			x: -14.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["08FA51AC5CF45E79"]
+			hide_dependency_lines: true
 			id: "19047D5F4C7871C0"
 			tasks: [{
 				id: "77E0BC79CC9B0D51"
@@ -570,43 +716,14 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -0.5d
+			x: -20.64285714285713d
+			y: -3.7142857142857153d
 		}
 		{
-			id: "7D8D2F5D93D9E52C"
-			tasks: [{
-				id: "312BB1DCEB473A46"
-				item: {
-					Count: 1
-					id: "reclamation_util:snowy_biome_globe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -16.5d
-			y: 0.5d
-		}
-		{
-			id: "460BD9FD80A72A71"
-			tasks: [{
-				id: "19EBA715A0042CFA"
-				item: {
-					Count: 1
-					id: "reclamation_util:cold_ocean_biome_globe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -16.5d
-			y: 2.5d
-		}
-		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "4F8105F5F1193DF9"
+			optional: true
 			tasks: [{
 				id: "5303A5CEBE5B64A4"
 				item: {
@@ -618,11 +735,14 @@
 				}
 				type: "item"
 			}]
-			x: -14.214285714285715d
-			y: 1.919642857142854d
+			x: -19.42857142857143d
+			y: -7.25d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "20DEC695A30B5DAD"
+			optional: true
 			tasks: [{
 				id: "68E4A1040E02FB04"
 				item: {
@@ -634,11 +754,14 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 0.5d
+			x: -17.607142857142854d
+			y: -7.8035714285714235d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "2A4D12E7670D4D15"
+			optional: true
 			tasks: [{
 				id: "1B7917E597D72B7B"
 				item: {
@@ -650,59 +773,78 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -2.0d
+			x: -13.32142857142857d
+			y: -6.089285714285715d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "0E908DA6022519D9"
-			tasks: [{
-				id: "4E3A56D8C361C752"
-				item: {
-					Count: 1
-					id: "reclamation_util:swamp_biome_globe"
-					tag: {
-						Damage: 0
+			optional: true
+			tasks: [
+				{
+					id: "4E3A56D8C361C752"
+					item: {
+						Count: 1
+						id: "reclamation_util:swamp_biome_globe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -19.0d
-			y: 2.5d
+				{
+					id: "79A7FF9801574FE7"
+					item: {
+						Count: 1
+						id: "reclamation_util:mangrove_swamp_biome_globe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -12.857142857142861d
+			y: -2.4642857142857153d
 		}
 		{
-			id: "62E9DA00AA4CE0AB"
-			tasks: [{
-				id: "5BF90F9E290D32C2"
-				item: {
-					Count: 1
-					id: "reclamation_util:mangrove_swamp_biome_globe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -21.0d
-			y: 1.5d
-		}
-		{
+			dependencies: ["671D5ABC9E1873B2"]
+			hide_dependency_lines: true
 			id: "7AD1E395B62991F2"
-			tasks: [{
-				id: "1D87B55EAB60EFE8"
-				item: {
-					Count: 1
-					id: "reclamation_util:snowy_plains_biome_globe"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1D87B55EAB60EFE8"
+					item: {
+						Count: 1
+						id: "reclamation_util:snowy_plains_biome_globe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: -23.0d
-			y: -0.5d
+				{
+					id: "1809E11925AC6BDD"
+					item: {
+						Count: 1
+						id: "reclamation_util:snowy_biome_globe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Snowy Biome Globes"
+			x: -18.357142857142854d
+			y: -5.785714285714299d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "5ADEC3539348F975"
+			optional: true
 			tasks: [{
 				id: "5FE0297CEED1531A"
 				item: {
@@ -714,11 +856,14 @@
 				}
 				type: "item"
 			}]
-			x: -23.5d
-			y: -3.0d
+			x: -22.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "0BCAA54DB76D628D"
+			optional: true
 			tasks: [{
 				id: "167FC3E8878AFE8F"
 				item: {
@@ -730,11 +875,14 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -4.5d
+			x: -22.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			hide_until_deps_complete: true
 			id: "36FB6BE1364EA644"
+			optional: true
 			tasks: [{
 				id: "678E77CC942DA0BD"
 				item: {
@@ -746,11 +894,41 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.5d
+			x: -15.107142857142854d
+			y: -7.339285714285712d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: [
+				"Treeplanting is hard going – maybe you could get a little more creative with the mods at your disposal..."
+				""
+				"What if you instead of placing saplings one at a time you were launching them at the ground with a hand-cannon from up in the sky?"
+			]
+			hide_until_deps_complete: true
 			id: "4D06D07E221CD74A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0501A7A5DF833565"
+					table_id: 3689751325291567163L
+					type: "random"
+				}
+				{
+					id: "04AAA0A39BF35BF6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "create:potato_recovery"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "55DBE04F72879844"
@@ -769,63 +947,61 @@
 					type: "item"
 				}
 				{
-					id: "07663C94EC32AE3A"
-					item: "create:schematicannon"
+					id: "42D6700632D98A38"
+					item: "primalmagick:flying_carpet"
+					type: "item"
+				}
+				{
+					id: "1E73B43CFEB45D17"
+					item: "enchanted:enchanted_broomstick"
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: 2.5d
+			title: "Treeplanting"
+			x: -16.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: [
+				"You don’t need to depend on the earth at all… you are above it all. "
+				""
+				"&8It's not like the earth depends on you...does it?"
+			]
+			hide_until_deps_complete: true
 			id: "1E60C3D9DC3A5DB6"
-			tasks: [{
-				id: "2F9FAA3F5B39E7B6"
-				item: "botania:laputa_shard"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -1.0d
-		}
-		{
-			id: "15451B2191060501"
-			tasks: [{
-				id: "1723779B69725126"
-				item: "botania:astrolabe"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 1.0d
-		}
-		{
-			id: "71BE523AD41F59BF"
-			tasks: [{
-				id: "0321C6A69FA1E532"
+			optional: true
+			rewards: [{
+				id: "35845CAAE22B95DE"
 				item: {
 					Count: 1
-					id: "desert:wand_o_grass"
+					id: "botania:laputa_shard"
 					tag: {
-						Damage: 0
+						level: 19
 					}
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 6.0d
-		}
-		{
-			id: "13D97CAE3128D4C6"
 			tasks: [{
-				id: "71107CDA80C42270"
-				item: "desert:ritual_plan_vitalize"
+				id: "4A510320D513CDB3"
+				item: "botania:laputa_shard"
 				type: "item"
 			}]
-			title: "Vitalisation Ritual"
-			x: -10.5d
-			y: 4.5d
+			title: "Why even play?"
+			x: -12.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["1FA17E4CF9795CB5"]
+			description: ["Why stop at changing-- moving and building-- blocks when you can affect the climate itself?"]
+			hide_until_deps_complete: true
 			id: "672ECC4DC7248353"
+			optional: true
+			rewards: [{
+				id: "509A071687CF80C6"
+				item: "naturaldecormod:rainbow_wind_spinner_item"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "31CDFF08C7D71A7B"
@@ -837,46 +1013,62 @@
 					item: "naturesaura:snow_creator"
 					type: "item"
 				}
+				{
+					id: "38450F6A00292740"
+					item: "desert:vitalizer"
+					type: "item"
+				}
 			]
 			x: -13.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
-			id: "4E61B100991A9100"
-			tasks: [
-				{
-					id: "4F588D8D8167B15E"
-					item: {
-						Count: 1
-						id: "primalmagick:primal_hoe"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "primalmagick:verdant"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "15585EA7611C1E8D"
-					item: {
-						Count: 1
-						id: "primalmagick:primal_shovel"
-						tag: {
-							Damage: 0
-							Enchantments: [{
-								id: "primalmagick:reverberation"
-								lvl: 2s
-							}]
-						}
-					}
-					type: "item"
-				}
+			dependencies: ["7B7E0EA901F875E3"]
+			description: [
+				"Perhaps its surprising but the desert is not lifeless.  Far from it.  "
+				""
+				"You wonder if maybe the world is finding a way to repair itself and maybe you are just getting in the way. "
+				""
+				"&8Tip: Spending some time in the expanding desert will be fruitful, but keep an eye on your base."
 			]
-			x: -8.5d
-			y: -3.0d
+			hide_dependency_lines: true
+			icon: "desert:jujube_cake"
+			id: "4F6FE9891EAD890B"
+			rewards: [{
+				id: "0ED7B8A96AB7C2D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "308B57F384AC7796"
+				item: "desert:jujube_cake"
+				type: "item"
+			}]
+			title: "Desert Dessert"
+			x: -19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04D6DD37734683E0"]
+			description: [
+				"Complete the rituals to restore the land’s health and biodiversity, regenerate biomes, find equilibrium with the desert and restore life.  "
+				""
+				"Don’t forget to plant trees and expand the forests. Once you have reaching the tipping point maybe you can rest..."
+			]
+			id: "0DDAFCF3ACEDB047"
+			rewards: [{
+				id: "2EE96272EB883FD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CED69F19B5368C1"
+				title: "Biome Essences"
+				type: "checkmark"
+			}]
+			title: "Note on Biome Conversion"
+			x: -17.5d
+			y: 1.0d
 		}
 	]
 	title: "Chapter 5: The Taste of Power"

@@ -1,9 +1,10 @@
 filename = 'oculus-flywheel-compat-Forge-2.0.3.jar'
-name = 'Iris & Oculus Flywheel Compat'
-side = 'both'
+name = 'Oculus Flywheel Compat'
+side = ''
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'Forge 1.20.1+2.0.3-beta'
 
 [download]
 hash = 'a11227479ddcddcb0eed3f9c3717c53fd5a47222'
@@ -14,3 +15,11 @@ url = ''
 [update.curseforge]
 file-id = 6694861
 project-id = 659897
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '581495'
+type = 'REQUIRED'

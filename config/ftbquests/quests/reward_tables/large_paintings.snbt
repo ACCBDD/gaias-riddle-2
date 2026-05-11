@@ -1,0 +1,129 @@
+{
+	id: "570B59D00530EE1E"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "incubation:culprit"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:burning_skull"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:pigscene"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:pointer"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "naturaldecormod:giant_tulip_farm_painting_ndm"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:donkey_kong"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:skeleton"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "naturaldecormod:moms_flower"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "naturaldecormod:ice_plant_painting"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "naturaldecormod:koi_painting"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:painting"
+				tag: {
+					EntityTag: {
+						variant: "minecraft:fighters"
+					}
+				}
+			}
+		}
+	]
+	title: "Large Paintings"
+}

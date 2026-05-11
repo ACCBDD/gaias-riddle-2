@@ -48,8 +48,8 @@
 				item: "bumbilas_friendly_teleport:wormhole_potion"
 				type: "item"
 			}]
-			x: -0.357142857142847d
-			y: -3.642857142857153d
+			x: 0.9285714285714235d
+			y: -2.785714285714292d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
@@ -62,30 +62,6 @@
 			}]
 			x: -1.9285714285714306d
 			y: 1.0714285714285623d
-		}
-		{
-			dependencies: ["1FA17E4CF9795CB5"]
-			description: [
-				"&dnote: i'm not convinced we need this mod&r"
-				""
-				"This pack contains &6Via Romana&r, &7a sign-based fast travel system. In order to fast travel using signs, you must first &6build a path and traverse it.&r"
-				""
-				"&6Shift-left-click&r &7on a sign at the start of your path, then &6shift-left-click&r &7on a sign at the end of your path. &rOnce you start pathing from one sign to the other, you need to follow a player-made path. &4If you deviate, you'll stop building&r the fast travel route and have to backtrack."
-				""
-				"&7Once linked, just punch the sign and you'll fast travel!"
-				""
-				"&8Tip: to see what blocks count as path blocks, search #via_romana:path_block in EMI."
-			]
-			id: "4FD6F4A88C04B375"
-			optional: true
-			tasks: [{
-				id: "05090C7AAC4242A8"
-				item: "supplementaries:sign_post_oak"
-				type: "item"
-			}]
-			title: "Signpost Travel"
-			x: 1.2142857142857224d
-			y: -2.6428571428571495d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
@@ -121,8 +97,8 @@
 				type: "item"
 			}]
 			title: "Glider"
-			x: -3.5d
-			y: -2.2142857142857224d
+			x: -3.2142857142857153d
+			y: -2.785714285714292d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
@@ -164,8 +140,8 @@
 				type: "item"
 			}]
 			title: "Camels"
-			x: -3.357142857142854d
-			y: -0.2142857142857224d
+			x: -3.2142857142857153d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1FA17E4CF9795CB5"]
@@ -175,8 +151,8 @@
 				item: "primalmagick:flying_carpet"
 				type: "item"
 			}]
-			x: -2.499999999999993d
-			y: -3.500000000000007d
+			x: -1.0714285714285765d
+			y: -3.785714285714292d
 		}
 	]
 	title: "Transportation"

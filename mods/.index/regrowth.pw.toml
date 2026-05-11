@@ -1,16 +1,18 @@
-filename = 'regrowth-1.20-46.31.2.jar'
+filename = 'regrowth-1.20-46.32.1.jar'
 name = 'Regrowth'
-side = 'both'
+side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
-x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'regrowth-1.20-46.32.1.jar'
 
 [download]
-hash = 'b29fb388654d6db7865af38bedf53643ca78a774'
+hash = '32939d4175b24b726afade04b5b771f8c663462d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 4772088
+file-id = 7287674
 project-id = 381597
