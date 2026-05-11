@@ -2,6 +2,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:vegetables/garlic', 'enchanted:garlic')
     event.add('forge:crops/garlic', 'enchanted:garlic')
     event.add('forge:garlic', 'enchanted:garlic')
+	event.add('forge:raw_fishes', 'crittersandcompanions:clam')
 
     event.add('forge:seeds', 'agricraft:seed')
 })

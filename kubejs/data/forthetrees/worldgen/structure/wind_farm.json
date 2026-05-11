@@ -1,6 +1,9 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "reclamation:dead_highland",
+  "biomes": [
+    "reclamation:dead_hills",
+   "reclamation:dead_highland"
+  ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",

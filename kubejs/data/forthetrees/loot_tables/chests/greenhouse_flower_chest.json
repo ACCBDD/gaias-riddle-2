@@ -342,6 +342,15 @@
       ]
     },
     {
+"rolls": 1,
+"entries": [
+  {
+    "type": "item",
+    "name": "botania:black_lotus"
+  }
+]
+    },
+    {
       "rolls": 1,
       "entries": [
         {
