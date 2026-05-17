@@ -7,9 +7,6 @@ filterReplacingExpGain = 0
 #Maximum number of gas entities present at the same time in a chunk
 #Range: 0 ~ 256
 maxGasEntitiesInChunk = 10
-#How fast the surface of a polluted chunk degrades under the influence of pollutants
-#Range: 0.0 ~ 10.0
-environmentDegradationRate = 0.1
 
 [GasExplosions]
 	#Enables/disables gas explosions caused by ignition sources
@@ -24,8 +21,6 @@ environmentDegradationRate = 0.1
 	#Maximum gas blocks that can be involved in an explosive chain reaction
 	#Range: 0 ~ 2048
 	maxChainLength = 512
-	#Whether the enclosed emitter that caused an explosion should always be destroyed, regardless of the explosion power
-	alwaysDestroyEmitter = true
 
 [EmissionSources]
 	#Rate of emissions from this source

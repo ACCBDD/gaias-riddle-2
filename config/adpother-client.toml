@@ -21,13 +21,3 @@
 	#Range: 0.0 ~ 2.0
 	beepPitch = 1.0
 
-[PollutedWater]
-
-	[PollutedWater.color]
-		#Range: 0 ~ 255
-		red = 229
-		#Range: 0 ~ 255
-		green = 229
-		#Range: 0 ~ 255
-		blue = 51
-

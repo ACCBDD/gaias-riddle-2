@@ -127,10 +127,6 @@
         // Set to false to disable compatibility with Botania (in case things break)
         "botania": true,
         // Set to false to disable compatibility with Mystical Agriculture (in case things break)
-        "mysticalagriculture": false,
-        // If true, harvesting drones will be able to harvest AgriCraft crops
-        "pneumaticcraft": true,
-        // If set to true, plant gatherer will be able to harvest AgriCraft crops
-        "industrialforegoing": true
+        "mysticalagriculture": false
     }
 }
