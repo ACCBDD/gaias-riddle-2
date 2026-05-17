@@ -3,6 +3,9 @@
 ## Added
 * Cabal's Toolbox and string recipes
 
+## Changed
+* Spice of Life config to give 1 heart per milestone
+
 ## Fixed
 * Realigned modlist
     * Added Balm
