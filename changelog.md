@@ -1,7 +1,7 @@
 # Gaia's Riddle 2: The Forest Keepers 1.0.0-rc2
 
 ## Added
-
+* Cabal's Toolbox and string recipes
 
 ## Fixed
 * Realigned modlist
