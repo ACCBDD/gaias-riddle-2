@@ -1,4 +1,22 @@
 ServerEvents.recipes(event => {
+  //cabal's toolbox recipes
+  event.remove({ output: "cabals_toolbox:blue_telephone_box"})
+  event.shaped(
+	Item.of('cabals_toolbox:blue_telephone_box'),
+	[
+	'EAE',
+	'DBD',
+	'DCD'
+	],
+	{
+		A: 'minecraft:clock',
+		B: 'cabals_toolbox:red_telephone_box',
+		C: 'minecraft:nether_star',
+    D: 'minecraft:lapis_block',
+    E: 'minecraft:diamond'
+	}
+	)
+  
   //remove ndm planter
   event.remove({ output: 'naturaldecormod:black_glazed_planter_pot' })
   event.remove({ output: 'naturaldecormod:blue_glazed_planter_pot' })
@@ -37,7 +55,7 @@ ServerEvents.recipes(event => {
   event.remove({ output: 'naturaldecormod:talavera_tacky_planter_pot' })
   event.remove({ output: 'naturaldecormod:talavera_artisan_planter_pot' })
 
-
+	
   //redstone comparitor replacements
   event.remove({ id: "adpother:iron_vacuum_tube" })
   event.shaped(
@@ -193,5 +211,16 @@ ServerEvents.recipes(event => {
   ], {
     A: 'kubejs:flimsy_planks'
   })
+    event.shaped(
+    Item.of('minecraft:string'),
+    [
+      ' s ',
+      ' s ',
+      ' s '
+    ],
+    {
+      s: 'farmersdelight:straw'
+    }
+  )
   console.log('Hello! The recipe event has fired!')
 })
